@@ -1,1 +1,0 @@
-{"block": "B1", "kind": "grid2d", "N": 1024, "seed": 0, "rho_L": 8.0, "rho_A": 2.0, "rho_A3": 8.0, "fourier": true, "flutter_ref": {"lhs": 0.4, "rhs": 0.25, "stable": false}, "cell_id": "B1_grid2d_N1024", "wall_s": 0.0}

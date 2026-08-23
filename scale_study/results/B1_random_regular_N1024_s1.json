@@ -1,1 +1,0 @@
-{"block": "B1", "kind": "random_regular", "N": 1024, "seed": 1, "rho_L": 7.453476553388781, "rho_A": 3.4845045357811277, "rho_A3": 42.30805911816891, "fourier": false, "flutter_ref": {"lhs": 2.1154029559084457, "rhs": 0.25, "stable": false}, "cell_id": "B1_random_regular_N1024_s1", "wall_s": 0.17}

@@ -1,1 +1,0 @@
-{"block": "B1", "kind": "expander", "N": 256, "seed": 1, "rho_L": 7.405451492298481, "rho_A": 3.4556663687217086, "rho_A3": 41.26628935811665, "fourier": false, "flutter_ref": {"lhs": 2.063314467905833, "rhs": 0.25, "stable": false}, "cell_id": "B1_expander_N256_s1", "wall_s": 0.12}

@@ -1,1 +1,0 @@
-{"block": "B1", "kind": "ws_smallworld", "N": 1024, "seed": 1, "rho_L": 11.01262691038195, "rho_A": 5.08215186777252, "rho_A3": 131.26317846077063, "fourier": false, "flutter_ref": {"lhs": 6.563158923038532, "rhs": 0.25, "stable": false}, "cell_id": "B1_ws_smallworld_N1024_s1", "wall_s": 0.13}

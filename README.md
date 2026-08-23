@@ -129,36 +129,6 @@ estado recurrente ya integra su propia historia.
 
 → [`mhbp/tasks/reasoner_g0/FINDINGS_N4.md`](mhbp/tasks/reasoner_g0/FINDINGS_N4.md)
 
-### Línea de agencia: v1 retirada, v2 confirmada
-
-> **Las cuatro fases originales (v1) quedaron RETIRADAS** tras una auditoría
-> adversarial que encontró circularidad: en la fase 3 el descubridor reproducía
-> el `1.0000` **sin entrenar**, y la ley generativa del entorno estaba
-> inyectada en el agente. Los ficheros v1 se conservan como registro histórico;
-> sus números **no deben citarse**.
-
-El rediseño v2 impone ocho reglas anti-circularidad (baselines externos
-afinados, prohibido inyectar la ley del entorno, guardrail G-untrained
-obligatorio) y **las cuatro fases pasan** con 20 seeds frescas:
-
-| Fase | Contraste primario | Efecto |
-|---|---|---|
-| F1 anticipación | aprendido − combo scripted afinado | `+0.514` (20/20) |
-| F2 compromiso | aprendido − `smart` con la regla | `+0.599`; OOD `+0.697` |
-| F3 descubrimiento | regret mejor scripted − aprendido | `+0.071` (20/20) |
-| F4 automodelo | frozen − adaptive, 3 severidades | `+0.062 / +0.056 / +0.057` |
-
-La escalada F2X es un **negativo con estructura**: el designer afinado gana en
-las tres condiciones, pero el gap se estrecha un 90 % con el desplazamiento de
-distribución (`−0.471 → −0.276 → −0.049`).
-
-Y el dato que cierra el hilo: **el HBP es neutro en su prueba más natural**
-(conflicto multi-impulso): `hbp_wave −0.032` (p=0.29), `hbp_diff −0.0006`
-(p=1.0). La recurrencia, en cambio, sí importa (`+0.251`, p=0.008). Disociación
-limpia: la recurrencia hace falta, el campo homeostático no.
-
-→ [`AGENCY_V2.md`](AGENCY_V2.md)
-
 ## Entorno
 
 ```powershell
@@ -171,11 +141,18 @@ Qwen2.5-14B-Instruct (Apache-2.0, ~28 GB) la primera vez.
 
 ## Reproducción
 
-Los JSON de resumen de todos los experimentos **están en el repositorio**
-(1 467 JSON más 22 protocolos, 29 MB), de modo que las tablas y figuras de los
-dos papers se regeneran sin re-entrenar nada. Los 953 registros pesados por
-instancia (190 MB) y los checkpoints (1,8 GB) viven en el depósito Zenodo cuyo
-DOI citan los papers.
+Este repositorio contiene **solo lo que los dos manuscritos necesitan**: el
+código de la arquitectura, los scripts que ejecutan los experimentos que
+reportan, los 835 JSON de resumen de los que salen sus números, y los
+documentos de hallazgos y pre-registros que los sostienen. Con eso, las tablas
+y figuras se regeneran sin re-entrenar nada.
+
+Lo que **no** está aquí, y dónde vive: los registros pesados por instancia y
+los checkpoints entrenados (1,8 GB) van al depósito Zenodo cuyo DOI citan los
+papers. Las líneas experimentales que no aparecen en ninguno de los dos
+manuscritos —la de agencia, el cuello de botella de cómputo, el estudio de
+escala— se han retirado del árbol público para que lo que queda sea
+inequívocamente el material de los papers.
 
 ```powershell
 python verify_setup.py        # entorno: GPU / BF16 / SDPA, con fallback CPU
@@ -190,21 +167,20 @@ python example_routine.py     # ejemplo: hbp_full resolviendo una composición d
 |---|---|---|
 | Jerarquía de información | `mhbp/tasks/reasoner_g0/n3_*.py` | `mhbp/tasks/reasoner_g0/results/` |
 | **Artefacto de lectura** | `n3_readout.py`, `n3_readout_fair.py` | `n3_readout*.json` |
-| Allocator explícito vs acoplado | `n3_allocator.py` | `FINDINGS_N3.md` |
+| Allocator explícito vs acoplado | `n3_eval.py`, `n3_sonda.py` | `results/n3_eval.json`, `FINDINGS_N3.md` |
 | Acantilado (N1b) | `mhbp/tasks/llm_gov/llm_n1b*.py` | `results/llm_n1b_*.json` |
 | Techo de self-consistency | `mhbp/tasks/llm_gov/llm_gsm8k.py` | `results/llm_gsm8k.json` |
 | Des-confusión v4 | `benchmark_v4.py` | `results_benchmark_v4/` |
 | Certificados LMI | `certify_lmi*.py` | `FINDINGS_LMI.md` |
 | Criterio de Verlet | `verify_verlet_schurcohn.py` | `FINDINGS_TEORIA.md` |
 | Kill-gate del acumulador | `mhbp/tasks/reasoner_g0/n4_*.py` | `FINDINGS_N4.md` |
-| Agencia v2 (4 fases) | `*_v2_benchmark.py` | `results_*_v2/` |
 
 ### Benchmark completo
 
 ```powershell
-python benchmark.py                 # 5 variantes × 2 generadores × 2 regímenes × 3 semillas
-python extend_benchmark_ood.py      # extiende las celdas OOD a n=10
-python benchmark_report.py          # tabla agregada
+python benchmark_v3.py              # replicación con física aprendible
+python benchmark_v4.py              # des-confusión: topes equiparados + GRU
+python benchmark_report_v4.py       # tabla agregada
 ```
 
 ### Variantes
@@ -232,9 +208,9 @@ hasta K≤24.
 
 ```
 model/        transformer.py · hbp.py ★ · adaptive_depth.py · working_memory.py · miura.py
-data/         synthetic_recall.py · budgeted_stream.py
+data/         synthetic_recall.py
 training/     config.py · trainer.py
-eval/         diagnostics.py · aggregate.py · compute_bottleneck.py
+eval/         diagnostics.py · aggregate.py
 experiments/  run_ablations.py
 
 mhbp/                        el código de los DOS papers
