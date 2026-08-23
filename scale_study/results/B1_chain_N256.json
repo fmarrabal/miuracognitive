@@ -1,0 +1,1 @@
+{"block": "B1", "kind": "chain", "N": 256, "seed": 0, "rho_L": 3.9998494036782892, "rho_A": 1.9998505733394651, "rho_A3": 7.998207014040206, "fourier": false, "lambda2": 0.00015059632171099402, "flutter_ref": {"lhs": 0.3999103507020103, "rhs": 0.25, "stable": false}, "cell_id": "B1_chain_N256", "wall_s": 0.0}

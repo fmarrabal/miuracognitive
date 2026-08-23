@@ -1,0 +1,2162 @@
+[
+  {
+    "arm": "adaptive",
+    "seed": 300,
+    "severity": 0.2,
+    "cost_pre": 0.4104984998703003,
+    "cost_post": 0.3630634844303131,
+    "pred_err_final": 0.03295059874653816,
+    "cost_total": 0.3867810368537903
+  },
+  {
+    "arm": "adaptive",
+    "seed": 300,
+    "severity": 0.4,
+    "cost_pre": 0.4104984998703003,
+    "cost_post": 0.355408638715744,
+    "pred_err_final": 0.03354639932513237,
+    "cost_total": 0.3829535245895386
+  },
+  {
+    "arm": "adaptive",
+    "seed": 300,
+    "severity": 0.6,
+    "cost_pre": 0.4104984998703003,
+    "cost_post": 0.3487657904624939,
+    "pred_err_final": 0.03307729959487915,
+    "cost_total": 0.3796320855617523
+  },
+  {
+    "arm": "frozen",
+    "seed": 300,
+    "severity": 0.2,
+    "cost_pre": 0.4248475730419159,
+    "cost_post": 0.4178309142589569,
+    "pred_err_final": 0.04489484429359436,
+    "cost_total": 0.4213391840457916
+  },
+  {
+    "arm": "frozen",
+    "seed": 300,
+    "severity": 0.4,
+    "cost_pre": 0.4248475730419159,
+    "cost_post": 0.4031553268432617,
+    "pred_err_final": 0.043700385838747025,
+    "cost_total": 0.4140014350414276
+  },
+  {
+    "arm": "frozen",
+    "seed": 300,
+    "severity": 0.6,
+    "cost_pre": 0.4248475730419159,
+    "cost_post": 0.3991399109363556,
+    "pred_err_final": 0.045494187623262405,
+    "cost_total": 0.41199377179145813
+  },
+  {
+    "arm": "reinit",
+    "seed": 300,
+    "severity": 0.2,
+    "cost_pre": 0.4104984998703003,
+    "cost_post": 0.3630634844303131,
+    "pred_err_final": 0.03295059874653816,
+    "cost_total": 0.3867810368537903
+  },
+  {
+    "arm": "reinit",
+    "seed": 300,
+    "severity": 0.4,
+    "cost_pre": 0.4104984998703003,
+    "cost_post": 0.355408638715744,
+    "pred_err_final": 0.03354639932513237,
+    "cost_total": 0.3829535245895386
+  },
+  {
+    "arm": "reinit",
+    "seed": 300,
+    "severity": 0.6,
+    "cost_pre": 0.4104984998703003,
+    "cost_post": 0.3487657904624939,
+    "pred_err_final": 0.03307729959487915,
+    "cost_total": 0.3796320855617523
+  },
+  {
+    "arm": "oracle",
+    "seed": 300,
+    "severity": 0.2,
+    "cost_pre": 0.23212002217769623,
+    "cost_post": 0.2673967182636261,
+    "pred_err_final": 0.05056348070502281,
+    "cost_total": 0.24975834786891937
+  },
+  {
+    "arm": "oracle",
+    "seed": 300,
+    "severity": 0.4,
+    "cost_pre": 0.23212002217769623,
+    "cost_post": 0.257826566696167,
+    "pred_err_final": 0.05157971382141113,
+    "cost_total": 0.244973286986351
+  },
+  {
+    "arm": "oracle",
+    "seed": 300,
+    "severity": 0.6,
+    "cost_pre": 0.23212002217769623,
+    "cost_post": 0.2507112920284271,
+    "pred_err_final": 0.052010923624038696,
+    "cost_total": 0.24141566455364227
+  },
+  {
+    "arm": "adaptive",
+    "seed": 301,
+    "severity": 0.2,
+    "cost_pre": 0.41095393896102905,
+    "cost_post": 0.3598461449146271,
+    "pred_err_final": 0.026393694803118706,
+    "cost_total": 0.38540011644363403
+  },
+  {
+    "arm": "adaptive",
+    "seed": 301,
+    "severity": 0.4,
+    "cost_pre": 0.41095393896102905,
+    "cost_post": 0.34989309310913086,
+    "pred_err_final": 0.025601854547858238,
+    "cost_total": 0.38042351603507996
+  },
+  {
+    "arm": "adaptive",
+    "seed": 301,
+    "severity": 0.6,
+    "cost_pre": 0.41095393896102905,
+    "cost_post": 0.34125253558158875,
+    "pred_err_final": 0.0270297359675169,
+    "cost_total": 0.3761032521724701
+  },
+  {
+    "arm": "frozen",
+    "seed": 301,
+    "severity": 0.2,
+    "cost_pre": 0.4373389184474945,
+    "cost_post": 0.4298649728298187,
+    "pred_err_final": 0.039510734379291534,
+    "cost_total": 0.43360191583633423
+  },
+  {
+    "arm": "frozen",
+    "seed": 301,
+    "severity": 0.4,
+    "cost_pre": 0.4373389184474945,
+    "cost_post": 0.41276678442955017,
+    "pred_err_final": 0.037145670503377914,
+    "cost_total": 0.42505282163619995
+  },
+  {
+    "arm": "frozen",
+    "seed": 301,
+    "severity": 0.6,
+    "cost_pre": 0.4373389184474945,
+    "cost_post": 0.4052848815917969,
+    "pred_err_final": 0.03895118460059166,
+    "cost_total": 0.4213118553161621
+  },
+  {
+    "arm": "reinit",
+    "seed": 301,
+    "severity": 0.2,
+    "cost_pre": 0.41095393896102905,
+    "cost_post": 0.3598461449146271,
+    "pred_err_final": 0.026393694803118706,
+    "cost_total": 0.38540011644363403
+  },
+  {
+    "arm": "reinit",
+    "seed": 301,
+    "severity": 0.4,
+    "cost_pre": 0.41095393896102905,
+    "cost_post": 0.34989309310913086,
+    "pred_err_final": 0.025601854547858238,
+    "cost_total": 0.38042351603507996
+  },
+  {
+    "arm": "reinit",
+    "seed": 301,
+    "severity": 0.6,
+    "cost_pre": 0.41095393896102905,
+    "cost_post": 0.34125253558158875,
+    "pred_err_final": 0.0270297359675169,
+    "cost_total": 0.3761032521724701
+  },
+  {
+    "arm": "oracle",
+    "seed": 301,
+    "severity": 0.2,
+    "cost_pre": 0.23461411893367767,
+    "cost_post": 0.262131929397583,
+    "pred_err_final": 0.04594091325998306,
+    "cost_total": 0.2483731061220169
+  },
+  {
+    "arm": "oracle",
+    "seed": 301,
+    "severity": 0.4,
+    "cost_pre": 0.23461411893367767,
+    "cost_post": 0.252144992351532,
+    "pred_err_final": 0.047609053552150726,
+    "cost_total": 0.24337956309318542
+  },
+  {
+    "arm": "oracle",
+    "seed": 301,
+    "severity": 0.6,
+    "cost_pre": 0.23461411893367767,
+    "cost_post": 0.24727042019367218,
+    "pred_err_final": 0.0474746897816658,
+    "cost_total": 0.24094228446483612
+  },
+  {
+    "arm": "adaptive",
+    "seed": 302,
+    "severity": 0.2,
+    "cost_pre": 0.41189244389533997,
+    "cost_post": 0.35528329014778137,
+    "pred_err_final": 0.024116631597280502,
+    "cost_total": 0.38358786702156067
+  },
+  {
+    "arm": "adaptive",
+    "seed": 302,
+    "severity": 0.4,
+    "cost_pre": 0.41189244389533997,
+    "cost_post": 0.34976905584335327,
+    "pred_err_final": 0.024303104728460312,
+    "cost_total": 0.38083070516586304
+  },
+  {
+    "arm": "adaptive",
+    "seed": 302,
+    "severity": 0.6,
+    "cost_pre": 0.41189244389533997,
+    "cost_post": 0.34506410360336304,
+    "pred_err_final": 0.02497810684144497,
+    "cost_total": 0.3784782290458679
+  },
+  {
+    "arm": "frozen",
+    "seed": 302,
+    "severity": 0.2,
+    "cost_pre": 0.43715202808380127,
+    "cost_post": 0.42112940549850464,
+    "pred_err_final": 0.03660085052251816,
+    "cost_total": 0.4291406571865082
+  },
+  {
+    "arm": "frozen",
+    "seed": 302,
+    "severity": 0.4,
+    "cost_pre": 0.43715202808380127,
+    "cost_post": 0.4077482521533966,
+    "pred_err_final": 0.03549199551343918,
+    "cost_total": 0.42245009541511536
+  },
+  {
+    "arm": "frozen",
+    "seed": 302,
+    "severity": 0.6,
+    "cost_pre": 0.43715202808380127,
+    "cost_post": 0.40908071398735046,
+    "pred_err_final": 0.035434540361166,
+    "cost_total": 0.42311638593673706
+  },
+  {
+    "arm": "reinit",
+    "seed": 302,
+    "severity": 0.2,
+    "cost_pre": 0.41189244389533997,
+    "cost_post": 0.35528329014778137,
+    "pred_err_final": 0.024116631597280502,
+    "cost_total": 0.38358786702156067
+  },
+  {
+    "arm": "reinit",
+    "seed": 302,
+    "severity": 0.4,
+    "cost_pre": 0.41189244389533997,
+    "cost_post": 0.34976905584335327,
+    "pred_err_final": 0.024303104728460312,
+    "cost_total": 0.38083070516586304
+  },
+  {
+    "arm": "reinit",
+    "seed": 302,
+    "severity": 0.6,
+    "cost_pre": 0.41189244389533997,
+    "cost_post": 0.34506410360336304,
+    "pred_err_final": 0.02497810684144497,
+    "cost_total": 0.3784782290458679
+  },
+  {
+    "arm": "oracle",
+    "seed": 302,
+    "severity": 0.2,
+    "cost_pre": 0.22952407598495483,
+    "cost_post": 0.25807392597198486,
+    "pred_err_final": 0.043196406215429306,
+    "cost_total": 0.24379898607730865
+  },
+  {
+    "arm": "oracle",
+    "seed": 302,
+    "severity": 0.4,
+    "cost_pre": 0.22952407598495483,
+    "cost_post": 0.2486310750246048,
+    "pred_err_final": 0.04268111288547516,
+    "cost_total": 0.2390775829553604
+  },
+  {
+    "arm": "oracle",
+    "seed": 302,
+    "severity": 0.6,
+    "cost_pre": 0.22952407598495483,
+    "cost_post": 0.23986949026584625,
+    "pred_err_final": 0.043655991554260254,
+    "cost_total": 0.23469676077365875
+  },
+  {
+    "arm": "adaptive",
+    "seed": 303,
+    "severity": 0.2,
+    "cost_pre": 0.40255963802337646,
+    "cost_post": 0.3866252303123474,
+    "pred_err_final": 0.02174115926027298,
+    "cost_total": 0.3945923149585724
+  },
+  {
+    "arm": "adaptive",
+    "seed": 303,
+    "severity": 0.4,
+    "cost_pre": 0.40255963802337646,
+    "cost_post": 0.3830612897872925,
+    "pred_err_final": 0.02231685444712639,
+    "cost_total": 0.3928104043006897
+  },
+  {
+    "arm": "adaptive",
+    "seed": 303,
+    "severity": 0.6,
+    "cost_pre": 0.40255963802337646,
+    "cost_post": 0.3693995773792267,
+    "pred_err_final": 0.02236749976873398,
+    "cost_total": 0.3859795331954956
+  },
+  {
+    "arm": "frozen",
+    "seed": 303,
+    "severity": 0.2,
+    "cost_pre": 0.4113459885120392,
+    "cost_post": 0.4418380856513977,
+    "pred_err_final": 0.03472285345196724,
+    "cost_total": 0.42659199237823486
+  },
+  {
+    "arm": "frozen",
+    "seed": 303,
+    "severity": 0.4,
+    "cost_pre": 0.4113459885120392,
+    "cost_post": 0.42792069911956787,
+    "pred_err_final": 0.03475610539317131,
+    "cost_total": 0.4196333587169647
+  },
+  {
+    "arm": "frozen",
+    "seed": 303,
+    "severity": 0.6,
+    "cost_pre": 0.4113459885120392,
+    "cost_post": 0.41679492592811584,
+    "pred_err_final": 0.032721146941185,
+    "cost_total": 0.4140704572200775
+  },
+  {
+    "arm": "reinit",
+    "seed": 303,
+    "severity": 0.2,
+    "cost_pre": 0.40255963802337646,
+    "cost_post": 0.3866252303123474,
+    "pred_err_final": 0.02174115926027298,
+    "cost_total": 0.3945923149585724
+  },
+  {
+    "arm": "reinit",
+    "seed": 303,
+    "severity": 0.4,
+    "cost_pre": 0.40255963802337646,
+    "cost_post": 0.3830612897872925,
+    "pred_err_final": 0.02231685444712639,
+    "cost_total": 0.3928104043006897
+  },
+  {
+    "arm": "reinit",
+    "seed": 303,
+    "severity": 0.6,
+    "cost_pre": 0.40255963802337646,
+    "cost_post": 0.3693995773792267,
+    "pred_err_final": 0.02236749976873398,
+    "cost_total": 0.3859795331954956
+  },
+  {
+    "arm": "oracle",
+    "seed": 303,
+    "severity": 0.2,
+    "cost_pre": 0.23181280493736267,
+    "cost_post": 0.2839859426021576,
+    "pred_err_final": 0.040787145495414734,
+    "cost_total": 0.2578994631767273
+  },
+  {
+    "arm": "oracle",
+    "seed": 303,
+    "severity": 0.4,
+    "cost_pre": 0.23181280493736267,
+    "cost_post": 0.2738553583621979,
+    "pred_err_final": 0.041143275797367096,
+    "cost_total": 0.25283414125442505
+  },
+  {
+    "arm": "oracle",
+    "seed": 303,
+    "severity": 0.6,
+    "cost_pre": 0.23181280493736267,
+    "cost_post": 0.2645114064216614,
+    "pred_err_final": 0.04197973757982254,
+    "cost_total": 0.248162180185318
+  },
+  {
+    "arm": "adaptive",
+    "seed": 304,
+    "severity": 0.2,
+    "cost_pre": 0.39325496554374695,
+    "cost_post": 0.3401135206222534,
+    "pred_err_final": 0.0334775447845459,
+    "cost_total": 0.366684228181839
+  },
+  {
+    "arm": "adaptive",
+    "seed": 304,
+    "severity": 0.4,
+    "cost_pre": 0.39325496554374695,
+    "cost_post": 0.3293619155883789,
+    "pred_err_final": 0.032821428030729294,
+    "cost_total": 0.36130842566490173
+  },
+  {
+    "arm": "adaptive",
+    "seed": 304,
+    "severity": 0.6,
+    "cost_pre": 0.39325496554374695,
+    "cost_post": 0.3237510919570923,
+    "pred_err_final": 0.03321758657693863,
+    "cost_total": 0.35850298404693604
+  },
+  {
+    "arm": "frozen",
+    "seed": 304,
+    "severity": 0.2,
+    "cost_pre": 0.41109195351600647,
+    "cost_post": 0.3899156451225281,
+    "pred_err_final": 0.04515788331627846,
+    "cost_total": 0.4005037248134613
+  },
+  {
+    "arm": "frozen",
+    "seed": 304,
+    "severity": 0.4,
+    "cost_pre": 0.41109195351600647,
+    "cost_post": 0.37769725918769836,
+    "pred_err_final": 0.04573333263397217,
+    "cost_total": 0.3943946063518524
+  },
+  {
+    "arm": "frozen",
+    "seed": 304,
+    "severity": 0.6,
+    "cost_pre": 0.41109195351600647,
+    "cost_post": 0.366834431886673,
+    "pred_err_final": 0.046604223549366,
+    "cost_total": 0.38896316289901733
+  },
+  {
+    "arm": "reinit",
+    "seed": 304,
+    "severity": 0.2,
+    "cost_pre": 0.39325496554374695,
+    "cost_post": 0.3401135206222534,
+    "pred_err_final": 0.0334775447845459,
+    "cost_total": 0.366684228181839
+  },
+  {
+    "arm": "reinit",
+    "seed": 304,
+    "severity": 0.4,
+    "cost_pre": 0.39325496554374695,
+    "cost_post": 0.3293619155883789,
+    "pred_err_final": 0.032821428030729294,
+    "cost_total": 0.36130842566490173
+  },
+  {
+    "arm": "reinit",
+    "seed": 304,
+    "severity": 0.6,
+    "cost_pre": 0.39325496554374695,
+    "cost_post": 0.3237510919570923,
+    "pred_err_final": 0.03321758657693863,
+    "cost_total": 0.35850298404693604
+  },
+  {
+    "arm": "oracle",
+    "seed": 304,
+    "severity": 0.2,
+    "cost_pre": 0.22571362555027008,
+    "cost_post": 0.24938511848449707,
+    "pred_err_final": 0.055316489189863205,
+    "cost_total": 0.23754934966564178
+  },
+  {
+    "arm": "oracle",
+    "seed": 304,
+    "severity": 0.4,
+    "cost_pre": 0.22571362555027008,
+    "cost_post": 0.23973870277404785,
+    "pred_err_final": 0.05540941283106804,
+    "cost_total": 0.23272612690925598
+  },
+  {
+    "arm": "oracle",
+    "seed": 304,
+    "severity": 0.6,
+    "cost_pre": 0.22571362555027008,
+    "cost_post": 0.2315226048231125,
+    "pred_err_final": 0.05664895474910736,
+    "cost_total": 0.22861813008785248
+  },
+  {
+    "arm": "adaptive",
+    "seed": 305,
+    "severity": 0.2,
+    "cost_pre": 0.40219032764434814,
+    "cost_post": 0.36897456645965576,
+    "pred_err_final": 0.03917136788368225,
+    "cost_total": 0.3855823874473572
+  },
+  {
+    "arm": "adaptive",
+    "seed": 305,
+    "severity": 0.4,
+    "cost_pre": 0.40219032764434814,
+    "cost_post": 0.3611393868923187,
+    "pred_err_final": 0.0397818349301815,
+    "cost_total": 0.38166484236717224
+  },
+  {
+    "arm": "adaptive",
+    "seed": 305,
+    "severity": 0.6,
+    "cost_pre": 0.40219032764434814,
+    "cost_post": 0.35241273045539856,
+    "pred_err_final": 0.03928786888718605,
+    "cost_total": 0.37730151414871216
+  },
+  {
+    "arm": "frozen",
+    "seed": 305,
+    "severity": 0.2,
+    "cost_pre": 0.41643866896629333,
+    "cost_post": 0.42848241329193115,
+    "pred_err_final": 0.05142516642808914,
+    "cost_total": 0.4224606156349182
+  },
+  {
+    "arm": "frozen",
+    "seed": 305,
+    "severity": 0.4,
+    "cost_pre": 0.41643866896629333,
+    "cost_post": 0.4120785593986511,
+    "pred_err_final": 0.05194152891635895,
+    "cost_total": 0.4142586886882782
+  },
+  {
+    "arm": "frozen",
+    "seed": 305,
+    "severity": 0.6,
+    "cost_pre": 0.41643866896629333,
+    "cost_post": 0.4044451117515564,
+    "pred_err_final": 0.05132860690355301,
+    "cost_total": 0.41044190526008606
+  },
+  {
+    "arm": "reinit",
+    "seed": 305,
+    "severity": 0.2,
+    "cost_pre": 0.40219032764434814,
+    "cost_post": 0.36897456645965576,
+    "pred_err_final": 0.03917136788368225,
+    "cost_total": 0.3855823874473572
+  },
+  {
+    "arm": "reinit",
+    "seed": 305,
+    "severity": 0.4,
+    "cost_pre": 0.40219032764434814,
+    "cost_post": 0.3611393868923187,
+    "pred_err_final": 0.0397818349301815,
+    "cost_total": 0.38166484236717224
+  },
+  {
+    "arm": "reinit",
+    "seed": 305,
+    "severity": 0.6,
+    "cost_pre": 0.40219032764434814,
+    "cost_post": 0.35241273045539856,
+    "pred_err_final": 0.03928786888718605,
+    "cost_total": 0.37730151414871216
+  },
+  {
+    "arm": "oracle",
+    "seed": 305,
+    "severity": 0.2,
+    "cost_pre": 0.22834840416908264,
+    "cost_post": 0.27225854992866516,
+    "pred_err_final": 0.062106259167194366,
+    "cost_total": 0.2503034472465515
+  },
+  {
+    "arm": "oracle",
+    "seed": 305,
+    "severity": 0.4,
+    "cost_pre": 0.22834840416908264,
+    "cost_post": 0.26233652234077454,
+    "pred_err_final": 0.06270643323659897,
+    "cost_total": 0.24534249305725098
+  },
+  {
+    "arm": "oracle",
+    "seed": 305,
+    "severity": 0.6,
+    "cost_pre": 0.22834840416908264,
+    "cost_post": 0.2564812898635864,
+    "pred_err_final": 0.06278671324253082,
+    "cost_total": 0.2424149066209793
+  },
+  {
+    "arm": "adaptive",
+    "seed": 306,
+    "severity": 0.2,
+    "cost_pre": 0.41750985383987427,
+    "cost_post": 0.36376091837882996,
+    "pred_err_final": 0.028824321925640106,
+    "cost_total": 0.3906354010105133
+  },
+  {
+    "arm": "adaptive",
+    "seed": 306,
+    "severity": 0.4,
+    "cost_pre": 0.41750985383987427,
+    "cost_post": 0.3542611002922058,
+    "pred_err_final": 0.0280749648809433,
+    "cost_total": 0.38588544726371765
+  },
+  {
+    "arm": "adaptive",
+    "seed": 306,
+    "severity": 0.6,
+    "cost_pre": 0.41750985383987427,
+    "cost_post": 0.3481716215610504,
+    "pred_err_final": 0.028511667624115944,
+    "cost_total": 0.38284069299697876
+  },
+  {
+    "arm": "frozen",
+    "seed": 306,
+    "severity": 0.2,
+    "cost_pre": 0.44003742933273315,
+    "cost_post": 0.44629791378974915,
+    "pred_err_final": 0.04342827573418617,
+    "cost_total": 0.44316771626472473
+  },
+  {
+    "arm": "frozen",
+    "seed": 306,
+    "severity": 0.4,
+    "cost_pre": 0.44003742933273315,
+    "cost_post": 0.43235576152801514,
+    "pred_err_final": 0.0452684611082077,
+    "cost_total": 0.43619659543037415
+  },
+  {
+    "arm": "frozen",
+    "seed": 306,
+    "severity": 0.6,
+    "cost_pre": 0.44003742933273315,
+    "cost_post": 0.4257507622241974,
+    "pred_err_final": 0.04218842834234238,
+    "cost_total": 0.43289414048194885
+  },
+  {
+    "arm": "reinit",
+    "seed": 306,
+    "severity": 0.2,
+    "cost_pre": 0.41750985383987427,
+    "cost_post": 0.36376091837882996,
+    "pred_err_final": 0.028824321925640106,
+    "cost_total": 0.3906354010105133
+  },
+  {
+    "arm": "reinit",
+    "seed": 306,
+    "severity": 0.4,
+    "cost_pre": 0.41750985383987427,
+    "cost_post": 0.3542611002922058,
+    "pred_err_final": 0.0280749648809433,
+    "cost_total": 0.38588544726371765
+  },
+  {
+    "arm": "reinit",
+    "seed": 306,
+    "severity": 0.6,
+    "cost_pre": 0.41750985383987427,
+    "cost_post": 0.3481716215610504,
+    "pred_err_final": 0.028511667624115944,
+    "cost_total": 0.38284069299697876
+  },
+  {
+    "arm": "oracle",
+    "seed": 306,
+    "severity": 0.2,
+    "cost_pre": 0.2426415979862213,
+    "cost_post": 0.268059104681015,
+    "pred_err_final": 0.047489289194345474,
+    "cost_total": 0.25535038113594055
+  },
+  {
+    "arm": "oracle",
+    "seed": 306,
+    "severity": 0.4,
+    "cost_pre": 0.2426415979862213,
+    "cost_post": 0.25848764181137085,
+    "pred_err_final": 0.047841813415288925,
+    "cost_total": 0.25056466460227966
+  },
+  {
+    "arm": "oracle",
+    "seed": 306,
+    "severity": 0.6,
+    "cost_pre": 0.2426415979862213,
+    "cost_post": 0.25098106265068054,
+    "pred_err_final": 0.0482298880815506,
+    "cost_total": 0.24681134521961212
+  },
+  {
+    "arm": "adaptive",
+    "seed": 307,
+    "severity": 0.2,
+    "cost_pre": 0.416657954454422,
+    "cost_post": 0.36685362458229065,
+    "pred_err_final": 0.024599062278866768,
+    "cost_total": 0.3917557895183563
+  },
+  {
+    "arm": "adaptive",
+    "seed": 307,
+    "severity": 0.4,
+    "cost_pre": 0.416657954454422,
+    "cost_post": 0.3579026460647583,
+    "pred_err_final": 0.024356676265597343,
+    "cost_total": 0.3872804343700409
+  },
+  {
+    "arm": "adaptive",
+    "seed": 307,
+    "severity": 0.6,
+    "cost_pre": 0.416657954454422,
+    "cost_post": 0.3489995002746582,
+    "pred_err_final": 0.024905022233724594,
+    "cost_total": 0.3828287422657013
+  },
+  {
+    "arm": "frozen",
+    "seed": 307,
+    "severity": 0.2,
+    "cost_pre": 0.4336666166782379,
+    "cost_post": 0.42201054096221924,
+    "pred_err_final": 0.03640025481581688,
+    "cost_total": 0.4278385043144226
+  },
+  {
+    "arm": "frozen",
+    "seed": 307,
+    "severity": 0.4,
+    "cost_pre": 0.4336666166782379,
+    "cost_post": 0.41771838068962097,
+    "pred_err_final": 0.0368831530213356,
+    "cost_total": 0.4256925582885742
+  },
+  {
+    "arm": "frozen",
+    "seed": 307,
+    "severity": 0.6,
+    "cost_pre": 0.4336666166782379,
+    "cost_post": 0.4074687957763672,
+    "pred_err_final": 0.0356973372399807,
+    "cost_total": 0.4205676317214966
+  },
+  {
+    "arm": "reinit",
+    "seed": 307,
+    "severity": 0.2,
+    "cost_pre": 0.416657954454422,
+    "cost_post": 0.36685362458229065,
+    "pred_err_final": 0.024599062278866768,
+    "cost_total": 0.3917557895183563
+  },
+  {
+    "arm": "reinit",
+    "seed": 307,
+    "severity": 0.4,
+    "cost_pre": 0.416657954454422,
+    "cost_post": 0.3579026460647583,
+    "pred_err_final": 0.024356676265597343,
+    "cost_total": 0.3872804343700409
+  },
+  {
+    "arm": "reinit",
+    "seed": 307,
+    "severity": 0.6,
+    "cost_pre": 0.416657954454422,
+    "cost_post": 0.3489995002746582,
+    "pred_err_final": 0.024905022233724594,
+    "cost_total": 0.3828287422657013
+  },
+  {
+    "arm": "oracle",
+    "seed": 307,
+    "severity": 0.2,
+    "cost_pre": 0.23579198122024536,
+    "cost_post": 0.2701731324195862,
+    "pred_err_final": 0.04338078200817108,
+    "cost_total": 0.2529824674129486
+  },
+  {
+    "arm": "oracle",
+    "seed": 307,
+    "severity": 0.4,
+    "cost_pre": 0.23579198122024536,
+    "cost_post": 0.2599943280220032,
+    "pred_err_final": 0.04476788640022278,
+    "cost_total": 0.24789310991764069
+  },
+  {
+    "arm": "oracle",
+    "seed": 307,
+    "severity": 0.6,
+    "cost_pre": 0.23579198122024536,
+    "cost_post": 0.2527071237564087,
+    "pred_err_final": 0.046749018132686615,
+    "cost_total": 0.24424952268600464
+  },
+  {
+    "arm": "adaptive",
+    "seed": 308,
+    "severity": 0.2,
+    "cost_pre": 0.4043445885181427,
+    "cost_post": 0.3630712628364563,
+    "pred_err_final": 0.038074009120464325,
+    "cost_total": 0.3837078809738159
+  },
+  {
+    "arm": "adaptive",
+    "seed": 308,
+    "severity": 0.4,
+    "cost_pre": 0.4043445885181427,
+    "cost_post": 0.35389167070388794,
+    "pred_err_final": 0.03807739168405533,
+    "cost_total": 0.37911808490753174
+  },
+  {
+    "arm": "adaptive",
+    "seed": 308,
+    "severity": 0.6,
+    "cost_pre": 0.4043445885181427,
+    "cost_post": 0.35013341903686523,
+    "pred_err_final": 0.03703147917985916,
+    "cost_total": 0.37723904848098755
+  },
+  {
+    "arm": "frozen",
+    "seed": 308,
+    "severity": 0.2,
+    "cost_pre": 0.4252510070800781,
+    "cost_post": 0.41680222749710083,
+    "pred_err_final": 0.046615857630968094,
+    "cost_total": 0.4210265874862671
+  },
+  {
+    "arm": "frozen",
+    "seed": 308,
+    "severity": 0.4,
+    "cost_pre": 0.4252510070800781,
+    "cost_post": 0.4091935157775879,
+    "pred_err_final": 0.04813557490706444,
+    "cost_total": 0.4172222316265106
+  },
+  {
+    "arm": "frozen",
+    "seed": 308,
+    "severity": 0.6,
+    "cost_pre": 0.4252510070800781,
+    "cost_post": 0.40537264943122864,
+    "pred_err_final": 0.04790917783975601,
+    "cost_total": 0.41531193256378174
+  },
+  {
+    "arm": "reinit",
+    "seed": 308,
+    "severity": 0.2,
+    "cost_pre": 0.4043445885181427,
+    "cost_post": 0.3630712628364563,
+    "pred_err_final": 0.038074009120464325,
+    "cost_total": 0.3837078809738159
+  },
+  {
+    "arm": "reinit",
+    "seed": 308,
+    "severity": 0.4,
+    "cost_pre": 0.4043445885181427,
+    "cost_post": 0.35389167070388794,
+    "pred_err_final": 0.03807739168405533,
+    "cost_total": 0.37911808490753174
+  },
+  {
+    "arm": "reinit",
+    "seed": 308,
+    "severity": 0.6,
+    "cost_pre": 0.4043445885181427,
+    "cost_post": 0.35013341903686523,
+    "pred_err_final": 0.03703147917985916,
+    "cost_total": 0.37723904848098755
+  },
+  {
+    "arm": "oracle",
+    "seed": 308,
+    "severity": 0.2,
+    "cost_pre": 0.2327214777469635,
+    "cost_post": 0.26675620675086975,
+    "pred_err_final": 0.059019871056079865,
+    "cost_total": 0.2497389167547226
+  },
+  {
+    "arm": "oracle",
+    "seed": 308,
+    "severity": 0.4,
+    "cost_pre": 0.2327214777469635,
+    "cost_post": 0.2572506070137024,
+    "pred_err_final": 0.0578869953751564,
+    "cost_total": 0.24498607218265533
+  },
+  {
+    "arm": "oracle",
+    "seed": 308,
+    "severity": 0.6,
+    "cost_pre": 0.2327214777469635,
+    "cost_post": 0.24806047976016998,
+    "pred_err_final": 0.057117633521556854,
+    "cost_total": 0.24039101600646973
+  },
+  {
+    "arm": "adaptive",
+    "seed": 309,
+    "severity": 0.2,
+    "cost_pre": 0.4184938967227936,
+    "cost_post": 0.3538129925727844,
+    "pred_err_final": 0.02470412105321884,
+    "cost_total": 0.3861534893512726
+  },
+  {
+    "arm": "adaptive",
+    "seed": 309,
+    "severity": 0.4,
+    "cost_pre": 0.4184938967227936,
+    "cost_post": 0.34603872895240784,
+    "pred_err_final": 0.02457446977496147,
+    "cost_total": 0.3822663128376007
+  },
+  {
+    "arm": "adaptive",
+    "seed": 309,
+    "severity": 0.6,
+    "cost_pre": 0.4184938967227936,
+    "cost_post": 0.3396059572696686,
+    "pred_err_final": 0.02412084862589836,
+    "cost_total": 0.37904995679855347
+  },
+  {
+    "arm": "frozen",
+    "seed": 309,
+    "severity": 0.2,
+    "cost_pre": 0.43718624114990234,
+    "cost_post": 0.41679272055625916,
+    "pred_err_final": 0.038112297654151917,
+    "cost_total": 0.42698952555656433
+  },
+  {
+    "arm": "frozen",
+    "seed": 309,
+    "severity": 0.4,
+    "cost_pre": 0.43718624114990234,
+    "cost_post": 0.39795351028442383,
+    "pred_err_final": 0.036642566323280334,
+    "cost_total": 0.4175699055194855
+  },
+  {
+    "arm": "frozen",
+    "seed": 309,
+    "severity": 0.6,
+    "cost_pre": 0.43718624114990234,
+    "cost_post": 0.391771525144577,
+    "pred_err_final": 0.03665946424007416,
+    "cost_total": 0.4144788384437561
+  },
+  {
+    "arm": "reinit",
+    "seed": 309,
+    "severity": 0.2,
+    "cost_pre": 0.4184938967227936,
+    "cost_post": 0.3538129925727844,
+    "pred_err_final": 0.02470412105321884,
+    "cost_total": 0.3861534893512726
+  },
+  {
+    "arm": "reinit",
+    "seed": 309,
+    "severity": 0.4,
+    "cost_pre": 0.4184938967227936,
+    "cost_post": 0.34603872895240784,
+    "pred_err_final": 0.02457446977496147,
+    "cost_total": 0.3822663128376007
+  },
+  {
+    "arm": "reinit",
+    "seed": 309,
+    "severity": 0.6,
+    "cost_pre": 0.4184938967227936,
+    "cost_post": 0.3396059572696686,
+    "pred_err_final": 0.02412084862589836,
+    "cost_total": 0.37904995679855347
+  },
+  {
+    "arm": "oracle",
+    "seed": 309,
+    "severity": 0.2,
+    "cost_pre": 0.24082091450691223,
+    "cost_post": 0.26321035623550415,
+    "pred_err_final": 0.0431225448846817,
+    "cost_total": 0.25201570987701416
+  },
+  {
+    "arm": "oracle",
+    "seed": 309,
+    "severity": 0.4,
+    "cost_pre": 0.24082091450691223,
+    "cost_post": 0.2531300485134125,
+    "pred_err_final": 0.04270261153578758,
+    "cost_total": 0.24697549641132355
+  },
+  {
+    "arm": "oracle",
+    "seed": 309,
+    "severity": 0.6,
+    "cost_pre": 0.24082091450691223,
+    "cost_post": 0.24427559971809387,
+    "pred_err_final": 0.04341781511902809,
+    "cost_total": 0.24254831671714783
+  },
+  {
+    "arm": "adaptive",
+    "seed": 310,
+    "severity": 0.2,
+    "cost_pre": 0.42275726795196533,
+    "cost_post": 0.381405770778656,
+    "pred_err_final": 0.027860764414072037,
+    "cost_total": 0.4020814299583435
+  },
+  {
+    "arm": "adaptive",
+    "seed": 310,
+    "severity": 0.4,
+    "cost_pre": 0.42275726795196533,
+    "cost_post": 0.3701332211494446,
+    "pred_err_final": 0.027654385194182396,
+    "cost_total": 0.39644521474838257
+  },
+  {
+    "arm": "adaptive",
+    "seed": 310,
+    "severity": 0.6,
+    "cost_pre": 0.42275726795196533,
+    "cost_post": 0.35804086923599243,
+    "pred_err_final": 0.02700035646557808,
+    "cost_total": 0.3903990387916565
+  },
+  {
+    "arm": "frozen",
+    "seed": 310,
+    "severity": 0.2,
+    "cost_pre": 0.44255608320236206,
+    "cost_post": 0.4454199969768524,
+    "pred_err_final": 0.04077860713005066,
+    "cost_total": 0.44398802518844604
+  },
+  {
+    "arm": "frozen",
+    "seed": 310,
+    "severity": 0.4,
+    "cost_pre": 0.44255608320236206,
+    "cost_post": 0.43187639117240906,
+    "pred_err_final": 0.039552293717861176,
+    "cost_total": 0.43721625208854675
+  },
+  {
+    "arm": "frozen",
+    "seed": 310,
+    "severity": 0.6,
+    "cost_pre": 0.44255608320236206,
+    "cost_post": 0.4162995219230652,
+    "pred_err_final": 0.0398339219391346,
+    "cost_total": 0.42942777276039124
+  },
+  {
+    "arm": "reinit",
+    "seed": 310,
+    "severity": 0.2,
+    "cost_pre": 0.42275726795196533,
+    "cost_post": 0.381405770778656,
+    "pred_err_final": 0.027860764414072037,
+    "cost_total": 0.4020814299583435
+  },
+  {
+    "arm": "reinit",
+    "seed": 310,
+    "severity": 0.4,
+    "cost_pre": 0.42275726795196533,
+    "cost_post": 0.3701332211494446,
+    "pred_err_final": 0.027654385194182396,
+    "cost_total": 0.39644521474838257
+  },
+  {
+    "arm": "reinit",
+    "seed": 310,
+    "severity": 0.6,
+    "cost_pre": 0.42275726795196533,
+    "cost_post": 0.35804086923599243,
+    "pred_err_final": 0.02700035646557808,
+    "cost_total": 0.3903990387916565
+  },
+  {
+    "arm": "oracle",
+    "seed": 310,
+    "severity": 0.2,
+    "cost_pre": 0.23817534744739532,
+    "cost_post": 0.2782473862171173,
+    "pred_err_final": 0.04821373149752617,
+    "cost_total": 0.2582114338874817
+  },
+  {
+    "arm": "oracle",
+    "seed": 310,
+    "severity": 0.4,
+    "cost_pre": 0.23817534744739532,
+    "cost_post": 0.26688945293426514,
+    "pred_err_final": 0.04863228648900986,
+    "cost_total": 0.25253236293792725
+  },
+  {
+    "arm": "oracle",
+    "seed": 310,
+    "severity": 0.6,
+    "cost_pre": 0.23817534744739532,
+    "cost_post": 0.2580556571483612,
+    "pred_err_final": 0.04895336180925369,
+    "cost_total": 0.24811552464962006
+  },
+  {
+    "arm": "adaptive",
+    "seed": 311,
+    "severity": 0.2,
+    "cost_pre": 0.3958827257156372,
+    "cost_post": 0.3474460244178772,
+    "pred_err_final": 0.023024296388030052,
+    "cost_total": 0.37166446447372437
+  },
+  {
+    "arm": "adaptive",
+    "seed": 311,
+    "severity": 0.4,
+    "cost_pre": 0.3958827257156372,
+    "cost_post": 0.3362662196159363,
+    "pred_err_final": 0.02266654372215271,
+    "cost_total": 0.3660745918750763
+  },
+  {
+    "arm": "adaptive",
+    "seed": 311,
+    "severity": 0.6,
+    "cost_pre": 0.3958827257156372,
+    "cost_post": 0.32858556509017944,
+    "pred_err_final": 0.02291453815996647,
+    "cost_total": 0.3622342646121979
+  },
+  {
+    "arm": "frozen",
+    "seed": 311,
+    "severity": 0.2,
+    "cost_pre": 0.4133681356906891,
+    "cost_post": 0.40566763281822205,
+    "pred_err_final": 0.03665734827518463,
+    "cost_total": 0.40951791405677795
+  },
+  {
+    "arm": "frozen",
+    "seed": 311,
+    "severity": 0.4,
+    "cost_pre": 0.4133681356906891,
+    "cost_post": 0.3888406753540039,
+    "pred_err_final": 0.03587614372372627,
+    "cost_total": 0.40110453963279724
+  },
+  {
+    "arm": "frozen",
+    "seed": 311,
+    "severity": 0.6,
+    "cost_pre": 0.4133681356906891,
+    "cost_post": 0.3877445161342621,
+    "pred_err_final": 0.03474682942032814,
+    "cost_total": 0.400556355714798
+  },
+  {
+    "arm": "reinit",
+    "seed": 311,
+    "severity": 0.2,
+    "cost_pre": 0.3958827257156372,
+    "cost_post": 0.3474460244178772,
+    "pred_err_final": 0.023024296388030052,
+    "cost_total": 0.37166446447372437
+  },
+  {
+    "arm": "reinit",
+    "seed": 311,
+    "severity": 0.4,
+    "cost_pre": 0.3958827257156372,
+    "cost_post": 0.3362662196159363,
+    "pred_err_final": 0.02266654372215271,
+    "cost_total": 0.3660745918750763
+  },
+  {
+    "arm": "reinit",
+    "seed": 311,
+    "severity": 0.6,
+    "cost_pre": 0.3958827257156372,
+    "cost_post": 0.32858556509017944,
+    "pred_err_final": 0.02291453815996647,
+    "cost_total": 0.3622342646121979
+  },
+  {
+    "arm": "oracle",
+    "seed": 311,
+    "severity": 0.2,
+    "cost_pre": 0.2301526516675949,
+    "cost_post": 0.25252625346183777,
+    "pred_err_final": 0.04112200438976288,
+    "cost_total": 0.24133944511413574
+  },
+  {
+    "arm": "oracle",
+    "seed": 311,
+    "severity": 0.4,
+    "cost_pre": 0.2301526516675949,
+    "cost_post": 0.2440027892589569,
+    "pred_err_final": 0.04170803725719452,
+    "cost_total": 0.2370777130126953
+  },
+  {
+    "arm": "oracle",
+    "seed": 311,
+    "severity": 0.6,
+    "cost_pre": 0.2301526516675949,
+    "cost_post": 0.2384229451417923,
+    "pred_err_final": 0.0413672998547554,
+    "cost_total": 0.23428775370121002
+  },
+  {
+    "arm": "adaptive",
+    "seed": 312,
+    "severity": 0.2,
+    "cost_pre": 0.4078388512134552,
+    "cost_post": 0.3587900996208191,
+    "pred_err_final": 0.02051876299083233,
+    "cost_total": 0.3833143413066864
+  },
+  {
+    "arm": "adaptive",
+    "seed": 312,
+    "severity": 0.4,
+    "cost_pre": 0.4078388512134552,
+    "cost_post": 0.35331735014915466,
+    "pred_err_final": 0.021198922768235207,
+    "cost_total": 0.380577951669693
+  },
+  {
+    "arm": "adaptive",
+    "seed": 312,
+    "severity": 0.6,
+    "cost_pre": 0.4078388512134552,
+    "cost_post": 0.34215593338012695,
+    "pred_err_final": 0.020030725747346878,
+    "cost_total": 0.3749973177909851
+  },
+  {
+    "arm": "frozen",
+    "seed": 312,
+    "severity": 0.2,
+    "cost_pre": 0.42886513471603394,
+    "cost_post": 0.42514199018478394,
+    "pred_err_final": 0.03467050567269325,
+    "cost_total": 0.4270034730434418
+  },
+  {
+    "arm": "frozen",
+    "seed": 312,
+    "severity": 0.4,
+    "cost_pre": 0.42886513471603394,
+    "cost_post": 0.40853339433670044,
+    "pred_err_final": 0.03277512639760971,
+    "cost_total": 0.4186992049217224
+  },
+  {
+    "arm": "frozen",
+    "seed": 312,
+    "severity": 0.6,
+    "cost_pre": 0.42886513471603394,
+    "cost_post": 0.4020483195781708,
+    "pred_err_final": 0.0327170267701149,
+    "cost_total": 0.4154566526412964
+  },
+  {
+    "arm": "reinit",
+    "seed": 312,
+    "severity": 0.2,
+    "cost_pre": 0.4078388512134552,
+    "cost_post": 0.3587900996208191,
+    "pred_err_final": 0.02051876299083233,
+    "cost_total": 0.3833143413066864
+  },
+  {
+    "arm": "reinit",
+    "seed": 312,
+    "severity": 0.4,
+    "cost_pre": 0.4078388512134552,
+    "cost_post": 0.35331735014915466,
+    "pred_err_final": 0.021198922768235207,
+    "cost_total": 0.380577951669693
+  },
+  {
+    "arm": "reinit",
+    "seed": 312,
+    "severity": 0.6,
+    "cost_pre": 0.4078388512134552,
+    "cost_post": 0.34215593338012695,
+    "pred_err_final": 0.020030725747346878,
+    "cost_total": 0.3749973177909851
+  },
+  {
+    "arm": "oracle",
+    "seed": 312,
+    "severity": 0.2,
+    "cost_pre": 0.23511642217636108,
+    "cost_post": 0.26285937428474426,
+    "pred_err_final": 0.03952156379818916,
+    "cost_total": 0.24898788332939148
+  },
+  {
+    "arm": "oracle",
+    "seed": 312,
+    "severity": 0.4,
+    "cost_pre": 0.23511642217636108,
+    "cost_post": 0.25101861357688904,
+    "pred_err_final": 0.04076683521270752,
+    "cost_total": 0.24306753277778625
+  },
+  {
+    "arm": "oracle",
+    "seed": 312,
+    "severity": 0.6,
+    "cost_pre": 0.23511642217636108,
+    "cost_post": 0.24221818149089813,
+    "pred_err_final": 0.039310112595558167,
+    "cost_total": 0.238667294383049
+  },
+  {
+    "arm": "adaptive",
+    "seed": 313,
+    "severity": 0.2,
+    "cost_pre": 0.40213334560394287,
+    "cost_post": 0.383175253868103,
+    "pred_err_final": 0.025546282529830933,
+    "cost_total": 0.3926542401313782
+  },
+  {
+    "arm": "adaptive",
+    "seed": 313,
+    "severity": 0.4,
+    "cost_pre": 0.40213334560394287,
+    "cost_post": 0.3716345727443695,
+    "pred_err_final": 0.025427747517824173,
+    "cost_total": 0.386883944272995
+  },
+  {
+    "arm": "adaptive",
+    "seed": 313,
+    "severity": 0.6,
+    "cost_pre": 0.40213334560394287,
+    "cost_post": 0.36839330196380615,
+    "pred_err_final": 0.02476220577955246,
+    "cost_total": 0.3852632939815521
+  },
+  {
+    "arm": "frozen",
+    "seed": 313,
+    "severity": 0.2,
+    "cost_pre": 0.4169047176837921,
+    "cost_post": 0.4355867803096771,
+    "pred_err_final": 0.03655240312218666,
+    "cost_total": 0.42624571919441223
+  },
+  {
+    "arm": "frozen",
+    "seed": 313,
+    "severity": 0.4,
+    "cost_pre": 0.4169047176837921,
+    "cost_post": 0.41534966230392456,
+    "pred_err_final": 0.03585432842373848,
+    "cost_total": 0.41612714529037476
+  },
+  {
+    "arm": "frozen",
+    "seed": 313,
+    "severity": 0.6,
+    "cost_pre": 0.4169047176837921,
+    "cost_post": 0.408979207277298,
+    "pred_err_final": 0.03604628145694733,
+    "cost_total": 0.4129420518875122
+  },
+  {
+    "arm": "reinit",
+    "seed": 313,
+    "severity": 0.2,
+    "cost_pre": 0.40213334560394287,
+    "cost_post": 0.383175253868103,
+    "pred_err_final": 0.025546282529830933,
+    "cost_total": 0.3926542401313782
+  },
+  {
+    "arm": "reinit",
+    "seed": 313,
+    "severity": 0.4,
+    "cost_pre": 0.40213334560394287,
+    "cost_post": 0.3716345727443695,
+    "pred_err_final": 0.025427747517824173,
+    "cost_total": 0.386883944272995
+  },
+  {
+    "arm": "reinit",
+    "seed": 313,
+    "severity": 0.6,
+    "cost_pre": 0.40213334560394287,
+    "cost_post": 0.36839330196380615,
+    "pred_err_final": 0.02476220577955246,
+    "cost_total": 0.3852632939815521
+  },
+  {
+    "arm": "oracle",
+    "seed": 313,
+    "severity": 0.2,
+    "cost_pre": 0.23362022638320923,
+    "cost_post": 0.27654412388801575,
+    "pred_err_final": 0.04333502799272537,
+    "cost_total": 0.2550821900367737
+  },
+  {
+    "arm": "oracle",
+    "seed": 313,
+    "severity": 0.4,
+    "cost_pre": 0.23362022638320923,
+    "cost_post": 0.26730722188949585,
+    "pred_err_final": 0.04567206650972366,
+    "cost_total": 0.2504637837409973
+  },
+  {
+    "arm": "oracle",
+    "seed": 313,
+    "severity": 0.6,
+    "cost_pre": 0.23362022638320923,
+    "cost_post": 0.25873953104019165,
+    "pred_err_final": 0.04606781154870987,
+    "cost_total": 0.24617987871170044
+  },
+  {
+    "arm": "adaptive",
+    "seed": 314,
+    "severity": 0.2,
+    "cost_pre": 0.4076538681983948,
+    "cost_post": 0.3715954124927521,
+    "pred_err_final": 0.021554702892899513,
+    "cost_total": 0.38962462544441223
+  },
+  {
+    "arm": "adaptive",
+    "seed": 314,
+    "severity": 0.4,
+    "cost_pre": 0.4076538681983948,
+    "cost_post": 0.36359208822250366,
+    "pred_err_final": 0.022532273083925247,
+    "cost_total": 0.3856230080127716
+  },
+  {
+    "arm": "adaptive",
+    "seed": 314,
+    "severity": 0.6,
+    "cost_pre": 0.4076538681983948,
+    "cost_post": 0.35439449548721313,
+    "pred_err_final": 0.021913595497608185,
+    "cost_total": 0.38102418184280396
+  },
+  {
+    "arm": "frozen",
+    "seed": 314,
+    "severity": 0.2,
+    "cost_pre": 0.42185789346694946,
+    "cost_post": 0.4317494034767151,
+    "pred_err_final": 0.03407461568713188,
+    "cost_total": 0.42680367827415466
+  },
+  {
+    "arm": "frozen",
+    "seed": 314,
+    "severity": 0.4,
+    "cost_pre": 0.42185789346694946,
+    "cost_post": 0.41760143637657166,
+    "pred_err_final": 0.03402753174304962,
+    "cost_total": 0.419729620218277
+  },
+  {
+    "arm": "frozen",
+    "seed": 314,
+    "severity": 0.6,
+    "cost_pre": 0.42185789346694946,
+    "cost_post": 0.40893930196762085,
+    "pred_err_final": 0.033471740782260895,
+    "cost_total": 0.41539862751960754
+  },
+  {
+    "arm": "reinit",
+    "seed": 314,
+    "severity": 0.2,
+    "cost_pre": 0.4076538681983948,
+    "cost_post": 0.3715954124927521,
+    "pred_err_final": 0.021554702892899513,
+    "cost_total": 0.38962462544441223
+  },
+  {
+    "arm": "reinit",
+    "seed": 314,
+    "severity": 0.4,
+    "cost_pre": 0.4076538681983948,
+    "cost_post": 0.36359208822250366,
+    "pred_err_final": 0.022532273083925247,
+    "cost_total": 0.3856230080127716
+  },
+  {
+    "arm": "reinit",
+    "seed": 314,
+    "severity": 0.6,
+    "cost_pre": 0.4076538681983948,
+    "cost_post": 0.35439449548721313,
+    "pred_err_final": 0.021913595497608185,
+    "cost_total": 0.38102418184280396
+  },
+  {
+    "arm": "oracle",
+    "seed": 314,
+    "severity": 0.2,
+    "cost_pre": 0.23149092495441437,
+    "cost_post": 0.27021414041519165,
+    "pred_err_final": 0.03998717665672302,
+    "cost_total": 0.2508524954319
+  },
+  {
+    "arm": "oracle",
+    "seed": 314,
+    "severity": 0.4,
+    "cost_pre": 0.23149092495441437,
+    "cost_post": 0.26072603464126587,
+    "pred_err_final": 0.04112052917480469,
+    "cost_total": 0.24610848724842072
+  },
+  {
+    "arm": "oracle",
+    "seed": 314,
+    "severity": 0.6,
+    "cost_pre": 0.23149092495441437,
+    "cost_post": 0.2512645721435547,
+    "pred_err_final": 0.0416342094540596,
+    "cost_total": 0.24137777090072632
+  },
+  {
+    "arm": "adaptive",
+    "seed": 315,
+    "severity": 0.2,
+    "cost_pre": 0.41974183917045593,
+    "cost_post": 0.36240679025650024,
+    "pred_err_final": 0.023210518062114716,
+    "cost_total": 0.39107435941696167
+  },
+  {
+    "arm": "adaptive",
+    "seed": 315,
+    "severity": 0.4,
+    "cost_pre": 0.41974183917045593,
+    "cost_post": 0.35633379220962524,
+    "pred_err_final": 0.024235887452960014,
+    "cost_total": 0.3880378007888794
+  },
+  {
+    "arm": "adaptive",
+    "seed": 315,
+    "severity": 0.6,
+    "cost_pre": 0.41974183917045593,
+    "cost_post": 0.34559521079063416,
+    "pred_err_final": 0.023505449295043945,
+    "cost_total": 0.3826686143875122
+  },
+  {
+    "arm": "frozen",
+    "seed": 315,
+    "severity": 0.2,
+    "cost_pre": 0.4396909773349762,
+    "cost_post": 0.4292612373828888,
+    "pred_err_final": 0.03834375739097595,
+    "cost_total": 0.43447601795196533
+  },
+  {
+    "arm": "frozen",
+    "seed": 315,
+    "severity": 0.4,
+    "cost_pre": 0.4396909773349762,
+    "cost_post": 0.41986793279647827,
+    "pred_err_final": 0.0372525230050087,
+    "cost_total": 0.4297793507575989
+  },
+  {
+    "arm": "frozen",
+    "seed": 315,
+    "severity": 0.6,
+    "cost_pre": 0.4396909773349762,
+    "cost_post": 0.41651514172554016,
+    "pred_err_final": 0.036845941096544266,
+    "cost_total": 0.4281029999256134
+  },
+  {
+    "arm": "reinit",
+    "seed": 315,
+    "severity": 0.2,
+    "cost_pre": 0.41974183917045593,
+    "cost_post": 0.36240679025650024,
+    "pred_err_final": 0.023210518062114716,
+    "cost_total": 0.39107435941696167
+  },
+  {
+    "arm": "reinit",
+    "seed": 315,
+    "severity": 0.4,
+    "cost_pre": 0.41974183917045593,
+    "cost_post": 0.35633379220962524,
+    "pred_err_final": 0.024235887452960014,
+    "cost_total": 0.3880378007888794
+  },
+  {
+    "arm": "reinit",
+    "seed": 315,
+    "severity": 0.6,
+    "cost_pre": 0.41974183917045593,
+    "cost_post": 0.34559521079063416,
+    "pred_err_final": 0.023505449295043945,
+    "cost_total": 0.3826686143875122
+  },
+  {
+    "arm": "oracle",
+    "seed": 315,
+    "severity": 0.2,
+    "cost_pre": 0.23400788009166718,
+    "cost_post": 0.2655484080314636,
+    "pred_err_final": 0.040921736508607864,
+    "cost_total": 0.2497781217098236
+  },
+  {
+    "arm": "oracle",
+    "seed": 315,
+    "severity": 0.4,
+    "cost_pre": 0.23400788009166718,
+    "cost_post": 0.2561260759830475,
+    "pred_err_final": 0.04205404594540596,
+    "cost_total": 0.24506692588329315
+  },
+  {
+    "arm": "oracle",
+    "seed": 315,
+    "severity": 0.6,
+    "cost_pre": 0.23400788009166718,
+    "cost_post": 0.24919025599956512,
+    "pred_err_final": 0.041218068450689316,
+    "cost_total": 0.24159906804561615
+  },
+  {
+    "arm": "adaptive",
+    "seed": 316,
+    "severity": 0.2,
+    "cost_pre": 0.42523330450057983,
+    "cost_post": 0.3656783699989319,
+    "pred_err_final": 0.033654749393463135,
+    "cost_total": 0.39545583724975586
+  },
+  {
+    "arm": "adaptive",
+    "seed": 316,
+    "severity": 0.4,
+    "cost_pre": 0.42523330450057983,
+    "cost_post": 0.36201876401901245,
+    "pred_err_final": 0.03260527551174164,
+    "cost_total": 0.39362603425979614
+  },
+  {
+    "arm": "adaptive",
+    "seed": 316,
+    "severity": 0.6,
+    "cost_pre": 0.42523330450057983,
+    "cost_post": 0.350143700838089,
+    "pred_err_final": 0.032847922295331955,
+    "cost_total": 0.38768845796585083
+  },
+  {
+    "arm": "frozen",
+    "seed": 316,
+    "severity": 0.2,
+    "cost_pre": 0.4422532618045807,
+    "cost_post": 0.43768078088760376,
+    "pred_err_final": 0.046123746782541275,
+    "cost_total": 0.4399670660495758
+  },
+  {
+    "arm": "frozen",
+    "seed": 316,
+    "severity": 0.4,
+    "cost_pre": 0.4422532618045807,
+    "cost_post": 0.42575356364250183,
+    "pred_err_final": 0.04741322994232178,
+    "cost_total": 0.43400347232818604
+  },
+  {
+    "arm": "frozen",
+    "seed": 316,
+    "severity": 0.6,
+    "cost_pre": 0.4422532618045807,
+    "cost_post": 0.41546007990837097,
+    "pred_err_final": 0.04498259350657463,
+    "cost_total": 0.4288567304611206
+  },
+  {
+    "arm": "reinit",
+    "seed": 316,
+    "severity": 0.2,
+    "cost_pre": 0.42523330450057983,
+    "cost_post": 0.3656783699989319,
+    "pred_err_final": 0.033654749393463135,
+    "cost_total": 0.39545583724975586
+  },
+  {
+    "arm": "reinit",
+    "seed": 316,
+    "severity": 0.4,
+    "cost_pre": 0.42523330450057983,
+    "cost_post": 0.36201876401901245,
+    "pred_err_final": 0.03260527551174164,
+    "cost_total": 0.39362603425979614
+  },
+  {
+    "arm": "reinit",
+    "seed": 316,
+    "severity": 0.6,
+    "cost_pre": 0.42523330450057983,
+    "cost_post": 0.350143700838089,
+    "pred_err_final": 0.032847922295331955,
+    "cost_total": 0.38768845796585083
+  },
+  {
+    "arm": "oracle",
+    "seed": 316,
+    "severity": 0.2,
+    "cost_pre": 0.242390975356102,
+    "cost_post": 0.267577201128006,
+    "pred_err_final": 0.05408371984958649,
+    "cost_total": 0.2549841105937958
+  },
+  {
+    "arm": "oracle",
+    "seed": 316,
+    "severity": 0.4,
+    "cost_pre": 0.242390975356102,
+    "cost_post": 0.25807633996009827,
+    "pred_err_final": 0.05210932716727257,
+    "cost_total": 0.2502336800098419
+  },
+  {
+    "arm": "oracle",
+    "seed": 316,
+    "severity": 0.6,
+    "cost_pre": 0.242390975356102,
+    "cost_post": 0.25264912843704224,
+    "pred_err_final": 0.05391698703169823,
+    "cost_total": 0.24752004444599152
+  },
+  {
+    "arm": "adaptive",
+    "seed": 317,
+    "severity": 0.2,
+    "cost_pre": 0.42973411083221436,
+    "cost_post": 0.37733137607574463,
+    "pred_err_final": 0.026467595249414444,
+    "cost_total": 0.4035327732563019
+  },
+  {
+    "arm": "adaptive",
+    "seed": 317,
+    "severity": 0.4,
+    "cost_pre": 0.42973411083221436,
+    "cost_post": 0.36793091893196106,
+    "pred_err_final": 0.02754153311252594,
+    "cost_total": 0.3988325297832489
+  },
+  {
+    "arm": "adaptive",
+    "seed": 317,
+    "severity": 0.6,
+    "cost_pre": 0.42973411083221436,
+    "cost_post": 0.35907182097435,
+    "pred_err_final": 0.026903290301561356,
+    "cost_total": 0.3944030702114105
+  },
+  {
+    "arm": "frozen",
+    "seed": 317,
+    "severity": 0.2,
+    "cost_pre": 0.4426420331001282,
+    "cost_post": 0.4312157928943634,
+    "pred_err_final": 0.04171937331557274,
+    "cost_total": 0.436928927898407
+  },
+  {
+    "arm": "frozen",
+    "seed": 317,
+    "severity": 0.4,
+    "cost_pre": 0.4426420331001282,
+    "cost_post": 0.41654250025749207,
+    "pred_err_final": 0.04066886380314827,
+    "cost_total": 0.42959222197532654
+  },
+  {
+    "arm": "frozen",
+    "seed": 317,
+    "severity": 0.6,
+    "cost_pre": 0.4426420331001282,
+    "cost_post": 0.409230500459671,
+    "pred_err_final": 0.03943519666790962,
+    "cost_total": 0.4259362518787384
+  },
+  {
+    "arm": "reinit",
+    "seed": 317,
+    "severity": 0.2,
+    "cost_pre": 0.42973411083221436,
+    "cost_post": 0.37733137607574463,
+    "pred_err_final": 0.026467595249414444,
+    "cost_total": 0.4035327732563019
+  },
+  {
+    "arm": "reinit",
+    "seed": 317,
+    "severity": 0.4,
+    "cost_pre": 0.42973411083221436,
+    "cost_post": 0.36793091893196106,
+    "pred_err_final": 0.02754153311252594,
+    "cost_total": 0.3988325297832489
+  },
+  {
+    "arm": "reinit",
+    "seed": 317,
+    "severity": 0.6,
+    "cost_pre": 0.42973411083221436,
+    "cost_post": 0.35907182097435,
+    "pred_err_final": 0.026903290301561356,
+    "cost_total": 0.3944030702114105
+  },
+  {
+    "arm": "oracle",
+    "seed": 317,
+    "severity": 0.2,
+    "cost_pre": 0.24099992215633392,
+    "cost_post": 0.2739465832710266,
+    "pred_err_final": 0.0472426675260067,
+    "cost_total": 0.25747326016426086
+  },
+  {
+    "arm": "oracle",
+    "seed": 317,
+    "severity": 0.4,
+    "cost_pre": 0.24099992215633392,
+    "cost_post": 0.26403769850730896,
+    "pred_err_final": 0.04767373204231262,
+    "cost_total": 0.2525188624858856
+  },
+  {
+    "arm": "oracle",
+    "seed": 317,
+    "severity": 0.6,
+    "cost_pre": 0.24099992215633392,
+    "cost_post": 0.2561497092247009,
+    "pred_err_final": 0.0499139241874218,
+    "cost_total": 0.2485748827457428
+  },
+  {
+    "arm": "adaptive",
+    "seed": 318,
+    "severity": 0.2,
+    "cost_pre": 0.41803330183029175,
+    "cost_post": 0.37811750173568726,
+    "pred_err_final": 0.027645278722047806,
+    "cost_total": 0.3980754315853119
+  },
+  {
+    "arm": "adaptive",
+    "seed": 318,
+    "severity": 0.4,
+    "cost_pre": 0.41803330183029175,
+    "cost_post": 0.37082090973854065,
+    "pred_err_final": 0.02771616540849209,
+    "cost_total": 0.39442721009254456
+  },
+  {
+    "arm": "adaptive",
+    "seed": 318,
+    "severity": 0.6,
+    "cost_pre": 0.41803330183029175,
+    "cost_post": 0.3665720820426941,
+    "pred_err_final": 0.027993952855467796,
+    "cost_total": 0.3923027813434601
+  },
+  {
+    "arm": "frozen",
+    "seed": 318,
+    "severity": 0.2,
+    "cost_pre": 0.43264004588127136,
+    "cost_post": 0.44254830479621887,
+    "pred_err_final": 0.04410857707262039,
+    "cost_total": 0.43759435415267944
+  },
+  {
+    "arm": "frozen",
+    "seed": 318,
+    "severity": 0.4,
+    "cost_pre": 0.43264004588127136,
+    "cost_post": 0.4276679456233978,
+    "pred_err_final": 0.04228353127837181,
+    "cost_total": 0.4301539957523346
+  },
+  {
+    "arm": "frozen",
+    "seed": 318,
+    "severity": 0.6,
+    "cost_pre": 0.43264004588127136,
+    "cost_post": 0.4198603332042694,
+    "pred_err_final": 0.04245133697986603,
+    "cost_total": 0.42625027894973755
+  },
+  {
+    "arm": "reinit",
+    "seed": 318,
+    "severity": 0.2,
+    "cost_pre": 0.41803330183029175,
+    "cost_post": 0.37811750173568726,
+    "pred_err_final": 0.027645278722047806,
+    "cost_total": 0.3980754315853119
+  },
+  {
+    "arm": "reinit",
+    "seed": 318,
+    "severity": 0.4,
+    "cost_pre": 0.41803330183029175,
+    "cost_post": 0.37082090973854065,
+    "pred_err_final": 0.02771616540849209,
+    "cost_total": 0.39442721009254456
+  },
+  {
+    "arm": "reinit",
+    "seed": 318,
+    "severity": 0.6,
+    "cost_pre": 0.41803330183029175,
+    "cost_post": 0.3665720820426941,
+    "pred_err_final": 0.027993952855467796,
+    "cost_total": 0.3923027813434601
+  },
+  {
+    "arm": "oracle",
+    "seed": 318,
+    "severity": 0.2,
+    "cost_pre": 0.23994484543800354,
+    "cost_post": 0.27719563245773315,
+    "pred_err_final": 0.04870189353823662,
+    "cost_total": 0.25857028365135193
+  },
+  {
+    "arm": "oracle",
+    "seed": 318,
+    "severity": 0.4,
+    "cost_pre": 0.23994484543800354,
+    "cost_post": 0.2663090229034424,
+    "pred_err_final": 0.048697590827941895,
+    "cost_total": 0.25312691926956177
+  },
+  {
+    "arm": "oracle",
+    "seed": 318,
+    "severity": 0.6,
+    "cost_pre": 0.23994484543800354,
+    "cost_post": 0.25708526372909546,
+    "pred_err_final": 0.048133090138435364,
+    "cost_total": 0.2485150545835495
+  },
+  {
+    "arm": "adaptive",
+    "seed": 319,
+    "severity": 0.2,
+    "cost_pre": 0.41554683446884155,
+    "cost_post": 0.36417073011398315,
+    "pred_err_final": 0.030613524839282036,
+    "cost_total": 0.3898587226867676
+  },
+  {
+    "arm": "adaptive",
+    "seed": 319,
+    "severity": 0.4,
+    "cost_pre": 0.41554683446884155,
+    "cost_post": 0.35136204957962036,
+    "pred_err_final": 0.031232189387083054,
+    "cost_total": 0.38345444202423096
+  },
+  {
+    "arm": "adaptive",
+    "seed": 319,
+    "severity": 0.6,
+    "cost_pre": 0.41554683446884155,
+    "cost_post": 0.34992465376853943,
+    "pred_err_final": 0.030527343973517418,
+    "cost_total": 0.3827357292175293
+  },
+  {
+    "arm": "frozen",
+    "seed": 319,
+    "severity": 0.2,
+    "cost_pre": 0.431032657623291,
+    "cost_post": 0.43616020679473877,
+    "pred_err_final": 0.044733740389347076,
+    "cost_total": 0.43359631299972534
+  },
+  {
+    "arm": "frozen",
+    "seed": 319,
+    "severity": 0.4,
+    "cost_pre": 0.431032657623291,
+    "cost_post": 0.4162652790546417,
+    "pred_err_final": 0.0428173691034317,
+    "cost_total": 0.4236489534378052
+  },
+  {
+    "arm": "frozen",
+    "seed": 319,
+    "severity": 0.6,
+    "cost_pre": 0.431032657623291,
+    "cost_post": 0.4101557433605194,
+    "pred_err_final": 0.042374879121780396,
+    "cost_total": 0.4205942153930664
+  },
+  {
+    "arm": "reinit",
+    "seed": 319,
+    "severity": 0.2,
+    "cost_pre": 0.41554683446884155,
+    "cost_post": 0.36417073011398315,
+    "pred_err_final": 0.030613524839282036,
+    "cost_total": 0.3898587226867676
+  },
+  {
+    "arm": "reinit",
+    "seed": 319,
+    "severity": 0.4,
+    "cost_pre": 0.41554683446884155,
+    "cost_post": 0.35136204957962036,
+    "pred_err_final": 0.031232189387083054,
+    "cost_total": 0.38345444202423096
+  },
+  {
+    "arm": "reinit",
+    "seed": 319,
+    "severity": 0.6,
+    "cost_pre": 0.41554683446884155,
+    "cost_post": 0.34992465376853943,
+    "pred_err_final": 0.030527343973517418,
+    "cost_total": 0.3827357292175293
+  },
+  {
+    "arm": "oracle",
+    "seed": 319,
+    "severity": 0.2,
+    "cost_pre": 0.2353927195072174,
+    "cost_post": 0.2704722583293915,
+    "pred_err_final": 0.046988993883132935,
+    "cost_total": 0.25293245911598206
+  },
+  {
+    "arm": "oracle",
+    "seed": 319,
+    "severity": 0.4,
+    "cost_pre": 0.2353927195072174,
+    "cost_post": 0.2617896497249603,
+    "pred_err_final": 0.049145154654979706,
+    "cost_total": 0.24859122931957245
+  },
+  {
+    "arm": "oracle",
+    "seed": 319,
+    "severity": 0.6,
+    "cost_pre": 0.2353927195072174,
+    "cost_post": 0.25337567925453186,
+    "pred_err_final": 0.04850824549794197,
+    "cost_total": 0.24438418447971344
+  }
+]

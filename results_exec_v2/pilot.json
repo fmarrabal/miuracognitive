@@ -1,0 +1,200 @@
+[
+  {
+    "arm": "value_density",
+    "seed": 200,
+    "return": 1.9600510597229004,
+    "regret_vs_skyline": 0.6013558506965637,
+    "completed_ontime": 2.509765625,
+    "collapses": 0.0,
+    "energy_final": 0.9416018724441528
+  },
+  {
+    "arm": "edf",
+    "seed": 200,
+    "return": 1.3789745569229126,
+    "regret_vs_skyline": 0.7195378541946411,
+    "completed_ontime": 2.421875,
+    "collapses": 0.0,
+    "energy_final": 0.9348635673522949
+  },
+  {
+    "arm": "designer",
+    "seed": 200,
+    "return": 3.691133975982666,
+    "regret_vs_skyline": 0.2492803931236267,
+    "completed_ontime": 2.4375,
+    "collapses": 0.0,
+    "energy_final": 0.8970217108726501
+  },
+  {
+    "arm": "learned",
+    "seed": 200,
+    "return": 2.5408411026000977,
+    "regret_vs_skyline": 0.48323214054107666,
+    "completed_ontime": 1.0,
+    "collapses": 1.658203125,
+    "energy_final": 0.23134765028953552
+  },
+  {
+    "arm": "learned_memoryless",
+    "seed": 200,
+    "return": 2.5134224891662598,
+    "regret_vs_skyline": 0.48880866169929504,
+    "completed_ontime": 1.0,
+    "collapses": 2.0,
+    "energy_final": 0.30000001192092896
+  },
+  {
+    "arm": "hbp_wave",
+    "seed": 200,
+    "return": 2.4915475845336914,
+    "regret_vs_skyline": 0.49325770139694214,
+    "completed_ontime": 1.0,
+    "collapses": 1.09375,
+    "energy_final": 0.20742185413837433
+  },
+  {
+    "arm": "hbp_diff",
+    "seed": 200,
+    "return": 2.537078619003296,
+    "regret_vs_skyline": 0.4839974045753479,
+    "completed_ontime": 0.99609375,
+    "collapses": 1.80859375,
+    "energy_final": 0.26093751192092896
+  },
+  {
+    "arm": "learned_UNTRAINED",
+    "seed": 200,
+    "return": -1.1966807842254639,
+    "regret_vs_skyline": 1.2433862686157227,
+    "completed_ontime": 0.1484375,
+    "collapses": 0.087890625,
+    "energy_final": 0.964550793170929
+  },
+  {
+    "arm": "value_density",
+    "seed": 201,
+    "return": 1.8381309509277344,
+    "regret_vs_skyline": 0.6249405145645142,
+    "completed_ontime": 2.470703125,
+    "collapses": 0.0,
+    "energy_final": 0.9445803165435791
+  },
+  {
+    "arm": "edf",
+    "seed": 201,
+    "return": 1.3270955085754395,
+    "regret_vs_skyline": 0.7292141914367676,
+    "completed_ontime": 2.390625,
+    "collapses": 0.0,
+    "energy_final": 0.9252932071685791
+  },
+  {
+    "arm": "designer",
+    "seed": 201,
+    "return": 3.627192974090576,
+    "regret_vs_skyline": 0.2598932087421417,
+    "completed_ontime": 2.40625,
+    "collapses": 0.0,
+    "energy_final": 0.9005861878395081
+  },
+  {
+    "arm": "learned",
+    "seed": 201,
+    "return": 2.4733762741088867,
+    "regret_vs_skyline": 0.4953225553035736,
+    "completed_ontime": 1.0,
+    "collapses": 2.0,
+    "energy_final": 0.30000001192092896
+  },
+  {
+    "arm": "learned_memoryless",
+    "seed": 201,
+    "return": 2.478649139404297,
+    "regret_vs_skyline": 0.49424660205841064,
+    "completed_ontime": 0.998046875,
+    "collapses": 2.0,
+    "energy_final": 0.30000001192092896
+  },
+  {
+    "arm": "hbp_wave",
+    "seed": 201,
+    "return": 2.511892318725586,
+    "regret_vs_skyline": 0.4874635934829712,
+    "completed_ontime": 1.0,
+    "collapses": 1.751953125,
+    "energy_final": 0.2550293207168579
+  },
+  {
+    "arm": "hbp_diff",
+    "seed": 201,
+    "return": 2.511892318725586,
+    "regret_vs_skyline": 0.4874635934829712,
+    "completed_ontime": 1.0,
+    "collapses": 2.0,
+    "energy_final": 0.30000001192092896
+  },
+  {
+    "arm": "value_density",
+    "seed": 202,
+    "return": 1.96896231174469,
+    "regret_vs_skyline": 0.6011539101600647,
+    "completed_ontime": 2.533203125,
+    "collapses": 0.0,
+    "energy_final": 0.9382327198982239
+  },
+  {
+    "arm": "edf",
+    "seed": 202,
+    "return": 1.285187005996704,
+    "regret_vs_skyline": 0.7396640181541443,
+    "completed_ontime": 2.37109375,
+    "collapses": 0.0,
+    "energy_final": 0.9248537421226501
+  },
+  {
+    "arm": "designer",
+    "seed": 202,
+    "return": 3.7079715728759766,
+    "regret_vs_skyline": 0.24888862669467926,
+    "completed_ontime": 2.4609375,
+    "collapses": 0.0,
+    "energy_final": 0.8918947577476501
+  },
+  {
+    "arm": "learned",
+    "seed": 202,
+    "return": 2.4976279735565186,
+    "regret_vs_skyline": 0.4940638840198517,
+    "completed_ontime": 0.998046875,
+    "collapses": 2.0,
+    "energy_final": 0.30000001192092896
+  },
+  {
+    "arm": "learned_memoryless",
+    "seed": 202,
+    "return": 2.441028118133545,
+    "regret_vs_skyline": 0.5055291056632996,
+    "completed_ontime": 1.0,
+    "collapses": 2.0,
+    "energy_final": 0.30000001192092896
+  },
+  {
+    "arm": "hbp_wave",
+    "seed": 202,
+    "return": 2.4908432960510254,
+    "regret_vs_skyline": 0.4954381287097931,
+    "completed_ontime": 1.0,
+    "collapses": 2.0,
+    "energy_final": 0.30000001192092896
+  },
+  {
+    "arm": "hbp_diff",
+    "seed": 202,
+    "return": 2.4945027828216553,
+    "regret_vs_skyline": 0.49469688534736633,
+    "completed_ontime": 0.998046875,
+    "collapses": 2.0,
+    "energy_final": 0.30000001192092896
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "phase_vanilla",
+  "variant": "vanilla",
+  "task_mode": "phase",
+  "alpha_const": null,
+  "seed": 0,
+  "acc": {
+    "corto": 1.0,
+    "medio": 0.6200980392156863,
+    "largo": 0.4956521739130435,
+    "n_iter": 0.0
+  }
+}

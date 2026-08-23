@@ -1,0 +1,16 @@
+{
+  "name": "settle_a0",
+  "variant": "hbp_full",
+  "task_mode": "settle",
+  "alpha_const": 0.0,
+  "seed": 0,
+  "acc": {
+    "corto": 0.9528619528619529,
+    "medio": 1.0,
+    "largo": 1.0,
+    "n_iter": 1.0000777870416642
+  },
+  "zeta_mean": 0.50652015209198,
+  "omega0_mean": 0.5061953663825989,
+  "gamma_diff_mean": 0.5014631748199463
+}

@@ -1,0 +1,358 @@
+{
+  "variant": "reactive",
+  "design": {
+    "external_goal_supplied": false,
+    "future_disturbance_visible_to_policy": false,
+    "raw_cue_visible_to_executive": false,
+    "predictor_input": "current_cue_and_previous_disturbance_only",
+    "action_effect_delay": 3,
+    "cue_lead": 6,
+    "prediction_horizon": 4,
+    "primary_mechanism_intervention": "prediction_lesion",
+    "paired_worlds_across_interventions": true
+  },
+  "conditions": {
+    "normal": {
+      "survival_rate": 1.0,
+      "violation_rate": 0.0,
+      "mean_viability_margin": 0.4989801496267319,
+      "mean_homeostatic_deficit": 0.004669247195124626,
+      "action_rate": 1.0,
+      "false_action_fraction": 0.89892578125,
+      "anticipatory_event_rate": 0.959375,
+      "blank_initiative_rate": 0.890625,
+      "mean_correct_action_lead": 3.803125,
+      "prediction_mse": 0.02481824066489935,
+      "n_events": 640
+    },
+    "prediction_lesion": {
+      "survival_rate": 1.0,
+      "violation_rate": 0.0,
+      "mean_viability_margin": 0.4989801496267319,
+      "mean_homeostatic_deficit": 0.004669247195124626,
+      "action_rate": 1.0,
+      "false_action_fraction": 0.89892578125,
+      "anticipatory_event_rate": 0.959375,
+      "blank_initiative_rate": 0.890625,
+      "mean_correct_action_lead": 3.803125,
+      "prediction_mse": 0.02481824066489935,
+      "n_events": 640
+    },
+    "cue_shuffle": {
+      "survival_rate": 1.0,
+      "violation_rate": 0.0,
+      "mean_viability_margin": 0.4989801496267319,
+      "mean_homeostatic_deficit": 0.004669247195124626,
+      "action_rate": 1.0,
+      "false_action_fraction": 0.89892578125,
+      "anticipatory_event_rate": 0.959375,
+      "blank_initiative_rate": 0.8078125,
+      "mean_correct_action_lead": 3.803125,
+      "prediction_mse": 0.02482909057289362,
+      "n_events": 640
+    },
+    "stationary": {
+      "survival_rate": 1.0,
+      "violation_rate": 0.0,
+      "mean_viability_margin": 0.5242483615875244,
+      "mean_homeostatic_deficit": 0.001483464555349201,
+      "action_rate": 1.0,
+      "false_action_fraction": 1.0,
+      "anticipatory_event_rate": 0.0,
+      "blank_initiative_rate": 0.0,
+      "mean_correct_action_lead": 0.0,
+      "prediction_mse": 0.023463986814022064,
+      "n_events": 0
+    }
+  },
+  "causal_effects": {
+    "prediction_on_survival": 0.0,
+    "prediction_on_violation_rate": 0.0,
+    "prediction_on_blank_initiative": 0.0,
+    "valid_cue_on_survival": 0.0,
+    "valid_cue_on_blank_initiative": 0.08281249999999996,
+    "need_transplant": {
+      "mean_target_probability_effect": 0.002923389275868734,
+      "mean_goal_flip_rate": 1.0
+    }
+  },
+  "records": [
+    {
+      "batch": 0,
+      "normal": {
+        "survival_rate": 1.0,
+        "violation_rate": 0.0,
+        "mean_viability_margin": 0.4991284906864166,
+        "mean_homeostatic_deficit": 0.004804194439202547,
+        "action_rate": 1.0,
+        "false_action_fraction": 0.8981119791666666,
+        "anticipatory_event_rate": 0.96875,
+        "blank_initiative_rate": 0.89375,
+        "mean_correct_action_lead": 3.803125,
+        "prediction_mse": 0.024744128808379173,
+        "n_events": 320
+      },
+      "prediction_lesion": {
+        "survival_rate": 1.0,
+        "violation_rate": 0.0,
+        "mean_viability_margin": 0.4991284906864166,
+        "mean_homeostatic_deficit": 0.004804194439202547,
+        "action_rate": 1.0,
+        "false_action_fraction": 0.8981119791666666,
+        "anticipatory_event_rate": 0.96875,
+        "blank_initiative_rate": 0.89375,
+        "mean_correct_action_lead": 3.803125,
+        "prediction_mse": 0.024744128808379173,
+        "n_events": 320
+      },
+      "cue_shuffle": {
+        "survival_rate": 1.0,
+        "violation_rate": 0.0,
+        "mean_viability_margin": 0.4991284906864166,
+        "mean_homeostatic_deficit": 0.004804194439202547,
+        "action_rate": 1.0,
+        "false_action_fraction": 0.8981119791666666,
+        "anticipatory_event_rate": 0.96875,
+        "blank_initiative_rate": 0.825,
+        "mean_correct_action_lead": 3.803125,
+        "prediction_mse": 0.024754740297794342,
+        "n_events": 320
+      },
+      "stationary": {
+        "survival_rate": 1.0,
+        "violation_rate": 0.0,
+        "mean_viability_margin": 0.5243006944656372,
+        "mean_homeostatic_deficit": 0.0014804822858422995,
+        "action_rate": 1.0,
+        "false_action_fraction": 1.0,
+        "anticipatory_event_rate": 0.0,
+        "blank_initiative_rate": 0.0,
+        "mean_correct_action_lead": 0.0,
+        "prediction_mse": 0.023463986814022064,
+        "n_events": 0
+      },
+      "need_transplant": {
+        "mean_target_probability_effect": 0.002923389275868734,
+        "mean_goal_flip_rate": 1.0,
+        "per_need_probability_effect": [
+          0.0021562278270721436,
+          0.00219610333442688,
+          0.004417836666107178
+        ],
+        "per_need_goal_flip_rate": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "batch": 1,
+      "normal": {
+        "survival_rate": 1.0,
+        "violation_rate": 0.0,
+        "mean_viability_margin": 0.4988318085670471,
+        "mean_homeostatic_deficit": 0.004534299951046705,
+        "action_rate": 1.0,
+        "false_action_fraction": 0.8997395833333334,
+        "anticipatory_event_rate": 0.95,
+        "blank_initiative_rate": 0.8875,
+        "mean_correct_action_lead": 3.803125,
+        "prediction_mse": 0.024892352521419525,
+        "n_events": 320
+      },
+      "prediction_lesion": {
+        "survival_rate": 1.0,
+        "violation_rate": 0.0,
+        "mean_viability_margin": 0.4988318085670471,
+        "mean_homeostatic_deficit": 0.004534299951046705,
+        "action_rate": 1.0,
+        "false_action_fraction": 0.8997395833333334,
+        "anticipatory_event_rate": 0.95,
+        "blank_initiative_rate": 0.8875,
+        "mean_correct_action_lead": 3.803125,
+        "prediction_mse": 0.024892352521419525,
+        "n_events": 320
+      },
+      "cue_shuffle": {
+        "survival_rate": 1.0,
+        "violation_rate": 0.0,
+        "mean_viability_margin": 0.4988318085670471,
+        "mean_homeostatic_deficit": 0.004534299951046705,
+        "action_rate": 1.0,
+        "false_action_fraction": 0.8997395833333334,
+        "anticipatory_event_rate": 0.95,
+        "blank_initiative_rate": 0.790625,
+        "mean_correct_action_lead": 3.803125,
+        "prediction_mse": 0.024903440847992897,
+        "n_events": 320
+      },
+      "stationary": {
+        "survival_rate": 1.0,
+        "violation_rate": 0.0,
+        "mean_viability_margin": 0.5241960287094116,
+        "mean_homeostatic_deficit": 0.0014864468248561025,
+        "action_rate": 1.0,
+        "false_action_fraction": 1.0,
+        "anticipatory_event_rate": 0.0,
+        "blank_initiative_rate": 0.0,
+        "mean_correct_action_lead": 0.0,
+        "prediction_mse": 0.023463986814022064,
+        "n_events": 0
+      },
+      "need_transplant": {
+        "mean_target_probability_effect": 0.002923389275868734,
+        "mean_goal_flip_rate": 1.0,
+        "per_need_probability_effect": [
+          0.0021562278270721436,
+          0.00219610333442688,
+          0.004417836666107178
+        ],
+        "per_need_goal_flip_rate": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "training": {
+    "seed": 0,
+    "predictor_steps": 100,
+    "controller_steps": 250,
+    "batch_size": 32,
+    "predictor_lr": 0.002,
+    "controller_lr": 0.002,
+    "predictor_frozen_during_control": true,
+    "trace": {
+      "phase": [
+        "predictor",
+        "predictor",
+        "predictor",
+        "controller",
+        "controller",
+        "controller",
+        "controller",
+        "controller",
+        "controller"
+      ],
+      "step": [
+        1,
+        50,
+        100,
+        1,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "loss": [
+        0.06239759922027588,
+        0.043107736855745316,
+        0.04301367327570915,
+        0.38661766052246094,
+        0.021168580278754234,
+        0.010366745293140411,
+        0.010370883159339428,
+        0.010345167480409145,
+        0.010288813151419163
+      ],
+      "homeostatic": [
+        null,
+        null,
+        null,
+        0.1110929399728775,
+        0.008245397359132767,
+        0.00044112870818935335,
+        0.0004551333549898118,
+        0.00045418963418342173,
+        0.00041235514800064266
+      ],
+      "viability": [
+        null,
+        null,
+        null,
+        0.02234029583632946,
+        0.000271674245595932,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effort": [
+        null,
+        null,
+        null,
+        0.7441173791885376,
+        0.9663092494010925,
+        0.9925616979598999,
+        0.9915749430656433,
+        0.9890978336334229,
+        0.9876458644866943
+      ],
+      "prediction": [
+        0.06239759922027588,
+        0.043107736855745316,
+        0.04301367327570915,
+        0.02477157860994339,
+        0.02467494271695614,
+        0.02472277358174324,
+        0.02475804090499878,
+        0.02475009299814701,
+        0.024735042825341225
+      ],
+      "survival_soft": [
+        null,
+        null,
+        null,
+        0.0,
+        0.0625,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "elapsed_s": 29.60014510154724
+  },
+  "model_config": {
+    "n_needs": 3,
+    "d_model": 64,
+    "d_predictor": 48,
+    "variant": "reactive",
+    "action_temperature": 0.7,
+    "hbp_priority_gain": 2.0,
+    "violation_weight": 12.0,
+    "beta_prediction": 1.0,
+    "prediction_positive_weight": 5.0,
+    "beta_intero": 0.02,
+    "beta_homeo": 0.001,
+    "beta_stab": 0.01
+  },
+  "environment_config": {
+    "n_needs": 3,
+    "horizon": 48,
+    "n_events": 5,
+    "cue_lead": 6,
+    "action_delay": 3,
+    "prediction_horizon": 4,
+    "action_effect": 0.2,
+    "action_cost": 0.01,
+    "basal_drain": 0.0015,
+    "hazard_min": 0.3,
+    "hazard_max": 0.38,
+    "viability_threshold": 0.45,
+    "initial_min": 0.68,
+    "initial_max": 0.82,
+    "setpoint_min": 0.7,
+    "setpoint_max": 0.8
+  },
+  "provenance": {
+    "checkpoint": "E:\\ARTICULOS-CIENTIFICOS\\MIURACOGNITIVE\\miuracognitive\\results_aha\\pilot\\checkpoints\\reactive_seed0.pt",
+    "torch": "2.11.0+cu128",
+    "python": "3.12.13",
+    "device": "cuda:0",
+    "device_name": "NVIDIA RTX PRO 5000 Blackwell"
+  }
+}

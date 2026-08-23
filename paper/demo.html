@@ -1,0 +1,1076 @@
+<style>
+  :root{
+    --ground:#eef1f8; --panel:#ffffff; --panel2:#f4f6fc; --ink:#191f33; --muted:#5c6685;
+    --line:rgba(25,31,51,.10); --line2:rgba(25,31,51,.05);
+    --accent:#c8842f;      /* activación / energía (ámbar) */
+    --rest:#0f9d8c;        /* reposo homeostático (teal)  */
+    --wave:#6b5cd6;        /* oscilación / modulación      */
+    --good:#1a9f6a; --bad:#d6473f;
+    --scope:#f7f9fe; --grid:rgba(25,31,51,.07);
+    --mono:ui-monospace,"Cascadia Code","SF Mono",Consolas,"Roboto Mono",monospace;
+    --sans:"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --ground:#0d1120; --panel:#151b2d; --panel2:#1b2338; --ink:#e8ecf7; --muted:#8b95af;
+      --line:rgba(232,236,247,.12); --line2:rgba(232,236,247,.06);
+      --accent:#e6a95a; --rest:#4bc9b6; --wave:#9b8cf2; --good:#46cf94; --bad:#ee5f66;
+      --scope:#0a0e1a; --grid:rgba(232,236,247,.08);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0d1120; --panel:#151b2d; --panel2:#1b2338; --ink:#e8ecf7; --muted:#8b95af;
+    --line:rgba(232,236,247,.12); --line2:rgba(232,236,247,.06);
+    --accent:#e6a95a; --rest:#4bc9b6; --wave:#9b8cf2; --good:#46cf94; --bad:#ee5f66;
+    --scope:#0a0e1a; --grid:rgba(232,236,247,.08);
+  }
+  :root[data-theme="light"]{
+    --ground:#eef1f8; --panel:#ffffff; --panel2:#f4f6fc; --ink:#191f33; --muted:#5c6685;
+    --line:rgba(25,31,51,.10); --line2:rgba(25,31,51,.05);
+    --accent:#c8842f; --rest:#0f9d8c; --wave:#6b5cd6; --good:#1a9f6a; --bad:#d6473f;
+    --scope:#f7f9fe; --grid:rgba(25,31,51,.07);
+  }
+  *{box-sizing:border-box}
+  .wrap{background:var(--ground);color:var(--ink);font-family:var(--sans);
+    line-height:1.5;-webkit-font-smoothing:antialiased;min-height:100%;
+    padding:clamp(18px,4vw,54px) clamp(14px,4vw,40px)}
+  .inner{max-width:1080px;margin:0 auto}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--accent);margin:0 0 12px}
+  h1{font-size:clamp(30px,6vw,52px);line-height:1.02;letter-spacing:-.02em;margin:0 0 14px;
+    font-weight:680;text-wrap:balance}
+  h1 .em{color:var(--muted);font-weight:400}
+  .lede{font-size:clamp(15px,2.3vw,18px);color:var(--muted);max-width:60ch;margin:0 0 26px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 34px}
+  .stat{font-family:var(--mono);font-size:12.5px;background:var(--panel);border:1px solid var(--line);
+    border-radius:999px;padding:6px 13px;color:var(--muted);white-space:nowrap}
+  .stat b{color:var(--ink);font-weight:600}
+
+  .board{display:grid;grid-template-columns:1fr;gap:16px}
+  @media(min-width:840px){.board{grid-template-columns:320px 1fr}}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 18px 16px}
+  .plabel{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 14px;display:flex;justify-content:space-between;align-items:center}
+
+  .krow{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px}
+  .kchip{font-family:var(--mono);font-size:13px;border:1px solid var(--line);background:var(--panel2);
+    color:var(--ink);border-radius:9px;padding:8px 11px;cursor:pointer;transition:.15s;min-width:52px;text-align:center}
+  .kchip:hover{border-color:var(--accent)}
+  .kchip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);
+    color:#fff;font-weight:600}
+  :root[data-theme="dark"] .kchip[aria-pressed="true"],
+  @media(prefers-color-scheme:dark){.kchip[aria-pressed="true"]{color:#0d1120}}
+  .kchip small{display:block;font-size:10px;opacity:.7;margin-top:2px}
+
+  .answer{font-family:var(--mono)}
+  .opseq{font-size:13px;color:var(--muted);margin:0 0 12px;word-break:break-word}
+  .opseq b{color:var(--wave)}
+  .perm{display:flex;gap:18px;margin:2px 0 14px;flex-wrap:wrap}
+  .perm .col span{display:block;font-size:11px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px}
+  .perm .col b{font-size:26px;letter-spacing:.14em;font-weight:600}
+  .verdict{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;
+    padding:5px 11px;border-radius:8px;margin-bottom:14px}
+  .verdict.ok{background:color-mix(in srgb,var(--good) 16%,transparent);color:var(--good)}
+  .verdict.no{background:color-mix(in srgb,var(--bad) 16%,transparent);color:var(--bad)}
+  .metrics{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .metric{background:var(--panel2);border-radius:10px;padding:10px 12px}
+  .metric span{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:block}
+  .metric b{font-size:20px;font-weight:600}
+
+  .scopewrap{position:relative}
+  canvas{display:block;width:100%;border-radius:10px}
+  .scopelegend{display:flex;gap:16px;flex-wrap:wrap;font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:12px}
+  .lg{display:inline-flex;align-items:center;gap:6px}
+  .sw{width:14px;height:3px;border-radius:2px;display:inline-block}
+  .play{font-family:var(--mono);font-size:12px;border:1px solid var(--line);background:var(--panel2);
+    color:var(--ink);border-radius:8px;padding:5px 12px;cursor:pointer}
+  .play:hover{border-color:var(--accent)}
+
+  .duo{display:grid;grid-template-columns:1fr;gap:16px;margin-top:16px}
+  @media(min-width:840px){.duo{grid-template-columns:1fr 1fr}}
+  .note{font-size:13px;color:var(--muted);max-width:70ch;margin:30px auto 0;line-height:1.65;
+    border-top:1px solid var(--line);padding-top:18px}
+  .note b{color:var(--ink)}
+  a.src{color:var(--accent);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--accent) 40%,transparent)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap"><div class="inner">
+  <p class="eyebrow">MiuraCognitive · campo homeostático</p>
+  <h1>Míralo pensar <span class="em">— un campo interno que decide cuánto computar</span></h1>
+  <p class="lede">MiuraCognitive lleva un campo de estado interno (el VEI) gobernado por una ecuación de
+  onda amortiguada. Compone permutaciones de S₅ iterando un razonador un número variable de veces; el campo
+  se aleja del reposo homeostático, oscila y modula el cómputo. Elige una composición y observa la dinámica.</p>
+  <div class="chips" id="stats"></div>
+
+  <div class="board">
+    <div class="panel">
+      <p class="plabel">Composición</p>
+      <div class="krow" id="krow"></div>
+      <div class="answer" id="answer"></div>
+    </div>
+
+    <div class="panel scopewrap">
+      <p class="plabel">Osciloscopio del VEI · tiempo de pensamiento
+        <button class="play" id="play" type="button">▶ animar</button></p>
+      <canvas id="scope" height="300" aria-label="Traza del campo homeostático por iteración"></canvas>
+      <div class="scopelegend">
+        <span class="lg"><i class="sw" style="background:var(--accent)"></i>desviación del reposo</span>
+        <span class="lg"><i class="sw" style="background:var(--rest)"></i>varianza del VEI</span>
+        <span class="lg"><i class="sw" style="background:var(--wave)"></i>modulación del reasoner</span>
+        <span class="lg"><i class="sw" style="background:var(--muted);height:2px"></i>umbral de halting</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="duo">
+    <div class="panel">
+      <p class="plabel">Cómputo vs. dificultad · E[iteraciones] y acierto</p>
+      <canvas id="sweep" height="230" aria-label="Cómputo y acierto según profundidad K"></canvas>
+    </div>
+    <div class="panel">
+      <p class="plabel">Espectro del campo · evolución libre (FFT)</p>
+      <canvas id="spec" height="230" aria-label="Espectro de oscilación del campo homeostático"></canvas>
+    </div>
+  </div>
+
+  <p class="note">Modelo de investigación pequeño (~5.6M parámetros, variante <b>hbp_full</b> de 2º orden),
+  entrenado 1500 pasos en CPU sobre composición en S₅ con transposiciones adyacentes. Resuelve composiciones
+  cortas casi perfectamente y se degrada con la profundidad K —la tarea es difícil por diseño (la palabra en
+  S₅ es NC¹-dura para profundidad fija)—. La traza y el espectro son <b>reales</b>, generados por el propio
+  modelo (<code>miura.py compose</code>). El valor de esta arquitectura es esta interpretabilidad: el estado
+  interno es un campo físico legible, no una caja negra.</p>
+</div></div>
+
+<script>
+const DATA = {
+ "meta": {
+  "variant": "hbp_full",
+  "gen_set": "adjacent",
+  "steps": 1500,
+  "max_ops_train": 12
+ },
+ "n_params": 5599444,
+ "max_halt_steps": 12,
+ "n_elems": 5,
+ "n_gen": 4,
+ "sessions": [
+  {
+   "K": 2,
+   "ops": [
+    3,
+    0
+   ],
+   "true": "10243",
+   "pred": "10243",
+   "correct": true,
+   "n_iter": 4.24,
+   "confidence": 0.997,
+   "trace": [
+    {
+     "n": 1,
+     "vei_var": 0.0321,
+     "deviation": 1.4121,
+     "halt": 0.4824,
+     "mod": 1.1713
+    },
+    {
+     "n": 2,
+     "vei_var": 0.09667,
+     "deviation": 2.4959,
+     "halt": 0.4781,
+     "mod": 2.1854
+    },
+    {
+     "n": 3,
+     "vei_var": 0.11016,
+     "deviation": 2.6633,
+     "halt": 0.4865,
+     "mod": 2.215
+    },
+    {
+     "n": 4,
+     "vei_var": 0.07029,
+     "deviation": 2.0949,
+     "halt": 0.5048,
+     "mod": 1.1659
+    },
+    {
+     "n": 5,
+     "vei_var": 0.08108,
+     "deviation": 2.186,
+     "halt": 0.5252,
+     "mod": 1.1451
+    },
+    {
+     "n": 6,
+     "vei_var": 0.1882,
+     "deviation": 3.3544,
+     "halt": 0.5422,
+     "mod": 2.7631
+    },
+    {
+     "n": 7,
+     "vei_var": 0.34697,
+     "deviation": 4.5898,
+     "halt": 0.553,
+     "mod": 3.892
+    },
+    {
+     "n": 8,
+     "vei_var": 0.49523,
+     "deviation": 5.5048,
+     "halt": 0.5566,
+     "mod": 4.4354
+    }
+   ]
+  },
+  {
+   "K": 3,
+   "ops": [
+    1,
+    2,
+    3
+   ],
+   "true": "04123",
+   "pred": "04123",
+   "correct": true,
+   "n_iter": 6.08,
+   "confidence": 0.977,
+   "trace": [
+    {
+     "n": 1,
+     "vei_var": 0.0215,
+     "deviation": 1.1537,
+     "halt": 0.4813,
+     "mod": 0.9302
+    },
+    {
+     "n": 2,
+     "vei_var": 0.061,
+     "deviation": 2.0025,
+     "halt": 0.4719,
+     "mod": 1.6813
+    },
+    {
+     "n": 3,
+     "vei_var": 0.0879,
+     "deviation": 2.4113,
+     "halt": 0.4683,
+     "mod": 2.0456
+    },
+    {
+     "n": 4,
+     "vei_var": 0.08296,
+     "deviation": 2.3451,
+     "halt": 0.4708,
+     "mod": 1.9407
+    },
+    {
+     "n": 5,
+     "vei_var": 0.05849,
+     "deviation": 1.9665,
+     "halt": 0.4776,
+     "mod": 1.459
+    },
+    {
+     "n": 6,
+     "vei_var": 0.03788,
+     "deviation": 1.5617,
+     "halt": 0.4865,
+     "mod": 0.806
+    },
+    {
+     "n": 7,
+     "vei_var": 0.03495,
+     "deviation": 1.4604,
+     "halt": 0.4956,
+     "mod": 0.5738
+    },
+    {
+     "n": 8,
+     "vei_var": 0.04833,
+     "deviation": 1.6954,
+     "halt": 0.5032,
+     "mod": 1.0525
+    },
+    {
+     "n": 9,
+     "vei_var": 0.0678,
+     "deviation": 1.9998,
+     "halt": 0.5088,
+     "mod": 1.4956
+    },
+    {
+     "n": 10,
+     "vei_var": 0.08343,
+     "deviation": 2.2081,
+     "halt": 0.5119,
+     "mod": 1.743
+    },
+    {
+     "n": 11,
+     "vei_var": 0.09068,
+     "deviation": 2.287,
+     "halt": 0.5127,
+     "mod": 1.7995
+    },
+    {
+     "n": 12,
+     "vei_var": 0.09062,
+     "deviation": 2.2677,
+     "halt": 0.5115,
+     "mod": 1.7029
+    }
+   ]
+  },
+  {
+   "K": 5,
+   "ops": [
+    3,
+    3,
+    3,
+    0,
+    1
+   ],
+   "true": "20143",
+   "pred": "20143",
+   "correct": true,
+   "n_iter": 4.24,
+   "confidence": 0.987,
+   "trace": [
+    {
+     "n": 1,
+     "vei_var": 0.04549,
+     "deviation": 1.6516,
+     "halt": 0.5034,
+     "mod": 1.832
+    },
+    {
+     "n": 2,
+     "vei_var": 0.17059,
+     "deviation": 3.2757,
+     "halt": 0.5195,
+     "mod": 3.3974
+    },
+    {
+     "n": 3,
+     "vei_var": 0.34104,
+     "deviation": 4.6441,
+     "halt": 0.5355,
+     "mod": 4.46
+    },
+    {
+     "n": 4,
+     "vei_var": 0.48333,
+     "deviation": 5.5237,
+     "halt": 0.548,
+     "mod": 5.0078
+    },
+    {
+     "n": 5,
+     "vei_var": 0.55772,
+     "deviation": 5.9182,
+     "halt": 0.5553,
+     "mod": 5.1975
+    },
+    {
+     "n": 6,
+     "vei_var": 0.57185,
+     "deviation": 5.9697,
+     "halt": 0.5582,
+     "mod": 5.1644
+    },
+    {
+     "n": 7,
+     "vei_var": 0.55851,
+     "deviation": 5.8758,
+     "halt": 0.5577,
+     "mod": 5.003
+    },
+    {
+     "n": 8,
+     "vei_var": 0.54676,
+     "deviation": 5.7964,
+     "halt": 0.5544,
+     "mod": 4.7543
+    }
+   ]
+  },
+  {
+   "K": 7,
+   "ops": [
+    2,
+    3,
+    0,
+    1,
+    2,
+    2,
+    2
+   ],
+   "true": "30412",
+   "pred": "30412",
+   "correct": true,
+   "n_iter": 5.47,
+   "confidence": 0.594,
+   "trace": [
+    {
+     "n": 1,
+     "vei_var": 0.03194,
+     "deviation": 1.4144,
+     "halt": 0.4802,
+     "mod": 1.2368
+    },
+    {
+     "n": 2,
+     "vei_var": 0.12946,
+     "deviation": 2.8976,
+     "halt": 0.4682,
+     "mod": 2.6326
+    },
+    {
+     "n": 3,
+     "vei_var": 0.22936,
+     "deviation": 3.8548,
+     "halt": 0.4639,
+     "mod": 3.4625
+    },
+    {
+     "n": 4,
+     "vei_var": 0.22943,
+     "deviation": 3.8514,
+     "halt": 0.4709,
+     "mod": 3.4287
+    },
+    {
+     "n": 5,
+     "vei_var": 0.13473,
+     "deviation": 2.9391,
+     "halt": 0.4879,
+     "mod": 2.4557
+    },
+    {
+     "n": 6,
+     "vei_var": 0.06359,
+     "deviation": 1.9603,
+     "halt": 0.5096,
+     "mod": 0.8495
+    },
+    {
+     "n": 7,
+     "vei_var": 0.10205,
+     "deviation": 2.4465,
+     "halt": 0.5301,
+     "mod": 1.6889
+    },
+    {
+     "n": 8,
+     "vei_var": 0.23138,
+     "deviation": 3.7297,
+     "halt": 0.5456,
+     "mod": 3.1991
+    },
+    {
+     "n": 9,
+     "vei_var": 0.38318,
+     "deviation": 4.8294,
+     "halt": 0.5545,
+     "mod": 4.0999
+    },
+    {
+     "n": 10,
+     "vei_var": 0.50681,
+     "deviation": 5.5694,
+     "halt": 0.5566,
+     "mod": 4.4808
+    }
+   ]
+  },
+  {
+   "K": 9,
+   "ops": [
+    0,
+    3,
+    2,
+    0,
+    0,
+    3,
+    3,
+    0,
+    0
+   ],
+   "true": "10342",
+   "pred": "01342",
+   "correct": false,
+   "n_iter": 5.4,
+   "confidence": 0.349,
+   "trace": [
+    {
+     "n": 1,
+     "vei_var": 0.03084,
+     "deviation": 1.388,
+     "halt": 0.4809,
+     "mod": 1.2253
+    },
+    {
+     "n": 2,
+     "vei_var": 0.12134,
+     "deviation": 2.8056,
+     "halt": 0.4697,
+     "mod": 2.5603
+    },
+    {
+     "n": 3,
+     "vei_var": 0.20752,
+     "deviation": 3.6684,
+     "halt": 0.466,
+     "mod": 3.3011
+    },
+    {
+     "n": 4,
+     "vei_var": 0.20799,
+     "deviation": 3.6679,
+     "halt": 0.4724,
+     "mod": 3.2289
+    },
+    {
+     "n": 5,
+     "vei_var": 0.13593,
+     "deviation": 2.9482,
+     "halt": 0.4875,
+     "mod": 2.3424
+    },
+    {
+     "n": 6,
+     "vei_var": 0.0819,
+     "deviation": 2.2306,
+     "halt": 0.5066,
+     "mod": 0.9818
+    },
+    {
+     "n": 7,
+     "vei_var": 0.10889,
+     "deviation": 2.5246,
+     "halt": 0.5247,
+     "mod": 1.3925
+    },
+    {
+     "n": 8,
+     "vei_var": 0.20426,
+     "deviation": 3.4839,
+     "halt": 0.5382,
+     "mod": 2.6507
+    },
+    {
+     "n": 9,
+     "vei_var": 0.31828,
+     "deviation": 4.3769,
+     "halt": 0.5454,
+     "mod": 3.4253
+    },
+    {
+     "n": 10,
+     "vei_var": 0.41374,
+     "deviation": 5.0065,
+     "halt": 0.5456,
+     "mod": 3.6819
+    }
+   ]
+  },
+  {
+   "K": 11,
+   "ops": [
+    3,
+    3,
+    2,
+    2,
+    3,
+    0,
+    0,
+    3,
+    1,
+    0,
+    0
+   ],
+   "true": "02134",
+   "pred": "02134",
+   "correct": true,
+   "n_iter": 4.21,
+   "confidence": 0.673,
+   "trace": [
+    {
+     "n": 1,
+     "vei_var": 0.03972,
+     "deviation": 1.5396,
+     "halt": 0.5021,
+     "mod": 1.7212
+    },
+    {
+     "n": 2,
+     "vei_var": 0.15228,
+     "deviation": 3.0978,
+     "halt": 0.516,
+     "mod": 3.2355
+    },
+    {
+     "n": 3,
+     "vei_var": 0.31024,
+     "deviation": 4.4358,
+     "halt": 0.5295,
+     "mod": 4.3032
+    },
+    {
+     "n": 4,
+     "vei_var": 0.44328,
+     "deviation": 5.3004,
+     "halt": 0.5398,
+     "mod": 4.8695
+    },
+    {
+     "n": 5,
+     "vei_var": 0.50704,
+     "deviation": 5.6575,
+     "halt": 0.5462,
+     "mod": 5.0714
+    },
+    {
+     "n": 6,
+     "vei_var": 0.50019,
+     "deviation": 5.5978,
+     "halt": 0.5486,
+     "mod": 5.0087
+    },
+    {
+     "n": 7,
+     "vei_var": 0.45082,
+     "deviation": 5.2841,
+     "halt": 0.548,
+     "mod": 4.751
+    },
+    {
+     "n": 8,
+     "vei_var": 0.39299,
+     "deviation": 4.901,
+     "halt": 0.5449,
+     "mod": 4.3571
+    },
+    {
+     "n": 9,
+     "vei_var": 0.35034,
+     "deviation": 4.6001,
+     "halt": 0.5395,
+     "mod": 3.8584
+    }
+   ]
+  }
+ ],
+ "sweep": [
+  {
+   "K": 2,
+   "niter": 4.4,
+   "acc": 1.0
+  },
+  {
+   "K": 3,
+   "niter": 4.65,
+   "acc": 1.0
+  },
+  {
+   "K": 4,
+   "niter": 4.7,
+   "acc": 1.0
+  },
+  {
+   "K": 5,
+   "niter": 5.06,
+   "acc": 0.958
+  },
+  {
+   "K": 6,
+   "niter": 5.08,
+   "acc": 1.0
+  },
+  {
+   "K": 7,
+   "niter": 5.02,
+   "acc": 0.958
+  },
+  {
+   "K": 8,
+   "niter": 5.44,
+   "acc": 0.833
+  },
+  {
+   "K": 9,
+   "niter": 5.58,
+   "acc": 0.75
+  },
+  {
+   "K": 10,
+   "niter": 5.16,
+   "acc": 0.625
+  },
+  {
+   "K": 11,
+   "niter": 5.34,
+   "acc": 0.583
+  },
+  {
+   "K": 12,
+   "niter": 5.31,
+   "acc": 0.167
+  }
+ ],
+ "spectrum": {
+  "freqs": [
+   0.0,
+   0.005,
+   0.01,
+   0.015,
+   0.02,
+   0.025,
+   0.03,
+   0.035,
+   0.04,
+   0.045,
+   0.05,
+   0.055,
+   0.06,
+   0.065,
+   0.07,
+   0.075,
+   0.08,
+   0.085,
+   0.09,
+   0.095,
+   0.1,
+   0.105,
+   0.11,
+   0.115,
+   0.12,
+   0.125,
+   0.13,
+   0.135,
+   0.14,
+   0.145,
+   0.15,
+   0.155,
+   0.16,
+   0.165,
+   0.17,
+   0.175,
+   0.18,
+   0.185,
+   0.19,
+   0.195,
+   0.2,
+   0.205,
+   0.21,
+   0.215,
+   0.22,
+   0.225,
+   0.23,
+   0.235,
+   0.24,
+   0.245,
+   0.25,
+   0.255,
+   0.26,
+   0.265,
+   0.27,
+   0.275,
+   0.28,
+   0.285,
+   0.29,
+   0.295,
+   0.3,
+   0.305,
+   0.31,
+   0.315,
+   0.32,
+   0.325,
+   0.33,
+   0.335,
+   0.34,
+   0.345,
+   0.35,
+   0.355,
+   0.36,
+   0.365,
+   0.37,
+   0.375,
+   0.38,
+   0.385,
+   0.39,
+   0.395,
+   0.4,
+   0.405,
+   0.41,
+   0.415,
+   0.42,
+   0.425,
+   0.43,
+   0.435,
+   0.44,
+   0.445,
+   0.45,
+   0.455,
+   0.46,
+   0.465,
+   0.47,
+   0.475,
+   0.48,
+   0.485,
+   0.49,
+   0.495,
+   0.5
+  ],
+  "power": [
+   0.0,
+   0.7101,
+   0.7166,
+   0.7274,
+   0.7427,
+   0.7623,
+   0.7861,
+   0.8139,
+   0.8451,
+   0.8787,
+   0.9131,
+   0.9459,
+   0.974,
+   0.9935,
+   1.0,
+   0.9896,
+   0.9598,
+   0.91,
+   0.8428,
+   0.7629,
+   0.6766,
+   0.5899,
+   0.508,
+   0.4339,
+   0.3691,
+   0.3137,
+   0.2669,
+   0.2277,
+   0.1949,
+   0.1676,
+   0.1447,
+   0.1255,
+   0.1092,
+   0.0955,
+   0.0839,
+   0.0739,
+   0.0654,
+   0.0581,
+   0.0518,
+   0.0463,
+   0.0416,
+   0.0374,
+   0.0338,
+   0.0306,
+   0.0278,
+   0.0253,
+   0.0231,
+   0.0211,
+   0.0193,
+   0.0178,
+   0.0164,
+   0.0151,
+   0.0139,
+   0.0129,
+   0.012,
+   0.0111,
+   0.0104,
+   0.0097,
+   0.009,
+   0.0084,
+   0.0079,
+   0.0074,
+   0.007,
+   0.0066,
+   0.0062,
+   0.0058,
+   0.0055,
+   0.0052,
+   0.005,
+   0.0047,
+   0.0045,
+   0.0043,
+   0.0041,
+   0.0039,
+   0.0037,
+   0.0036,
+   0.0034,
+   0.0033,
+   0.0032,
+   0.003,
+   0.0029,
+   0.0028,
+   0.0027,
+   0.0027,
+   0.0026,
+   0.0025,
+   0.0024,
+   0.0024,
+   0.0023,
+   0.0023,
+   0.0022,
+   0.0022,
+   0.0022,
+   0.0021,
+   0.0021,
+   0.0021,
+   0.0021,
+   0.0021,
+   0.0021,
+   0.002,
+   0.002
+  ],
+  "dominant_freq": 0.07,
+  "zeta": 0.49,
+  "oscillates": true
+ }
+};
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const $ = s => document.querySelector(s);
+let sel = 0, anim = null;
+
+// ---- header stats
+$('#stats').innerHTML = [
+  `<span class="stat">variante <b>${DATA.meta.variant}</b></span>`,
+  `<span class="stat"><b>${(DATA.n_params/1e6).toFixed(1)}M</b> parámetros</span>`,
+  `<span class="stat">ζ medio <b>${DATA.spectrum.zeta}</b> · subamortiguado</span>`,
+  `<span class="stat">f* <b>${DATA.spectrum.dominant_freq}</b> · ${DATA.spectrum.oscillates?'oscila':'no oscila'}</span>`,
+  `<span class="stat">presupuesto <b>${DATA.max_halt_steps}</b> iter</span>`,
+].join('');
+
+// ---- K chips
+$('#krow').innerHTML = DATA.sessions.map((s,i)=>
+  `<button class="kchip" role="button" aria-pressed="${i===0}" data-i="${i}" type="button">K=${s.K}<small>${s.correct?'✓':'✗'}</small></button>`).join('');
+$('#krow').addEventListener('click',e=>{
+  const b=e.target.closest('.kchip'); if(!b)return;
+  sel=+b.dataset.i;
+  document.querySelectorAll('.kchip').forEach(c=>c.setAttribute('aria-pressed', c===b));
+  renderAnswer(); stopAnim(); drawScope();
+});
+
+function renderAnswer(){
+  const s=DATA.sessions[sel];
+  const ops = s.ops.map(o=>`g${o}`).join(' · ');
+  $('#answer').innerHTML =
+    `<p class="opseq">aplica (K=${s.K}): <b>${ops}</b></p>`+
+    `<div class="perm">`+
+      `<div class="col"><span>verdadero</span><b>${s.true}</b></div>`+
+      `<div class="col"><span>predicho</span><b style="color:${s.correct?'var(--good)':'var(--bad)'}">${s.pred}</b></div>`+
+    `</div>`+
+    `<div class="verdict ${s.correct?'ok':'no'}">${s.correct?'✓ correcto':'✗ incorrecto'} · confianza ${(s.confidence*100).toFixed(0)}%</div>`+
+    `<div class="metrics">`+
+      `<div class="metric"><span>pensó</span><b>${s.n_iter}</b></div>`+
+      `<div class="metric"><span>ticks del campo</span><b>${s.trace.length}</b></div>`+
+    `</div>`;
+}
+
+// ---- canvas helpers
+function fit(cv){
+  const dpr=Math.min(devicePixelRatio||1,2), w=cv.clientWidth, h=cv.getAttribute('height')|0;
+  cv.width=w*dpr; cv.height=h*dpr; const x=cv.getContext('2d'); x.setTransform(dpr,0,0,dpr,0,0);
+  return {x,w,h};
+}
+const NORM={deviation:6.2, vei_var:0.62, mod:5.6};
+function haltN(v){return Math.max(0,Math.min(1,(v-0.44)/0.16));}
+
+function drawScope(upTo){
+  const cv=$('#scope'), {x,w,h}=fit(cv);
+  const s=DATA.sessions[sel], T=s.trace.length, n=upTo??T;
+  const padL=34, padR=12, padT=14, padB=26, gw=w-padL-padR, gh=h-padT-padB;
+  x.fillStyle=css('--scope'); x.fillRect(0,0,w,h);
+  // grid
+  x.strokeStyle=css('--grid'); x.lineWidth=1; x.font='10px '+css('--mono'); x.fillStyle=css('--muted');
+  for(let i=0;i<=4;i++){const yy=padT+gh*i/4; x.beginPath();x.moveTo(padL,yy);x.lineTo(w-padR,yy);x.stroke();}
+  for(let t=0;t<T;t++){const xx=padL+(T<=1?0:gw*t/(T-1));
+    if(t%Math.ceil(T/8)===0||t===T-1){x.strokeStyle=css('--grid');x.beginPath();x.moveTo(xx,padT);x.lineTo(xx,padT+gh);x.stroke();
+      x.textAlign='center';x.fillText(t+1,xx,h-9);}}
+  const X=t=>padL+(T<=1?gw/2:gw*t/(T-1)), Y=v=>padT+gh*(1-Math.max(0,Math.min(1,v)));
+  // halting reference (dashed)
+  x.setLineDash([4,4]); x.strokeStyle=css('--muted'); x.globalAlpha=.55; x.lineWidth=1.3; x.beginPath();
+  s.trace.slice(0,n).forEach((p,t)=>{const yy=Y(haltN(p.halt)); t?x.lineTo(X(t),yy):x.moveTo(X(t),yy);}); x.stroke();
+  x.setLineDash([]); x.globalAlpha=1;
+  // deviation — filled area (the arousal signal)
+  const dev=css('--accent');
+  x.beginPath(); s.trace.slice(0,n).forEach((p,t)=>{const yy=Y(p.deviation/NORM.deviation); t?x.lineTo(X(t),yy):x.moveTo(X(t),yy);});
+  const grad=x.createLinearGradient(0,padT,0,padT+gh); grad.addColorStop(0,dev+'44'); grad.addColorStop(1,dev+'05');
+  x.lineTo(X(n-1),padT+gh); x.lineTo(X(0),padT+gh); x.closePath(); x.fillStyle=grad; x.fill();
+  line(x,s.trace,n,X,Y,p=>p.deviation/NORM.deviation,dev,2.4);
+  line(x,s.trace,n,X,Y,p=>p.vei_var/NORM.vei_var,css('--rest'),2);
+  line(x,s.trace,n,X,Y,p=>p.mod/NORM.mod,css('--wave'),2);
+  // endpoint dots
+  if(n>0){const last=s.trace[n-1];
+    dot(x,X(n-1),Y(last.deviation/NORM.deviation),dev);
+    dot(x,X(n-1),Y(last.vei_var/NORM.vei_var),css('--rest'));
+    dot(x,X(n-1),Y(last.mod/NORM.mod),css('--wave'));}
+}
+function line(x,tr,n,X,Y,f,col,lw){x.strokeStyle=col;x.lineWidth=lw;x.lineJoin='round';x.beginPath();
+  tr.slice(0,n).forEach((p,t)=>{const yy=Y(f(p)); t?x.lineTo(X(t),yy):x.moveTo(X(t),yy);});x.stroke();}
+function dot(x,px,py,c){x.fillStyle=c;x.beginPath();x.arc(px,py,3.4,0,7);x.fill();}
+
+function drawSweep(){
+  const cv=$('#sweep'), {x,w,h}=fit(cv); const S=DATA.sweep;
+  const padL=32,padR=30,padT=14,padB=26,gw=w-padL-padR,gh=h-padT-padB;
+  x.fillStyle=css('--panel2');x.fillRect(0,0,w,h);
+  x.strokeStyle=css('--grid');x.lineWidth=1;x.font='10px '+css('--mono');x.fillStyle=css('--muted');x.textAlign='center';
+  for(let i=0;i<=4;i++){const yy=padT+gh*i/4;x.beginPath();x.moveTo(padL,yy);x.lineTo(w-padR,yy);x.stroke();}
+  const kmin=S[0].K,kmax=S[S.length-1].K, X=k=>padL+gw*(k-kmin)/(kmax-kmin);
+  S.forEach(p=>x.fillText(p.K,X(p.K),h-9));
+  // accuracy (teal, 0..1)
+  const Ya=v=>padT+gh*(1-v);
+  line2(x,S,X,p=>Ya(p.acc),css('--rest'),2.4);
+  // n_iter (accent, scaled to budget)
+  const Yn=v=>padT+gh*(1-v/DATA.max_halt_steps);
+  line2(x,S,X,p=>Yn(p.niter),css('--accent'),2.4);
+  S.forEach(p=>{dot(x,X(p.K),Ya(p.acc),css('--rest'));dot(x,X(p.K),Yn(p.niter),css('--accent'));});
+  x.textAlign='left';x.fillStyle=css('--rest');x.fillText('acierto',padL+2,padT+11);
+  x.fillStyle=css('--accent');x.fillText('E[iter]',padL+2,padT+25);
+  x.fillStyle=css('--muted');x.textAlign='center';x.fillText('profundidad de composición K',padL+gw/2,h-9+0);
+}
+function line2(x,S,X,fy,c,lw){x.strokeStyle=c;x.lineWidth=lw;x.lineJoin='round';x.beginPath();
+  S.forEach((p,i)=>{const yy=fy(p);i?x.lineTo(X(p.K),yy):x.moveTo(X(p.K),yy);});x.stroke();}
+
+function drawSpec(){
+  const cv=$('#spec'), {x,w,h}=fit(cv); const F=DATA.spectrum;
+  const padL=20,padR=14,padT=14,padB=26,gw=w-padL-padR,gh=h-padT-padB;
+  x.fillStyle=css('--panel2');x.fillRect(0,0,w,h);
+  x.strokeStyle=css('--grid');x.lineWidth=1;
+  for(let i=0;i<=4;i++){const yy=padT+gh*i/4;x.beginPath();x.moveTo(padL,yy);x.lineTo(w-padR,yy);x.stroke();}
+  const fmax=0.3, idx=F.freqs.map((f,i)=>i).filter(i=>F.freqs[i]<=fmax);
+  const X=i=>padL+gw*F.freqs[i]/fmax, Y=v=>padT+gh*(1-v);
+  const grad=x.createLinearGradient(0,padT,0,padT+gh);grad.addColorStop(0,css('--wave')+'55');grad.addColorStop(1,css('--wave')+'08');
+  x.beginPath();x.moveTo(X(idx[0]),padT+gh);
+  idx.forEach(i=>x.lineTo(X(i),Y(F.power[i])));
+  x.lineTo(X(idx[idx.length-1]),padT+gh);x.closePath();x.fillStyle=grad;x.fill();
+  x.strokeStyle=css('--wave');x.lineWidth=2;x.beginPath();idx.forEach((i,k)=>{const yy=Y(F.power[i]);k?x.lineTo(X(i),yy):x.moveTo(X(i),yy);});x.stroke();
+  // dominant peak
+  const di=F.freqs.indexOf(F.dominant_freq);
+  if(di>=0){x.strokeStyle=css('--accent');x.setLineDash([3,3]);x.beginPath();x.moveTo(X(di),padT);x.lineTo(X(di),padT+gh);x.stroke();x.setLineDash([]);
+    x.fillStyle=css('--accent');x.font='11px '+css('--mono');x.textAlign='center';x.fillText('f*='+F.dominant_freq,X(di),padT+11);}
+  x.fillStyle=css('--muted');x.font='10px '+css('--mono');x.textAlign='center';x.fillText('frecuencia (1/tick)',padL+gw/2,h-9);
+}
+
+// ---- animation
+function stopAnim(){if(anim){cancelAnimationFrame(anim);anim=null;$('#play').textContent='▶ animar';}}
+$('#play').addEventListener('click',()=>{
+  if(anim){stopAnim();return;}
+  const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const T=DATA.sessions[sel].trace.length; if(reduce){drawScope();return;}
+  let k=1,last=0;$('#play').textContent='⏸ pausar';
+  const step=ts=>{if(ts-last>230){drawScope(k);k++;last=ts;} if(k<=T){anim=requestAnimationFrame(step);}else{stopAnim();}};
+  anim=requestAnimationFrame(step);
+});
+
+function redraw(){drawScope();drawSweep();drawSpec();}
+renderAnswer(); redraw();
+addEventListener('resize',()=>{stopAnim();redraw();});
+new MutationObserver(redraw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+matchMedia('(prefers-color-scheme:dark)').addEventListener('change',redraw);
+</script>

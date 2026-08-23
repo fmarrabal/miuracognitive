@@ -1,0 +1,122 @@
+{
+ "seeds": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "payoff_por_seed": {
+  "endo": [
+   0.7953851819038391,
+   0.778293251991272,
+   0.7942864000797272,
+   0.7458796203136444,
+   0.7864729464054108,
+   0.786045640707016
+  ],
+  "endo_noval": [
+   0.7816506028175354,
+   0.7837260365486145,
+   0.7920278310775757,
+   0.7343425750732422,
+   0.8020388185977936,
+   0.7924551367759705
+  ],
+  "blind_flat": [
+   0.923879861831665,
+   0.9344402253627777,
+   0.920705646276474,
+   0.9254669547080994,
+   0.9279696941375732,
+   0.9333414435386658
+  ]
+ },
+ "C1p": {
+  "diffs": [
+   0.013734579086303711,
+   -0.005432784557342529,
+   0.0022585690021514893,
+   0.011537045240402222,
+   -0.015565872192382812,
+   -0.006409496068954468
+  ],
+  "delta": 2.034008502960205e-05,
+  "sd": 0.011311356171513503,
+  "t": 0.004404673400066882,
+  "p_unilateral": 0.4983278709383867,
+  "wilcoxon_p": 0.578125,
+  "pasa": false
+ },
+ "C3": "NO_TESTEADO (gatekeeping: C1' no pas\u00f3)",
+ "suelo_blind": {
+  "delta_endo_menos_blind": -0.14657346407572427,
+  "sd": 0.019702271292159568,
+  "nota": "NEGATIVO GRANDE = rama no declarada"
+ },
+ "descriptivos": {
+  "acc": {
+   "endo": 0.7757975260416666,
+   "endo_noval": 0.77618408203125,
+   "blind_flat": 0.9239298502604166
+  },
+  "acc_alto": {
+   "endo": 0.7863247990608215,
+   "endo_noval": 0.7858974486589432,
+   "blind_flat": 0.931339035431544
+  },
+  "acc_bajo": {
+   "endo": 0.774043470621109,
+   "endo_noval": 0.7745656470457712,
+   "blind_flat": 0.9226953337589899
+  },
+  "E_n": {
+   "endo": 8.020921150843302,
+   "endo_noval": 8.08547560373942,
+   "blind_flat": 5.468918879826863
+  },
+  "E_n_alto": {
+   "endo": 7.9655464092890425,
+   "endo_noval": 8.037777225176493,
+   "blind_flat": 5.412149588267009
+  },
+  "E_n_bajo": {
+   "endo": 8.030147870381674,
+   "endo_noval": 8.093422929445902,
+   "blind_flat": 5.47837769985199
+  },
+  "corr_n_stake_dado_K": {
+   "endo": -0.00968968936043843,
+   "endo_noval": -0.007051885684655893,
+   "blind_flat": -0.009097182315799002
+  }
+ },
+ "auc_vhat": {
+  "endo": [
+   0.9795550978974505,
+   0.9184447170918262,
+   0.9364360361939399,
+   0.9466140603281019,
+   0.9596066818083338,
+   0.9623627329978797
+  ],
+  "endo_noval": [
+   0.9288958754780459,
+   0.9197485558208999,
+   0.9170969383159642,
+   0.8471710399793567,
+   0.9059799847609589,
+   0.9474181266690522
+  ],
+  "blind_flat": [
+   0.5597443443925927,
+   0.6341136647459633,
+   0.5716753451302012,
+   0.5943518173652038,
+   0.5477628308588149,
+   0.5781334365498421
+  ]
+ },
+ "rama": "C1' NULO + rama NO DECLARADA (blind_flat domina a los brazos ponderados incluso en acc_alto): (1) el acoplamiento valor\u2192gobierno no a\u00f1ade NADA sobre las consecuencias-en-la-p\u00e9rdida (canal vivo AUC~0.94, gobernador sordo corr|K~0, endo\u2261endo_noval); (2) las consecuencias-en-la-p\u00e9rdida DA\u00d1AN (ESS 0.40): la respuesta racional al pago 8\u00d7 es competencia general, no \u00e9nfasis de gradiente; (3) ning\u00fan brazo enruta c\u00f3mputo por valor. Etapa 2 NO corre (gatekeeping). Guardarra\u00edl M: sin objeto (nada se adopta) \u2014 celdas ood omitidas, desviaci\u00f3n declarada (ahorro sobre presupuesto)."
+}

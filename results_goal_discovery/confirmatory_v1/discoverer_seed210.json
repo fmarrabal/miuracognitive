@@ -1,0 +1,681 @@
+{
+  "variant": "discoverer",
+  "design": {
+    "external_goal_supplied": false,
+    "center_visible_to_policy": false,
+    "goal_catalog_exists": false,
+    "goal_space": "continuous_2d_with_episode_specific_bounds",
+    "probe_coordinates_chosen_by_agent": true,
+    "training_center_supervision": false,
+    "primary_mechanism_intervention": "feedback_lesion"
+  },
+  "conditions": {
+    "normal": {
+      "goal_success_rate": 1.0,
+      "mean_target_center_distance": 0.11365714371204376,
+      "mean_target_response": 0.9832519829273224,
+      "dominant_restored_rate": 1.0,
+      "mean_homeostatic_improvement": 0.08507207483053207,
+      "mean_final_absolute_error": 0.11479237228631974,
+      "feasible_goal_rate": 1.0,
+      "continuous_unique_goal_fraction": 1.0,
+      "mean_normalized_probe_distance": 0.3334319770336151,
+      "n_episodes": 1280
+    },
+    "feedback_lesion": {
+      "goal_success_rate": 0.13671875,
+      "mean_target_center_distance": 0.5911226391792297,
+      "mean_target_response": 0.629086184501648,
+      "dominant_restored_rate": 0.26953125,
+      "mean_homeostatic_improvement": 0.03288268055766821,
+      "mean_final_absolute_error": 0.16698176711797713,
+      "feasible_goal_rate": 1.0,
+      "continuous_unique_goal_fraction": 1.0,
+      "mean_normalized_probe_distance": 0.4192887365818024,
+      "n_episodes": 1280
+    },
+    "outcome_shuffle": {
+      "goal_success_rate": 0.0984375,
+      "mean_target_center_distance": 0.758243876695633,
+      "mean_target_response": 0.5042200922966004,
+      "dominant_restored_rate": 0.19140625,
+      "mean_homeostatic_improvement": 0.03375094179064035,
+      "mean_final_absolute_error": 0.1661135047674179,
+      "feasible_goal_rate": 0.98359375,
+      "continuous_unique_goal_fraction": 0.9953125,
+      "mean_normalized_probe_distance": 0.33975195288658144,
+      "n_episodes": 1280
+    },
+    "goal_reflection": {
+      "goal_success_rate": 0.03984375,
+      "mean_target_center_distance": 1.06804279088974,
+      "mean_target_response": 0.3027543067932129,
+      "dominant_restored_rate": 0.078125,
+      "mean_homeostatic_improvement": -0.00039750199066475035,
+      "mean_final_absolute_error": 0.200261951982975,
+      "feasible_goal_rate": 1.0,
+      "continuous_unique_goal_fraction": 1.0,
+      "mean_normalized_probe_distance": 0.3334319770336151,
+      "n_episodes": 1280
+    }
+  },
+  "causal_effects": {
+    "feedback_on_goal_success": 0.86328125,
+    "valid_outcomes_on_goal_success": 0.9015625,
+    "goal_content_on_success": 0.96015625,
+    "feedback_on_homeostatic_improvement": 0.052189394272863864,
+    "body_transplant_switch_rate": 0.98984375,
+    "body_transplant_new_goal_success": 1.0,
+    "body_transplant_goal_shift": 0.7385002434253692
+  },
+  "records": [
+    {
+      "batch": 0,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.11428376287221909,
+        "mean_target_response": 0.9830495119094849,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08914881944656372,
+        "mean_final_absolute_error": 0.11369667947292328,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33514153957366943,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.1328125,
+        "mean_target_center_distance": 0.6077309250831604,
+        "mean_target_response": 0.6146174669265747,
+        "dominant_restored_rate": 0.2265625,
+        "mean_homeostatic_improvement": 0.03511761873960495,
+        "mean_final_absolute_error": 0.16772788763046265,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.41916176676750183,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.0859375,
+        "mean_target_center_distance": 0.7814000844955444,
+        "mean_target_response": 0.48305997252464294,
+        "dominant_restored_rate": 0.1328125,
+        "mean_homeostatic_improvement": 0.032808817923069,
+        "mean_final_absolute_error": 0.1700366884469986,
+        "feasible_goal_rate": 0.9921875,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3424084186553955,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.0390625,
+        "mean_target_center_distance": 1.0658531188964844,
+        "mean_target_response": 0.30697232484817505,
+        "dominant_restored_rate": 0.0703125,
+        "mean_homeostatic_improvement": 0.006082889158278704,
+        "mean_final_absolute_error": 0.19676260650157928,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33514153957366943,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 1.0,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.7517014741897583
+    },
+    {
+      "batch": 1,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.11352464556694031,
+        "mean_target_response": 0.983264148235321,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08570898324251175,
+        "mean_final_absolute_error": 0.11398105323314667,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3290064036846161,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.1015625,
+        "mean_target_center_distance": 0.6097480058670044,
+        "mean_target_response": 0.6159876585006714,
+        "dominant_restored_rate": 0.2421875,
+        "mean_homeostatic_improvement": 0.03636103495955467,
+        "mean_final_absolute_error": 0.16332900524139404,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.41942426562309265,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.1015625,
+        "mean_target_center_distance": 0.7465576529502869,
+        "mean_target_response": 0.5163400173187256,
+        "dominant_restored_rate": 0.203125,
+        "mean_homeostatic_improvement": 0.03187306225299835,
+        "mean_final_absolute_error": 0.16781698167324066,
+        "feasible_goal_rate": 0.984375,
+        "continuous_unique_goal_fraction": 0.9921875,
+        "mean_normalized_probe_distance": 0.33463358879089355,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.03125,
+        "mean_target_center_distance": 1.089728832244873,
+        "mean_target_response": 0.2886520028114319,
+        "dominant_restored_rate": 0.078125,
+        "mean_homeostatic_improvement": 0.0011411146260797977,
+        "mean_final_absolute_error": 0.19854894280433655,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3290064036846161,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 1.0,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.7490666508674622
+    },
+    {
+      "batch": 2,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.1128983199596405,
+        "mean_target_response": 0.9834529757499695,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08492743223905563,
+        "mean_final_absolute_error": 0.11443915963172913,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33610332012176514,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.140625,
+        "mean_target_center_distance": 0.6067798137664795,
+        "mean_target_response": 0.6168013215065002,
+        "dominant_restored_rate": 0.203125,
+        "mean_homeostatic_improvement": 0.027007870376110077,
+        "mean_final_absolute_error": 0.1723587065935135,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.41957172751426697,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.0625,
+        "mean_target_center_distance": 0.782808780670166,
+        "mean_target_response": 0.4875320792198181,
+        "dominant_restored_rate": 0.1640625,
+        "mean_homeostatic_improvement": 0.031243575736880302,
+        "mean_final_absolute_error": 0.1681230068206787,
+        "feasible_goal_rate": 0.984375,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.34182968735694885,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.0390625,
+        "mean_target_center_distance": 1.109224557876587,
+        "mean_target_response": 0.2753426730632782,
+        "dominant_restored_rate": 0.0546875,
+        "mean_homeostatic_improvement": -0.008836657740175724,
+        "mean_final_absolute_error": 0.2082032412290573,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33610332012176514,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 0.9921875,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.7397130727767944
+    },
+    {
+      "batch": 3,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.11415760219097137,
+        "mean_target_response": 0.9831204414367676,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08628803491592407,
+        "mean_final_absolute_error": 0.11300821602344513,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33685335516929626,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.1328125,
+        "mean_target_center_distance": 0.600939154624939,
+        "mean_target_response": 0.622052013874054,
+        "dominant_restored_rate": 0.2890625,
+        "mean_homeostatic_improvement": 0.03292786329984665,
+        "mean_final_absolute_error": 0.16636839509010315,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.4190715551376343,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.1015625,
+        "mean_target_center_distance": 0.7783873081207275,
+        "mean_target_response": 0.48827633261680603,
+        "dominant_restored_rate": 0.1796875,
+        "mean_homeostatic_improvement": 0.03147429600358009,
+        "mean_final_absolute_error": 0.1678219437599182,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 0.9921875,
+        "mean_normalized_probe_distance": 0.3423518240451813,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.046875,
+        "mean_target_center_distance": 1.111776351928711,
+        "mean_target_response": 0.28560584783554077,
+        "dominant_restored_rate": 0.0703125,
+        "mean_homeostatic_improvement": -0.0017147285398095846,
+        "mean_final_absolute_error": 0.20101098716259003,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33685335516929626,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 0.9765625,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.7349758148193359
+    },
+    {
+      "batch": 4,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.1148998960852623,
+        "mean_target_response": 0.9829015135765076,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08624819666147232,
+        "mean_final_absolute_error": 0.1136474534869194,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33304643630981445,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.1875,
+        "mean_target_center_distance": 0.5844570398330688,
+        "mean_target_response": 0.6310580968856812,
+        "dominant_restored_rate": 0.2890625,
+        "mean_homeostatic_improvement": 0.03234922140836716,
+        "mean_final_absolute_error": 0.16754642128944397,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.419523149728775,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.1484375,
+        "mean_target_center_distance": 0.7583619356155396,
+        "mean_target_response": 0.5080746412277222,
+        "dominant_restored_rate": 0.21875,
+        "mean_homeostatic_improvement": 0.033636342734098434,
+        "mean_final_absolute_error": 0.1662592887878418,
+        "feasible_goal_rate": 0.9921875,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33964625000953674,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.0234375,
+        "mean_target_center_distance": 1.0669705867767334,
+        "mean_target_response": 0.31174513697624207,
+        "dominant_restored_rate": 0.078125,
+        "mean_homeostatic_improvement": 0.00045708019752055407,
+        "mean_final_absolute_error": 0.19943854212760925,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33304643630981445,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 0.984375,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.7505462169647217
+    },
+    {
+      "batch": 5,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.11374730616807938,
+        "mean_target_response": 0.9832390546798706,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08568140864372253,
+        "mean_final_absolute_error": 0.1132456436753273,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3323238790035248,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.09375,
+        "mean_target_center_distance": 0.6117952466011047,
+        "mean_target_response": 0.6134968996047974,
+        "dominant_restored_rate": 0.25,
+        "mean_homeostatic_improvement": 0.030437303707003593,
+        "mean_final_absolute_error": 0.1684897392988205,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.4188956916332245,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.046875,
+        "mean_target_center_distance": 0.7807437181472778,
+        "mean_target_response": 0.48360490798950195,
+        "dominant_restored_rate": 0.15625,
+        "mean_homeostatic_improvement": 0.03650299459695816,
+        "mean_final_absolute_error": 0.16242405772209167,
+        "feasible_goal_rate": 0.9609375,
+        "continuous_unique_goal_fraction": 0.9921875,
+        "mean_normalized_probe_distance": 0.3401142358779907,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.0390625,
+        "mean_target_center_distance": 1.054263949394226,
+        "mean_target_response": 0.30758610367774963,
+        "dominant_restored_rate": 0.078125,
+        "mean_homeostatic_improvement": 0.0022580658551305532,
+        "mean_final_absolute_error": 0.19666898250579834,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3323238790035248,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 0.9921875,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.736599326133728
+    },
+    {
+      "batch": 6,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.11224916577339172,
+        "mean_target_response": 0.9836704134941101,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08387148380279541,
+        "mean_final_absolute_error": 0.1168995350599289,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33319440484046936,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.1328125,
+        "mean_target_center_distance": 0.5799528360366821,
+        "mean_target_response": 0.6400666236877441,
+        "dominant_restored_rate": 0.3046875,
+        "mean_homeostatic_improvement": 0.03386693820357323,
+        "mean_final_absolute_error": 0.16690409183502197,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.4188084900379181,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.0859375,
+        "mean_target_center_distance": 0.7235140800476074,
+        "mean_target_response": 0.5316253900527954,
+        "dominant_restored_rate": 0.234375,
+        "mean_homeostatic_improvement": 0.040364086627960205,
+        "mean_final_absolute_error": 0.1604069322347641,
+        "feasible_goal_rate": 0.96875,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33843788504600525,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.0390625,
+        "mean_target_center_distance": 1.0550893545150757,
+        "mean_target_response": 0.3050565719604492,
+        "dominant_restored_rate": 0.0859375,
+        "mean_homeostatic_improvement": -0.0015574820572510362,
+        "mean_final_absolute_error": 0.20232853293418884,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33319440484046936,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 0.984375,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.6863846778869629
+    },
+    {
+      "batch": 7,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.11391712725162506,
+        "mean_target_response": 0.9831789135932922,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.07773265242576599,
+        "mean_final_absolute_error": 0.11992520093917847,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3334958851337433,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.1484375,
+        "mean_target_center_distance": 0.5448619723320007,
+        "mean_target_response": 0.6688641309738159,
+        "dominant_restored_rate": 0.3359375,
+        "mean_homeostatic_improvement": 0.03618111088871956,
+        "mean_final_absolute_error": 0.1614767611026764,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.419315367937088,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.125,
+        "mean_target_center_distance": 0.7498779296875,
+        "mean_target_response": 0.5120491981506348,
+        "dominant_restored_rate": 0.2265625,
+        "mean_homeostatic_improvement": 0.03298252820968628,
+        "mean_final_absolute_error": 0.16467532515525818,
+        "feasible_goal_rate": 0.9765625,
+        "continuous_unique_goal_fraction": 0.9765625,
+        "mean_normalized_probe_distance": 0.33960792422294617,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.0546875,
+        "mean_target_center_distance": 1.0205272436141968,
+        "mean_target_response": 0.3166213929653168,
+        "dominant_restored_rate": 0.1015625,
+        "mean_homeostatic_improvement": 0.0022728843614459038,
+        "mean_final_absolute_error": 0.19538497924804688,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3334958851337433,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 0.9921875,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.7256425619125366
+    },
+    {
+      "batch": 8,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.11335638910531998,
+        "mean_target_response": 0.983351469039917,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08447962254285812,
+        "mean_final_absolute_error": 0.11543773114681244,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33146414160728455,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.171875,
+        "mean_target_center_distance": 0.5646659731864929,
+        "mean_target_response": 0.6487021446228027,
+        "dominant_restored_rate": 0.2890625,
+        "mean_homeostatic_improvement": 0.03350166231393814,
+        "mean_final_absolute_error": 0.16641569137573242,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.41946136951446533,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.1328125,
+        "mean_target_center_distance": 0.7012642621994019,
+        "mean_target_response": 0.5423548817634583,
+        "dominant_restored_rate": 0.2265625,
+        "mean_homeostatic_improvement": 0.0344012975692749,
+        "mean_final_absolute_error": 0.16551606357097626,
+        "feasible_goal_rate": 0.984375,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3379376232624054,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.0546875,
+        "mean_target_center_distance": 1.0131101608276367,
+        "mean_target_response": 0.33655357360839844,
+        "dominant_restored_rate": 0.09375,
+        "mean_homeostatic_improvement": -0.001878339913673699,
+        "mean_final_absolute_error": 0.20179569721221924,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33146414160728455,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 0.984375,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.7508608102798462
+    },
+    {
+      "batch": 9,
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.11353722214698792,
+        "mean_target_response": 0.9832913875579834,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08663411438465118,
+        "mean_final_absolute_error": 0.11364305019378662,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3336904048919678,
+        "n_episodes": 128
+      },
+      "feedback_lesion": {
+        "goal_success_rate": 0.125,
+        "mean_target_center_distance": 0.6002954244613647,
+        "mean_target_response": 0.6192154884338379,
+        "dominant_restored_rate": 0.265625,
+        "mean_homeostatic_improvement": 0.031076181679964066,
+        "mean_final_absolute_error": 0.16920097172260284,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.419653981924057,
+        "n_episodes": 128
+      },
+      "outcome_shuffle": {
+        "goal_success_rate": 0.09375,
+        "mean_target_center_distance": 0.7795230150222778,
+        "mean_target_response": 0.4892835021018982,
+        "dominant_restored_rate": 0.171875,
+        "mean_homeostatic_improvement": 0.03222241625189781,
+        "mean_final_absolute_error": 0.1680547595024109,
+        "feasible_goal_rate": 0.9921875,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.34055209159851074,
+        "n_episodes": 128
+      },
+      "goal_reflection": {
+        "goal_success_rate": 0.03125,
+        "mean_target_center_distance": 1.093883752822876,
+        "mean_target_response": 0.2934074401855469,
+        "dominant_restored_rate": 0.0703125,
+        "mean_homeostatic_improvement": -0.002199845854192972,
+        "mean_final_absolute_error": 0.20247700810432434,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.3336904048919678,
+        "n_episodes": 128
+      },
+      "body_transplant_switch_rate": 0.9921875,
+      "body_transplant_new_goal_success": 1.0,
+      "body_transplant_goal_shift": 0.7595118284225464
+    }
+  ],
+  "training": {
+    "seed": 210,
+    "steps": 400,
+    "batch_size": 128,
+    "lr": 0.002,
+    "trace": {
+      "step": [
+        1,
+        200,
+        400
+      ],
+      "total": [
+        0.010433223098516464,
+        0.00674986420199275,
+        0.00448107672855258
+      ],
+      "homeostatic": [
+        0.0035421866923570633,
+        0.0032265097834169865,
+        0.0026724720373749733
+      ],
+      "response_prediction": [
+        0.13782072067260742,
+        0.07046324759721756,
+        0.03616709262132645
+      ],
+      "probe_diversity": [
+        0.0,
+        1.922242336149793e-05,
+        2.5005199859151617e-05
+      ]
+    },
+    "elapsed_s": 14.475812911987305
+  },
+  "model_config": {
+    "n_needs": 3,
+    "goal_dim": 2,
+    "n_probes": 4,
+    "d_model": 96,
+    "variant": "discoverer",
+    "beta_response_prediction": 0.05,
+    "beta_probe_diversity": 0.01,
+    "min_probe_distance": 0.22,
+    "urgency_temperature": 12.0,
+    "probe_residual_scale": 0.25,
+    "goal_residual_scale": 0.05
+  },
+  "environment_config": {
+    "n_needs": 3,
+    "goal_dim": 2,
+    "n_probes": 4,
+    "response_sigma": 0.62,
+    "restoration_scale": 0.46,
+    "setpoint": 0.75,
+    "dominant_min": 0.28,
+    "dominant_max": 0.38,
+    "secondary_min": 0.54,
+    "secondary_max": 0.64,
+    "other_min": 0.72,
+    "other_max": 0.8
+  },
+  "provenance": {
+    "checkpoint": "E:\\ARTICULOS-CIENTIFICOS\\MIURACOGNITIVE\\miuracognitive\\results_goal_discovery\\confirmatory_v1\\checkpoints\\discoverer_seed210.pt",
+    "torch": "2.11.0+cu128",
+    "python": "3.12.13",
+    "device": "cuda:0",
+    "device_name": "NVIDIA RTX PRO 5000 Blackwell"
+  }
+}

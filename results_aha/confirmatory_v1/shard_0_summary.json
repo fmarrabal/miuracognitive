@@ -1,0 +1,273 @@
+{
+  "design": {
+    "phase": "AHA-1 anticipation",
+    "roadmap": [
+      "self_regulation",
+      "anticipation",
+      "endogenous_goals",
+      "discovered_goals",
+      "self_model",
+      "metacognition"
+    ],
+    "variants": [
+      "gating_wm",
+      "reactive"
+    ],
+    "seeds": [
+      100,
+      104,
+      108,
+      112,
+      116
+    ],
+    "predictor_steps": 600,
+    "controller_steps": 1600,
+    "environment": {
+      "n_needs": 3,
+      "horizon": 48,
+      "n_events": 5,
+      "cue_lead": 6,
+      "action_delay": 3,
+      "prediction_horizon": 4,
+      "action_effect": 0.2,
+      "action_cost": 0.04,
+      "basal_drain": 0.0015,
+      "hazard_min": 0.3,
+      "hazard_max": 0.38,
+      "viability_threshold": 0.45,
+      "initial_min": 0.68,
+      "initial_max": 0.82,
+      "setpoint_min": 0.7,
+      "setpoint_max": 0.8
+    },
+    "external_goal_supplied": false,
+    "reuse_paired_predictor": true,
+    "primary_claim_if_positive": "causal anticipatory self-regulation; not consciousness"
+  },
+  "summary": {
+    "reactive": {
+      "n_seeds": 5,
+      "seeds": [
+        100,
+        104,
+        108,
+        112,
+        116
+      ],
+      "normal": {
+        "survival_rate": 0.23729166597127915,
+        "violation_rate": 0.02366030093282461,
+        "mean_homeostatic_deficit": 0.04610935725271702,
+        "mean_absolute_homeostatic_error": 0.09803919285535813,
+        "anticipatory_event_rate": 0.17608333333333334,
+        "blank_initiative_rate": 0.163125,
+        "action_rate": 0.22072916567325593,
+        "false_action_fraction": 0.9170105105056061,
+        "prediction_mse": 0.0023413938703015446,
+        "prediction_event_contrast": 0.28943467885255814,
+        "prediction_target_correlation": 0.9453750252723694
+      },
+      "causal": {
+        "prediction_on_survival": 0.0,
+        "prediction_on_violation_rate": 0.0,
+        "prediction_on_blank_initiative": 0.0,
+        "valid_cue_on_survival": 0.0,
+        "valid_cue_on_blank_initiative": 0.015958333333333335
+      },
+      "need_transplant": {
+        "mean_target_probability_effect": 0.0458215186993281,
+        "mean_goal_flip_rate": 0.0
+      }
+    },
+    "gating_wm": {
+      "n_seeds": 5,
+      "seeds": [
+        100,
+        104,
+        108,
+        112,
+        116
+      ],
+      "normal": {
+        "survival_rate": 0.9541666638851166,
+        "violation_rate": 0.0006134259249665774,
+        "mean_homeostatic_deficit": 0.02944692946970463,
+        "mean_absolute_homeostatic_error": 0.05571937225759029,
+        "anticipatory_event_rate": 0.9645416666666666,
+        "blank_initiative_rate": 0.8909166666666667,
+        "action_rate": 0.20125434041023255,
+        "false_action_fraction": 0.4242746679906363,
+        "prediction_mse": 0.0023413938703015446,
+        "prediction_event_contrast": 0.28943467885255814,
+        "prediction_target_correlation": 0.9453750252723694
+      },
+      "causal": {
+        "prediction_on_survival": 0.9539583305455744,
+        "prediction_on_violation_rate": 0.1563744214628241,
+        "prediction_on_blank_initiative": 0.843625,
+        "valid_cue_on_survival": 0.8529166632890701,
+        "valid_cue_on_blank_initiative": 0.7086666666666667
+      },
+      "need_transplant": {
+        "mean_target_probability_effect": 0.1907848616441091,
+        "mean_goal_flip_rate": 0.0
+      }
+    }
+  },
+  "paired_architecture_contrasts": {
+    "gating_wm_minus_reactive": {
+      "per_seed_differences": {
+        "survival_rate": [
+          0.6854166656732559,
+          0.7312499940395356,
+          0.7312500014901162,
+          0.739583320915699,
+          0.6968750074505806
+        ],
+        "blank_initiative_rate": [
+          0.7235416666666666,
+          0.7239583333333333,
+          0.725625,
+          0.7497916666666666,
+          0.7160416666666667
+        ],
+        "violation_reduction": [
+          0.022945601661922412,
+          0.02365451393998228,
+          0.022395833388145547,
+          0.02303240736655425,
+          0.02320601868268568
+        ]
+      },
+      "mean_differences": {
+        "survival_rate": 0.7168749979138375,
+        "blank_initiative_rate": 0.7277916666666666,
+        "violation_reduction": 0.023046875007858035
+      },
+      "seed_level_exact_signflip": {
+        "survival_rate": {
+          "differences": [
+            0.6854166656732559,
+            0.7312499940395356,
+            0.7312500014901162,
+            0.739583320915699,
+            0.6968750074505806
+          ],
+          "nonzero_seeds": 5,
+          "observed_sum": 3.5843749895691874,
+          "p_exact_two_sided": 0.0625
+        },
+        "blank_initiative_rate": {
+          "differences": [
+            0.7235416666666666,
+            0.7239583333333333,
+            0.725625,
+            0.7497916666666666,
+            0.7160416666666667
+          ],
+          "nonzero_seeds": 5,
+          "observed_sum": 3.638958333333333,
+          "p_exact_two_sided": 0.0625
+        },
+        "violation_reduction": {
+          "differences": [
+            0.022945601661922412,
+            0.02365451393998228,
+            0.022395833388145547,
+            0.02303240736655425,
+            0.02320601868268568
+          ],
+          "nonzero_seeds": 5,
+          "observed_sum": 0.11523437503929017,
+          "p_exact_two_sided": 0.0625
+        }
+      },
+      "holm_adjusted_p": {
+        "survival_rate": 0.1875,
+        "blank_initiative_rate": 0.1875,
+        "violation_reduction": 0.1875
+      }
+    }
+  },
+  "confirmatory_primary_family": {
+    "status": "fail",
+    "decision_rule": "all four effects must be positive and Holm-adjusted two-sided exact sign-flip p < 0.05",
+    "alpha_familywise": 0.05,
+    "n_paired_seeds": 5,
+    "seeds": [
+      100,
+      104,
+      108,
+      112,
+      116
+    ],
+    "mean_effects": {
+      "gating_minus_reactive_survival": 0.7168749979138375,
+      "gating_minus_reactive_blank_initiative": 0.7277916666666666,
+      "prediction_lesion_on_gating_survival": 0.9539583305455744,
+      "valid_cue_on_gating_survival": 0.8529166632890701
+    },
+    "seed_level_exact_signflip": {
+      "gating_minus_reactive_survival": {
+        "differences": [
+          0.6854166656732559,
+          0.7312499940395356,
+          0.7312500014901162,
+          0.739583320915699,
+          0.6968750074505806
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 3.5843749895691874,
+        "p_exact_two_sided": 0.0625
+      },
+      "gating_minus_reactive_blank_initiative": {
+        "differences": [
+          0.7235416666666666,
+          0.7239583333333333,
+          0.725625,
+          0.7497916666666666,
+          0.7160416666666667
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 3.638958333333333,
+        "p_exact_two_sided": 0.0625
+      },
+      "prediction_lesion_on_gating_survival": {
+        "differences": [
+          0.9333333313465119,
+          0.9489583253860474,
+          0.9854166686534882,
+          0.9760416567325592,
+          0.9260416706092656
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.769791652727872,
+        "p_exact_two_sided": 0.0625
+      },
+      "valid_cue_on_gating_survival": {
+        "differences": [
+          0.8249999977648258,
+          0.8562499918043613,
+          0.882291667163372,
+          0.8916666567325592,
+          0.8093750029802322
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.264583316445351,
+        "p_exact_two_sided": 0.0625
+      }
+    },
+    "holm_adjusted_p": {
+      "gating_minus_reactive_survival": 0.25,
+      "gating_minus_reactive_blank_initiative": 0.25,
+      "prediction_lesion_on_gating_survival": 0.25,
+      "valid_cue_on_gating_survival": 0.25
+    },
+    "criterion_passed": {
+      "gating_minus_reactive_survival": false,
+      "gating_minus_reactive_blank_initiative": false,
+      "prediction_lesion_on_gating_survival": false,
+      "valid_cue_on_gating_survival": false
+    }
+  }
+}

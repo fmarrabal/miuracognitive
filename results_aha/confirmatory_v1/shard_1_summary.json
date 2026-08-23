@@ -1,0 +1,273 @@
+{
+  "design": {
+    "phase": "AHA-1 anticipation",
+    "roadmap": [
+      "self_regulation",
+      "anticipation",
+      "endogenous_goals",
+      "discovered_goals",
+      "self_model",
+      "metacognition"
+    ],
+    "variants": [
+      "gating_wm",
+      "reactive"
+    ],
+    "seeds": [
+      101,
+      105,
+      109,
+      113,
+      117
+    ],
+    "predictor_steps": 600,
+    "controller_steps": 1600,
+    "environment": {
+      "n_needs": 3,
+      "horizon": 48,
+      "n_events": 5,
+      "cue_lead": 6,
+      "action_delay": 3,
+      "prediction_horizon": 4,
+      "action_effect": 0.2,
+      "action_cost": 0.04,
+      "basal_drain": 0.0015,
+      "hazard_min": 0.3,
+      "hazard_max": 0.38,
+      "viability_threshold": 0.45,
+      "initial_min": 0.68,
+      "initial_max": 0.82,
+      "setpoint_min": 0.7,
+      "setpoint_max": 0.8
+    },
+    "external_goal_supplied": false,
+    "reuse_paired_predictor": true,
+    "primary_claim_if_positive": "causal anticipatory self-regulation; not consciousness"
+  },
+  "summary": {
+    "reactive": {
+      "n_seeds": 5,
+      "seeds": [
+        101,
+        105,
+        109,
+        113,
+        117
+      ],
+      "normal": {
+        "survival_rate": 0.2237499997019768,
+        "violation_rate": 0.02468894675374031,
+        "mean_homeostatic_deficit": 0.04613328658044338,
+        "mean_absolute_homeostatic_error": 0.0984325036406517,
+        "anticipatory_event_rate": 0.17358333333333334,
+        "blank_initiative_rate": 0.160875,
+        "action_rate": 0.2206553825736046,
+        "false_action_fraction": 0.918017448867168,
+        "prediction_mse": 0.0022625874495133757,
+        "prediction_event_contrast": 0.2918354894965887,
+        "prediction_target_correlation": 0.9465051865577698
+      },
+      "causal": {
+        "prediction_on_survival": 0.0,
+        "prediction_on_violation_rate": 0.0,
+        "prediction_on_blank_initiative": 0.0,
+        "valid_cue_on_survival": 0.0,
+        "valid_cue_on_blank_initiative": 0.01775
+      },
+      "need_transplant": {
+        "mean_target_probability_effect": 0.045250759522120154,
+        "mean_goal_flip_rate": 0.0
+      }
+    },
+    "gating_wm": {
+      "n_seeds": 5,
+      "seeds": [
+        101,
+        105,
+        109,
+        113,
+        117
+      ],
+      "normal": {
+        "survival_rate": 0.9670833337306977,
+        "violation_rate": 0.0004021990729961544,
+        "mean_homeostatic_deficit": 0.02955917239189148,
+        "mean_absolute_homeostatic_error": 0.055598683282732965,
+        "anticipatory_event_rate": 0.9701666666666666,
+        "blank_initiative_rate": 0.8945,
+        "action_rate": 0.20078992933034898,
+        "false_action_fraction": 0.4163326746796304,
+        "prediction_mse": 0.0022625874495133757,
+        "prediction_event_contrast": 0.2918354894965887,
+        "prediction_target_correlation": 0.9465051865577698
+      },
+      "causal": {
+        "prediction_on_survival": 0.9670833337306977,
+        "prediction_on_violation_rate": 0.17218460674746894,
+        "prediction_on_blank_initiative": 0.8497083333333334,
+        "valid_cue_on_survival": 0.856666666790843,
+        "valid_cue_on_blank_initiative": 0.7196666666666667
+      },
+      "need_transplant": {
+        "mean_target_probability_effect": 0.18191796044508615,
+        "mean_goal_flip_rate": 0.0
+      }
+    }
+  },
+  "paired_architecture_contrasts": {
+    "gating_wm_minus_reactive": {
+      "per_seed_differences": {
+        "survival_rate": [
+          0.7395833432674408,
+          0.7499999955296516,
+          0.7562499940395355,
+          0.7427083358168602,
+          0.7281250014901162
+        ],
+        "blank_initiative_rate": [
+          0.726875,
+          0.7262500000000001,
+          0.7427083333333333,
+          0.7460416666666666,
+          0.7262500000000001
+        ],
+        "violation_reduction": [
+          0.024978298458154313,
+          0.024225983796350194,
+          0.025137442428967913,
+          0.022887731411901768,
+          0.024204282308346592
+        ]
+      },
+      "mean_differences": {
+        "survival_rate": 0.7433333340287208,
+        "blank_initiative_rate": 0.733625,
+        "violation_reduction": 0.024286747680744156
+      },
+      "seed_level_exact_signflip": {
+        "survival_rate": {
+          "differences": [
+            0.7395833432674408,
+            0.7499999955296516,
+            0.7562499940395355,
+            0.7427083358168602,
+            0.7281250014901162
+          ],
+          "nonzero_seeds": 5,
+          "observed_sum": 3.716666670143604,
+          "p_exact_two_sided": 0.0625
+        },
+        "blank_initiative_rate": {
+          "differences": [
+            0.726875,
+            0.7262500000000001,
+            0.7427083333333333,
+            0.7460416666666666,
+            0.7262500000000001
+          ],
+          "nonzero_seeds": 5,
+          "observed_sum": 3.668125,
+          "p_exact_two_sided": 0.0625
+        },
+        "violation_reduction": {
+          "differences": [
+            0.024978298458154313,
+            0.024225983796350194,
+            0.025137442428967913,
+            0.022887731411901768,
+            0.024204282308346592
+          ],
+          "nonzero_seeds": 5,
+          "observed_sum": 0.12143373840372078,
+          "p_exact_two_sided": 0.0625
+        }
+      },
+      "holm_adjusted_p": {
+        "survival_rate": 0.1875,
+        "blank_initiative_rate": 0.1875,
+        "violation_reduction": 0.1875
+      }
+    }
+  },
+  "confirmatory_primary_family": {
+    "status": "fail",
+    "decision_rule": "all four effects must be positive and Holm-adjusted two-sided exact sign-flip p < 0.05",
+    "alpha_familywise": 0.05,
+    "n_paired_seeds": 5,
+    "seeds": [
+      101,
+      105,
+      109,
+      113,
+      117
+    ],
+    "mean_effects": {
+      "gating_minus_reactive_survival": 0.7433333340287208,
+      "gating_minus_reactive_blank_initiative": 0.733625,
+      "prediction_lesion_on_gating_survival": 0.9670833337306977,
+      "valid_cue_on_gating_survival": 0.856666666790843
+    },
+    "seed_level_exact_signflip": {
+      "gating_minus_reactive_survival": {
+        "differences": [
+          0.7395833432674408,
+          0.7499999955296516,
+          0.7562499940395355,
+          0.7427083358168602,
+          0.7281250014901162
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 3.716666670143604,
+        "p_exact_two_sided": 0.0625
+      },
+      "gating_minus_reactive_blank_initiative": {
+        "differences": [
+          0.726875,
+          0.7262500000000001,
+          0.7427083333333333,
+          0.7460416666666666,
+          0.7262500000000001
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 3.668125,
+        "p_exact_two_sided": 0.0625
+      },
+      "prediction_lesion_on_gating_survival": {
+        "differences": [
+          0.9552083432674408,
+          0.9833333313465118,
+          0.9781249940395356,
+          0.971875,
+          0.946875
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.8354166686534885,
+        "p_exact_two_sided": 0.0625
+      },
+      "valid_cue_on_gating_survival": {
+        "differences": [
+          0.8354166753590107,
+          0.8593749977648257,
+          0.8822916600853206,
+          0.8750000014901161,
+          0.8312499992549419
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.283333333954215,
+        "p_exact_two_sided": 0.0625
+      }
+    },
+    "holm_adjusted_p": {
+      "gating_minus_reactive_survival": 0.25,
+      "gating_minus_reactive_blank_initiative": 0.25,
+      "prediction_lesion_on_gating_survival": 0.25,
+      "valid_cue_on_gating_survival": 0.25
+    },
+    "criterion_passed": {
+      "gating_minus_reactive_survival": false,
+      "gating_minus_reactive_blank_initiative": false,
+      "prediction_lesion_on_gating_survival": false,
+      "valid_cue_on_gating_survival": false
+    }
+  }
+}

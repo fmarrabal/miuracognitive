@@ -1,0 +1,1 @@
+{"block": "B4", "N": 4096, "beta": 0.21, "placement": "gyro", "zeta": 0.1, "log_slope": 0.004803505677160215, "diverged": false, "flutter": {"lhs": 1.68, "rhs": 0.05, "cert_stable": false}, "cell_id": "B4_N4096_z0.1_b0.21_gyro", "wall_s": 3.5}

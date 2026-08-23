@@ -1,0 +1,418 @@
+\begin{thebibliography}{56}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anil et~al.(2022)Anil, Wu, Andreassen, Lewkowycz, Misra, Ramasesh,
+  Slone, Gur-Ari, Dyer, and Neyshabur]{anil2022length}
+Cem Anil, Yuhuai Wu, Anders Andreassen, Aitor Lewkowycz, Vedant Misra, Vinay
+  Ramasesh, Ambrose Slone, Guy Gur-Ari, Ethan Dyer, and Behnam Neyshabur.
+\newblock Exploring length generalization in large language models.
+\newblock \emph{Advances in Neural Information Processing Systems (NeurIPS)},
+  2022.
+\newblock arXiv:2207.04901.
+
+\bibitem[Arrabal-Campos(2026)]{arrabal2026cognition}
+Francisco~M. Arrabal-Campos.
+\newblock Where cognition lives: Dissecting emergent from computed function in
+  a minimal complete cognitive architecture.
+\newblock \emph{Companion paper, arXiv preprint}, 2026.
+
+\bibitem[Ascher et~al.(1995)Ascher, Ruuth, and Wetton]{ascher1995imex}
+Uri~M. Ascher, Steven~J. Ruuth, and Brian T.~R. Wetton.
+\newblock Implicit-explicit methods for time-dependent partial differential
+  equations.
+\newblock \emph{SIAM Journal on Numerical Analysis}, 32\penalty0 (3):\penalty0
+  797--823, 1995.
+
+\bibitem[Bai et~al.(2003)Bai, Golub, and Ng]{bai2003hermitian}
+Zhong-Zhi Bai, Gene~H. Golub, and Michael~K. Ng.
+\newblock Hermitian and skew-hermitian splitting methods for non-hermitian
+  positive definite linear systems.
+\newblock \emph{SIAM Journal on Matrix Analysis and Applications}, 24\penalty0
+  (3):\penalty0 603--626, 2003.
+\newblock ISSN 0895-4798.
+\newblock \doi{10.1137/S0895479801395458}.
+
+\bibitem[Banino et~al.(2021)Banino, Balaguer, and
+  Blundell]{banino2021pondernet}
+Andrea Banino, Jan Balaguer, and Charles Blundell.
+\newblock {PonderNet}: Learning to ponder.
+\newblock In \emph{8th ICML Workshop on Automated Machine Learning (AutoML)},
+  2021.
+\newblock arXiv:2107.05407.
+
+\bibitem[Barrett(2017)]{barrett2017allostasis}
+Lisa~Feldman Barrett.
+\newblock The theory of constructed emotion: An active inference account of
+  interoception and categorization.
+\newblock \emph{Social Cognitive and Affective Neuroscience}, 12\penalty0
+  (1):\penalty0 1--23, 2017.
+
+\bibitem[Barrington(1989)]{barrington1989}
+David~A. Barrington.
+\newblock Bounded-width polynomial-size branching programs recognize exactly
+  those languages in {NC}$^1$.
+\newblock \emph{Journal of Computer and System Sciences}, 38\penalty0
+  (1):\penalty0 150--164, 1989.
+
+\bibitem[Bonassi et~al.(2021)Bonassi, Farina, and
+  Scattolini]{bonassi2021stability}
+Fabio Bonassi, Marcello Farina, and Riccardo Scattolini.
+\newblock On the stability properties of gated recurrent units neural networks.
+\newblock \emph{Systems \& Control Letters}, 157:\penalty0 105049, 2021.
+\newblock \doi{10.1016/j.sysconle.2021.105049}.
+
+\bibitem[Bottema(1955)]{bottema1955stability}
+Oene Bottema.
+\newblock On the stability of the equilibrium of a linear mechanical system.
+\newblock \emph{Zeitschrift f\"ur angewandte Mathematik und Physik (ZAMP)},
+  6\penalty0 (2):\penalty0 97--104, March 1955.
+\newblock \doi{10.1007/BF01607296}.
+
+\bibitem[Boyer et~al.(2025)Boyer, Rusch, and Rus]{boyer2025dissipate}
+Jared Boyer, T.~Konstantin Rusch, and Daniela Rus.
+\newblock Learning to dissipate energy in oscillatory state-space models, 2025.
+\newblock Preprint; introduces the {D-LinOSS} (Damped Linear Oscillatory
+  State-Space) model.
+
+\bibitem[Bulatovic(1999)]{bulatovic1999stability}
+R.~M. Bulatovic.
+\newblock On the stability of linear circulatory systems.
+\newblock \emph{Zeitschrift f\"ur angewandte Mathematik und Physik (ZAMP)},
+  50\penalty0 (4):\penalty0 669--674, 1999.
+\newblock \doi{10.1007/s000330050172}.
+
+\bibitem[Chamberlain et~al.(2021)Chamberlain, Rowbottom, Gorinova, Webb, Rossi,
+  and Bronstein]{chamberlain2021grand}
+Benjamin~P. Chamberlain, James Rowbottom, Maria Gorinova, Stefan Webb, Emanuele
+  Rossi, and Michael~M. Bronstein.
+\newblock Grand: Graph neural diffusion.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2021.
+
+\bibitem[Chang et~al.(2019)Chang, Chen, Haber, and
+  Chi]{chang2019antisymmetricrnn}
+Bo~Chang, Minmin Chen, Eldad Haber, and Ed~H. Chi.
+\newblock {AntisymmetricRNN}: A dynamical system view on recurrent neural
+  networks.
+\newblock In \emph{7th International Conference on Learning Representations
+  ({ICLR} 2019)}, 2019.
+\newblock URL \url{https://openreview.net/forum?id=ryxepo0cFX}.
+
+\bibitem[Chen et~al.(2018)Chen, Rubanova, Bettencourt, and
+  Duvenaud]{chen2018node}
+Ricky T.~Q. Chen, Yulia Rubanova, Jesse Bettencourt, and David~K. Duvenaud.
+\newblock Neural ordinary differential equations.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, volume~31, pp.\  6571--6583, 2018.
+
+\bibitem[Dahlquist(1959)]{dahlquist1958stability}
+Germund Dahlquist.
+\newblock \emph{Stability and Error Bounds in the Numerical Integration of
+  Ordinary Differential Equations}.
+\newblock Number 130 in Transactions of the Royal Institute of Technology,
+  Stockholm. Almqvist \& Wiksell, Uppsala, 1959.
+\newblock Doctoral thesis, Stockholm University, defended December 1958. Widely
+  cited with the year 1958 (thesis) or 1959 (series publication).
+
+\bibitem[Dehghani et~al.(2019)Dehghani, Gouws, Vinyals, Uszkoreit, and
+  Kaiser]{dehghani2019universal}
+Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, and {\L}ukasz
+  Kaiser.
+\newblock Universal transformers.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2019.
+\newblock arXiv:1807.03819.
+
+\bibitem[Doya(2002)]{doya2002metalearning}
+Kenji Doya.
+\newblock Metalearning and neuromodulation.
+\newblock \emph{Neural Networks}, 15\penalty0 (4-6):\penalty0 495--506, 2002.
+
+\bibitem[Elbayad et~al.(2020)Elbayad, Gu, Grave, and Auli]{elbayad2020depth}
+Maha Elbayad, Jiatao Gu, Edouard Grave, and Michael Auli.
+\newblock Depth-adaptive transformer.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2020.
+
+\bibitem[Eliasof et~al.(2021)Eliasof, Haber, and Treister]{eliasof2021pdegcn}
+Moshe Eliasof, Eldad Haber, and Eran Treister.
+\newblock {PDE-GCN}: Novel architectures for graph neural networks motivated by
+  partial differential equations.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2021.
+
+\bibitem[Eliasof et~al.(2023)Eliasof, Haber, and Treister]{eliasof2023adr}
+Moshe Eliasof, Eldad Haber, and Eran Treister.
+\newblock {ADR-GNN}: Advection-diffusion-reaction graph neural networks.
+\newblock \emph{arXiv preprint arXiv:2307.16092}, 2023.
+
+\bibitem[Erichson et~al.(2021)Erichson, Azencot, Queiruga, Hodgkinson, and
+  Mahoney]{erichson2021lipschitz}
+N.~Benjamin Erichson, Omri Azencot, Alejandro~F. Queiruga, Liam Hodgkinson, and
+  Michael~W. Mahoney.
+\newblock Lipschitz recurrent neural networks.
+\newblock In \emph{9th International Conference on Learning Representations
+  ({ICLR} 2021)}, 2021.
+\newblock URL \url{https://openreview.net/forum?id=-N7PBXqOUJZ}.
+
+\bibitem[Fan et~al.(2025)Fan, Du, Ramchandran, and Lee]{fan2025looped}
+Ying Fan, Yilun Du, Kannan Ramchandran, and Kangwook Lee.
+\newblock Looped transformers for length generalization.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+\newblock arXiv:2409.15647.
+
+\bibitem[Friston(2010)]{friston2010free}
+Karl Friston.
+\newblock The free-energy principle: A unified brain theory?
+\newblock \emph{Nature Reviews Neuroscience}, 11\penalty0 (2):\penalty0
+  127--138, 2010.
+
+\bibitem[Giannou et~al.(2023)Giannou, Rajput, Sohn, Lee, Lee, and
+  Papailiopoulos]{giannou2023looped}
+Angeliki Giannou, Shashank Rajput, Jy-Yong Sohn, Kangwook Lee, Jason~D. Lee,
+  and Dimitris Papailiopoulos.
+\newblock Looped transformers as programmable computers.
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning (ICML)}, 2023.
+\newblock arXiv:2301.13196.
+
+\bibitem[Graves(2016)]{graves2016act}
+Alex Graves.
+\newblock Adaptive computation time for recurrent neural networks.
+\newblock \emph{arXiv preprint arXiv:1603.08983}, 2016.
+
+\bibitem[Graves et~al.(2014)Graves, Wayne, and Danihelka]{graves2014ntm}
+Alex Graves, Greg Wayne, and Ivo Danihelka.
+\newblock Neural turing machines.
+\newblock \emph{arXiv preprint arXiv:1410.5401}, 2014.
+
+\bibitem[Graves et~al.(2016)Graves, Wayne, Reynolds, Harley, Danihelka,
+  et~al.]{graves2016dnc}
+Alex Graves, Greg Wayne, Malcolm Reynolds, Tim Harley, Ivo Danihelka, et~al.
+\newblock Hybrid computing using a neural network with dynamic external memory.
+\newblock \emph{Nature}, 538\penalty0 (7626):\penalty0 471--476, 2016.
+
+\bibitem[Gravina et~al.(2023{\natexlab{a}})Gravina, Bacciu, and
+  Gallicchio]{gravina2023adgn}
+Alessio Gravina, Davide Bacciu, and Claudio Gallicchio.
+\newblock Anti-symmetric {DGN}: a stable architecture for deep graph networks.
+\newblock In \emph{The Eleventh International Conference on Learning
+  Representations ({ICLR} 2023)}, 2023{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=J3Y7cgZOOS}.
+
+\bibitem[Gravina et~al.(2023{\natexlab{b}})Gravina, Bacciu, and
+  Gallicchio]{gravina2023antisymmetric}
+Alessio Gravina, Davide Bacciu, and Claudio Gallicchio.
+\newblock Anti-symmetric {DGN}: A stable architecture for deep graph networks.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023{\natexlab{b}}.
+
+\bibitem[Iserles et~al.(2000)Iserles, Munthe-Kaas, N{\o}rsett, and
+  Zanna]{iserles2000lie}
+Arieh Iserles, Hans~Z. Munthe-Kaas, Syvert~P. N{\o}rsett, and Antonella Zanna.
+\newblock Lie-group methods.
+\newblock \emph{Acta Numerica}, 9:\penalty0 215--365, 2000.
+\newblock ISSN 0962-4929.
+\newblock \doi{10.1017/S0962492900002154}.
+
+\bibitem[Jelassi et~al.(2023)Jelassi, d'Ascoli, Domingo-Enrich, Wu, Li, and
+  Charton]{jelassi2023arithmetic}
+Samy Jelassi, St{\'e}phane d'Ascoli, Carles Domingo-Enrich, Yuhuai Wu, Yuanzhi
+  Li, and Fran{\c{c}}ois Charton.
+\newblock Length generalization in arithmetic transformers.
+\newblock \emph{arXiv preprint arXiv:2306.15400}, 2023.
+
+\bibitem[Kirillov(2013)]{kirillov2013}
+Oleg~N. Kirillov.
+\newblock \emph{Nonconservative Stability Problems of Modern Physics}.
+\newblock De Gruyter, 2013.
+
+\bibitem[Kolter \& Manek(2019)Kolter and Manek]{kolter2019learning}
+J.~Zico Kolter and Gaurav Manek.
+\newblock Learning stable deep dynamics models.
+\newblock In \emph{Advances in Neural Information Processing Systems 32
+  ({NeurIPS} 2019)}, pp.\  11126--11134, 2019.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2019/hash/0a4bbceda17a6253386bc9eb45240e25-Abstract.html}.
+
+\bibitem[Liu et~al.(2023)Liu, Ash, Goel, Krishnamurthy, and
+  Zhang]{liu2023shortcuts}
+Bingbin Liu, Jordan~T. Ash, Surbhi Goel, Akshay Krishnamurthy, and Cyril Zhang.
+\newblock Transformers learn shortcuts to automata.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023.
+\newblock arXiv:2210.10749.
+
+\bibitem[Man et~al.(2022)Man, Damasio, and Neven]{man2022homeostatic}
+Kingson Man, Antonio Damasio, and Hartmut Neven.
+\newblock Need is all you need: Homeostatic neural networks adapt to concept
+  shift.
+\newblock \emph{arXiv preprint arXiv:2205.08645}, 2022.
+
+\bibitem[Merkin(1997)]{merkin1997}
+David~R. Merkin.
+\newblock \emph{Introduction to the Theory of Stability}, volume~24 of
+  \emph{Texts in Applied Mathematics}.
+\newblock Springer, New York, NY, 1997.
+\newblock \doi{10.1007/978-1-4612-4046-4}.
+\newblock Translated and edited by F. F. Afagh and A. L. Smirnov.
+
+\bibitem[Merrill \& Sabharwal(2023)Merrill and
+  Sabharwal]{merrill2023parallelism}
+William Merrill and Ashish Sabharwal.
+\newblock The parallelism tradeoff: Limitations of log-precision transformers.
+\newblock \emph{Transactions of the Association for Computational Linguistics
+  (TACL)}, 11:\penalty0 531--545, 2023.
+
+\bibitem[Merrill \& Sabharwal(2024)Merrill and Sabharwal]{merrill2024cot}
+William Merrill and Ashish Sabharwal.
+\newblock The expressive power of transformers with chain of thought.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\bibitem[Merrill et~al.(2024)Merrill, Petty, and
+  Sabharwal]{merrill2024illusion}
+William Merrill, Jackson Petty, and Ashish Sabharwal.
+\newblock The illusion of state in state-space models.
+\newblock In \emph{Proceedings of the 41st International Conference on Machine
+  Learning (ICML)}, 2024.
+\newblock arXiv:2404.08819.
+
+\bibitem[Miconi et~al.(2018)Miconi, Stanley, and Clune]{miconi2018plasticity}
+Thomas Miconi, Kenneth~O. Stanley, and Jeff Clune.
+\newblock Differentiable plasticity: Training plastic neural networks with
+  backpropagation.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, pp.\
+  3559--3568, 2018.
+
+\bibitem[Miconi et~al.(2019)Miconi, Rawal, Clune, and
+  Stanley]{miconi2019backpropamine}
+Thomas Miconi, Aditya Rawal, Jeff Clune, and Kenneth~O. Stanley.
+\newblock Backpropamine: Training self-modifying neural networks with
+  differentiable neuromodulated plasticity.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2019.
+
+\bibitem[Raposo et~al.(2024)Raposo, Ritter, Richards, Lillicrap, Humphreys, and
+  Santoro]{raposo2024mixture}
+David Raposo, Sam Ritter, Blake Richards, Timothy Lillicrap, Peter~Conway
+  Humphreys, and Adam Santoro.
+\newblock Mixture-of-depths: Dynamically allocating compute in
+  transformer-based language models.
+\newblock \emph{arXiv preprint arXiv:2404.02258}, 2024.
+
+\bibitem[Revay et~al.(2024)Revay, Wang, and Manchester]{revay2024recurrent}
+Max Revay, Ruigang Wang, and Ian~R. Manchester.
+\newblock Recurrent equilibrium networks: Flexible dynamic models with
+  guaranteed stability and robustness.
+\newblock \emph{IEEE Transactions on Automatic Control}, 69\penalty0
+  (5):\penalty0 2855--2870, 2024.
+\newblock \doi{10.1109/TAC.2023.3294101}.
+
+\bibitem[Rusch \& Mishra(2021{\natexlab{a}})Rusch and Mishra]{rusch2021cornn}
+T.~Konstantin Rusch and Siddhartha Mishra.
+\newblock Coupled oscillatory recurrent neural network ({coRNN}): An accurate
+  and (gradient) stable architecture for learning long time dependencies.
+\newblock In \emph{9th International Conference on Learning Representations
+  ({ICLR} 2021)}, 2021{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=F3s69XzWOia}.
+\newblock Oral presentation.
+
+\bibitem[Rusch \& Mishra(2021{\natexlab{b}})Rusch and
+  Mishra]{rusch2021unicornn}
+T.~Konstantin Rusch and Siddhartha Mishra.
+\newblock {UnICORNN}: A recurrent model for learning very long time
+  dependencies.
+\newblock In Marina Meila and Tong Zhang (eds.), \emph{Proceedings of the 38th
+  International Conference on Machine Learning ({ICML} 2021)}, volume 139 of
+  \emph{Proceedings of Machine Learning Research}, pp.\  9168--9178. PMLR,
+  2021{\natexlab{b}}.
+\newblock URL \url{https://proceedings.mlr.press/v139/rusch21a.html}.
+
+\bibitem[Rusch \& Rus(2025)Rusch and Rus]{rusch2025oscillatory}
+T.~Konstantin Rusch and Daniela Rus.
+\newblock Oscillatory state-space models.
+\newblock In \emph{The Thirteenth International Conference on Learning
+  Representations ({ICLR} 2025)}, 2025.
+\newblock URL \url{https://openreview.net/forum?id=GRMfXcAAFh}.
+\newblock Oral presentation; introduces the {LinOSS} (Linear Oscillatory
+  State-Space) model.
+
+\bibitem[Rusch et~al.(2022)Rusch, Chamberlain, Rowbottom, Mishra, and
+  Bronstein]{rusch2022graphcon}
+T.~Konstantin Rusch, Benjamin~P. Chamberlain, James Rowbottom, Siddhartha
+  Mishra, and Michael~M. Bronstein.
+\newblock Graph-coupled oscillator networks.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2022.
+
+\bibitem[Schwartz et~al.(2020)Schwartz, Stanovsky, Swayamdipta, Dodge, and
+  Smith]{schwartz2020right}
+Roy Schwartz, Gabriel Stanovsky, Swabha Swayamdipta, Jesse Dodge, and Noah~A.
+  Smith.
+\newblock The right tool for the job: Matching model and instance complexities.
+\newblock In \emph{Association for Computational Linguistics (ACL)}, 2020.
+
+\bibitem[Smith(1933)]{smith1933motion}
+David~Macleish Smith.
+\newblock The motion of a rotor carried by a flexible shaft in flexible
+  bearings.
+\newblock \emph{Proceedings of the Royal Society of London. Series A,
+  Containing Papers of a Mathematical and Physical Character}, 142\penalty0
+  (846):\penalty0 92--118, October 1933.
+\newblock \doi{10.1098/rspa.1933.0158}.
+
+\bibitem[S{\"o}derlind(2006)]{soderlind2006logarithmic}
+Gustaf S{\"o}derlind.
+\newblock The logarithmic norm. history and modern theory.
+\newblock \emph{BIT Numerical Mathematics}, 46\penalty0 (3):\penalty0 631--652,
+  2006.
+\newblock ISSN 0006-3835.
+\newblock \doi{10.1007/s10543-006-0069-9}.
+
+\bibitem[Sontag(1989)]{sontag1989smooth}
+Eduardo~D. Sontag.
+\newblock Smooth stabilization implies coprime factorization.
+\newblock \emph{IEEE Transactions on Automatic Control}, 34\penalty0
+  (4):\penalty0 435--443, 1989.
+
+\bibitem[Sterling(2012)]{sterling2012allostasis}
+Peter Sterling.
+\newblock Allostasis: A model of predictive regulation.
+\newblock \emph{Physiology \& Behavior}, 106\penalty0 (1):\penalty0 5--15,
+  2012.
+
+\bibitem[St{\"o}lzle \& Della~Santina(2024)St{\"o}lzle and
+  Della~Santina]{stolzle2024con}
+Maximilian St{\"o}lzle and Cosimo Della~Santina.
+\newblock Input-to-state stable coupled oscillator networks for closed-form
+  model-based control in latent space.
+\newblock In \emph{Advances in Neural Information Processing Systems 37
+  ({NeurIPS} 2024)}, 2024.
+\newblock URL
+  \url{http://papers.nips.cc/paper_files/paper/2024/hash/952ddaa9299d81cc307427edab034784-Abstract-Conference.html}.
+
+\bibitem[Thomson \& Tait(1879)Thomson and Tait]{thomson1879treatise}
+William Thomson and Peter~Guthrie Tait.
+\newblock \emph{Treatise on Natural Philosophy}, volume~I.
+\newblock Cambridge University Press, Cambridge, new edition, 1879.
+\newblock Vol.~I, Part~I. Effect of dissipative and gyroscopic (``gyrostatic'')
+  forces on stability treated in \S\,345 and its roman-numeral subsections,
+  ending p.~415 (\S\,346 begins p.~416).
+
+\bibitem[Vecoven et~al.(2020)Vecoven, Ernst, Wehenkel, and
+  Drion]{vecoven2020neuromodulation}
+Nicolas Vecoven, Damien Ernst, Antoine Wehenkel, and Guillaume Drion.
+\newblock Introducing neuromodulation in deep neural networks to learn adaptive
+  behaviours.
+\newblock \emph{PLOS ONE}, 15\penalty0 (1):\penalty0 e0227922, 2020.
+
+\bibitem[Ziegler(1952)]{ziegler1952}
+Hans Ziegler.
+\newblock Die {S}tabilit{\"a}tskriterien der {E}lastomechanik.
+\newblock \emph{Ingenieur-Archiv}, 20\penalty0 (1):\penalty0 49--56, 1952.
+
+\end{thebibliography}

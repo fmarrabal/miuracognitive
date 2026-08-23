@@ -1,0 +1,1223 @@
+{
+  "design": {
+    "task": "hidden_length_transition_stream",
+    "length_visible_to_scheduler": false,
+    "completion_supervision": false,
+    "terminal_information": "no terminal marker; completion observable only after zero progress",
+    "terminal_marker_ablation": false,
+    "terminal_marker_present": false,
+    "allocation": "online one-unit priority; current prefix score only",
+    "unit": "sample_executor_tick",
+    "exact_total_budget": true,
+    "mean_budget": 5,
+    "total_budget_per_batch": 180,
+    "batch_size": 36,
+    "n_batches": 1,
+    "n_shuffles": 1,
+    "primary_contrast": "learned_online_vs_uniform",
+    "primary_test": "exact_batch_cluster_sign_flip_two_sided",
+    "seed": 20260811
+  },
+  "variant": "gating_wm",
+  "soft_reference": {
+    "mean_expected_steps": 1.9975404507584043,
+    "corr_K_expected_steps": 0.29223233461380005
+  },
+  "allocation": {
+    "corr_K_learned_quota": 0.15061601996421814,
+    "mean_absolute_error_to_K": 3.6111111640930176,
+    "exact_match_rate": 0.1111111119389534,
+    "underallocation_rate": 0.4444444477558136,
+    "overallocation_rate": 0.4444444477558136,
+    "quota_min": 1,
+    "quota_max": 9
+  },
+  "policies": {
+    "learned_online": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 36,
+      "mean_steps": 5.0,
+      "reasoner_step_units": 180,
+      "wall_time_s": 0.012284799944609404,
+      "accuracy_by_K": {
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "3": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "4": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "6": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "7": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "8": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "9": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        }
+      }
+    },
+    "uniform": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 36,
+      "mean_steps": 5.0,
+      "reasoner_step_units": 180,
+      "wall_time_s": 0.003579000011086464,
+      "accuracy_by_K": {
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "3": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "4": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "6": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "7": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "8": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "9": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        }
+      }
+    },
+    "oracle_exact": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 36,
+      "mean_steps": 5.0,
+      "reasoner_step_units": 180,
+      "wall_time_s": 0.006014999991748482,
+      "accuracy_by_K": {
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "3": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "4": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "6": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "7": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "8": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "9": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        }
+      }
+    },
+    "oracle_yoked": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 36,
+      "mean_steps": 5.0,
+      "reasoner_step_units": 180,
+      "wall_time_s": 0.005493000033311546,
+      "accuracy_by_K": {
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "3": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "4": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "6": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "7": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "8": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "9": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        }
+      }
+    },
+    "anti_oracle": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 36,
+      "mean_steps": 5.0,
+      "reasoner_step_units": 180,
+      "wall_time_s": 0.006772300053853542,
+      "accuracy_by_K": {
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "3": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "4": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "6": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "7": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "8": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "9": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        }
+      }
+    },
+    "shuffle_0": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 36,
+      "mean_steps": 5.0,
+      "reasoner_step_units": 180,
+      "wall_time_s": 0.0055040999432094395,
+      "accuracy_by_K": {
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "3": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "4": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "6": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "7": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "8": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        },
+        "9": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 4
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "learned_online_vs_uniform": {
+      "a_only": 0,
+      "b_only": 0,
+      "discordant": 0,
+      "p_exact_two_sided": 1.0,
+      "cluster_randomization": {
+        "batch_differences": [
+          0
+        ],
+        "observed_correct_diff": 0,
+        "nonzero_batches": 0,
+        "p_exact_two_sided": 1.0
+      },
+      "accuracy_diff_learned_minus_control": 0.0
+    },
+    "learned_online_vs_shuffle_0": {
+      "a_only": 0,
+      "b_only": 0,
+      "discordant": 0,
+      "p_exact_two_sided": 1.0,
+      "cluster_randomization": {
+        "batch_differences": [
+          0
+        ],
+        "observed_correct_diff": 0,
+        "nonzero_batches": 0,
+        "p_exact_two_sided": 1.0
+      },
+      "accuracy_diff_learned_minus_control": 0.0
+    },
+    "learned_online_vs_oracle_exact": {
+      "a_only": 0,
+      "b_only": 0,
+      "discordant": 0,
+      "p_exact_two_sided": 1.0,
+      "cluster_randomization": {
+        "batch_differences": [
+          0
+        ],
+        "observed_correct_diff": 0,
+        "nonzero_batches": 0,
+        "p_exact_two_sided": 1.0
+      },
+      "accuracy_diff_learned_minus_control": 0.0
+    },
+    "learned_online_vs_oracle_yoked": {
+      "a_only": 0,
+      "b_only": 0,
+      "discordant": 0,
+      "p_exact_two_sided": 1.0,
+      "cluster_randomization": {
+        "batch_differences": [
+          0
+        ],
+        "observed_correct_diff": 0,
+        "nonzero_batches": 0,
+        "p_exact_two_sided": 1.0
+      },
+      "accuracy_diff_learned_minus_control": 0.0
+    },
+    "learned_online_vs_anti_oracle": {
+      "a_only": 0,
+      "b_only": 0,
+      "discordant": 0,
+      "p_exact_two_sided": 1.0,
+      "cluster_randomization": {
+        "batch_differences": [
+          0
+        ],
+        "observed_correct_diff": 0,
+        "nonzero_batches": 0,
+        "p_exact_two_sided": 1.0
+      },
+      "accuracy_diff_learned_minus_control": 0.0
+    }
+  },
+  "shuffle_accuracy_mean": 0.0,
+  "shuffle_accuracy_min": 0.0,
+  "shuffle_accuracy_max": 0.0,
+  "records": [
+    {
+      "batch": 0,
+      "lengths": [
+        9,
+        4,
+        7,
+        6,
+        3,
+        8,
+        5,
+        2,
+        4,
+        4,
+        3,
+        9,
+        7,
+        7,
+        8,
+        8,
+        9,
+        3,
+        6,
+        4,
+        1,
+        6,
+        5,
+        2,
+        8,
+        2,
+        5,
+        1,
+        1,
+        5,
+        6,
+        9,
+        7,
+        3,
+        1,
+        2
+      ],
+      "n_expected": [
+        1.996408462524414,
+        1.9958463907241821,
+        1.9988231658935547,
+        1.9985965490341187,
+        1.9965271949768066,
+        1.9987168312072754,
+        1.9983214139938354,
+        1.9976263046264648,
+        1.9966721534729004,
+        1.9962060451507568,
+        1.9959542751312256,
+        2.0003864765167236,
+        1.9994878768920898,
+        1.9969170093536377,
+        1.9979504346847534,
+        2.0002079010009766,
+        1.9966418743133545,
+        1.9987868070602417,
+        1.9957016706466675,
+        1.9976273775100708,
+        2.001155376434326,
+        1.9969277381896973,
+        1.9997397661209106,
+        1.9976497888565063,
+        1.9981557130813599,
+        1.9972684383392334,
+        1.9967858791351318,
+        1.9985610246658325,
+        1.993764042854309,
+        1.9953014850616455,
+        1.9985535144805908,
+        1.9992262125015259,
+        1.9965547323226929,
+        1.9960930347442627,
+        1.993764042854309,
+        1.998549222946167
+      ],
+      "allocations": {
+        "learned_online": [
+          1,
+          1,
+          9,
+          9,
+          1,
+          9,
+          9,
+          9,
+          1,
+          1,
+          1,
+          9,
+          9,
+          1,
+          9,
+          9,
+          1,
+          9,
+          1,
+          1,
+          9,
+          1,
+          9,
+          1,
+          9,
+          9,
+          1,
+          9,
+          1,
+          1,
+          9,
+          9,
+          1,
+          1,
+          1,
+          9
+        ],
+        "uniform": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "oracle_exact": [
+          9,
+          4,
+          7,
+          6,
+          3,
+          8,
+          5,
+          2,
+          4,
+          4,
+          3,
+          9,
+          7,
+          7,
+          8,
+          8,
+          9,
+          3,
+          6,
+          4,
+          1,
+          6,
+          5,
+          2,
+          8,
+          2,
+          5,
+          1,
+          1,
+          5,
+          6,
+          9,
+          7,
+          3,
+          1,
+          2
+        ],
+        "oracle_yoked": [
+          9,
+          1,
+          9,
+          9,
+          1,
+          9,
+          1,
+          1,
+          1,
+          1,
+          1,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          1,
+          9,
+          1,
+          1,
+          9,
+          9,
+          1,
+          9,
+          1,
+          1,
+          1,
+          1,
+          9,
+          9,
+          9,
+          9,
+          1,
+          1,
+          1
+        ],
+        "anti_oracle": [
+          1,
+          9,
+          1,
+          1,
+          9,
+          1,
+          9,
+          9,
+          9,
+          9,
+          9,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          9,
+          1,
+          9,
+          9,
+          1,
+          1,
+          9,
+          1,
+          9,
+          9,
+          9,
+          9,
+          1,
+          1,
+          1,
+          1,
+          9,
+          9,
+          9
+        ],
+        "shuffle_0": [
+          9,
+          1,
+          9,
+          1,
+          9,
+          1,
+          1,
+          1,
+          1,
+          1,
+          9,
+          9,
+          1,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          1,
+          9,
+          1,
+          1,
+          1,
+          9,
+          9,
+          1,
+          1,
+          1,
+          1,
+          9,
+          9,
+          9,
+          1,
+          9,
+          1
+        ]
+      },
+      "online_choice_order": [
+        11,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        15,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        2,
+        17,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "correct": {
+        "learned_online": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "uniform": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "oracle_exact": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "oracle_yoked": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "anti_oracle": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "shuffle_0": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "reasoner_step_units": {
+        "learned_online": 180,
+        "uniform": 180,
+        "oracle_exact": 180,
+        "oracle_yoked": 180,
+        "anti_oracle": 180,
+        "shuffle_0": 180
+      }
+    }
+  ],
+  "training": {
+    "config": {
+      "n_states": 12,
+      "n_ops": 4,
+      "max_steps": 9,
+      "d_model": 32,
+      "variant": "gating_wm",
+      "observe_length": false,
+      "halt_mod_gain": 2.0,
+      "step_cost": 0.0,
+      "auxiliary_weight": 0.5,
+      "completion_weight": 0.0,
+      "detach_depth_loss_for_policy": true,
+      "beta_intero": 0.02,
+      "beta_homeo": 0.001,
+      "beta_stab": 0.01
+    },
+    "seed": 91,
+    "steps": 1,
+    "pretrain_steps": 1,
+    "batch_size": 36,
+    "lr": 0.001,
+    "policy_lr": 0.003,
+    "budget_weight": 2.0,
+    "target_mean_budget": 5.0,
+    "terminal_marker_used": false,
+    "executor_reused_from": null,
+    "executor_pretrain_updates_this_run": 1,
+    "length_supervision_used": false,
+    "completion_supervision_used": false,
+    "elapsed_s": 0.5695569515228271,
+    "trace": {
+      "step": [
+        1,
+        2
+      ],
+      "phase": [
+        "executor",
+        "policy"
+      ],
+      "loss": [
+        2.4883105754852295,
+        20.512245178222656
+      ],
+      "expected_task": [
+        2.4943296909332275,
+        2.4805727005004883
+      ],
+      "auxiliary": [
+        2.4883105754852295,
+        2.4973769187927246
+      ],
+      "completion_diagnostic": [
+        3.3842554092407227,
+        3.3847484588623047
+      ],
+      "budget_penalty": [
+        9.01524829864502,
+        9.015836715698242
+      ],
+      "mean_expected_steps": [
+        1.9974596500396729,
+        1.997361660003662
+      ],
+      "corr_K_expected_steps": [
+        0.1471557468175888,
+        -0.13860845565795898
+      ],
+      "soft_accuracy": [
+        0.02777777798473835,
+        0.1388888955116272
+      ]
+    }
+  },
+  "provenance": {
+    "checkpoint": "E:\\ARTICULOS-CIENTIFICOS\\MIURACOGNITIVE\\miuracognitive\\results_implicit_need_reuse_smoke\\checkpoints\\gating_wm_seed91.pt",
+    "torch": "2.11.0+cu128",
+    "python": "3.12.13",
+    "device": "cuda:0",
+    "device_name": "NVIDIA RTX PRO 5000 Blackwell"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "design": {
+    "variants": [
+      "hbp_first",
+      "hbp_full"
+    ],
+    "seeds": [
+      0
+    ],
+    "steps": 2000,
+    "pretrain_steps": 2000,
+    "max_steps": 9,
+    "mean_budget": 5.0,
+    "length_supervision_used": false,
+    "completion_supervision_used": false,
+    "allocation": "online_prefix_only",
+    "primary_contrast": "learned_online_vs_uniform"
+  },
+  "summary": {
+    "hbp_first": {
+      "n_seeds": 1,
+      "seeds": [
+        0
+      ],
+      "mean_learned_accuracy": 0.825,
+      "mean_uniform_accuracy": 0.6416666666666667,
+      "mean_delta_accuracy": 0.18333333333333324,
+      "sd_delta_accuracy": 0.0,
+      "mean_corr_K_quota": 0.8972358703613281,
+      "mean_exact_match_rate": 0.4888888895511627,
+      "per_seed_delta": [
+        0.18333333333333324
+      ]
+    },
+    "hbp_full": {
+      "n_seeds": 1,
+      "seeds": [
+        0
+      ],
+      "mean_learned_accuracy": 0.8166666666666667,
+      "mean_uniform_accuracy": 0.6416666666666667,
+      "mean_delta_accuracy": 0.17499999999999993,
+      "sd_delta_accuracy": 0.0,
+      "mean_corr_K_quota": 0.898417055606842,
+      "mean_exact_match_rate": 0.4861111044883728,
+      "per_seed_delta": [
+        0.17499999999999993
+      ]
+    }
+  }
+}

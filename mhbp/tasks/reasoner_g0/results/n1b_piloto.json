@@ -1,0 +1,307 @@
+{
+ "ckpts": {
+  "n2_e1_blind_flat_s3_r0": {
+   "lineal_lote": {
+    "unif": 0.349140625,
+    "dif": 0.6477734375,
+    "valor": 0.8756640625,
+    "post": 0.8223046875,
+    "postval": 1.3097265625
+   },
+   "lineal_sesion": {
+    "unif": 0.3573125,
+    "dif": 0.5813125,
+    "valor": 0.8060625,
+    "post": 0.765625,
+    "postval": 1.146125
+   },
+   "cliff_sesion": {
+    "unif": 0.2303125,
+    "dif": 0.3688125,
+    "valor": 0.47375,
+    "post": 0.495125,
+    "postval": 0.7501875
+   }
+  },
+  "n2_e1_blind_flat_s3_r1": {
+   "lineal_lote": {
+    "unif": 0.45359375,
+    "dif": 0.660390625,
+    "valor": 0.8004296875,
+    "post": 0.901796875,
+    "postval": 1.3050390625
+   },
+   "lineal_sesion": {
+    "unif": 0.4560625,
+    "dif": 0.6476875,
+    "valor": 0.7675625,
+    "post": 0.8559375,
+    "postval": 1.167375
+   },
+   "cliff_sesion": {
+    "unif": 0.2815625,
+    "dif": 0.4071875,
+    "valor": 0.4635625,
+    "post": 0.5549375,
+    "postval": 0.7694375
+   }
+  },
+  "n2_e1_blind_flat_s4_r0": {
+   "lineal_lote": {
+    "unif": 0.5294921875,
+    "dif": 0.7475390625,
+    "valor": 1.0202734375,
+    "post": 0.95921875,
+    "postval": 1.36296875
+   },
+   "lineal_sesion": {
+    "unif": 0.5440625,
+    "dif": 0.7415,
+    "valor": 0.98925,
+    "post": 0.937125,
+    "postval": 1.282625
+   },
+   "cliff_sesion": {
+    "unif": 0.3620625,
+    "dif": 0.459,
+    "valor": 0.5926875,
+    "post": 0.619625,
+    "postval": 0.8604375
+   }
+  },
+  "n2_e1_blind_flat_s4_r1": {
+   "lineal_lote": {
+    "unif": 0.4940234375,
+    "dif": 0.688671875,
+    "valor": 1.123125,
+    "post": 0.96,
+    "postval": 1.3594921875
+   },
+   "lineal_sesion": {
+    "unif": 0.500375,
+    "dif": 0.6933125,
+    "valor": 1.0330625,
+    "post": 0.9274375,
+    "postval": 1.2528125
+   },
+   "cliff_sesion": {
+    "unif": 0.319375,
+    "dif": 0.4353125,
+    "valor": 0.619875,
+    "post": 0.6094375,
+    "postval": 0.845
+   }
+  },
+  "n2_e1_blind_flat_s5_r0": {
+   "lineal_lote": {
+    "unif": 0.5389453125,
+    "dif": 0.69671875,
+    "valor": 1.0641015625,
+    "post": 0.92078125,
+    "postval": 1.361875
+   },
+   "lineal_sesion": {
+    "unif": 0.547875,
+    "dif": 0.6798125,
+    "valor": 0.9885625,
+    "post": 0.895,
+    "postval": 1.193875
+   },
+   "cliff_sesion": {
+    "unif": 0.367375,
+    "dif": 0.4423125,
+    "valor": 0.5963125,
+    "post": 0.5975,
+    "postval": 0.8075625
+   }
+  },
+  "n2_e1_blind_flat_s5_r1": {
+   "lineal_lote": {
+    "unif": 0.4531640625,
+    "dif": 0.643125,
+    "valor": 0.9186328125,
+    "post": 0.9219140625,
+    "postval": 1.3044140625
+   },
+   "lineal_sesion": {
+    "unif": 0.4601875,
+    "dif": 0.632625,
+    "valor": 0.864625,
+    "post": 0.8919375,
+    "postval": 1.180375
+   },
+   "cliff_sesion": {
+    "unif": 0.3186875,
+    "dif": 0.406125,
+    "valor": 0.5309375,
+    "post": 0.5884375,
+    "postval": 0.7915625
+   }
+  },
+  "n2_e1_blind_flat_s6_r0": {
+   "lineal_lote": {
+    "unif": 0.37421875,
+    "dif": 0.563984375,
+    "valor": 0.8910546875,
+    "post": 0.7844921875,
+    "postval": 1.2973828125
+   },
+   "lineal_sesion": {
+    "unif": 0.37925,
+    "dif": 0.56725,
+    "valor": 0.849625,
+    "post": 0.752125,
+    "postval": 1.1589375
+   },
+   "cliff_sesion": {
+    "unif": 0.24525,
+    "dif": 0.34875,
+    "valor": 0.4704375,
+    "post": 0.493625,
+    "postval": 0.7711875
+   }
+  },
+  "n2_e1_blind_flat_s6_r1": {
+   "lineal_lote": {
+    "unif": 0.48234375,
+    "dif": 0.6426171875,
+    "valor": 0.94375,
+    "post": 0.8791015625,
+    "postval": 1.30453125
+   },
+   "lineal_sesion": {
+    "unif": 0.4911875,
+    "dif": 0.6505625,
+    "valor": 0.9425,
+    "post": 0.8491875,
+    "postval": 1.2118125
+   },
+   "cliff_sesion": {
+    "unif": 0.3281875,
+    "dif": 0.4205625,
+    "valor": 0.5444375,
+    "post": 0.5601875,
+    "postval": 0.8063125
+   }
+  },
+  "n2_e1_blind_flat_s7_r0": {
+   "lineal_lote": {
+    "unif": 0.522578125,
+    "dif": 0.6602734375,
+    "valor": 1.018203125,
+    "post": 0.9322265625,
+    "postval": 1.31703125
+   },
+   "lineal_sesion": {
+    "unif": 0.5426875,
+    "dif": 0.682375,
+    "valor": 0.9613125,
+    "post": 0.902,
+    "postval": 1.2288125
+   },
+   "cliff_sesion": {
+    "unif": 0.3471875,
+    "dif": 0.432875,
+    "valor": 0.5691875,
+    "post": 0.602,
+    "postval": 0.825875
+   }
+  },
+  "n2_e1_blind_flat_s7_r1": {
+   "lineal_lote": {
+    "unif": 0.6783984375,
+    "dif": 0.7678125,
+    "valor": 1.034375,
+    "post": 1.07125,
+    "postval": 1.37296875
+   },
+   "lineal_sesion": {
+    "unif": 0.6890625,
+    "dif": 0.7925,
+    "valor": 1.0143125,
+    "post": 1.0280625,
+    "postval": 1.294375
+   },
+   "cliff_sesion": {
+    "unif": 0.4450625,
+    "dif": 0.5065,
+    "valor": 0.6149375,
+    "post": 0.6855625,
+    "postval": 0.8803125
+   }
+  },
+  "n2_e1_blind_flat_s8_r0": {
+   "lineal_lote": {
+    "unif": 0.3762890625,
+    "dif": 0.6941015625,
+    "valor": 1.0036328125,
+    "post": 0.8948046875,
+    "postval": 1.348125
+   },
+   "lineal_sesion": {
+    "unif": 0.3806875,
+    "dif": 0.6825,
+    "valor": 0.9434375,
+    "post": 0.8365625,
+    "postval": 1.1995
+   },
+   "cliff_sesion": {
+    "unif": 0.2541875,
+    "dif": 0.43,
+    "valor": 0.5464375,
+    "post": 0.5450625,
+    "postval": 0.7914375
+   }
+  },
+  "n2_e1_blind_flat_s8_r1": {
+   "lineal_lote": {
+    "unif": 0.348125,
+    "dif": 0.663203125,
+    "valor": 0.9291015625,
+    "post": 0.8294140625,
+    "postval": 1.3238671875
+   },
+   "lineal_sesion": {
+    "unif": 0.3503125,
+    "dif": 0.635375,
+    "valor": 0.843375,
+    "post": 0.8108125,
+    "postval": 1.1753125
+   },
+   "cliff_sesion": {
+    "unif": 0.2343125,
+    "dif": 0.388875,
+    "valor": 0.49775,
+    "post": 0.5258125,
+    "postval": 0.77725
+   }
+  }
+ },
+ "agg": {
+  "lineal_lote": {
+   "delta_postval_post": 0.4241764322916666,
+   "se": 0.016898510899249836,
+   "ic95": [
+    0.3869828098024177,
+    0.46137005478091553
+   ]
+  },
+  "lineal_sesion": {
+   "delta_postval_post": 0.3366770833333333,
+   "se": 0.011878041958198849,
+   "ic95": [
+    0.31053351298333765,
+    0.36282065368332894
+   ]
+  },
+  "cliff_sesion": {
+   "delta_postval_post": 0.23327083333333332,
+   "se": 0.007037568008803564,
+   "ic95": [
+    0.21778114614595667,
+    0.24876052052070996
+   ]
+  }
+ },
+ "veredicto": "INSTRUMENTO NO VALIDA (lineal-lote \u2260 0) \u2014 no concluir"
+}

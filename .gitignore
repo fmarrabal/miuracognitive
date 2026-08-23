@@ -1,0 +1,52 @@
+__pycache__/
+*.pyc
+*.log
+*.err
+*.pid
+
+# --- Resultados y artefactos pesados ---------------------------------------
+# Los directorios de resultados NO se trackean en bloque: son 221 MB de JSON
+# mas 1,8 GB de checkpoints. Lo que SI se publica es una seleccion curada de
+# 1.688 ficheros (31 MB), ya anadida al arbol con `git add -f`:
+#   - todos los JSON de resumen de 200 KB o menos,
+#   - los 6 registros pesados que los papers o los FINDINGS citan por nombre,
+#   - los 22 protocolos .md que viven dentro de esos directorios.
+# Esa seleccion cubre los 22 ficheros citados nominalmente, o sea todos los
+# punteros que los dos manuscritos difieren al repositorio. El resto (los 754
+# registros por instancia y los checkpoints) va al deposito Zenodo cuyo DOI
+# citan los papers. Los patrones de abajo solo evitan que entren ficheros
+# nuevos por descuido: no des-trackean lo ya anadido.
+**/results*/
+**/ckpts/
+**/oracle_cache/
+*.pt
+scale_study/results/
+
+# --- Documentacion interna de proceso --------------------------------------
+# No forma parte del programa cientifico y no debe salir al dominio publico.
+# ENDORSERS.md en particular contiene datos personales de investigadores
+# ajenos al proyecto.
+paper/ENDORSERS.md
+paper/SUBMISSION.md
+paper/TMLR_ENVIO.md
+paper/PUBLICAR_REPO.md
+CLAUDE.md
+miuracognitive_reproducibility.zip
+
+# --- Manuscritos superados --------------------------------------------------
+# paper.tex fue el manuscrito unico anterior a la division en dos papers
+# (2026-08-16) y governor_es.tex la version en castellano del gobernador.
+# Ambos sostienen titulares que main.tex y governor_en.tex retractan.
+paper/paper.*
+paper/governor_es.*
+
+# --- Salidas derivadas de LaTeX ---------------------------------------------
+paper/*.aux
+paper/*.blg
+paper/*.out
+paper/*.toc
+paper/arxiv/*/
+
+# Documentacion de instalacion superada por la seccion Entorno del README
+PASOS.md
+SETUP.md

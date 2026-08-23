@@ -1,0 +1,13 @@
+{
+  "task": "permcomp",
+  "alpha": 1.0,
+  "seed": 0,
+  "acc": {
+    "corto": 0.9714285714285714,
+    "medio": 0.7520891364902507,
+    "largo": 0.13884555382215288
+  },
+  "stab_penalty": 0.0,
+  "zeta_mean": 0.5,
+  "omega0_mean": 0.5
+}

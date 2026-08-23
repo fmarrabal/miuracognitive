@@ -1,0 +1,802 @@
+[
+  {
+    "arm": "scripted_indist",
+    "seed": 300,
+    "return": 2.878169059753418,
+    "crisis_attended": 0.9892578125,
+    "distractor_attended": 0.9342447916666666,
+    "switch_rate": 0.06640625
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 300,
+    "return": 3.5247809886932373,
+    "crisis_attended": 0.9970703125,
+    "distractor_attended": 0.998046875,
+    "switch_rate": 0.5439661145210266
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 300,
+    "return": 3.442683219909668,
+    "crisis_attended": 0.970703125,
+    "distractor_attended": 0.8623046875,
+    "switch_rate": 0.103515625
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 300,
+    "return": 4.141353607177734,
+    "crisis_attended": 0.994140625,
+    "distractor_attended": 0.9892578125,
+    "switch_rate": 0.5364444851875305
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 300,
+    "return": 3.4781410694122314,
+    "crisis_attended": 0.9921875,
+    "distractor_attended": 0.9915364583333334,
+    "switch_rate": 0.988073468208313
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 301,
+    "return": 2.865286111831665,
+    "crisis_attended": 0.98828125,
+    "distractor_attended": 0.919921875,
+    "switch_rate": 0.06374667584896088
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 301,
+    "return": 2.1488518714904785,
+    "crisis_attended": 0.86328125,
+    "distractor_attended": 0.8209635416666666,
+    "switch_rate": 0.21372173726558685
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 301,
+    "return": 3.4729790687561035,
+    "crisis_attended": 0.9674479166666666,
+    "distractor_attended": 0.8600260416666666,
+    "switch_rate": 0.1009807214140892
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 301,
+    "return": 2.5113515853881836,
+    "crisis_attended": 0.8177083333333334,
+    "distractor_attended": 0.8108723958333334,
+    "switch_rate": 0.2514544427394867
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 301,
+    "return": 2.5866470336914062,
+    "crisis_attended": 1.0,
+    "distractor_attended": 0.9993489583333334,
+    "switch_rate": 0.35064828395843506
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 302,
+    "return": 2.880862236022949,
+    "crisis_attended": 0.9853515625,
+    "distractor_attended": 0.9348958333333334,
+    "switch_rate": 0.06482712924480438
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 302,
+    "return": 3.6324007511138916,
+    "crisis_attended": 0.9970703125,
+    "distractor_attended": 1.0,
+    "switch_rate": 0.7363696694374084
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 302,
+    "return": 3.570483922958374,
+    "crisis_attended": 0.9778645833333334,
+    "distractor_attended": 0.8551432291666666,
+    "switch_rate": 0.10147938877344131
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 302,
+    "return": 4.412940979003906,
+    "crisis_attended": 0.9986979166666666,
+    "distractor_attended": 0.9990234375,
+    "switch_rate": 0.7216173410415649
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 302,
+    "return": 2.6076557636260986,
+    "crisis_attended": 0.7998046875,
+    "distractor_attended": 0.8040364583333334,
+    "switch_rate": 0.8510223031044006
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 303,
+    "return": 2.881828784942627,
+    "crisis_attended": 0.986328125,
+    "distractor_attended": 0.9309895833333334,
+    "switch_rate": 0.06378822773694992
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 303,
+    "return": 3.6169259548187256,
+    "crisis_attended": 0.998046875,
+    "distractor_attended": 0.99609375,
+    "switch_rate": 0.5949966907501221
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 303,
+    "return": 3.525235414505005,
+    "crisis_attended": 0.9739583333333334,
+    "distractor_attended": 0.8567708333333334,
+    "switch_rate": 0.10106383264064789
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 303,
+    "return": 4.339879035949707,
+    "crisis_attended": 0.990234375,
+    "distractor_attended": 0.9895833333333334,
+    "switch_rate": 0.5857712626457214
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 303,
+    "return": 3.5405173301696777,
+    "crisis_attended": 0.982421875,
+    "distractor_attended": 0.9837239583333334,
+    "switch_rate": 0.9729471206665039
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 304,
+    "return": 2.924612522125244,
+    "crisis_attended": 0.9921875,
+    "distractor_attended": 0.9303385416666666,
+    "switch_rate": 0.0647440180182457
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 304,
+    "return": 3.614075183868408,
+    "crisis_attended": 0.99609375,
+    "distractor_attended": 0.9947916666666666,
+    "switch_rate": 0.5582612752914429
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 304,
+    "return": 3.5569748878479004,
+    "crisis_attended": 0.9772135416666666,
+    "distractor_attended": 0.8658854166666666,
+    "switch_rate": 0.10189494490623474
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 304,
+    "return": 4.334360122680664,
+    "crisis_attended": 0.9856770833333334,
+    "distractor_attended": 0.9879557291666666,
+    "switch_rate": 0.531873345375061
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 304,
+    "return": 3.5702245235443115,
+    "crisis_attended": 0.994140625,
+    "distractor_attended": 0.9921875,
+    "switch_rate": 0.9914810657501221
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 305,
+    "return": 2.9222710132598877,
+    "crisis_attended": 0.986328125,
+    "distractor_attended": 0.9290364583333334,
+    "switch_rate": 0.06457779556512833
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 305,
+    "return": 3.571385383605957,
+    "crisis_attended": 0.9921875,
+    "distractor_attended": 0.9973958333333334,
+    "switch_rate": 0.611951470375061
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 305,
+    "return": 3.5580451488494873,
+    "crisis_attended": 0.9765625,
+    "distractor_attended": 0.8466796875,
+    "switch_rate": 0.10143782943487167
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 305,
+    "return": 4.33201265335083,
+    "crisis_attended": 0.9954427083333334,
+    "distractor_attended": 0.9934895833333334,
+    "switch_rate": 0.5935006737709045
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 305,
+    "return": 3.277269124984741,
+    "crisis_attended": 0.9765625,
+    "distractor_attended": 0.982421875,
+    "switch_rate": 0.9648022055625916
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 306,
+    "return": 2.9526758193969727,
+    "crisis_attended": 0.9912109375,
+    "distractor_attended": 0.9375,
+    "switch_rate": 0.06540890783071518
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 306,
+    "return": 3.6288774013519287,
+    "crisis_attended": 0.9990234375,
+    "distractor_attended": 0.9947916666666666,
+    "switch_rate": 0.6949384808540344
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 306,
+    "return": 3.5038557052612305,
+    "crisis_attended": 0.9772135416666666,
+    "distractor_attended": 0.853515625,
+    "switch_rate": 0.10193650424480438
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 306,
+    "return": 4.3682966232299805,
+    "crisis_attended": 0.9934895833333334,
+    "distractor_attended": 0.9925130208333334,
+    "switch_rate": 0.6670129895210266
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 306,
+    "return": 3.4914939403533936,
+    "crisis_attended": 0.990234375,
+    "distractor_attended": 0.9869791666666666,
+    "switch_rate": 0.9864112138748169
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 307,
+    "return": 2.9351274967193604,
+    "crisis_attended": 0.9873046875,
+    "distractor_attended": 0.939453125,
+    "switch_rate": 0.06470245867967606
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 307,
+    "return": 3.5986506938934326,
+    "crisis_attended": 0.998046875,
+    "distractor_attended": 0.99609375,
+    "switch_rate": 0.6718334555625916
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 307,
+    "return": 3.4960005283355713,
+    "crisis_attended": 0.970703125,
+    "distractor_attended": 0.857421875,
+    "switch_rate": 0.10089760273694992
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 307,
+    "return": 4.33408260345459,
+    "crisis_attended": 0.9895833333333334,
+    "distractor_attended": 0.9928385416666666,
+    "switch_rate": 0.6491854786872864
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 307,
+    "return": 2.6123464107513428,
+    "crisis_attended": 0.998046875,
+    "distractor_attended": 0.9993489583333334,
+    "switch_rate": 0.2699052393436432
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 308,
+    "return": 2.9011545181274414,
+    "crisis_attended": 0.9931640625,
+    "distractor_attended": 0.9388020833333334,
+    "switch_rate": 0.06478556990623474
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 308,
+    "return": 3.597825527191162,
+    "crisis_attended": 0.9990234375,
+    "distractor_attended": 0.9993489583333334,
+    "switch_rate": 0.6790226101875305
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 308,
+    "return": 3.534057140350342,
+    "crisis_attended": 0.9778645833333334,
+    "distractor_attended": 0.8587239583333334,
+    "switch_rate": 0.10044049471616745
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 308,
+    "return": 4.363250255584717,
+    "crisis_attended": 0.9954427083333334,
+    "distractor_attended": 0.9957682291666666,
+    "switch_rate": 0.668384313583374
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 308,
+    "return": 3.5659213066101074,
+    "crisis_attended": 0.9892578125,
+    "distractor_attended": 0.9921875,
+    "switch_rate": 0.9729887247085571
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 309,
+    "return": 2.8670763969421387,
+    "crisis_attended": 0.9912109375,
+    "distractor_attended": 0.935546875,
+    "switch_rate": 0.06407912075519562
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 309,
+    "return": 3.4740099906921387,
+    "crisis_attended": 0.9931640625,
+    "distractor_attended": 0.994140625,
+    "switch_rate": 0.6035571694374084
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 309,
+    "return": 3.520618200302124,
+    "crisis_attended": 0.9772135416666666,
+    "distractor_attended": 0.8688151041666666,
+    "switch_rate": 0.10168717056512833
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 309,
+    "return": 4.175637722015381,
+    "crisis_attended": 0.9915364583333334,
+    "distractor_attended": 0.9889322916666666,
+    "switch_rate": 0.611120343208313
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 309,
+    "return": 2.59405517578125,
+    "crisis_attended": 0.9990234375,
+    "distractor_attended": 0.9986979166666666,
+    "switch_rate": 0.2993268072605133
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 310,
+    "return": 2.9214367866516113,
+    "crisis_attended": 0.9912109375,
+    "distractor_attended": 0.921875,
+    "switch_rate": 0.06449468433856964
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 310,
+    "return": 3.6011033058166504,
+    "crisis_attended": 0.9912109375,
+    "distractor_attended": 0.994140625,
+    "switch_rate": 0.636926531791687
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 310,
+    "return": 3.4636518955230713,
+    "crisis_attended": 0.96875,
+    "distractor_attended": 0.8541666666666666,
+    "switch_rate": 0.10189494490623474
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 310,
+    "return": 4.339604377746582,
+    "crisis_attended": 0.9837239583333334,
+    "distractor_attended": 0.9778645833333334,
+    "switch_rate": 0.6221326589584351
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 310,
+    "return": 3.4761009216308594,
+    "crisis_attended": 0.9833984375,
+    "distractor_attended": 0.97265625,
+    "switch_rate": 0.9975482225418091
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 311,
+    "return": 2.8830697536468506,
+    "crisis_attended": 0.98828125,
+    "distractor_attended": 0.9322916666666666,
+    "switch_rate": 0.064453125
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 311,
+    "return": 3.5735533237457275,
+    "crisis_attended": 0.998046875,
+    "distractor_attended": 0.9986979166666666,
+    "switch_rate": 0.6350980997085571
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 311,
+    "return": 3.506434440612793,
+    "crisis_attended": 0.9720052083333334,
+    "distractor_attended": 0.859375,
+    "switch_rate": 0.1018533930182457
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 311,
+    "return": 4.366055011749268,
+    "crisis_attended": 0.9973958333333334,
+    "distractor_attended": 0.9970703125,
+    "switch_rate": 0.6327709555625916
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 311,
+    "return": 3.4825756549835205,
+    "crisis_attended": 0.978515625,
+    "distractor_attended": 0.9720052083333334,
+    "switch_rate": 0.9638463854789734
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 312,
+    "return": 2.91811203956604,
+    "crisis_attended": 0.9921875,
+    "distractor_attended": 0.931640625,
+    "switch_rate": 0.06366356462240219
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 312,
+    "return": 3.6127121448516846,
+    "crisis_attended": 0.9990234375,
+    "distractor_attended": 0.9986979166666666,
+    "switch_rate": 0.6376329660415649
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 312,
+    "return": 3.509557008743286,
+    "crisis_attended": 0.9733072916666666,
+    "distractor_attended": 0.8597005208333334,
+    "switch_rate": 0.10467918962240219
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 312,
+    "return": 4.363797664642334,
+    "crisis_attended": 0.9947916666666666,
+    "distractor_attended": 0.9944661458333334,
+    "switch_rate": 0.612450122833252
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 312,
+    "return": 3.5509495735168457,
+    "crisis_attended": 0.9833984375,
+    "distractor_attended": 0.986328125,
+    "switch_rate": 0.9666306376457214
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 313,
+    "return": 2.923319101333618,
+    "crisis_attended": 0.9912109375,
+    "distractor_attended": 0.9270833333333334,
+    "switch_rate": 0.06366356462240219
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 313,
+    "return": 3.403531312942505,
+    "crisis_attended": 0.994140625,
+    "distractor_attended": 0.994140625,
+    "switch_rate": 0.4973404109477997
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 313,
+    "return": 3.5216712951660156,
+    "crisis_attended": 0.9720052083333334,
+    "distractor_attended": 0.857421875,
+    "switch_rate": 0.10102227330207825
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 313,
+    "return": 3.9053335189819336,
+    "crisis_attended": 0.9830729166666666,
+    "distractor_attended": 0.9876302083333334,
+    "switch_rate": 0.4881981313228607
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 313,
+    "return": 3.588834285736084,
+    "crisis_attended": 0.9921875,
+    "distractor_attended": 0.99609375,
+    "switch_rate": 0.8937832713127136
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 314,
+    "return": 2.894268274307251,
+    "crisis_attended": 0.990234375,
+    "distractor_attended": 0.919921875,
+    "switch_rate": 0.062416888773441315
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 314,
+    "return": 3.568708896636963,
+    "crisis_attended": 0.99609375,
+    "distractor_attended": 0.9947916666666666,
+    "switch_rate": 0.7353307604789734
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 314,
+    "return": 3.499103307723999,
+    "crisis_attended": 0.9752604166666666,
+    "distractor_attended": 0.8567708333333334,
+    "switch_rate": 0.10160405933856964
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 314,
+    "return": 4.324585914611816,
+    "crisis_attended": 0.99609375,
+    "distractor_attended": 0.9964192708333334,
+    "switch_rate": 0.715965747833252
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 314,
+    "return": 3.381821870803833,
+    "crisis_attended": 0.9658203125,
+    "distractor_attended": 0.9674479166666666,
+    "switch_rate": 0.9818816781044006
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 315,
+    "return": 2.9351298809051514,
+    "crisis_attended": 0.994140625,
+    "distractor_attended": 0.9244791666666666,
+    "switch_rate": 0.06449468433856964
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 315,
+    "return": 3.6032049655914307,
+    "crisis_attended": 0.9970703125,
+    "distractor_attended": 0.9986979166666666,
+    "switch_rate": 0.640209436416626
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 315,
+    "return": 3.4571118354797363,
+    "crisis_attended": 0.9713541666666666,
+    "distractor_attended": 0.8587239583333334,
+    "switch_rate": 0.10297539830207825
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 315,
+    "return": 4.384454727172852,
+    "crisis_attended": 0.994140625,
+    "distractor_attended": 0.9951171875,
+    "switch_rate": 0.648021936416626
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 315,
+    "return": 3.5783779621124268,
+    "crisis_attended": 0.9951171875,
+    "distractor_attended": 0.994140625,
+    "switch_rate": 0.8628241419792175
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 316,
+    "return": 2.9219608306884766,
+    "crisis_attended": 0.990234375,
+    "distractor_attended": 0.9108072916666666,
+    "switch_rate": 0.064453125
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 316,
+    "return": 3.5941646099090576,
+    "crisis_attended": 0.9951171875,
+    "distractor_attended": 0.9954427083333334,
+    "switch_rate": 0.7012134194374084
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 316,
+    "return": 3.510608673095703,
+    "crisis_attended": 0.9759114583333334,
+    "distractor_attended": 0.8444010416666666,
+    "switch_rate": 0.10201961547136307
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 316,
+    "return": 4.351376056671143,
+    "crisis_attended": 0.9928385416666666,
+    "distractor_attended": 0.9934895833333334,
+    "switch_rate": 0.693359375
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 316,
+    "return": 3.5109026432037354,
+    "crisis_attended": 0.9833984375,
+    "distractor_attended": 0.9817708333333334,
+    "switch_rate": 0.9749002456665039
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 317,
+    "return": 2.9139978885650635,
+    "crisis_attended": 0.9951171875,
+    "distractor_attended": 0.92578125,
+    "switch_rate": 0.0653257966041565
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 317,
+    "return": 3.5155649185180664,
+    "crisis_attended": 0.9970703125,
+    "distractor_attended": 0.9947916666666666,
+    "switch_rate": 0.6109541058540344
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 317,
+    "return": 3.495122194290161,
+    "crisis_attended": 0.9752604166666666,
+    "distractor_attended": 0.8541666666666666,
+    "switch_rate": 0.10314162075519562
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 317,
+    "return": 4.203770160675049,
+    "crisis_attended": 0.9915364583333334,
+    "distractor_attended": 0.9944661458333334,
+    "switch_rate": 0.616771936416626
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 317,
+    "return": 3.2158780097961426,
+    "crisis_attended": 0.94140625,
+    "distractor_attended": 0.9446614583333334,
+    "switch_rate": 0.9014710783958435
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 318,
+    "return": 2.8443655967712402,
+    "crisis_attended": 0.9912109375,
+    "distractor_attended": 0.9264322916666666,
+    "switch_rate": 0.06599069386720657
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 318,
+    "return": 3.566319465637207,
+    "crisis_attended": 0.9990234375,
+    "distractor_attended": 0.9986979166666666,
+    "switch_rate": 0.6121177077293396
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 318,
+    "return": 3.5266177654266357,
+    "crisis_attended": 0.9798177083333334,
+    "distractor_attended": 0.8551432291666666,
+    "switch_rate": 0.09994181990623474
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 318,
+    "return": 4.224630832672119,
+    "crisis_attended": 0.9908854166666666,
+    "distractor_attended": 0.9957682291666666,
+    "switch_rate": 0.575548529624939
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 318,
+    "return": 3.559962272644043,
+    "crisis_attended": 0.994140625,
+    "distractor_attended": 0.9856770833333334,
+    "switch_rate": 0.8939494490623474
+  },
+  {
+    "arm": "scripted_indist",
+    "seed": 319,
+    "return": 2.896620512008667,
+    "crisis_attended": 0.9921875,
+    "distractor_attended": 0.9231770833333334,
+    "switch_rate": 0.061918217688798904
+  },
+  {
+    "arm": "learned_indist",
+    "seed": 319,
+    "return": 3.587261915206909,
+    "crisis_attended": 0.9990234375,
+    "distractor_attended": 0.9993489583333334,
+    "switch_rate": 0.7180020213127136
+  },
+  {
+    "arm": "scripted_ood",
+    "seed": 319,
+    "return": 3.530139923095703,
+    "crisis_attended": 0.9713541666666666,
+    "distractor_attended": 0.861328125,
+    "switch_rate": 0.10056515783071518
+  },
+  {
+    "arm": "learned_ood",
+    "seed": 319,
+    "return": 4.354626178741455,
+    "crisis_attended": 0.994140625,
+    "distractor_attended": 0.9967447916666666,
+    "switch_rate": 0.7020860910415649
+  },
+  {
+    "arm": "memoryless_indist",
+    "seed": 319,
+    "return": 2.5977232456207275,
+    "crisis_attended": 0.9990234375,
+    "distractor_attended": 1.0,
+    "switch_rate": 0.18180684745311737
+  }
+]

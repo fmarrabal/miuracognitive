@@ -1,0 +1,9 @@
+{
+  "seed": 305,
+  "scripted_indist": 3.678232192993164,
+  "learned_indist": 3.282994270324707,
+  "scripted_ood_int": 3.9086782932281494,
+  "learned_ood_int": 3.643815755844116,
+  "scripted_ood_ene": 2.753436326980591,
+  "learned_ood_ene": 2.803972005844116
+}

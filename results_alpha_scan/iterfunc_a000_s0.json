@@ -1,0 +1,13 @@
+{
+  "task": "iterfunc",
+  "alpha": 0.0,
+  "seed": 0,
+  "acc": {
+    "corto": 0.44402985074626866,
+    "medio": 0.4792746113989637,
+    "largo": 0.5207667731629393
+  },
+  "stab_penalty": 0.0,
+  "zeta_mean": 0.5,
+  "omega0_mean": 0.5
+}

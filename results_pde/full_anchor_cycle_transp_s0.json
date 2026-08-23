@@ -1,0 +1,12 @@
+{
+  "name": "full_anchor_cycle_transp_s0",
+  "variant": "hbp_full",
+  "gens": "cycle_transp",
+  "seed": 0,
+  "overrides": null,
+  "acc": {
+    "corto": 0.9928571428571429,
+    "medio": 0.9665738161559888,
+    "largo": 0.3213728549141966
+  }
+}

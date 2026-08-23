@@ -1,0 +1,219 @@
+{
+  "design": {
+    "phase": "phase_3_discovered_goals",
+    "roadmap": [
+      "self_regulation",
+      "anticipation",
+      "endogenous_goals",
+      "discovered_goals",
+      "self_model",
+      "metacognition"
+    ],
+    "variants": [
+      "discoverer",
+      "no_feedback"
+    ],
+    "seeds": [
+      210,
+      211,
+      212,
+      213,
+      214
+    ],
+    "steps": 400,
+    "environment": {
+      "n_needs": 3,
+      "goal_dim": 2,
+      "n_probes": 4,
+      "response_sigma": 0.62,
+      "restoration_scale": 0.46,
+      "setpoint": 0.75,
+      "dominant_min": 0.28,
+      "dominant_max": 0.38,
+      "secondary_min": 0.54,
+      "secondary_max": 0.64,
+      "other_min": 0.72,
+      "other_max": 0.8
+    },
+    "external_goal_supplied": false,
+    "goal_catalog_exists": false,
+    "center_visible_to_policy": false,
+    "training_center_supervision": false,
+    "decoder": "differentiable_rbf_trilateration_plus_learned_residual",
+    "equal_compute_and_probe_budget": true,
+    "claim_if_positive": "causal discovery of continuous, compositional goals in the tested affordance grammar; not arbitrary purposes, consciousness or a human soul"
+  },
+  "summary": {
+    "discoverer": {
+      "n_seeds": 5,
+      "seeds": [
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "normal": {
+        "goal_success_rate": 1.0,
+        "mean_target_center_distance": 0.1135010977089405,
+        "mean_target_response": 0.9832970309257507,
+        "dominant_restored_rate": 1.0,
+        "mean_homeostatic_improvement": 0.08454375743865966,
+        "mean_final_absolute_error": 0.11576521009206772,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 1.0,
+        "mean_normalized_probe_distance": 0.33465069890022275
+      },
+      "causal": {
+        "feedback_on_goal_success": 0.869375,
+        "valid_outcomes_on_goal_success": 0.91,
+        "goal_content_on_success": 0.9653125,
+        "feedback_on_homeostatic_improvement": 0.05051184207201004,
+        "body_transplant_switch_rate": 0.98171875,
+        "body_transplant_new_goal_success": 1.0,
+        "body_transplant_goal_shift": 0.7381188130378723
+      }
+    },
+    "no_feedback": {
+      "n_seeds": 5,
+      "seeds": [
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "normal": {
+        "goal_success_rate": 0.13703125,
+        "mean_target_center_distance": 0.5384733021259308,
+        "mean_target_response": 0.6739245057106018,
+        "dominant_restored_rate": 0.2775,
+        "mean_homeostatic_improvement": 0.03269240539520979,
+        "mean_final_absolute_error": 0.16761656433343888,
+        "feasible_goal_rate": 1.0,
+        "continuous_unique_goal_fraction": 0.98171875,
+        "mean_normalized_probe_distance": 0.38543267369270323
+      },
+      "causal": {
+        "feedback_on_goal_success": 0.0,
+        "valid_outcomes_on_goal_success": 0.0,
+        "goal_content_on_success": 0.00046874999999999554,
+        "feedback_on_homeostatic_improvement": 0.0,
+        "body_transplant_switch_rate": 0.49578125,
+        "body_transplant_new_goal_success": 0.1275,
+        "body_transplant_goal_shift": 0.0002293530730821658
+      }
+    }
+  },
+  "discoverer_minus_no_feedback": {
+    "seeds": [
+      210,
+      211,
+      212,
+      213,
+      214
+    ],
+    "mean_goal_success_difference": 0.86296875,
+    "seed_level_exact_signflip": {
+      "differences": [
+        0.8578125,
+        0.86796875,
+        0.86171875,
+        0.86015625,
+        0.8671875
+      ],
+      "nonzero_seeds": 5,
+      "observed_sum": 4.31484375,
+      "p_exact_two_sided": 0.0625
+    }
+  },
+  "confirmatory_primary_family": {
+    "status": "fail",
+    "decision_rule": "all four effects positive with Holm-adjusted exact sign-flip p < 0.05, and all six guardrails true",
+    "alpha_familywise": 0.05,
+    "n_paired_seeds": 5,
+    "seeds": [
+      210,
+      211,
+      212,
+      213,
+      214
+    ],
+    "mean_effects": {
+      "discoverer_minus_no_feedback_goal_success": 0.86296875,
+      "feedback_lesion_on_goal_success": 0.869375,
+      "outcome_validity_on_goal_success": 0.91,
+      "goal_content_reflection_on_success": 0.9653125
+    },
+    "seed_level_exact_signflip": {
+      "discoverer_minus_no_feedback_goal_success": {
+        "differences": [
+          0.8578125,
+          0.86796875,
+          0.86171875,
+          0.86015625,
+          0.8671875
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.31484375,
+        "p_exact_two_sided": 0.0625
+      },
+      "feedback_lesion_on_goal_success": {
+        "differences": [
+          0.86328125,
+          0.8671875,
+          0.8671875,
+          0.8703125,
+          0.87890625
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.346875,
+        "p_exact_two_sided": 0.0625
+      },
+      "outcome_validity_on_goal_success": {
+        "differences": [
+          0.9015625,
+          0.9125,
+          0.909375,
+          0.90546875,
+          0.92109375
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.55,
+        "p_exact_two_sided": 0.0625
+      },
+      "goal_content_reflection_on_success": {
+        "differences": [
+          0.96015625,
+          0.965625,
+          0.9640625,
+          0.9703125,
+          0.96640625
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.8265625,
+        "p_exact_two_sided": 0.0625
+      }
+    },
+    "holm_adjusted_p": {
+      "discoverer_minus_no_feedback_goal_success": 0.25,
+      "feedback_lesion_on_goal_success": 0.25,
+      "outcome_validity_on_goal_success": 0.25,
+      "goal_content_reflection_on_success": 0.25
+    },
+    "criterion_passed": {
+      "discoverer_minus_no_feedback_goal_success": false,
+      "feedback_lesion_on_goal_success": false,
+      "outcome_validity_on_goal_success": false,
+      "goal_content_reflection_on_success": false
+    },
+    "guardrails": {
+      "normal_success_each_seed_at_least_0.70": true,
+      "feasible_each_seed_equals_1": true,
+      "continuous_unique_each_seed_at_least_0.95": true,
+      "probe_distance_each_seed_at_least_0.05": true,
+      "body_transplant_switch_each_seed_at_least_0.70": true,
+      "body_transplant_success_each_seed_at_least_0.50": true
+    }
+  }
+}

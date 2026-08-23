@@ -1,0 +1,29 @@
+# mHBP — configuración MVP de cuatro campos (Fase 1). Ver MATH_SPEC.md.
+# NOTA: documento NO-canónico (la fuente de verdad es MHBPConfig/FieldConfig en
+# Python; ningún código carga este YAML todavía — loader en Fase 2).
+mhbp:
+  d: 8
+  dt: 0.5
+  theta: 1.0                # 1.0 = backward-Euler (disipativo); 0.5 = Crank-Nicolson
+  timescale_mode: fixed     # fixed | learnable | context
+  taus: [1.0, 4.0, 8.0, 32.0]
+  coupling_topology: chain  # chain (adyacencia en escala temporal) | full | none
+  kappa_max: 0.5
+  d_c: 4
+  f_max: 0.5
+  allostasis: true
+  eps_allostasis: 0.2
+  integrator: cayley_imex   # cayley_imex | verlet_ref
+  dtype: float64
+
+fields:
+  - {name: fast_executive,     n_nodes: 8, graph: chain}
+  - {name: risk_priority,      n_nodes: 4, graph: chain}
+  - {name: slow_deliberative,  n_nodes: 6, graph: chain}
+  - {name: resource_metabolic, n_nodes: 4, graph: chain}
+
+actuators:                   # MVP (Fase 1); el resto en fases >= 4
+  - {name: halt_bias,    lo: -3.0, hi: 3.0,  a0: 0.0}
+  - {name: depth_max,    lo:  2.0, hi: 24.0, a0: 8.0, discrete: true}
+  - {name: tool_gate,    lo:  0.0, hi: 1.0,  a0: 0.1}
+  - {name: budget_scale, lo:  0.25, hi: 4.0, a0: 1.0}

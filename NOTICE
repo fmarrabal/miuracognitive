@@ -1,0 +1,64 @@
+NOTICE — procedencia y licencias de material de terceros
+========================================================
+
+La licencia MIT de este repositorio (fichero LICENSE) cubre el codigo, los
+documentos y los resultados producidos por los autores. NO cubre el material
+de terceros que se enumera aqui, que se redistribuye bajo su propia licencia
+y con su propio aviso de copyright.
+
+
+1. Conjunto de test de GSM8K
+----------------------------
+Fichero: mhbp/tasks/llm_gov/cache/gsm8k_test.jsonl
+
+  Grade School Math 8K (GSM8K)
+  Copyright (c) 2021 OpenAI
+  Distribuido bajo licencia MIT.
+  Origen: https://github.com/openai/grade-school-math
+
+Se redistribuye verbatim, sin modificar, para que el capitulo de LLM sea
+reproducible sin depender de que la URL de origen siga viva. El script
+mhbp/tasks/llm_gov/llm_gsm8k.py lo descarga automaticamente si el fichero no
+esta presente, de modo que borrarlo no rompe la reproducibilidad.
+
+
+2. Generaciones del modelo actuador
+-----------------------------------
+Ficheros: mhbp/tasks/llm_gov/cache/cache_sonda_s0.jsonl
+          mhbp/tasks/llm_gov/cache/cache_sonda_T13_s0.jsonl
+          y demas cache_*.jsonl del mismo directorio
+
+Contienen salidas generadas por Qwen2.5-14B-Instruct, ejecutado en local.
+
+  Qwen2.5-14B-Instruct
+  Copyright (c) Alibaba Cloud
+  Distribuido bajo licencia Apache-2.0.
+  Origen: https://huggingface.co/Qwen/Qwen2.5-14B-Instruct
+
+La licencia Apache-2.0 del modelo no reclama derechos sobre las salidas
+generadas, por lo que su redistribucion como artefacto experimental es
+legitima. Se publican porque son el registro primario del que salen los
+numeros del capitulo de LLM: sin ellos, esa parte solo seria reproducible
+volviendo a generar ~30.000 completions.
+
+
+3. Ficheros de estilo de LaTeX
+------------------------------
+Ficheros: paper/tmlr.sty, paper/tmlr.bst
+          paper/arxiv/cognition/tmlr.sty
+          paper/arxiv/governor/tmlr.sty
+
+Son los ficheros de estilo de Transactions on Machine Learning Research, de
+sus respectivos autores. En particular paper/tmlr.bst deriva de natbib, de
+Patrick W. Daly, y se distribuye bajo la LaTeX Project Public License (LPPL);
+su cabecera conserva el aviso y el contacto del mantenedor, como la LPPL
+exige. Ninguno de estos ficheros esta cubierto por la licencia MIT de este
+repositorio. Se incluyen unicamente para que los manuscritos compilen tal
+cual.
+
+
+4. Dependencias
+---------------
+Las bibliotecas de terceros (PyTorch, NumPy, SciPy, Matplotlib, transformers,
+etc.) no se distribuyen aqui: se declaran en requirements.txt y
+environment.yml y conservan cada una su propia licencia.

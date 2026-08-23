@@ -1,0 +1,51 @@
+{
+ "f3b_mhbp_sess": {
+  "params_total": 5569866,
+  "params_controlador": 11754,
+  "estado_persistente_por_muestra": 352,
+  "beta_homeo": 0.0,
+  "beta_intero": 0.1
+ },
+ "f3b_mhbp_sess_inst": {
+  "params_total": 5569866,
+  "params_controlador": 11754,
+  "estado_persistente_por_muestra": 352,
+  "beta_homeo": 0.0,
+  "beta_intero": 0.1
+ },
+ "f3b_mhbp_noper": {
+  "params_total": 5569866,
+  "params_controlador": 11754,
+  "estado_persistente_por_muestra": 352,
+  "beta_homeo": 0.0,
+  "beta_intero": 0.1
+ },
+ "f3b_hbp_sess": {
+  "params_total": 5595087,
+  "params_controlador": 36975,
+  "estado_persistente_por_muestra": 768,
+  "beta_homeo": 0.001,
+  "beta_intero": 0.1
+ },
+ "f3b_gru_sess": {
+  "params_total": 6028007,
+  "params_controlador": 469895,
+  "estado_persistente_por_muestra": 352,
+  "beta_homeo": 0.001,
+  "beta_intero": 0.1
+ },
+ "f3b_react_sess": {
+  "params_total": 5565511,
+  "params_controlador": 7399,
+  "estado_persistente_por_muestra": 0,
+  "beta_homeo": 0.001,
+  "beta_intero": 0.1
+ },
+ "f3b_gating_wm": {
+  "params_total": 5525000,
+  "params_controlador": 0,
+  "estado_persistente_por_muestra": 0,
+  "beta_homeo": 0.001,
+  "beta_intero": 0.1
+ }
+}

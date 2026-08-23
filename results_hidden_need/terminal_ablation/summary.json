@@ -1,0 +1,40 @@
+{
+  "design": {
+    "terminal_marker_ablation": true,
+    "same_checkpoints_as_primary": true,
+    "variants": [
+      "gating_wm",
+      "hbp_first",
+      "hbp_full"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "eval_batches": 20
+  },
+  "summary": {
+    "gating_wm": {
+      "mean_learned_accuracy": 0.7055555555555556,
+      "mean_uniform_accuracy": 0.6087962962962963,
+      "mean_delta_accuracy": 0.09675925925925928,
+      "mean_corr_K_quota": 0.6179374853769938,
+      "mean_exact_match_rate": 0.12685185422499975
+    },
+    "hbp_first": {
+      "mean_learned_accuracy": 0.7050925925925926,
+      "mean_uniform_accuracy": 0.6087962962962963,
+      "mean_delta_accuracy": 0.09629629629629632,
+      "mean_corr_K_quota": 0.6816286047299703,
+      "mean_exact_match_rate": 0.12592592587073645
+    },
+    "hbp_full": {
+      "mean_learned_accuracy": 0.7115740740740741,
+      "mean_uniform_accuracy": 0.6087962962962963,
+      "mean_delta_accuracy": 0.10277777777777782,
+      "mean_corr_K_quota": 0.6799583633740743,
+      "mean_exact_match_rate": 0.12592592338720957
+    }
+  }
+}

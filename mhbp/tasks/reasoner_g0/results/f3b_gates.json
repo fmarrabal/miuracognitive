@@ -1,0 +1,145 @@
+{
+ "perfil": "real",
+ "perfil_origen": "real (hbp_full_cycle_transp_indist_s0.pt, gating_wm_cycle_transp_indist_s0.pt... n_muestras=256)",
+ "valido_para_veredicto": true,
+ "spec": {
+  "E": 6,
+  "k_easy": [
+   13,
+   18
+  ],
+  "k_hard": [
+   16,
+   22
+  ],
+  "p_switch": 0.3333333333333333,
+  "n_high": 2,
+  "stake_high": 4,
+  "stake_low": 1,
+  "B_total": 56,
+  "seq_len": 128,
+  "n_max": 24
+ },
+ "n_mc": 2000,
+ "n_boot": 2000,
+ "d_ref": {
+  "6": 2,
+  "7": 2,
+  "8": 3,
+  "9": 4,
+  "10": 5,
+  "11": 7,
+  "12": 6,
+  "13": 8,
+  "14": 9,
+  "15": 11,
+  "16": 12,
+  "17": 12,
+  "18": 13,
+  "19": 14,
+  "20": 15,
+  "21": 15,
+  "22": 16,
+  "23": 17,
+  "24": 17
+ },
+ "demanda_estacionaria": 12.345238095238095,
+ "escalera": {
+  "uniforme": {
+   "score": 0.6450296495225695,
+   "se": 0.0022566309803212746,
+   "frac_forzados": 0.0
+  },
+  "taper": {
+   "score": 0.6433707139756945,
+   "se": 0.002258091662106411,
+   "frac_forzados": 0.0
+  },
+  "stake_greedy": {
+   "score": 0.6848559027777777,
+   "se": 0.001957993409234016,
+   "frac_forzados": 0.0
+  },
+  "contador": {
+   "score": 0.6763273383246529,
+   "se": 0.0017362695830221396,
+   "frac_forzados": 0.0
+  },
+  "ultima_K": {
+   "score": 0.6722986382378473,
+   "se": 0.001757327890175723,
+   "frac_forzados": 0.0
+  },
+  "bayes": {
+   "score": 0.6774729817708333,
+   "se": 0.0017483679575667306,
+   "frac_forzados": 0.0
+  },
+  "oraculo": {
+   "score": 0.7014223090277778,
+   "se": 0.0017487529004406649,
+   "frac_forzados": 0.0
+  }
+ },
+ "taper_grid": {
+  "taper_lin_0.2": 0.6433707139756945,
+  "taper_lin_0.4": 0.6349934624565972,
+  "taper_lin_0.6": 0.607979465060764,
+  "taper_lin_0.8": 0.5705721571180555,
+  "taper_lin_1.0": 0.5179088541666668,
+  "taper_exp_0.6": 0.46312415907118054,
+  "taper_exp_0.7": 0.5351812337239583,
+  "taper_exp_0.8": 0.5910605197482639,
+  "taper_exp_0.9": 0.632254909939236
+ },
+ "mejor_taper": "taper_lin_0.2",
+ "GS1": {
+  "mordida_demanda": 0.998,
+  "mordida_uniforme_insuficiente": 1.0,
+  "frac_demanda_total_excede_B": 0.998,
+  "headroom_mediana": 0.01657236056857625,
+  "headroom_ic_inf": 0.01608568250868069,
+  "mejor_ciega": "stake_greedy",
+  "oraculo_menos_stake_greedy_mediana": 0.016568060980902688,
+  "oraculo_menos_stake_greedy_ic_inf": 0.016088929578993032,
+  "mdd_n256": 0.0019976683931296523
+ },
+ "GS2": {
+  "rango": 0.05639265950520833,
+  "umbral": 0.0028196329752604166,
+  "bayes_menos_ultimaK_mediana": 0.005184380425347246,
+  "bayes_menos_ultimaK_ic_inf": 0.004767541503906203,
+  "bayes_menos_contador_mediana": 0.0011472981770833668,
+  "bayes_menos_contador_ic_inf": 0.0010130181206599253
+ },
+ "GS3": {
+  "mi_regimen_posicion_bits": 0.00018430205354578593,
+  "mi_regimen_stake_bits": 6.411991436837579e-07,
+  "corr_regimen_K_propio": 0.6868872497192569,
+  "n_sesiones": 2000
+ },
+ "N_eval": {
+  "sd_bernoulli": {
+   "uniforme": 0.23321960025787808,
+   "bayes": 0.20859343762981186,
+   "oraculo": 0.21350954636476768
+  },
+  "por_politica": {
+   "uniforme": 544,
+   "bayes": 436,
+   "oraculo": 456
+  },
+  "recomendado": 544,
+  "sd_entre_seeds_proxy": 0.03
+ },
+ "verdicto": {
+  "GS1a_mordida": true,
+  "GS1b_headroom": false,
+  "GS1b_vs_stake_greedy": false,
+  "GS1c_2xMDD": true,
+  "GS2_bayes_vs_ultimaK": true,
+  "GS2_bayes_vs_contador": true,
+  "GS3_proxies": true
+ },
+ "todos_los_gates": false
+}

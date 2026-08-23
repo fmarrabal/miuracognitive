@@ -1,0 +1,12 @@
+{
+  "name": "full_anchor_adjacent_s0",
+  "variant": "hbp_full",
+  "gens": "adjacent",
+  "seed": 0,
+  "overrides": null,
+  "acc": {
+    "corto": 0.9785714285714285,
+    "medio": 0.7465181058495822,
+    "largo": 0.13260530421216848
+  }
+}

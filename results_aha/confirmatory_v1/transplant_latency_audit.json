@@ -1,0 +1,510 @@
+{
+  "design": {
+    "analysis": "post_hoc_transplant_latency",
+    "confirmatory_decision_uses_this": false,
+    "variant": "gating_wm",
+    "window_ticks": 6,
+    "batch_size": 96,
+    "external_world": "stationary; cues and disturbances zero",
+    "deficit_level": 0.55,
+    "satiated_level": 0.95,
+    "other_levels": 0.78,
+    "setpoints": 0.75
+  },
+  "summary": {
+    "n_seeds": 20,
+    "n_seed_need_cells": 60,
+    "deficit_any_correct_within_window": 0.9333333333333333,
+    "satiated_any_correct_within_window": 0.0,
+    "mean_target_probability_effect_within_window": 0.20397580315669378,
+    "first_deficit_correct_tick_counts": {
+      "1": 16,
+      "2": 37,
+      "3": 2,
+      "4": 1,
+      "none": 4
+    }
+  },
+  "records": [
+    {
+      "seed": 100,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.21372349560260773,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 100,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.1288692206144333,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 100,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20034047961235046,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 101,
+      "need": 0,
+      "deficit_any_correct": 0.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.4016118049621582,
+      "first_deficit_correct_tick": null
+    },
+    {
+      "seed": 101,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.19837231934070587,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 101,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.21799275279045105,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 102,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20170354843139648,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 102,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.26330748200416565,
+      "first_deficit_correct_tick": 3
+    },
+    {
+      "seed": 102,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.2521854639053345,
+      "first_deficit_correct_tick": 3
+    },
+    {
+      "seed": 103,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.1947876662015915,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 103,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20382560789585114,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 103,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20825453102588654,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 104,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.24568970501422882,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 104,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20727750658988953,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 104,
+      "need": 2,
+      "deficit_any_correct": 0.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.38802358508110046,
+      "first_deficit_correct_tick": null
+    },
+    {
+      "seed": 105,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.18888647854328156,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 105,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20227278769016266,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 105,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.19794614613056183,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 106,
+      "need": 0,
+      "deficit_any_correct": 0.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.38421201705932617,
+      "first_deficit_correct_tick": null
+    },
+    {
+      "seed": 106,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.1581333428621292,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 106,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.12601415812969208,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 107,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.21301142871379852,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 107,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.24116039276123047,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 107,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.23651207983493805,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 108,
+      "need": 0,
+      "deficit_any_correct": 0.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.36135855317115784,
+      "first_deficit_correct_tick": null
+    },
+    {
+      "seed": 108,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.19402016699314117,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 108,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.21128642559051514,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 109,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.18956470489501953,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 109,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.1916084587574005,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 109,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.1863882839679718,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 110,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.22442950308322906,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 110,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20700274407863617,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 110,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.1362326443195343,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 111,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20991235971450806,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 111,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.11686407029628754,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 111,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.3182796537876129,
+      "first_deficit_correct_tick": 4
+    },
+    {
+      "seed": 112,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.1958123743534088,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 112,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.21213874220848083,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 112,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20272135734558105,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 113,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.217446431517601,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 113,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20926226675510406,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 113,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.21446748077869415,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 114,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.14716699719429016,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 114,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.13885508477687836,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 114,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.14360542595386505,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 115,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.21242158114910126,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 115,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.24043194949626923,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 115,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.14005324244499207,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 116,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.13029339909553528,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 116,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.12149355560541153,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 116,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.1364813894033432,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 117,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.2124176025390625,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 117,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.24407148361206055,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 117,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.18590323626995087,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 118,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.18866141140460968,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 118,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.20594759285449982,
+      "first_deficit_correct_tick": 2
+    },
+    {
+      "seed": 118,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.12376538664102554,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 119,
+      "need": 0,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.13502562046051025,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 119,
+      "need": 1,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.12612362205982208,
+      "first_deficit_correct_tick": 1
+    },
+    {
+      "seed": 119,
+      "need": 2,
+      "deficit_any_correct": 1.0,
+      "satiated_any_correct": 0.0,
+      "mean_target_probability_effect": 0.13291938602924347,
+      "first_deficit_correct_tick": 1
+    }
+  ]
+}

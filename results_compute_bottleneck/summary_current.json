@@ -1,0 +1,59 @@
+{
+  "status": "null_current_training",
+  "protocol": {
+    "variant": "hbp_full",
+    "generators": "adjacent",
+    "training_steps": 1500,
+    "train_max_ops": 12,
+    "max_halt_steps": 12,
+    "mean_budget": 10,
+    "primary_control": "uniform",
+    "eval_samples_per_checkpoint": 1280
+  },
+  "current_code_training_seeds": [
+    {
+      "seed": 0,
+      "learned_accuracy": 0.35390625,
+      "uniform_accuracy": 0.36171875,
+      "delta_accuracy": -0.0078125,
+      "cluster_randomization_p": 0.1569061279296875,
+      "corr_difficulty_quota": -0.16539804637432098
+    },
+    {
+      "seed": 1,
+      "learned_accuracy": 0.3765625,
+      "uniform_accuracy": 0.37109375,
+      "delta_accuracy": 0.00546875,
+      "cluster_randomization_p": 0.273681640625,
+      "corr_difficulty_quota": -0.20437684655189514
+    },
+    {
+      "seed": 2,
+      "learned_accuracy": 0.36796875,
+      "uniform_accuracy": 0.36953125,
+      "delta_accuracy": -0.0015625,
+      "cluster_randomization_p": 0.8566088676452637,
+      "corr_difficulty_quota": -0.2981486916542053
+    }
+  ],
+  "aggregate": {
+    "mean_delta_accuracy": -0.0013020833333333333,
+    "sd_delta_accuracy": 0.006644453553215153,
+    "paired_seed_t": -0.3394221166510599,
+    "paired_seed_t_p_two_sided": 0.7666199859953352,
+    "wilcoxon_p_two_sided": 0.75
+  },
+  "historical_checkpoint": {
+    "replicable_across_eval_streams": true,
+    "replicable_across_retraining": false,
+    "delta_accuracy_at_budget_10": 0.0625,
+    "cluster_randomization_p": 3.2014213502407074e-10,
+    "corr_difficulty_quota": 0.6030982732772827,
+    "interpretation": "checkpoint-specific; not a general method result"
+  },
+  "ponder_expected_exploratory": {
+    "mean_expected_steps": 1.0086300881579517,
+    "interpretation": "apparent gains are triage under one-step collapse, not useful extra thinking"
+  },
+  "conclusion": "The causal evaluator works, but current permcomp training does not learn a reproducibly useful compute allocation. A task with positive marginal utility of recurrent steps is required."
+}

@@ -1,0 +1,44 @@
+{
+  "gating_wm_s0": {
+    "probe_F1_auc": 0.951712965965271,
+    "probe_F2_auc": 0.9286360740661621,
+    "halting_Iprime_baseline": 0.8496444821357727,
+    "test_acc": 0.86328125,
+    "wall_s": 8.2
+  },
+  "gating_wm_s1": {
+    "probe_F1_auc": 0.9071534872055054,
+    "probe_F2_auc": 0.8989858031272888,
+    "halting_Iprime_baseline": 0.7882623672485352,
+    "test_acc": 0.830078125,
+    "wall_s": 6.2
+  },
+  "gating_wm_s2": {
+    "probe_F1_auc": 0.9294785857200623,
+    "probe_F2_auc": 0.9328798055648804,
+    "halting_Iprime_baseline": 0.8786157965660095,
+    "test_acc": 0.857421875,
+    "wall_s": 6.4
+  },
+  "hbp_full_s0": {
+    "probe_F1_auc": 0.9436428546905518,
+    "probe_F2_auc": 0.9429440498352051,
+    "halting_Iprime_baseline": 0.8538661003112793,
+    "test_acc": 0.896484375,
+    "wall_s": 12.1
+  },
+  "hbp_full_s1": {
+    "probe_F1_auc": 0.9012762308120728,
+    "probe_F2_auc": 0.9123085737228394,
+    "halting_Iprime_baseline": 0.7913216352462769,
+    "test_acc": 0.83984375,
+    "wall_s": 11.0
+  },
+  "hbp_full_s2": {
+    "probe_F1_auc": 0.9268904328346252,
+    "probe_F2_auc": 0.8844614028930664,
+    "halting_Iprime_baseline": 0.9025329947471619,
+    "test_acc": 0.884765625,
+    "wall_s": 12.0
+  }
+}

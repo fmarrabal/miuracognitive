@@ -1,0 +1,1974 @@
+{
+ "greedy": {
+  "acc": 0.9791666666666666,
+  "acc_por_L": {
+   "6": 1.0,
+   "10": 0.9375,
+   "14": 1.0
+  },
+  "compliance": 1.0,
+  "corr_tok_d": 0.9992489665993756,
+  "cv_tok_por_L": {
+   "6": 0.32659863235657494,
+   "10": 0.4731770864778345,
+   "14": 0.5129958306833519
+  },
+  "r2_tok_L": 0.24842466970732946,
+  "corr_hops_tok": 0.9992489665993756,
+  "tokens_por_L": {
+   "6": 22.5,
+   "10": 34.9375,
+   "14": 46.5625
+  },
+  "gate_W": true,
+  "gate_R": true,
+  "regs": [
+   {
+    "L": 6,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: i\u2192s\n2: s\u2192r\n3: r\u2192p\n4: p\u2192l\n5: l\u2192e\nRESPUESTA: 5"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: f\u2192p\n2: p\u2192g\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: g\u2192c\n2: c\u2192h\n3: h\u2192d\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: r\u2192l\n2: l\u2192o\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: f\u2192d\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 8.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: t\u2192q\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: i\u2192t\n2: t\u2192g\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: h\u2192q\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: i\u2192j\n2: j\u2192e\n3: e\u2192m\n4: m\u2192b\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: l\u2192m\n2: m\u2192a\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: n\u2192k\n2: k\u2192h\n3: h\u2192o\n4: o\u2192r\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: c\u2192e\n2: e\u2192a\n3: a\u2192g\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: r\u2192i\n2: i\u2192p\n3: p\u2192f\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: j\u2192i\n2: i\u2192e\n3: e\u2192b\n4: b\u2192g\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: j\u2192i\n2: i\u2192b\n3: b\u2192n\n4: n\u2192k\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: n\u2192h\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: h\u2192s\n2: s\u2192p\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: c\u2192l\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: b\u2192m\n2: m\u2192i\n3: i\u2192s\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: q\u2192p\n2: p\u2192f\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: t\u2192m\n2: m\u2192h\n3: h\u2192f\n4: f\u2192c\n5: c\u2192e\nRESPUESTA: 5"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 8.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: k\u2192s\n2: s\u2192t\n3: t\u2192g\n4: g\u2192d\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: o\u2192p\n2: p\u2192g\n3: g\u2192i\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: h\u2192d\n2: d\u2192e\n3: e\u2192t\n4: t\u2192o\n5: o\u2192b\nRESPUESTA: 5"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: i\u2192c\n2: c\u2192n\n3: n\u2192e\n4: e\u2192f\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: r\u2192p\n2: p\u2192l\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: a\u2192s\n2: s\u2192e\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: d\u2192j\n2: j\u2192f\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: j\u2192b\n2: b\u2192n\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 8.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: l\u2192c\n2: c\u2192r\n3: r\u2192a\n4: a\u2192j\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: d\u2192h\n2: h\u2192m\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 8.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: n\u2192h\n2: h\u2192m\n3: m\u2192t\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: q\u2192a\n2: a\u2192c\n3: c\u2192g\n4: g\u2192h\n5: h\u2192o\n6: o\u2192m\n7: m\u2192s\n8: s\u2192t\n9: t\u2192k\nRESPUESTA: 9"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 8.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: i\u2192p\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: d\u2192g\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 9,
+    "stake": 8.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: e\u2192k\n2: k\u2192a\n3: a\u2192o\n4: o\u2192h\n5: h\u2192t\n6: t\u2192n\n7: n\u2192l\n8: l\u2192g\n9: g\u2192d\nRESPUESTA: 9"
+   },
+   {
+    "L": 10,
+    "d": 2,
+    "stake": 8.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: g\u2192i\n2: i\u2192r\nRESPUESTA: 2"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: i\u2192p\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: f\u2192d\n2: d\u2192p\n3: p\u2192r\n4: r\u2192l\nRESPUESTA: 4"
+   },
+   {
+    "L": 10,
+    "d": 4,
+    "stake": 8.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: b\u2192l\n2: l\u2192a\n3: a\u2192g\n4: g\u2192t\nRESPUESTA: 4"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: p\u2192m\n2: m\u2192a\n3: a\u2192e\n4: e\u2192o\n5: o\u2192k\n6: k\u2192r\n7: r\u2192l\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: m\u2192r\n2: r\u2192c\n3: c\u2192s\n4: s\u2192l\n5: l\u2192b\nRESPUESTA: 5"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: m\u2192s\n2: s\u2192h\n3: h\u2192c\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: d\u2192n\n2: n\u2192g\n3: g\u2192q\n4: q\u2192i\n5: i\u2192l\n6: l\u2192t\nRESPUESTA: 6"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: r\u2192q\n2: q\u2192k\n3: k\u2192t\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: m\u2192i\n2: i\u2192g\n3: g\u2192a\n4: a\u2192c\n5: c\u2192n\n6: n\u2192r\n7: r\u2192d\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: m\u2192s\n2: s\u2192t\n3: t\u2192p\n4: p\u2192n\n5: n\u2192r\n6: r\u2192b\n7: b\u2192o\n8: o\u2192i\n9: i\u2192e\nRESPUESTA: 9"
+   },
+   {
+    "L": 10,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: d\u2192m\n2: m\u2192t\nRESPUESTA: 2"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: g\u2192a\n2: a\u2192l\n3: l\u2192n\n4: n\u2192b\n5: b\u2192r\n6: r\u2192t\n7: t\u2192s\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: i\u2192a\n2: a\u2192g\n3: g\u2192s\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: r\u2192p\n2: p\u2192b\n3: b\u2192q\n4: q\u2192d\n5: d\u2192i\n6: i\u2192c\n7: c\u2192l\n8: l\u2192m\n9: m\u2192f\nRESPUESTA: 9"
+   },
+   {
+    "L": 10,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: s\u2192n\n2: n\u2192o\n3: o\u2192k\n4: k\u2192q\nRESPUESTA: 4"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: b\u2192f\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 6,
+    "stake": 8.0,
+    "resp": "10",
+    "tokens": 68,
+    "n_hops": 10,
+    "ok": false,
+    "text": "1: q\u2192i\n2: i\u2192q\n3: q\u2192i\n4: i\u2192q\n5: q\u2192l\n6: l\u2192t\n7: t\u2192c\n8: c\u2192m\n9: m\u2192e\n10: e\u2192p\nRESPUESTA: 10"
+   },
+   {
+    "L": 10,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": false,
+    "text": "1: f\u2192c\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: f\u2192j\n2: j\u2192e\n3: e\u2192a\n4: a\u2192o\n5: o\u2192r\n6: r\u2192t\n7: t\u2192p\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: j\u2192p\n2: p\u2192b\n3: b\u2192f\n4: f\u2192q\nRESPUESTA: 4"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: s\u2192e\n2: e\u2192j\n3: j\u2192k\n4: k\u2192t\n5: t\u2192b\n6: b\u2192l\n7: l\u2192d\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: c\u2192h\n2: h\u2192p\n3: p\u2192f\n4: f\u2192q\n5: q\u2192m\nRESPUESTA: 5"
+   },
+   {
+    "L": 10,
+    "d": 8,
+    "stake": 1.0,
+    "resp": "8",
+    "tokens": 54,
+    "n_hops": 8,
+    "ok": true,
+    "text": "1: b\u2192q\n2: q\u2192n\n3: n\u2192d\n4: d\u2192r\n5: r\u2192f\n6: f\u2192l\n7: l\u2192i\n8: i\u2192o\nRESPUESTA: 8"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: t\u2192n\n2: n\u2192l\n3: l\u2192d\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: g\u2192f\n2: f\u2192n\n3: n\u2192j\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: g\u2192q\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 8,
+    "stake": 1.0,
+    "resp": "8",
+    "tokens": 54,
+    "n_hops": 8,
+    "ok": true,
+    "text": "1: b\u2192q\n2: q\u2192e\n3: e\u2192r\n4: r\u2192a\n5: a\u2192n\n6: n\u2192s\n7: s\u2192k\n8: k\u2192p\nRESPUESTA: 8"
+   },
+   {
+    "L": 14,
+    "d": 11,
+    "stake": 1.0,
+    "resp": "11",
+    "tokens": 75,
+    "n_hops": 11,
+    "ok": true,
+    "text": "1: q\u2192c\n2: c\u2192p\n3: p\u2192l\n4: l\u2192m\n5: m\u2192k\n6: k\u2192i\n7: i\u2192d\n8: d\u2192r\n9: r\u2192g\n10: g\u2192e\n11: e\u2192t\nRESPUESTA: 11"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: r\u2192b\n2: b\u2192i\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: o\u2192c\n2: c\u2192k\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: p\u2192e\n2: e\u2192b\n3: b\u2192m\n4: m\u2192g\n5: g\u2192c\n6: c\u2192q\n7: q\u2192h\nRESPUESTA: 7"
+   },
+   {
+    "L": 14,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: l\u2192m\nRESPUESTA: 1"
+   },
+   {
+    "L": 14,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: m\u2192p\n2: p\u2192k\n3: k\u2192s\nRESPUESTA: 3"
+   },
+   {
+    "L": 14,
+    "d": 12,
+    "stake": 8.0,
+    "resp": "12",
+    "tokens": 82,
+    "n_hops": 12,
+    "ok": true,
+    "text": "1: o\u2192n\n2: n\u2192h\n3: h\u2192a\n4: a\u2192p\n5: p\u2192r\n6: r\u2192l\n7: l\u2192f\n8: f\u2192g\n9: g\u2192q\n10: q\u2192m\n11: m\u2192t\n12: t\u2192k\nRESPUESTA: 12"
+   },
+   {
+    "L": 14,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: b\u2192t\n2: t\u2192o\n3: o\u2192j\nRESPUESTA: 3"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: j\u2192s\n2: s\u2192i\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: m\u2192p\n2: p\u2192l\n3: l\u2192a\n4: a\u2192d\n5: d\u2192e\n6: e\u2192i\n7: i\u2192s\n8: s\u2192k\n9: k\u2192o\nRESPUESTA: 9"
+   },
+   {
+    "L": 14,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: f\u2192i\n2: i\u2192c\n3: c\u2192j\n4: j\u2192n\nRESPUESTA: 4"
+   },
+   {
+    "L": 14,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: a\u2192i\n2: i\u2192r\n3: r\u2192j\n4: j\u2192d\n5: d\u2192m\n6: m\u2192k\n7: k\u2192o\n8: o\u2192p\n9: p\u2192l\nRESPUESTA: 9"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 8.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: p\u2192g\n2: g\u2192f\n3: f\u2192b\n4: b\u2192a\n5: a\u2192h\n6: h\u2192c\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 12,
+    "stake": 1.0,
+    "resp": "12",
+    "tokens": 82,
+    "n_hops": 12,
+    "ok": true,
+    "text": "1: j\u2192m\n2: m\u2192t\n3: t\u2192r\n4: r\u2192f\n5: f\u2192s\n6: s\u2192b\n7: b\u2192n\n8: n\u2192l\n9: l\u2192q\n10: q\u2192c\n11: c\u2192p\n12: p\u2192e\nRESPUESTA: 12"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: g\u2192b\n2: b\u2192o\n3: o\u2192i\n4: i\u2192c\n5: c\u2192k\n6: k\u2192r\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: b\u2192j\n2: j\u2192d\n3: d\u2192n\n4: n\u2192c\nRESPUESTA: 4"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 8.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: a\u2192h\n2: h\u2192o\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: r\u2192c\n2: c\u2192o\n3: o\u2192k\n4: k\u2192h\n5: h\u2192a\n6: a\u2192s\n7: s\u2192m\n8: m\u2192n\n9: n\u2192d\nRESPUESTA: 9"
+   },
+   {
+    "L": 14,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: n\u2192k\n2: k\u2192h\n3: h\u2192o\n4: o\u2192d\nRESPUESTA: 4"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: d\u2192s\n2: s\u2192r\n3: r\u2192i\n4: i\u2192e\n5: e\u2192a\n6: a\u2192n\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 11,
+    "stake": 1.0,
+    "resp": "11",
+    "tokens": 75,
+    "n_hops": 11,
+    "ok": true,
+    "text": "1: d\u2192e\n2: e\u2192p\n3: p\u2192g\n4: g\u2192r\n5: r\u2192c\n6: c\u2192f\n7: f\u2192j\n8: j\u2192t\n9: t\u2192k\n10: k\u2192m\n11: m\u2192i\nRESPUESTA: 11"
+   },
+   {
+    "L": 14,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: q\u2192t\n2: t\u2192p\n3: p\u2192k\n4: k\u2192r\nRESPUESTA: 4"
+   },
+   {
+    "L": 14,
+    "d": 10,
+    "stake": 1.0,
+    "resp": "10",
+    "tokens": 68,
+    "n_hops": 10,
+    "ok": true,
+    "text": "1: k\u2192c\n2: c\u2192n\n3: n\u2192t\n4: t\u2192l\n5: l\u2192e\n6: e\u2192p\n7: p\u2192b\n8: b\u2192o\n9: o\u2192r\n10: r\u2192q\nRESPUESTA: 10"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: e\u2192r\n2: r\u2192j\n3: j\u2192l\n4: l\u2192a\n5: a\u2192m\n6: m\u2192f\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 12,
+    "stake": 8.0,
+    "resp": "12",
+    "tokens": 82,
+    "n_hops": 12,
+    "ok": true,
+    "text": "1: m\u2192c\n2: c\u2192o\n3: o\u2192l\n4: l\u2192h\n5: h\u2192j\n6: j\u2192g\n7: g\u2192a\n8: a\u2192b\n9: b\u2192k\n10: k\u2192i\n11: i\u2192f\n12: f\u2192d\nRESPUESTA: 12"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: r\u2192s\n2: s\u2192d\n3: d\u2192f\n4: f\u2192b\n5: b\u2192p\n6: p\u2192o\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: s\u2192d\n2: d\u2192l\n3: l\u2192e\n4: e\u2192n\n5: n\u2192r\n6: r\u2192m\n7: m\u2192j\nRESPUESTA: 7"
+   },
+   {
+    "L": 14,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: b\u2192d\n2: d\u2192n\n3: n\u2192m\nRESPUESTA: 3"
+   },
+   {
+    "L": 14,
+    "d": 11,
+    "stake": 1.0,
+    "resp": "11",
+    "tokens": 75,
+    "n_hops": 11,
+    "ok": true,
+    "text": "1: a\u2192c\n2: c\u2192f\n3: f\u2192i\n4: i\u2192j\n5: j\u2192b\n6: b\u2192h\n7: h\u2192l\n8: l\u2192p\n9: p\u2192k\n10: k\u2192t\n11: t\u2192s\nRESPUESTA: 11"
+   },
+   {
+    "L": 14,
+    "d": 13,
+    "stake": 1.0,
+    "resp": "13",
+    "tokens": 89,
+    "n_hops": 13,
+    "ok": true,
+    "text": "1: j\u2192e\n2: e\u2192q\n3: q\u2192s\n4: s\u2192h\n5: h\u2192k\n6: k\u2192g\n7: g\u2192d\n8: d\u2192t\n9: t\u2192m\n10: m\u2192n\n11: n\u2192o\n12: o\u2192p\n13: p\u2192f\nRESPUESTA: 13"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: a\u2192o\n2: o\u2192i\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 12,
+    "stake": 1.0,
+    "resp": "12",
+    "tokens": 82,
+    "n_hops": 12,
+    "ok": true,
+    "text": "1: d\u2192t\n2: t\u2192h\n3: h\u2192p\n4: p\u2192m\n5: m\u2192f\n6: f\u2192g\n7: g\u2192s\n8: s\u2192i\n9: i\u2192a\n10: a\u2192q\n11: q\u2192b\n12: b\u2192e\nRESPUESTA: 12"
+   }
+  ]
+ },
+ "T03": {
+  "acc": 0.9791666666666666,
+  "acc_por_L": {
+   "6": 1.0,
+   "10": 0.9375,
+   "14": 1.0
+  },
+  "compliance": 1.0,
+  "corr_tok_d": 0.9992489665993756,
+  "cv_tok_por_L": {
+   "6": 0.32659863235657494,
+   "10": 0.4731770864778345,
+   "14": 0.5129958306833519
+  },
+  "r2_tok_L": 0.24842466970732946,
+  "corr_hops_tok": 0.9992489665993756,
+  "tokens_por_L": {
+   "6": 22.5,
+   "10": 34.9375,
+   "14": 46.5625
+  },
+  "gate_W": true,
+  "gate_R": true,
+  "regs": [
+   {
+    "L": 6,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: i\u2192s\n2: s\u2192r\n3: r\u2192p\n4: p\u2192l\n5: l\u2192e\nRESPUESTA: 5"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: f\u2192p\n2: p\u2192g\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: g\u2192c\n2: c\u2192h\n3: h\u2192d\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: r\u2192l\n2: l\u2192o\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: f\u2192d\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 8.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: t\u2192q\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: i\u2192t\n2: t\u2192g\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: h\u2192q\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: i\u2192j\n2: j\u2192e\n3: e\u2192m\n4: m\u2192b\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: l\u2192m\n2: m\u2192a\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: n\u2192k\n2: k\u2192h\n3: h\u2192o\n4: o\u2192r\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: c\u2192e\n2: e\u2192a\n3: a\u2192g\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: r\u2192i\n2: i\u2192p\n3: p\u2192f\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: j\u2192i\n2: i\u2192e\n3: e\u2192b\n4: b\u2192g\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: j\u2192i\n2: i\u2192b\n3: b\u2192n\n4: n\u2192k\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: n\u2192h\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: h\u2192s\n2: s\u2192p\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: c\u2192l\nRESPUESTA: 1"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: b\u2192m\n2: m\u2192i\n3: i\u2192s\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: q\u2192p\n2: p\u2192f\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: t\u2192m\n2: m\u2192h\n3: h\u2192f\n4: f\u2192c\n5: c\u2192e\nRESPUESTA: 5"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 8.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: k\u2192s\n2: s\u2192t\n3: t\u2192g\n4: g\u2192d\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: o\u2192p\n2: p\u2192g\n3: g\u2192i\nRESPUESTA: 3"
+   },
+   {
+    "L": 6,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: h\u2192d\n2: d\u2192e\n3: e\u2192t\n4: t\u2192o\n5: o\u2192b\nRESPUESTA: 5"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: i\u2192c\n2: c\u2192n\n3: n\u2192e\n4: e\u2192f\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: r\u2192p\n2: p\u2192l\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: a\u2192s\n2: s\u2192e\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: d\u2192j\n2: j\u2192f\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: j\u2192b\n2: b\u2192n\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 4,
+    "stake": 8.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: l\u2192c\n2: c\u2192r\n3: r\u2192a\n4: a\u2192j\nRESPUESTA: 4"
+   },
+   {
+    "L": 6,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: d\u2192h\n2: h\u2192m\nRESPUESTA: 2"
+   },
+   {
+    "L": 6,
+    "d": 3,
+    "stake": 8.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: n\u2192h\n2: h\u2192m\n3: m\u2192t\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: q\u2192a\n2: a\u2192c\n3: c\u2192g\n4: g\u2192h\n5: h\u2192o\n6: o\u2192m\n7: m\u2192s\n8: s\u2192t\n9: t\u2192k\nRESPUESTA: 9"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 8.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: i\u2192p\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: d\u2192g\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 9,
+    "stake": 8.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: e\u2192k\n2: k\u2192a\n3: a\u2192o\n4: o\u2192h\n5: h\u2192t\n6: t\u2192n\n7: n\u2192l\n8: l\u2192g\n9: g\u2192d\nRESPUESTA: 9"
+   },
+   {
+    "L": 10,
+    "d": 2,
+    "stake": 8.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: g\u2192i\n2: i\u2192r\nRESPUESTA: 2"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: i\u2192p\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: f\u2192d\n2: d\u2192p\n3: p\u2192r\n4: r\u2192l\nRESPUESTA: 4"
+   },
+   {
+    "L": 10,
+    "d": 4,
+    "stake": 8.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: b\u2192l\n2: l\u2192a\n3: a\u2192g\n4: g\u2192t\nRESPUESTA: 4"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: p\u2192m\n2: m\u2192a\n3: a\u2192e\n4: e\u2192o\n5: o\u2192k\n6: k\u2192r\n7: r\u2192l\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: m\u2192r\n2: r\u2192c\n3: c\u2192s\n4: s\u2192l\n5: l\u2192b\nRESPUESTA: 5"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: m\u2192s\n2: s\u2192h\n3: h\u2192c\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: d\u2192n\n2: n\u2192g\n3: g\u2192q\n4: q\u2192i\n5: i\u2192l\n6: l\u2192t\nRESPUESTA: 6"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: r\u2192q\n2: q\u2192k\n3: k\u2192t\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: m\u2192i\n2: i\u2192g\n3: g\u2192a\n4: a\u2192c\n5: c\u2192n\n6: n\u2192r\n7: r\u2192d\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: m\u2192s\n2: s\u2192t\n3: t\u2192p\n4: p\u2192n\n5: n\u2192r\n6: r\u2192b\n7: b\u2192o\n8: o\u2192i\n9: i\u2192e\nRESPUESTA: 9"
+   },
+   {
+    "L": 10,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: d\u2192m\n2: m\u2192t\nRESPUESTA: 2"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: g\u2192a\n2: a\u2192l\n3: l\u2192n\n4: n\u2192b\n5: b\u2192r\n6: r\u2192t\n7: t\u2192s\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: i\u2192a\n2: a\u2192g\n3: g\u2192s\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: r\u2192p\n2: p\u2192b\n3: b\u2192q\n4: q\u2192d\n5: d\u2192i\n6: i\u2192c\n7: c\u2192l\n8: l\u2192m\n9: m\u2192f\nRESPUESTA: 9"
+   },
+   {
+    "L": 10,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: s\u2192n\n2: n\u2192o\n3: o\u2192k\n4: k\u2192q\nRESPUESTA: 4"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: b\u2192f\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 6,
+    "stake": 8.0,
+    "resp": "10",
+    "tokens": 68,
+    "n_hops": 10,
+    "ok": false,
+    "text": "1: q\u2192i\n2: i\u2192q\n3: q\u2192i\n4: i\u2192q\n5: q\u2192l\n6: l\u2192t\n7: t\u2192c\n8: c\u2192m\n9: m\u2192e\n10: e\u2192p\nRESPUESTA: 10"
+   },
+   {
+    "L": 10,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": false,
+    "text": "1: f\u2192c\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: f\u2192j\n2: j\u2192e\n3: e\u2192a\n4: a\u2192o\n5: o\u2192r\n6: r\u2192t\n7: t\u2192p\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: j\u2192p\n2: p\u2192b\n3: b\u2192f\n4: f\u2192q\nRESPUESTA: 4"
+   },
+   {
+    "L": 10,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: s\u2192e\n2: e\u2192j\n3: j\u2192k\n4: k\u2192t\n5: t\u2192b\n6: b\u2192l\n7: l\u2192d\nRESPUESTA: 7"
+   },
+   {
+    "L": 10,
+    "d": 5,
+    "stake": 1.0,
+    "resp": "5",
+    "tokens": 36,
+    "n_hops": 5,
+    "ok": true,
+    "text": "1: c\u2192h\n2: h\u2192p\n3: p\u2192f\n4: f\u2192q\n5: q\u2192m\nRESPUESTA: 5"
+   },
+   {
+    "L": 10,
+    "d": 8,
+    "stake": 1.0,
+    "resp": "8",
+    "tokens": 54,
+    "n_hops": 8,
+    "ok": true,
+    "text": "1: b\u2192q\n2: q\u2192n\n3: n\u2192d\n4: d\u2192r\n5: r\u2192f\n6: f\u2192l\n7: l\u2192i\n8: i\u2192o\nRESPUESTA: 8"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: t\u2192n\n2: n\u2192l\n3: l\u2192d\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: g\u2192f\n2: f\u2192n\n3: n\u2192j\nRESPUESTA: 3"
+   },
+   {
+    "L": 10,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: g\u2192q\nRESPUESTA: 1"
+   },
+   {
+    "L": 10,
+    "d": 8,
+    "stake": 1.0,
+    "resp": "8",
+    "tokens": 54,
+    "n_hops": 8,
+    "ok": true,
+    "text": "1: b\u2192q\n2: q\u2192e\n3: e\u2192r\n4: r\u2192a\n5: a\u2192n\n6: n\u2192s\n7: s\u2192k\n8: k\u2192p\nRESPUESTA: 8"
+   },
+   {
+    "L": 14,
+    "d": 11,
+    "stake": 1.0,
+    "resp": "11",
+    "tokens": 75,
+    "n_hops": 11,
+    "ok": true,
+    "text": "1: q\u2192c\n2: c\u2192p\n3: p\u2192l\n4: l\u2192m\n5: m\u2192k\n6: k\u2192i\n7: i\u2192d\n8: d\u2192r\n9: r\u2192g\n10: g\u2192e\n11: e\u2192t\nRESPUESTA: 11"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: r\u2192b\n2: b\u2192i\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: o\u2192c\n2: c\u2192k\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: p\u2192e\n2: e\u2192b\n3: b\u2192m\n4: m\u2192g\n5: g\u2192c\n6: c\u2192q\n7: q\u2192h\nRESPUESTA: 7"
+   },
+   {
+    "L": 14,
+    "d": 1,
+    "stake": 1.0,
+    "resp": "1",
+    "tokens": 12,
+    "n_hops": 1,
+    "ok": true,
+    "text": "1: l\u2192m\nRESPUESTA: 1"
+   },
+   {
+    "L": 14,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: m\u2192p\n2: p\u2192k\n3: k\u2192s\nRESPUESTA: 3"
+   },
+   {
+    "L": 14,
+    "d": 12,
+    "stake": 8.0,
+    "resp": "12",
+    "tokens": 82,
+    "n_hops": 12,
+    "ok": true,
+    "text": "1: o\u2192n\n2: n\u2192h\n3: h\u2192a\n4: a\u2192p\n5: p\u2192r\n6: r\u2192l\n7: l\u2192f\n8: f\u2192g\n9: g\u2192q\n10: q\u2192m\n11: m\u2192t\n12: t\u2192k\nRESPUESTA: 12"
+   },
+   {
+    "L": 14,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: b\u2192t\n2: t\u2192o\n3: o\u2192j\nRESPUESTA: 3"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: j\u2192s\n2: s\u2192i\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: m\u2192p\n2: p\u2192l\n3: l\u2192a\n4: a\u2192d\n5: d\u2192e\n6: e\u2192i\n7: i\u2192s\n8: s\u2192k\n9: k\u2192o\nRESPUESTA: 9"
+   },
+   {
+    "L": 14,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: f\u2192i\n2: i\u2192c\n3: c\u2192j\n4: j\u2192n\nRESPUESTA: 4"
+   },
+   {
+    "L": 14,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: a\u2192i\n2: i\u2192r\n3: r\u2192j\n4: j\u2192d\n5: d\u2192m\n6: m\u2192k\n7: k\u2192o\n8: o\u2192p\n9: p\u2192l\nRESPUESTA: 9"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 8.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: p\u2192g\n2: g\u2192f\n3: f\u2192b\n4: b\u2192a\n5: a\u2192h\n6: h\u2192c\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 12,
+    "stake": 1.0,
+    "resp": "12",
+    "tokens": 82,
+    "n_hops": 12,
+    "ok": true,
+    "text": "1: j\u2192m\n2: m\u2192t\n3: t\u2192r\n4: r\u2192f\n5: f\u2192s\n6: s\u2192b\n7: b\u2192n\n8: n\u2192l\n9: l\u2192q\n10: q\u2192c\n11: c\u2192p\n12: p\u2192e\nRESPUESTA: 12"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: g\u2192b\n2: b\u2192o\n3: o\u2192i\n4: i\u2192c\n5: c\u2192k\n6: k\u2192r\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: b\u2192j\n2: j\u2192d\n3: d\u2192n\n4: n\u2192c\nRESPUESTA: 4"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 8.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: a\u2192h\n2: h\u2192o\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 9,
+    "stake": 1.0,
+    "resp": "9",
+    "tokens": 60,
+    "n_hops": 9,
+    "ok": true,
+    "text": "1: r\u2192c\n2: c\u2192o\n3: o\u2192k\n4: k\u2192h\n5: h\u2192a\n6: a\u2192s\n7: s\u2192m\n8: m\u2192n\n9: n\u2192d\nRESPUESTA: 9"
+   },
+   {
+    "L": 14,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: n\u2192k\n2: k\u2192h\n3: h\u2192o\n4: o\u2192d\nRESPUESTA: 4"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: d\u2192s\n2: s\u2192r\n3: r\u2192i\n4: i\u2192e\n5: e\u2192a\n6: a\u2192n\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 11,
+    "stake": 1.0,
+    "resp": "11",
+    "tokens": 75,
+    "n_hops": 11,
+    "ok": true,
+    "text": "1: d\u2192e\n2: e\u2192p\n3: p\u2192g\n4: g\u2192r\n5: r\u2192c\n6: c\u2192f\n7: f\u2192j\n8: j\u2192t\n9: t\u2192k\n10: k\u2192m\n11: m\u2192i\nRESPUESTA: 11"
+   },
+   {
+    "L": 14,
+    "d": 4,
+    "stake": 1.0,
+    "resp": "4",
+    "tokens": 30,
+    "n_hops": 4,
+    "ok": true,
+    "text": "1: q\u2192t\n2: t\u2192p\n3: p\u2192k\n4: k\u2192r\nRESPUESTA: 4"
+   },
+   {
+    "L": 14,
+    "d": 10,
+    "stake": 1.0,
+    "resp": "10",
+    "tokens": 68,
+    "n_hops": 10,
+    "ok": true,
+    "text": "1: k\u2192c\n2: c\u2192n\n3: n\u2192t\n4: t\u2192l\n5: l\u2192e\n6: e\u2192p\n7: p\u2192b\n8: b\u2192o\n9: o\u2192r\n10: r\u2192q\nRESPUESTA: 10"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: e\u2192r\n2: r\u2192j\n3: j\u2192l\n4: l\u2192a\n5: a\u2192m\n6: m\u2192f\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 12,
+    "stake": 8.0,
+    "resp": "12",
+    "tokens": 82,
+    "n_hops": 12,
+    "ok": true,
+    "text": "1: m\u2192c\n2: c\u2192o\n3: o\u2192l\n4: l\u2192h\n5: h\u2192j\n6: j\u2192g\n7: g\u2192a\n8: a\u2192b\n9: b\u2192k\n10: k\u2192i\n11: i\u2192f\n12: f\u2192d\nRESPUESTA: 12"
+   },
+   {
+    "L": 14,
+    "d": 6,
+    "stake": 1.0,
+    "resp": "6",
+    "tokens": 42,
+    "n_hops": 6,
+    "ok": true,
+    "text": "1: r\u2192s\n2: s\u2192d\n3: d\u2192f\n4: f\u2192b\n5: b\u2192p\n6: p\u2192o\nRESPUESTA: 6"
+   },
+   {
+    "L": 14,
+    "d": 7,
+    "stake": 1.0,
+    "resp": "7",
+    "tokens": 48,
+    "n_hops": 7,
+    "ok": true,
+    "text": "1: s\u2192d\n2: d\u2192l\n3: l\u2192e\n4: e\u2192n\n5: n\u2192r\n6: r\u2192m\n7: m\u2192j\nRESPUESTA: 7"
+   },
+   {
+    "L": 14,
+    "d": 3,
+    "stake": 1.0,
+    "resp": "3",
+    "tokens": 24,
+    "n_hops": 3,
+    "ok": true,
+    "text": "1: b\u2192d\n2: d\u2192n\n3: n\u2192m\nRESPUESTA: 3"
+   },
+   {
+    "L": 14,
+    "d": 11,
+    "stake": 1.0,
+    "resp": "11",
+    "tokens": 75,
+    "n_hops": 11,
+    "ok": true,
+    "text": "1: a\u2192c\n2: c\u2192f\n3: f\u2192i\n4: i\u2192j\n5: j\u2192b\n6: b\u2192h\n7: h\u2192l\n8: l\u2192p\n9: p\u2192k\n10: k\u2192t\n11: t\u2192s\nRESPUESTA: 11"
+   },
+   {
+    "L": 14,
+    "d": 13,
+    "stake": 1.0,
+    "resp": "13",
+    "tokens": 89,
+    "n_hops": 13,
+    "ok": true,
+    "text": "1: j\u2192e\n2: e\u2192q\n3: q\u2192s\n4: s\u2192h\n5: h\u2192k\n6: k\u2192g\n7: g\u2192d\n8: d\u2192t\n9: t\u2192m\n10: m\u2192n\n11: n\u2192o\n12: o\u2192p\n13: p\u2192f\nRESPUESTA: 13"
+   },
+   {
+    "L": 14,
+    "d": 2,
+    "stake": 1.0,
+    "resp": "2",
+    "tokens": 18,
+    "n_hops": 2,
+    "ok": true,
+    "text": "1: a\u2192o\n2: o\u2192i\nRESPUESTA: 2"
+   },
+   {
+    "L": 14,
+    "d": 12,
+    "stake": 1.0,
+    "resp": "12",
+    "tokens": 82,
+    "n_hops": 12,
+    "ok": true,
+    "text": "1: d\u2192t\n2: t\u2192h\n3: h\u2192p\n4: p\u2192m\n5: m\u2192f\n6: f\u2192g\n7: g\u2192s\n8: s\u2192i\n9: i\u2192a\n10: a\u2192q\n11: q\u2192b\n12: b\u2192e\nRESPUESTA: 12"
+   }
+  ]
+ }
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "arm": "random",
+    "seed": 300,
+    "regret": 0.28403139114379883,
+    "regret_rbf": 0.4042540490627289,
+    "regret_bimodal": 0.3300066590309143,
+    "regret_ridge": 0.19874407351016998,
+    "regret_plateau": 0.17052136361598969
+  },
+  {
+    "arm": "grid",
+    "seed": 300,
+    "regret": 0.21668697893619537,
+    "regret_rbf": 0.3031647205352783,
+    "regret_bimodal": 0.267493337392807,
+    "regret_ridge": 0.16444085538387299,
+    "regret_plateau": 0.10300618410110474
+  },
+  {
+    "arm": "fd",
+    "seed": 300,
+    "regret": 0.4413032531738281,
+    "regret_rbf": 0.4661826491355896,
+    "regret_bimodal": 0.45354729890823364,
+    "regret_ridge": 0.4827287495136261,
+    "regret_plateau": 0.34681984782218933
+  },
+  {
+    "arm": "learned",
+    "seed": 300,
+    "regret": 0.18217819929122925,
+    "regret_rbf": 0.21531055867671967,
+    "regret_bimodal": 0.24894990026950836,
+    "regret_ridge": 0.16918379068374634,
+    "regret_plateau": 0.0729517862200737
+  },
+  {
+    "arm": "random",
+    "seed": 301,
+    "regret": 0.2997688055038452,
+    "regret_rbf": 0.4001794159412384,
+    "regret_bimodal": 0.31940609216690063,
+    "regret_ridge": 0.264041930437088,
+    "regret_plateau": 0.20107871294021606
+  },
+  {
+    "arm": "grid",
+    "seed": 301,
+    "regret": 0.21309688687324524,
+    "regret_rbf": 0.28909897804260254,
+    "regret_bimodal": 0.26853519678115845,
+    "regret_ridge": 0.1653553694486618,
+    "regret_plateau": 0.11276573687791824
+  },
+  {
+    "arm": "fd",
+    "seed": 301,
+    "regret": 0.44749289751052856,
+    "regret_rbf": 0.44382163882255554,
+    "regret_bimodal": 0.49121588468551636,
+    "regret_ridge": 0.548691987991333,
+    "regret_plateau": 0.3093586266040802
+  },
+  {
+    "arm": "learned",
+    "seed": 301,
+    "regret": 0.10940401256084442,
+    "regret_rbf": 0.07911457121372223,
+    "regret_bimodal": 0.2294609695672989,
+    "regret_ridge": 0.09297119826078415,
+    "regret_plateau": 0.0252212043851614
+  },
+  {
+    "arm": "random",
+    "seed": 302,
+    "regret": 0.2702265977859497,
+    "regret_rbf": 0.3878760039806366,
+    "regret_bimodal": 0.30892908573150635,
+    "regret_ridge": 0.2314632087945938,
+    "regret_plateau": 0.15386205911636353
+  },
+  {
+    "arm": "grid",
+    "seed": 302,
+    "regret": 0.20508047938346863,
+    "regret_rbf": 0.27294671535491943,
+    "regret_bimodal": 0.2693159282207489,
+    "regret_ridge": 0.1806182712316513,
+    "regret_plateau": 0.09806633740663528
+  },
+  {
+    "arm": "fd",
+    "seed": 302,
+    "regret": 0.4446988105773926,
+    "regret_rbf": 0.4954271912574768,
+    "regret_bimodal": 0.4553067982196808,
+    "regret_ridge": 0.5135622620582581,
+    "regret_plateau": 0.31831827759742737
+  },
+  {
+    "arm": "learned",
+    "seed": 302,
+    "regret": 0.15779557824134827,
+    "regret_rbf": 0.18913669884204865,
+    "regret_bimodal": 0.22781230509281158,
+    "regret_ridge": 0.16035838425159454,
+    "regret_plateau": 0.05469680204987526
+  },
+  {
+    "arm": "random",
+    "seed": 303,
+    "regret": 0.2782866656780243,
+    "regret_rbf": 0.39828693866729736,
+    "regret_bimodal": 0.3339671790599823,
+    "regret_ridge": 0.2071477323770523,
+    "regret_plateau": 0.15652786195278168
+  },
+  {
+    "arm": "grid",
+    "seed": 303,
+    "regret": 0.21243447065353394,
+    "regret_rbf": 0.29786673188209534,
+    "regret_bimodal": 0.2630578875541687,
+    "regret_ridge": 0.19855897128582,
+    "regret_plateau": 0.07986543327569962
+  },
+  {
+    "arm": "fd",
+    "seed": 303,
+    "regret": 0.4246719479560852,
+    "regret_rbf": 0.42215695977211,
+    "regret_bimodal": 0.45864638686180115,
+    "regret_ridge": 0.5517801642417908,
+    "regret_plateau": 0.27288615703582764
+  },
+  {
+    "arm": "learned",
+    "seed": 303,
+    "regret": 0.12894411385059357,
+    "regret_rbf": 0.13373751938343048,
+    "regret_bimodal": 0.2170204520225525,
+    "regret_ridge": 0.1146344318985939,
+    "regret_plateau": 0.04769646003842354
+  },
+  {
+    "arm": "random",
+    "seed": 304,
+    "regret": 0.27727437019348145,
+    "regret_rbf": 0.37808385491371155,
+    "regret_bimodal": 0.32783302664756775,
+    "regret_ridge": 0.22623692452907562,
+    "regret_plateau": 0.16622492671012878
+  },
+  {
+    "arm": "grid",
+    "seed": 304,
+    "regret": 0.21242552995681763,
+    "regret_rbf": 0.3085627853870392,
+    "regret_bimodal": 0.27080801129341125,
+    "regret_ridge": 0.1719759851694107,
+    "regret_plateau": 0.08912811428308487
+  },
+  {
+    "arm": "fd",
+    "seed": 304,
+    "regret": 0.40835678577423096,
+    "regret_rbf": 0.4163612425327301,
+    "regret_bimodal": 0.446061909198761,
+    "regret_ridge": 0.4963799715042114,
+    "regret_plateau": 0.27860066294670105
+  },
+  {
+    "arm": "learned",
+    "seed": 304,
+    "regret": 0.15430304408073425,
+    "regret_rbf": 0.1362631618976593,
+    "regret_bimodal": 0.2880450189113617,
+    "regret_ridge": 0.17997562885284424,
+    "regret_plateau": 0.02648046426475048
+  },
+  {
+    "arm": "random",
+    "seed": 305,
+    "regret": 0.2792857885360718,
+    "regret_rbf": 0.3637687563896179,
+    "regret_bimodal": 0.3470304012298584,
+    "regret_ridge": 0.24027369916439056,
+    "regret_plateau": 0.1615036576986313
+  },
+  {
+    "arm": "grid",
+    "seed": 305,
+    "regret": 0.21730922162532806,
+    "regret_rbf": 0.32419782876968384,
+    "regret_bimodal": 0.2678954303264618,
+    "regret_ridge": 0.20159974694252014,
+    "regret_plateau": 0.0786871686577797
+  },
+  {
+    "arm": "fd",
+    "seed": 305,
+    "regret": 0.420894056558609,
+    "regret_rbf": 0.4622674584388733,
+    "regret_bimodal": 0.43470507860183716,
+    "regret_ridge": 0.4839147627353668,
+    "regret_plateau": 0.3162829279899597
+  },
+  {
+    "arm": "learned",
+    "seed": 305,
+    "regret": 0.1795109510421753,
+    "regret_rbf": 0.21033091843128204,
+    "regret_bimodal": 0.23828080296516418,
+    "regret_ridge": 0.20345653593540192,
+    "regret_plateau": 0.06781264394521713
+  },
+  {
+    "arm": "random",
+    "seed": 306,
+    "regret": 0.279296875,
+    "regret_rbf": 0.3989366590976715,
+    "regret_bimodal": 0.3122670650482178,
+    "regret_ridge": 0.24124369025230408,
+    "regret_plateau": 0.1841469556093216
+  },
+  {
+    "arm": "grid",
+    "seed": 306,
+    "regret": 0.20994263887405396,
+    "regret_rbf": 0.27504533529281616,
+    "regret_bimodal": 0.28043171763420105,
+    "regret_ridge": 0.18682406842708588,
+    "regret_plateau": 0.10841603577136993
+  },
+  {
+    "arm": "fd",
+    "seed": 306,
+    "regret": 0.40920180082321167,
+    "regret_rbf": 0.40564510226249695,
+    "regret_bimodal": 0.379311740398407,
+    "regret_ridge": 0.5206950902938843,
+    "regret_plateau": 0.34660518169403076
+  },
+  {
+    "arm": "learned",
+    "seed": 306,
+    "regret": 0.15213125944137573,
+    "regret_rbf": 0.14336606860160828,
+    "regret_bimodal": 0.23074200749397278,
+    "regret_ridge": 0.17021341621875763,
+    "regret_plateau": 0.06620889902114868
+  },
+  {
+    "arm": "random",
+    "seed": 307,
+    "regret": 0.28516072034835815,
+    "regret_rbf": 0.3917141854763031,
+    "regret_bimodal": 0.31444400548934937,
+    "regret_ridge": 0.24322624504566193,
+    "regret_plateau": 0.20343787968158722
+  },
+  {
+    "arm": "grid",
+    "seed": 307,
+    "regret": 0.2031468003988266,
+    "regret_rbf": 0.3024243116378784,
+    "regret_bimodal": 0.25387004017829895,
+    "regret_ridge": 0.17353224754333496,
+    "regret_plateau": 0.09825198352336884
+  },
+  {
+    "arm": "fd",
+    "seed": 307,
+    "regret": 0.4075876772403717,
+    "regret_rbf": 0.4283614456653595,
+    "regret_bimodal": 0.39989110827445984,
+    "regret_ridge": 0.520159125328064,
+    "regret_plateau": 0.3022344708442688
+  },
+  {
+    "arm": "learned",
+    "seed": 307,
+    "regret": 0.14412233233451843,
+    "regret_rbf": 0.1590714305639267,
+    "regret_bimodal": 0.21823814511299133,
+    "regret_ridge": 0.14856864511966705,
+    "regret_plateau": 0.06181425228714943
+  },
+  {
+    "arm": "random",
+    "seed": 308,
+    "regret": 0.28441405296325684,
+    "regret_rbf": 0.3996317386627197,
+    "regret_bimodal": 0.34874674677848816,
+    "regret_ridge": 0.2467229813337326,
+    "regret_plateau": 0.16252169013023376
+  },
+  {
+    "arm": "grid",
+    "seed": 308,
+    "regret": 0.2115776538848877,
+    "regret_rbf": 0.3178994953632355,
+    "regret_bimodal": 0.24598681926727295,
+    "regret_ridge": 0.21406243741512299,
+    "regret_plateau": 0.0869438499212265
+  },
+  {
+    "arm": "fd",
+    "seed": 308,
+    "regret": 0.43088096380233765,
+    "regret_rbf": 0.4491415023803711,
+    "regret_bimodal": 0.40502920746803284,
+    "regret_ridge": 0.5951082110404968,
+    "regret_plateau": 0.29074832797050476
+  },
+  {
+    "arm": "learned",
+    "seed": 308,
+    "regret": 0.10719144344329834,
+    "regret_rbf": 0.11581144481897354,
+    "regret_bimodal": 0.20577140152454376,
+    "regret_ridge": 0.10285904258489609,
+    "regret_plateau": 0.020834915339946747
+  },
+  {
+    "arm": "random",
+    "seed": 309,
+    "regret": 0.2951500713825226,
+    "regret_rbf": 0.4170881509780884,
+    "regret_bimodal": 0.3190504312515259,
+    "regret_ridge": 0.26531553268432617,
+    "regret_plateau": 0.16272889077663422
+  },
+  {
+    "arm": "grid",
+    "seed": 309,
+    "regret": 0.2215244472026825,
+    "regret_rbf": 0.31543174386024475,
+    "regret_bimodal": 0.24722200632095337,
+    "regret_ridge": 0.1826203614473343,
+    "regret_plateau": 0.12715089321136475
+  },
+  {
+    "arm": "fd",
+    "seed": 309,
+    "regret": 0.4220617413520813,
+    "regret_rbf": 0.4711138904094696,
+    "regret_bimodal": 0.3752698004245758,
+    "regret_ridge": 0.5132052898406982,
+    "regret_plateau": 0.3281506597995758
+  },
+  {
+    "arm": "learned",
+    "seed": 309,
+    "regret": 0.08993452787399292,
+    "regret_rbf": 0.10681796818971634,
+    "regret_bimodal": 0.14781568944454193,
+    "regret_ridge": 0.07992841303348541,
+    "regret_plateau": 0.025740694254636765
+  },
+  {
+    "arm": "random",
+    "seed": 310,
+    "regret": 0.277445524930954,
+    "regret_rbf": 0.3790435492992401,
+    "regret_bimodal": 0.3198573589324951,
+    "regret_ridge": 0.2299755960702896,
+    "regret_plateau": 0.1882888525724411
+  },
+  {
+    "arm": "grid",
+    "seed": 310,
+    "regret": 0.21405866742134094,
+    "regret_rbf": 0.3229307532310486,
+    "regret_bimodal": 0.257161408662796,
+    "regret_ridge": 0.19108949601650238,
+    "regret_plateau": 0.09542745351791382
+  },
+  {
+    "arm": "fd",
+    "seed": 310,
+    "regret": 0.42776867747306824,
+    "regret_rbf": 0.4730830192565918,
+    "regret_bimodal": 0.4124504029750824,
+    "regret_ridge": 0.48829755187034607,
+    "regret_plateau": 0.34754547476768494
+  },
+  {
+    "arm": "learned",
+    "seed": 310,
+    "regret": 0.13661789894104004,
+    "regret_rbf": 0.16383039951324463,
+    "regret_bimodal": 0.20391905307769775,
+    "regret_ridge": 0.1351855993270874,
+    "regret_plateau": 0.046931371092796326
+  },
+  {
+    "arm": "random",
+    "seed": 311,
+    "regret": 0.27312222123146057,
+    "regret_rbf": 0.34253615140914917,
+    "regret_bimodal": 0.3291652202606201,
+    "regret_ridge": 0.2568075954914093,
+    "regret_plateau": 0.19240178167819977
+  },
+  {
+    "arm": "grid",
+    "seed": 311,
+    "regret": 0.18902283906936646,
+    "regret_rbf": 0.2788425385951996,
+    "regret_bimodal": 0.25458648800849915,
+    "regret_ridge": 0.18034346401691437,
+    "regret_plateau": 0.07916033267974854
+  },
+  {
+    "arm": "fd",
+    "seed": 311,
+    "regret": 0.4049530625343323,
+    "regret_rbf": 0.43240252137184143,
+    "regret_bimodal": 0.36759668588638306,
+    "regret_ridge": 0.519990086555481,
+    "regret_plateau": 0.31332412362098694
+  },
+  {
+    "arm": "learned",
+    "seed": 311,
+    "regret": 0.1222136989235878,
+    "regret_rbf": 0.10341262072324753,
+    "regret_bimodal": 0.23562823235988617,
+    "regret_ridge": 0.135471373796463,
+    "regret_plateau": 0.03250759094953537
+  },
+  {
+    "arm": "random",
+    "seed": 312,
+    "regret": 0.29407262802124023,
+    "regret_rbf": 0.41918057203292847,
+    "regret_bimodal": 0.34656834602355957,
+    "regret_ridge": 0.238082155585289,
+    "regret_plateau": 0.18148092925548553
+  },
+  {
+    "arm": "grid",
+    "seed": 312,
+    "regret": 0.21264183521270752,
+    "regret_rbf": 0.3111591637134552,
+    "regret_bimodal": 0.2688036561012268,
+    "regret_ridge": 0.1892223060131073,
+    "regret_plateau": 0.0913381353020668
+  },
+  {
+    "arm": "fd",
+    "seed": 312,
+    "regret": 0.4312531650066376,
+    "regret_rbf": 0.47146934270858765,
+    "regret_bimodal": 0.4136258065700531,
+    "regret_ridge": 0.5165457129478455,
+    "regret_plateau": 0.3252415657043457
+  },
+  {
+    "arm": "learned",
+    "seed": 312,
+    "regret": 0.162565678358078,
+    "regret_rbf": 0.1787434071302414,
+    "regret_bimodal": 0.2516590654850006,
+    "regret_ridge": 0.19345611333847046,
+    "regret_plateau": 0.04056667536497116
+  },
+  {
+    "arm": "random",
+    "seed": 313,
+    "regret": 0.2967144250869751,
+    "regret_rbf": 0.3910946547985077,
+    "regret_bimodal": 0.34699106216430664,
+    "regret_ridge": 0.2747037708759308,
+    "regret_plateau": 0.18794527649879456
+  },
+  {
+    "arm": "grid",
+    "seed": 313,
+    "regret": 0.21253648400306702,
+    "regret_rbf": 0.29788938164711,
+    "regret_bimodal": 0.2745116949081421,
+    "regret_ridge": 0.19584710896015167,
+    "regret_plateau": 0.09378931671380997
+  },
+  {
+    "arm": "fd",
+    "seed": 313,
+    "regret": 0.4144047498703003,
+    "regret_rbf": 0.4406713843345642,
+    "regret_bimodal": 0.40541377663612366,
+    "regret_ridge": 0.5391283631324768,
+    "regret_plateau": 0.26564428210258484
+  },
+  {
+    "arm": "learned",
+    "seed": 313,
+    "regret": 0.15638184547424316,
+    "regret_rbf": 0.18361249566078186,
+    "regret_bimodal": 0.23688749969005585,
+    "regret_ridge": 0.15935581922531128,
+    "regret_plateau": 0.04734542593359947
+  },
+  {
+    "arm": "random",
+    "seed": 314,
+    "regret": 0.29348495602607727,
+    "regret_rbf": 0.40580227971076965,
+    "regret_bimodal": 0.3192082941532135,
+    "regret_ridge": 0.24049706757068634,
+    "regret_plateau": 0.20277687907218933
+  },
+  {
+    "arm": "grid",
+    "seed": 314,
+    "regret": 0.21678046882152557,
+    "regret_rbf": 0.2808152735233307,
+    "regret_bimodal": 0.2720874845981598,
+    "regret_ridge": 0.200857013463974,
+    "regret_plateau": 0.12196093052625656
+  },
+  {
+    "arm": "fd",
+    "seed": 314,
+    "regret": 0.42747968435287476,
+    "regret_rbf": 0.446648508310318,
+    "regret_bimodal": 0.43024617433547974,
+    "regret_ridge": 0.5283295512199402,
+    "regret_plateau": 0.33481818437576294
+  },
+  {
+    "arm": "learned",
+    "seed": 314,
+    "regret": 0.10251660645008087,
+    "regret_rbf": 0.07870893180370331,
+    "regret_bimodal": 0.20666956901550293,
+    "regret_ridge": 0.11536502093076706,
+    "regret_plateau": 0.031860798597335815
+  },
+  {
+    "arm": "random",
+    "seed": 315,
+    "regret": 0.28831908106803894,
+    "regret_rbf": 0.37127262353897095,
+    "regret_bimodal": 0.3430127799510956,
+    "regret_ridge": 0.23683352768421173,
+    "regret_plateau": 0.18703867495059967
+  },
+  {
+    "arm": "grid",
+    "seed": 315,
+    "regret": 0.2107747197151184,
+    "regret_rbf": 0.26854878664016724,
+    "regret_bimodal": 0.2611457109451294,
+    "regret_ridge": 0.20332208275794983,
+    "regret_plateau": 0.09399893134832382
+  },
+  {
+    "arm": "fd",
+    "seed": 315,
+    "regret": 0.4155493676662445,
+    "regret_rbf": 0.4401922821998596,
+    "regret_bimodal": 0.39890730381011963,
+    "regret_ridge": 0.5459159016609192,
+    "regret_plateau": 0.256714791059494
+  },
+  {
+    "arm": "learned",
+    "seed": 315,
+    "regret": 0.10990440845489502,
+    "regret_rbf": 0.08059661835432053,
+    "regret_bimodal": 0.20040461421012878,
+    "regret_ridge": 0.12336355447769165,
+    "regret_plateau": 0.02692774310708046
+  },
+  {
+    "arm": "random",
+    "seed": 316,
+    "regret": 0.2700636684894562,
+    "regret_rbf": 0.3973920941352844,
+    "regret_bimodal": 0.3134879469871521,
+    "regret_ridge": 0.18992911279201508,
+    "regret_plateau": 0.16279380023479462
+  },
+  {
+    "arm": "grid",
+    "seed": 316,
+    "regret": 0.21454833447933197,
+    "regret_rbf": 0.29428449273109436,
+    "regret_bimodal": 0.26533740758895874,
+    "regret_ridge": 0.1661098599433899,
+    "regret_plateau": 0.11790795624256134
+  },
+  {
+    "arm": "fd",
+    "seed": 316,
+    "regret": 0.42982155084609985,
+    "regret_rbf": 0.45879513025283813,
+    "regret_bimodal": 0.4512833058834076,
+    "regret_ridge": 0.5201744437217712,
+    "regret_plateau": 0.26916730403900146
+  },
+  {
+    "arm": "learned",
+    "seed": 316,
+    "regret": 0.1654341220855713,
+    "regret_rbf": 0.1560286581516266,
+    "regret_bimodal": 0.2601907253265381,
+    "regret_ridge": 0.16603398323059082,
+    "regret_plateau": 0.06522160023450851
+  },
+  {
+    "arm": "random",
+    "seed": 317,
+    "regret": 0.27429869771003723,
+    "regret_rbf": 0.38687705993652344,
+    "regret_bimodal": 0.3558169901371002,
+    "regret_ridge": 0.22119739651679993,
+    "regret_plateau": 0.13514479994773865
+  },
+  {
+    "arm": "grid",
+    "seed": 317,
+    "regret": 0.2055514007806778,
+    "regret_rbf": 0.27807050943374634,
+    "regret_bimodal": 0.265161395072937,
+    "regret_ridge": 0.18927069008350372,
+    "regret_plateau": 0.08923890441656113
+  },
+  {
+    "arm": "fd",
+    "seed": 317,
+    "regret": 0.4184948801994324,
+    "regret_rbf": 0.46353280544281006,
+    "regret_bimodal": 0.4019017219543457,
+    "regret_ridge": 0.5071290135383606,
+    "regret_plateau": 0.28904587030410767
+  },
+  {
+    "arm": "learned",
+    "seed": 317,
+    "regret": 0.1703057587146759,
+    "regret_rbf": 0.19531020522117615,
+    "regret_bimodal": 0.26503080129623413,
+    "regret_ridge": 0.14849057793617249,
+    "regret_plateau": 0.07632261514663696
+  },
+  {
+    "arm": "random",
+    "seed": 318,
+    "regret": 0.31717807054519653,
+    "regret_rbf": 0.41964414715766907,
+    "regret_bimodal": 0.3418523967266083,
+    "regret_ridge": 0.29560229182243347,
+    "regret_plateau": 0.20652171969413757
+  },
+  {
+    "arm": "grid",
+    "seed": 318,
+    "regret": 0.21549680829048157,
+    "regret_rbf": 0.29720914363861084,
+    "regret_bimodal": 0.2860690653324127,
+    "regret_ridge": 0.18777723610401154,
+    "regret_plateau": 0.08733800053596497
+  },
+  {
+    "arm": "fd",
+    "seed": 318,
+    "regret": 0.43216896057128906,
+    "regret_rbf": 0.4772893190383911,
+    "regret_bimodal": 0.41894954442977905,
+    "regret_ridge": 0.5651642680168152,
+    "regret_plateau": 0.26910722255706787
+  },
+  {
+    "arm": "learned",
+    "seed": 318,
+    "regret": 0.17753450572490692,
+    "regret_rbf": 0.21916770935058594,
+    "regret_bimodal": 0.24482789635658264,
+    "regret_ridge": 0.19345100224018097,
+    "regret_plateau": 0.0522887147963047
+  },
+  {
+    "arm": "random",
+    "seed": 319,
+    "regret": 0.28158771991729736,
+    "regret_rbf": 0.4024490416049957,
+    "regret_bimodal": 0.3221723437309265,
+    "regret_ridge": 0.23449011147022247,
+    "regret_plateau": 0.16988535225391388
+  },
+  {
+    "arm": "grid",
+    "seed": 319,
+    "regret": 0.21233981847763062,
+    "regret_rbf": 0.2774014472961426,
+    "regret_bimodal": 0.28254055976867676,
+    "regret_ridge": 0.17591775953769684,
+    "regret_plateau": 0.11535202711820602
+  },
+  {
+    "arm": "fd",
+    "seed": 319,
+    "regret": 0.4163685441017151,
+    "regret_rbf": 0.408400297164917,
+    "regret_bimodal": 0.4464377164840698,
+    "regret_ridge": 0.49594372510910034,
+    "regret_plateau": 0.3198965787887573
+  },
+  {
+    "arm": "learned",
+    "seed": 319,
+    "regret": 0.10319647192955017,
+    "regret_rbf": 0.11026641726493835,
+    "regret_bimodal": 0.1792100965976715,
+    "regret_ridge": 0.09891097247600555,
+    "regret_plateau": 0.026134068146348
+  }
+]

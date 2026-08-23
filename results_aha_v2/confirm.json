@@ -1,0 +1,2322 @@
+[
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 300,
+    "survival": 0.904296875,
+    "time_viable": 0.9978755712509155,
+    "action_rate": 0.2018345445394516,
+    "anticipation_lead": 2.8699788583509513,
+    "event_coverage": 0.7390625
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 300,
+    "survival": 0.982421875,
+    "time_viable": 0.9996573328971863,
+    "action_rate": 0.2451520711183548,
+    "anticipation_lead": 5.694840834248079,
+    "event_coverage": 0.71171875
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 300,
+    "survival": 0.181640625,
+    "time_viable": 0.9688870906829834,
+    "action_rate": 0.2527553141117096,
+    "anticipation_lead": 2.8370607028753994,
+    "event_coverage": 0.73359375
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 300,
+    "survival": 0.833984375,
+    "time_viable": 0.9967105388641357,
+    "action_rate": 0.2438964992761612,
+    "anticipation_lead": 5.492507492507492,
+    "event_coverage": 0.78203125
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 300,
+    "survival": 0.083984375,
+    "time_viable": 0.8969298601150513,
+    "action_rate": 0.3536551594734192,
+    "anticipation_lead": 3.5923970432946146,
+    "event_coverage": 0.73984375
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 300,
+    "survival": 0.513671875,
+    "time_viable": 0.9842379689216614,
+    "action_rate": 0.2377232313156128,
+    "anticipation_lead": 5.664634146341464,
+    "event_coverage": 0.76875
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 300,
+    "survival": 0.384765625,
+    "time_viable": 0.9787212014198303,
+    "action_rate": 0.2329799234867096,
+    "anticipation_lead": 5.354265402843602,
+    "event_coverage": 0.659375
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 300,
+    "survival": 0.330078125,
+    "time_viable": 0.9734100699424744,
+    "action_rate": 0.2263881266117096,
+    "anticipation_lead": 5.604910714285714,
+    "event_coverage": 0.7
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 300,
+    "survival": 0.32421875,
+    "time_viable": 0.9741639494895935,
+    "action_rate": 0.2308872938156128,
+    "anticipation_lead": 5.82662192393736,
+    "event_coverage": 0.6984375
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 300,
+    "survival": 0.017578125,
+    "time_viable": 0.7765213847160339,
+    "action_rate": 0.471714586019516,
+    "anticipation_lead": 4.209375,
+    "event_coverage": 0.75
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 300,
+    "survival": 0.234375,
+    "time_viable": 0.9412692189216614,
+    "action_rate": 0.217912957072258,
+    "anticipation_lead": 6.0947867298578196,
+    "event_coverage": 0.659375
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 300,
+    "survival": 0.0193359375
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 301,
+    "survival": 0.873046875,
+    "time_viable": 0.9975671768188477,
+    "action_rate": 0.2011370062828064,
+    "anticipation_lead": 2.8390446521287642,
+    "event_coverage": 0.75234375
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 301,
+    "survival": 0.98046875,
+    "time_viable": 0.9996573328971863,
+    "action_rate": 0.2365722805261612,
+    "anticipation_lead": 5.785876993166287,
+    "event_coverage": 0.6859375
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 301,
+    "survival": 0.1953125,
+    "time_viable": 0.9694010615348816,
+    "action_rate": 0.2498604953289032,
+    "anticipation_lead": 2.792708333333333,
+    "event_coverage": 0.75
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 301,
+    "survival": 0.765625,
+    "time_viable": 0.9954426884651184,
+    "action_rate": 0.2390485554933548,
+    "anticipation_lead": 5.798984771573604,
+    "event_coverage": 0.76953125
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 301,
+    "survival": 0.078125,
+    "time_viable": 0.8997738361358643,
+    "action_rate": 0.348667711019516,
+    "anticipation_lead": 3.523076923076923,
+    "event_coverage": 0.76171875
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 301,
+    "survival": 0.5625,
+    "time_viable": 0.9865337014198303,
+    "action_rate": 0.2384905219078064,
+    "anticipation_lead": 5.939148073022312,
+    "event_coverage": 0.7703125
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 301,
+    "survival": 0.484375,
+    "time_viable": 0.984375,
+    "action_rate": 0.2395368367433548,
+    "anticipation_lead": 5.659505907626208,
+    "event_coverage": 0.72734375
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 301,
+    "survival": 0.42578125,
+    "time_viable": 0.9799890518188477,
+    "action_rate": 0.2283761203289032,
+    "anticipation_lead": 5.733193277310924,
+    "event_coverage": 0.74375
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 301,
+    "survival": 0.693359375,
+    "time_viable": 0.9912623167037964,
+    "action_rate": 0.2479073703289032,
+    "anticipation_lead": 5.482497634815515,
+    "event_coverage": 0.82578125
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 301,
+    "survival": 0.01171875,
+    "time_viable": 0.7786116003990173,
+    "action_rate": 0.4679478406906128,
+    "anticipation_lead": 4.237373737373737,
+    "event_coverage": 0.7734375
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 301,
+    "survival": 0.265625,
+    "time_viable": 0.9519599676132202,
+    "action_rate": 0.2222028523683548,
+    "anticipation_lead": 5.938011695906432,
+    "event_coverage": 0.66796875
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 301,
+    "survival": 0.0353515625
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 302,
+    "survival": 0.892578125,
+    "time_viable": 0.997772753238678,
+    "action_rate": 0.2011021226644516,
+    "anticipation_lead": 2.9391395592864638,
+    "event_coverage": 0.74453125
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 302,
+    "survival": 0.96875,
+    "time_viable": 0.9993832111358643,
+    "action_rate": 0.2412807047367096,
+    "anticipation_lead": 5.783039647577093,
+    "event_coverage": 0.709375
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 302,
+    "survival": 0.185546875,
+    "time_viable": 0.96875,
+    "action_rate": 0.2500697672367096,
+    "anticipation_lead": 2.850368809272919,
+    "event_coverage": 0.74140625
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 302,
+    "survival": 0.775390625,
+    "time_viable": 0.9953056573867798,
+    "action_rate": 0.2419084906578064,
+    "anticipation_lead": 5.514631685166498,
+    "event_coverage": 0.77421875
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 302,
+    "survival": 0.076171875,
+    "time_viable": 0.8961074352264404,
+    "action_rate": 0.3488072156906128,
+    "anticipation_lead": 3.6390041493775933,
+    "event_coverage": 0.753125
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 302,
+    "survival": 0.5625,
+    "time_viable": 0.9839295744895935,
+    "action_rate": 0.2353515774011612,
+    "anticipation_lead": 5.656941649899396,
+    "event_coverage": 0.7765625
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 302,
+    "survival": 0.41796875,
+    "time_viable": 0.9769394397735596,
+    "action_rate": 0.227190300822258,
+    "anticipation_lead": 5.579383886255924,
+    "event_coverage": 0.659375
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 302,
+    "survival": 0.341796875,
+    "time_viable": 0.9686471819877625,
+    "action_rate": 0.2186104953289032,
+    "anticipation_lead": 5.8617401668653155,
+    "event_coverage": 0.65546875
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 302,
+    "survival": 0.5859375,
+    "time_viable": 0.9859169721603394,
+    "action_rate": 0.2392229437828064,
+    "anticipation_lead": 5.600393700787402,
+    "event_coverage": 0.79375
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 302,
+    "survival": 0.015625,
+    "time_viable": 0.7746710777282715,
+    "action_rate": 0.4706682562828064,
+    "anticipation_lead": 4.223360655737705,
+    "event_coverage": 0.7625
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 302,
+    "survival": 0.404296875,
+    "time_viable": 0.9639528393745422,
+    "action_rate": 0.2241559773683548,
+    "anticipation_lead": 5.923573735199139,
+    "event_coverage": 0.72578125
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 302,
+    "survival": 0.0833984375
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 303,
+    "survival": 0.912109375,
+    "time_viable": 0.9981496930122375,
+    "action_rate": 0.2009277492761612,
+    "anticipation_lead": 2.9170081967213113,
+    "event_coverage": 0.7625
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 303,
+    "survival": 0.97265625,
+    "time_viable": 0.9993832111358643,
+    "action_rate": 0.2388741672039032,
+    "anticipation_lead": 5.389067524115756,
+    "event_coverage": 0.72890625
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 303,
+    "survival": 0.205078125,
+    "time_viable": 0.9708059430122375,
+    "action_rate": 0.2520228922367096,
+    "anticipation_lead": 2.8890030832476876,
+    "event_coverage": 0.76015625
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 303,
+    "survival": 0.78125,
+    "time_viable": 0.9951343536376953,
+    "action_rate": 0.2359096109867096,
+    "anticipation_lead": 5.171779141104294,
+    "event_coverage": 0.7640625
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 303,
+    "survival": 0.056640625,
+    "time_viable": 0.900116503238678,
+    "action_rate": 0.346470445394516,
+    "anticipation_lead": 3.6703853955375254,
+    "event_coverage": 0.7703125
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 303,
+    "survival": 0.533203125,
+    "time_viable": 0.9840323328971863,
+    "action_rate": 0.2346191555261612,
+    "anticipation_lead": 5.2287128712871285,
+    "event_coverage": 0.7890625
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 303,
+    "survival": 0.40234375,
+    "time_viable": 0.9786869883537292,
+    "action_rate": 0.2318638563156128,
+    "anticipation_lead": 5.196902654867257,
+    "event_coverage": 0.70625
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 303,
+    "survival": 0.56640625,
+    "time_viable": 0.9860197305679321,
+    "action_rate": 0.2379673719406128,
+    "anticipation_lead": 5.35,
+    "event_coverage": 0.8125
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 303,
+    "survival": 0.404296875,
+    "time_viable": 0.9774876832962036,
+    "action_rate": 0.2283063679933548,
+    "anticipation_lead": 5.492063492063492,
+    "event_coverage": 0.73828125
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 303,
+    "survival": 0.013671875,
+    "time_viable": 0.7790570259094238,
+    "action_rate": 0.4729701578617096,
+    "anticipation_lead": 4.223658051689861,
+    "event_coverage": 0.7859375
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 303,
+    "survival": 0.39453125,
+    "time_viable": 0.9655633568763733,
+    "action_rate": 0.2282714992761612,
+    "anticipation_lead": 5.612307692307692,
+    "event_coverage": 0.76171875
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 303,
+    "survival": 0.0861328125
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 304,
+    "survival": 0.919921875,
+    "time_viable": 0.9984923601150513,
+    "action_rate": 0.1993931382894516,
+    "anticipation_lead": 2.9649122807017543,
+    "event_coverage": 0.75703125
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 304,
+    "survival": 0.96484375,
+    "time_viable": 0.9992804527282715,
+    "action_rate": 0.2414202094078064,
+    "anticipation_lead": 5.6731428571428575,
+    "event_coverage": 0.68359375
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 304,
+    "survival": 0.208984375,
+    "time_viable": 0.9713884592056274,
+    "action_rate": 0.2443150281906128,
+    "anticipation_lead": 2.9209157127991676,
+    "event_coverage": 0.75078125
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 304,
+    "survival": 0.869140625,
+    "time_viable": 0.9966077208518982,
+    "action_rate": 0.2514299750328064,
+    "anticipation_lead": 5.4840525328330205,
+    "event_coverage": 0.8328125
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 304,
+    "survival": 0.078125,
+    "time_viable": 0.9048108458518982,
+    "action_rate": 0.3360421359539032,
+    "anticipation_lead": 3.6287179487179486,
+    "event_coverage": 0.76171875
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 304,
+    "survival": 0.68359375,
+    "time_viable": 0.9902001023292542,
+    "action_rate": 0.246721550822258,
+    "anticipation_lead": 5.638218923933209,
+    "event_coverage": 0.8421875
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 304,
+    "survival": 0.5625,
+    "time_viable": 0.986054003238678,
+    "action_rate": 0.2386300265789032,
+    "anticipation_lead": 5.341836734693878,
+    "event_coverage": 0.765625
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 304,
+    "survival": 0.650390625,
+    "time_viable": 0.9893434643745422,
+    "action_rate": 0.2418038547039032,
+    "anticipation_lead": 5.537871524448706,
+    "event_coverage": 0.81484375
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 304,
+    "survival": 0.640625,
+    "time_viable": 0.9888637661933899,
+    "action_rate": 0.241838738322258,
+    "anticipation_lead": 5.499051233396584,
+    "event_coverage": 0.8234375
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 304,
+    "survival": 0.0078125,
+    "time_viable": 0.7854646444320679,
+    "action_rate": 0.462193101644516,
+    "anticipation_lead": 4.267947421638018,
+    "event_coverage": 0.77265625
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 304,
+    "survival": 0.37890625,
+    "time_viable": 0.9610060453414917,
+    "action_rate": 0.221086785197258,
+    "anticipation_lead": 5.743303571428571,
+    "event_coverage": 0.7
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 304,
+    "survival": 0.0923828125
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 305,
+    "survival": 0.91796875,
+    "time_viable": 0.9983552694320679,
+    "action_rate": 0.1996372789144516,
+    "anticipation_lead": 2.9190573770491803,
+    "event_coverage": 0.7625
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 305,
+    "survival": 0.958984375,
+    "time_viable": 0.9992119073867798,
+    "action_rate": 0.2375139594078064,
+    "anticipation_lead": 5.457174638487208,
+    "event_coverage": 0.70234375
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 305,
+    "survival": 0.189453125,
+    "time_viable": 0.9708059430122375,
+    "action_rate": 0.2492327094078064,
+    "anticipation_lead": 2.869877049180328,
+    "event_coverage": 0.7625
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 305,
+    "survival": 0.8671875,
+    "time_viable": 0.9970532059669495,
+    "action_rate": 0.2456752359867096,
+    "anticipation_lead": 5.457416267942584,
+    "event_coverage": 0.81640625
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 305,
+    "survival": 0.068359375,
+    "time_viable": 0.9031318426132202,
+    "action_rate": 0.3438546359539032,
+    "anticipation_lead": 3.6176470588235294,
+    "event_coverage": 0.7703125
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 305,
+    "survival": 0.609375,
+    "time_viable": 0.9883155226707458,
+    "action_rate": 0.2407575398683548,
+    "anticipation_lead": 5.566634707574305,
+    "event_coverage": 0.81484375
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 305,
+    "survival": 0.390625,
+    "time_viable": 0.9779331088066101,
+    "action_rate": 0.2272949367761612,
+    "anticipation_lead": 5.695754716981132,
+    "event_coverage": 0.6625
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 305,
+    "survival": 0.583984375,
+    "time_viable": 0.9871162176132202,
+    "action_rate": 0.2376534640789032,
+    "anticipation_lead": 5.528836754643207,
+    "event_coverage": 0.79921875
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 305,
+    "survival": 0.46875,
+    "time_viable": 0.9810512661933899,
+    "action_rate": 0.2285156399011612,
+    "anticipation_lead": 5.64172813487882,
+    "event_coverage": 0.74140625
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 305,
+    "survival": 0.013671875,
+    "time_viable": 0.7783374786376953,
+    "action_rate": 0.470493882894516,
+    "anticipation_lead": 4.263,
+    "event_coverage": 0.78125
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 305,
+    "survival": 0.5703125,
+    "time_viable": 0.9802289009094238,
+    "action_rate": 0.2398507297039032,
+    "anticipation_lead": 5.741088180112571,
+    "event_coverage": 0.8328125
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 305,
+    "survival": 0.141015625
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 306,
+    "survival": 0.904296875,
+    "time_viable": 0.9981496930122375,
+    "action_rate": 0.2000209391117096,
+    "anticipation_lead": 2.764705882352941,
+    "event_coverage": 0.75703125
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 306,
+    "survival": 0.9609375,
+    "time_viable": 0.9992804527282715,
+    "action_rate": 0.232805535197258,
+    "anticipation_lead": 5.658986175115207,
+    "event_coverage": 0.678125
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 306,
+    "survival": 0.224609375,
+    "time_viable": 0.9706345796585083,
+    "action_rate": 0.2485351711511612,
+    "anticipation_lead": 2.720954356846473,
+    "event_coverage": 0.753125
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 306,
+    "survival": 0.8359375,
+    "time_viable": 0.9965734481811523,
+    "action_rate": 0.2451520711183548,
+    "anticipation_lead": 5.4921875,
+    "event_coverage": 0.8
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 306,
+    "survival": 0.107421875,
+    "time_viable": 0.9012472629547119,
+    "action_rate": 0.3461914360523224,
+    "anticipation_lead": 3.5304878048780486,
+    "event_coverage": 0.76875
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 306,
+    "survival": 0.5625,
+    "time_viable": 0.9864309430122375,
+    "action_rate": 0.2354561984539032,
+    "anticipation_lead": 5.58989898989899,
+    "event_coverage": 0.7734375
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 306,
+    "survival": 0.3125,
+    "time_viable": 0.9749520421028137,
+    "action_rate": 0.2224121242761612,
+    "anticipation_lead": 5.409937888198757,
+    "event_coverage": 0.62890625
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 306,
+    "survival": 0.474609375,
+    "time_viable": 0.9815652370452881,
+    "action_rate": 0.2264927625656128,
+    "anticipation_lead": 5.519837232960326,
+    "event_coverage": 0.76796875
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 306,
+    "survival": 0.55078125,
+    "time_viable": 0.9852659106254578,
+    "action_rate": 0.2343401312828064,
+    "anticipation_lead": 5.632734530938124,
+    "event_coverage": 0.7828125
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 306,
+    "survival": 0.017578125,
+    "time_viable": 0.7897821068763733,
+    "action_rate": 0.4636928141117096,
+    "anticipation_lead": 4.199203187250996,
+    "event_coverage": 0.784375
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 306,
+    "survival": 0.2421875,
+    "time_viable": 0.9483278393745422,
+    "action_rate": 0.2160295844078064,
+    "anticipation_lead": 5.945107398568019,
+    "event_coverage": 0.6546875
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 306,
+    "survival": 0.034765625
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 307,
+    "survival": 0.8984375,
+    "time_viable": 0.9978070259094238,
+    "action_rate": 0.2007882297039032,
+    "anticipation_lead": 2.6944444444444446,
+    "event_coverage": 0.759375
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 307,
+    "survival": 0.978515625,
+    "time_viable": 0.9994174838066101,
+    "action_rate": 0.2424316555261612,
+    "anticipation_lead": 5.679878048780488,
+    "event_coverage": 0.76875
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 307,
+    "survival": 0.181640625,
+    "time_viable": 0.9690583944320679,
+    "action_rate": 0.2471051961183548,
+    "anticipation_lead": 2.704312114989733,
+    "event_coverage": 0.7609375
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 307,
+    "survival": 0.806640625,
+    "time_viable": 0.9959909319877625,
+    "action_rate": 0.2430943250656128,
+    "anticipation_lead": 5.53897978825794,
+    "event_coverage": 0.81171875
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 307,
+    "survival": 0.078125,
+    "time_viable": 0.8975465893745422,
+    "action_rate": 0.3465401828289032,
+    "anticipation_lead": 3.474747474747475,
+    "event_coverage": 0.7734375
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 307,
+    "survival": 0.6484375,
+    "time_viable": 0.9893091917037964,
+    "action_rate": 0.2454659640789032,
+    "anticipation_lead": 5.465004793863854,
+    "event_coverage": 0.81484375
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 307,
+    "survival": 0.49609375,
+    "time_viable": 0.9839295744895935,
+    "action_rate": 0.2393275797367096,
+    "anticipation_lead": 5.460186142709411,
+    "event_coverage": 0.75546875
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 307,
+    "survival": 0.51171875,
+    "time_viable": 0.9834156036376953,
+    "action_rate": 0.2392229437828064,
+    "anticipation_lead": 5.701684836471754,
+    "event_coverage": 0.78828125
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 307,
+    "survival": 0.677734375,
+    "time_viable": 0.9897204041481018,
+    "action_rate": 0.2438616156578064,
+    "anticipation_lead": 5.486177311725453,
+    "event_coverage": 0.81953125
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 307,
+    "survival": 0.009765625,
+    "time_viable": 0.7737801671028137,
+    "action_rate": 0.4705287516117096,
+    "anticipation_lead": 4.155,
+    "event_coverage": 0.78125
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 307,
+    "survival": 0.62890625,
+    "time_viable": 0.9837582111358643,
+    "action_rate": 0.2475586086511612,
+    "anticipation_lead": 5.627777777777778,
+    "event_coverage": 0.84375
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 307,
+    "survival": 0.15625
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 308,
+    "survival": 0.91796875,
+    "time_viable": 0.9982524514198303,
+    "action_rate": 0.2007533609867096,
+    "anticipation_lead": 2.8650963597430406,
+    "event_coverage": 0.7296875
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 308,
+    "survival": 0.96484375,
+    "time_viable": 0.9993489384651184,
+    "action_rate": 0.2427455484867096,
+    "anticipation_lead": 5.55531453362256,
+    "event_coverage": 0.7203125
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 308,
+    "survival": 0.169921875,
+    "time_viable": 0.9705660939216614,
+    "action_rate": 0.2497558742761612,
+    "anticipation_lead": 2.865180467091295,
+    "event_coverage": 0.7359375
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 308,
+    "survival": 0.857421875,
+    "time_viable": 0.9968818426132202,
+    "action_rate": 0.2525460422039032,
+    "anticipation_lead": 5.37639405204461,
+    "event_coverage": 0.840625
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 308,
+    "survival": 0.0625,
+    "time_viable": 0.8994312286376953,
+    "action_rate": 0.347935289144516,
+    "anticipation_lead": 3.579664570230608,
+    "event_coverage": 0.7453125
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 308,
+    "survival": 0.767578125,
+    "time_viable": 0.9924273490905762,
+    "action_rate": 0.261265367269516,
+    "anticipation_lead": 5.514814814814815,
+    "event_coverage": 0.84375
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 308,
+    "survival": 0.759765625,
+    "time_viable": 0.9907483458518982,
+    "action_rate": 0.2646484375,
+    "anticipation_lead": 5.3538461538461535,
+    "event_coverage": 0.8125
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 308,
+    "survival": 0.72265625,
+    "time_viable": 0.9924273490905762,
+    "action_rate": 0.2494419813156128,
+    "anticipation_lead": 5.407649253731344,
+    "event_coverage": 0.8375
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 308,
+    "survival": 0.76953125,
+    "time_viable": 0.9933868050575256,
+    "action_rate": 0.255126953125,
+    "anticipation_lead": 5.592142188961646,
+    "event_coverage": 0.83515625
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 308,
+    "survival": 0.01171875,
+    "time_viable": 0.7803590893745422,
+    "action_rate": 0.4687151312828064,
+    "anticipation_lead": 4.203494347379239,
+    "event_coverage": 0.76015625
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 308,
+    "survival": 0.705078125,
+    "time_viable": 0.9873218536376953,
+    "action_rate": 0.2494768500328064,
+    "anticipation_lead": 5.586529466791394,
+    "event_coverage": 0.83515625
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 308,
+    "survival": 0.195703125
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 309,
+    "survival": 0.875,
+    "time_viable": 0.997498631477356,
+    "action_rate": 0.2012765109539032,
+    "anticipation_lead": 2.7721518987341773,
+    "event_coverage": 0.740625
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 309,
+    "survival": 0.978515625,
+    "time_viable": 0.9995888471603394,
+    "action_rate": 0.2386997938156128,
+    "anticipation_lead": 5.60352422907489,
+    "event_coverage": 0.709375
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 309,
+    "survival": 0.1640625,
+    "time_viable": 0.9661458134651184,
+    "action_rate": 0.2510811984539032,
+    "anticipation_lead": 2.7518479408658925,
+    "event_coverage": 0.73984375
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 309,
+    "survival": 0.794921875,
+    "time_viable": 0.995819628238678,
+    "action_rate": 0.2397112250328064,
+    "anticipation_lead": 5.685258964143427,
+    "event_coverage": 0.784375
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 309,
+    "survival": 0.078125,
+    "time_viable": 0.8941885828971863,
+    "action_rate": 0.3534807562828064,
+    "anticipation_lead": 3.5341614906832297,
+    "event_coverage": 0.7546875
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 309,
+    "survival": 0.6484375,
+    "time_viable": 0.9891036152839661,
+    "action_rate": 0.2410714328289032,
+    "anticipation_lead": 5.5248091603053435,
+    "event_coverage": 0.81875
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 309,
+    "survival": 0.419921875,
+    "time_viable": 0.9796121120452881,
+    "action_rate": 0.2308175265789032,
+    "anticipation_lead": 5.433789954337899,
+    "event_coverage": 0.684375
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 309,
+    "survival": 0.38671875,
+    "time_viable": 0.977110743522644,
+    "action_rate": 0.2245745062828064,
+    "anticipation_lead": 5.9297124600638975,
+    "event_coverage": 0.73359375
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 309,
+    "survival": 0.6484375,
+    "time_viable": 0.9903371930122375,
+    "action_rate": 0.2457798719406128,
+    "anticipation_lead": 5.549812030075188,
+    "event_coverage": 0.83125
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 309,
+    "survival": 0.0078125,
+    "time_viable": 0.7672011852264404,
+    "action_rate": 0.4770508110523224,
+    "anticipation_lead": 4.136131013306039,
+    "event_coverage": 0.76328125
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 309,
+    "survival": 0.1015625,
+    "time_viable": 0.9146792888641357,
+    "action_rate": 0.2044154703617096,
+    "anticipation_lead": 6.1479591836734695,
+    "event_coverage": 0.6125
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 309,
+    "survival": -0.008984375
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 310,
+    "survival": 0.896484375,
+    "time_viable": 0.9976699352264404,
+    "action_rate": 0.1997419148683548,
+    "anticipation_lead": 2.859327217125382,
+    "event_coverage": 0.76640625
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 310,
+    "survival": 0.958984375,
+    "time_viable": 0.9990748167037964,
+    "action_rate": 0.2456752359867096,
+    "anticipation_lead": 5.681,
+    "event_coverage": 0.78125
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 310,
+    "survival": 0.20703125,
+    "time_viable": 0.9703947305679321,
+    "action_rate": 0.2480817586183548,
+    "anticipation_lead": 2.7543679342240495,
+    "event_coverage": 0.76015625
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 310,
+    "survival": 0.861328125,
+    "time_viable": 0.9967790842056274,
+    "action_rate": 0.2480468899011612,
+    "anticipation_lead": 5.617481203007519,
+    "event_coverage": 0.83125
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 310,
+    "survival": 0.091796875,
+    "time_viable": 0.8977522253990173,
+    "action_rate": 0.3471331000328064,
+    "anticipation_lead": 3.56838905775076,
+    "event_coverage": 0.77109375
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 310,
+    "survival": 0.59375,
+    "time_viable": 0.9873903393745422,
+    "action_rate": 0.239885613322258,
+    "anticipation_lead": 5.671875,
+    "event_coverage": 0.8
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 310,
+    "survival": 0.443359375,
+    "time_viable": 0.9824904203414917,
+    "action_rate": 0.2351074367761612,
+    "anticipation_lead": 5.508232711306257,
+    "event_coverage": 0.71171875
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 310,
+    "survival": 0.654296875,
+    "time_viable": 0.9897546768188477,
+    "action_rate": 0.2463727742433548,
+    "anticipation_lead": 5.775431861804223,
+    "event_coverage": 0.8140625
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 310,
+    "survival": 0.568359375,
+    "time_viable": 0.9874588847160339,
+    "action_rate": 0.2380022406578064,
+    "anticipation_lead": 5.775469831849654,
+    "event_coverage": 0.78984375
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 310,
+    "survival": 0.015625,
+    "time_viable": 0.7793996930122375,
+    "action_rate": 0.467564195394516,
+    "anticipation_lead": 4.252976190476191,
+    "event_coverage": 0.7875
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 310,
+    "survival": 0.408203125,
+    "time_viable": 0.9680989384651184,
+    "action_rate": 0.2263881266117096,
+    "anticipation_lead": 5.664314516129032,
+    "event_coverage": 0.775
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 310,
+    "survival": 0.0837890625
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 311,
+    "survival": 0.931640625,
+    "time_viable": 0.9985608458518982,
+    "action_rate": 0.2018694281578064,
+    "anticipation_lead": 2.761806981519507,
+    "event_coverage": 0.7609375
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 311,
+    "survival": 0.955078125,
+    "time_viable": 0.9991433620452881,
+    "action_rate": 0.2450823187828064,
+    "anticipation_lead": 5.649431230610134,
+    "event_coverage": 0.75546875
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 311,
+    "survival": 0.205078125,
+    "time_viable": 0.9715940356254578,
+    "action_rate": 0.2485351711511612,
+    "anticipation_lead": 2.6673553719008263,
+    "event_coverage": 0.75625
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 311,
+    "survival": 0.845703125,
+    "time_viable": 0.9960594773292542,
+    "action_rate": 0.2607073187828064,
+    "anticipation_lead": 5.306726457399103,
+    "event_coverage": 0.87109375
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 311,
+    "survival": 0.07421875,
+    "time_viable": 0.9013158082962036,
+    "action_rate": 0.3455636203289032,
+    "anticipation_lead": 3.4091370558375633,
+    "event_coverage": 0.76953125
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 311,
+    "survival": 0.611328125,
+    "time_viable": 0.9871504902839661,
+    "action_rate": 0.2433733344078064,
+    "anticipation_lead": 5.417840375586854,
+    "event_coverage": 0.83203125
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 311,
+    "survival": 0.705078125,
+    "time_viable": 0.9907483458518982,
+    "action_rate": 0.2620675265789032,
+    "anticipation_lead": 5.2024367385192125,
+    "event_coverage": 0.83359375
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 311,
+    "survival": 0.703125,
+    "time_viable": 0.9908854365348816,
+    "action_rate": 0.2557896375656128,
+    "anticipation_lead": 5.34629294755877,
+    "event_coverage": 0.8640625
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 311,
+    "survival": 0.525390625,
+    "time_viable": 0.9823190569877625,
+    "action_rate": 0.2379673719406128,
+    "anticipation_lead": 5.647404505386875,
+    "event_coverage": 0.79765625
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 311,
+    "survival": 0.015625,
+    "time_viable": 0.7834087014198303,
+    "action_rate": 0.4626465141773224,
+    "anticipation_lead": 4.028225806451613,
+    "event_coverage": 0.775
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 311,
+    "survival": 0.30859375,
+    "time_viable": 0.9523711800575256,
+    "action_rate": 0.2207728922367096,
+    "anticipation_lead": 5.791437980241493,
+    "event_coverage": 0.71171875
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 311,
+    "survival": 0.0705078125
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 312,
+    "survival": 0.8828125,
+    "time_viable": 0.9977042078971863,
+    "action_rate": 0.2004743367433548,
+    "anticipation_lead": 3.0262605042016806,
+    "event_coverage": 0.74375
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 312,
+    "survival": 0.95703125,
+    "time_viable": 0.9991776347160339,
+    "action_rate": 0.242327019572258,
+    "anticipation_lead": 5.668514412416852,
+    "event_coverage": 0.7046875
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 312,
+    "survival": 0.212890625,
+    "time_viable": 0.9709429740905762,
+    "action_rate": 0.2509068250656128,
+    "anticipation_lead": 2.9410526315789474,
+    "event_coverage": 0.7421875
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 312,
+    "survival": 0.791015625,
+    "time_viable": 0.9954084753990173,
+    "action_rate": 0.2455357313156128,
+    "anticipation_lead": 5.389413988657845,
+    "event_coverage": 0.8265625
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 312,
+    "survival": 0.064453125,
+    "time_viable": 0.9011102318763733,
+    "action_rate": 0.3485282063484192,
+    "anticipation_lead": 3.7688338493292055,
+    "event_coverage": 0.75703125
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 312,
+    "survival": 0.646484375,
+    "time_viable": 0.9886239171028137,
+    "action_rate": 0.2451869547367096,
+    "anticipation_lead": 5.470749542961609,
+    "event_coverage": 0.8546875
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 312,
+    "survival": 0.591796875,
+    "time_viable": 0.987733006477356,
+    "action_rate": 0.2460588812828064,
+    "anticipation_lead": 5.5397286821705425,
+    "event_coverage": 0.80625
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 312,
+    "survival": 0.5390625,
+    "time_viable": 0.9846148490905762,
+    "action_rate": 0.2379673719406128,
+    "anticipation_lead": 5.346880907372401,
+    "event_coverage": 0.8265625
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 312,
+    "survival": 0.64453125,
+    "time_viable": 0.9886924624443054,
+    "action_rate": 0.2449079304933548,
+    "anticipation_lead": 5.514732965009208,
+    "event_coverage": 0.8484375
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 312,
+    "survival": 0.01171875,
+    "time_viable": 0.7807360291481018,
+    "action_rate": 0.4672851860523224,
+    "anticipation_lead": 4.351851851851852,
+    "event_coverage": 0.759375
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 312,
+    "survival": 0.623046875,
+    "time_viable": 0.9834156036376953,
+    "action_rate": 0.2471749484539032,
+    "anticipation_lead": 5.517241379310345,
+    "event_coverage": 0.8609375
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 312,
+    "survival": 0.1615234375
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 313,
+    "survival": 0.888671875,
+    "time_viable": 0.9978070259094238,
+    "action_rate": 0.1997070461511612,
+    "anticipation_lead": 2.9363256784968685,
+    "event_coverage": 0.7484375
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 313,
+    "survival": 0.970703125,
+    "time_viable": 0.999451756477356,
+    "action_rate": 0.240129753947258,
+    "anticipation_lead": 5.879518072289157,
+    "event_coverage": 0.71328125
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 313,
+    "survival": 0.189453125,
+    "time_viable": 0.9704632759094238,
+    "action_rate": 0.2465820461511612,
+    "anticipation_lead": 2.9001051524710832,
+    "event_coverage": 0.74296875
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 313,
+    "survival": 0.83984375,
+    "time_viable": 0.996367871761322,
+    "action_rate": 0.2445940375328064,
+    "anticipation_lead": 5.575729068673565,
+    "event_coverage": 0.83046875
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 313,
+    "survival": 0.0625,
+    "time_viable": 0.9001507759094238,
+    "action_rate": 0.349400132894516,
+    "anticipation_lead": 3.6965589155370178,
+    "event_coverage": 0.74921875
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 313,
+    "survival": 0.689453125,
+    "time_viable": 0.9904742240905762,
+    "action_rate": 0.2425362765789032,
+    "anticipation_lead": 5.612595419847328,
+    "event_coverage": 0.81875
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 313,
+    "survival": 0.642578125,
+    "time_viable": 0.9886581897735596,
+    "action_rate": 0.2445591688156128,
+    "anticipation_lead": 5.466399197592779,
+    "event_coverage": 0.77890625
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 313,
+    "survival": 0.4921875,
+    "time_viable": 0.9827645421028137,
+    "action_rate": 0.228899285197258,
+    "anticipation_lead": 5.5578512396694215,
+    "event_coverage": 0.75625
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 313,
+    "survival": 0.73828125,
+    "time_viable": 0.9928042888641357,
+    "action_rate": 0.249895378947258,
+    "anticipation_lead": 5.4967919340055,
+    "event_coverage": 0.85234375
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 313,
+    "survival": 0.01171875,
+    "time_viable": 0.781798243522644,
+    "action_rate": 0.465611070394516,
+    "anticipation_lead": 4.341889117043121,
+    "event_coverage": 0.7609375
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 313,
+    "survival": 0.458984375,
+    "time_viable": 0.9729646444320679,
+    "action_rate": 0.228166863322258,
+    "anticipation_lead": 5.690168818272095,
+    "event_coverage": 0.78671875
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 313,
+    "survival": 0.1072265625
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 314,
+    "survival": 0.912109375,
+    "time_viable": 0.9981839656829834,
+    "action_rate": 0.1994280219078064,
+    "anticipation_lead": 2.849680170575693,
+    "event_coverage": 0.7328125
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 314,
+    "survival": 0.9765625,
+    "time_viable": 0.999451756477356,
+    "action_rate": 0.2438267469406128,
+    "anticipation_lead": 5.616161616161616,
+    "event_coverage": 0.7734375
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 314,
+    "survival": 0.171875,
+    "time_viable": 0.9684416055679321,
+    "action_rate": 0.2500697672367096,
+    "anticipation_lead": 2.8,
+    "event_coverage": 0.734375
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 314,
+    "survival": 0.87109375,
+    "time_viable": 0.996367871761322,
+    "action_rate": 0.2485351711511612,
+    "anticipation_lead": 5.2670565302144245,
+    "event_coverage": 0.8015625
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 314,
+    "survival": 0.0625,
+    "time_viable": 0.8991913199424744,
+    "action_rate": 0.3444824516773224,
+    "anticipation_lead": 3.5691657866948256,
+    "event_coverage": 0.73984375
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 314,
+    "survival": 0.35546875,
+    "time_viable": 0.9744723439216614,
+    "action_rate": 0.223772332072258,
+    "anticipation_lead": 5.5774804905239685,
+    "event_coverage": 0.70078125
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 314,
+    "survival": 0.3984375,
+    "time_viable": 0.9789953231811523,
+    "action_rate": 0.227678582072258,
+    "anticipation_lead": 5.3487858719646795,
+    "event_coverage": 0.7078125
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 314,
+    "survival": 0.552734375,
+    "time_viable": 0.9853344559669495,
+    "action_rate": 0.2348632961511612,
+    "anticipation_lead": 5.375,
+    "event_coverage": 0.775
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 314,
+    "survival": 0.501953125,
+    "time_viable": 0.9838610291481018,
+    "action_rate": 0.2329101711511612,
+    "anticipation_lead": 5.505561172901921,
+    "event_coverage": 0.77265625
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 314,
+    "survival": 0.015625,
+    "time_viable": 0.7790912985801697,
+    "action_rate": 0.4650530219078064,
+    "anticipation_lead": 4.114702815432742,
+    "event_coverage": 0.74921875
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 314,
+    "survival": 0.603515625,
+    "time_viable": 0.9832442402839661,
+    "action_rate": 0.2434430867433548,
+    "anticipation_lead": 5.388461538461539,
+    "event_coverage": 0.8125
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 314,
+    "survival": 0.11640625
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 315,
+    "survival": 0.892578125,
+    "time_viable": 0.9979783296585083,
+    "action_rate": 0.1994977742433548,
+    "anticipation_lead": 2.998978549540347,
+    "event_coverage": 0.76484375
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 315,
+    "survival": 0.97265625,
+    "time_viable": 0.999451756477356,
+    "action_rate": 0.239153191447258,
+    "anticipation_lead": 5.34070351758794,
+    "event_coverage": 0.77734375
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 315,
+    "survival": 0.17578125,
+    "time_viable": 0.970154881477356,
+    "action_rate": 0.2472447156906128,
+    "anticipation_lead": 2.9071207430340555,
+    "event_coverage": 0.75703125
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 315,
+    "survival": 0.75390625,
+    "time_viable": 0.9946203231811523,
+    "action_rate": 0.234758660197258,
+    "anticipation_lead": 5.427368421052631,
+    "event_coverage": 0.7421875
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 315,
+    "survival": 0.052734375,
+    "time_viable": 0.8957305550575256,
+    "action_rate": 0.3490164875984192,
+    "anticipation_lead": 3.530132788559755,
+    "event_coverage": 0.76484375
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 315,
+    "survival": 0.404296875,
+    "time_viable": 0.9795093536376953,
+    "action_rate": 0.2267369031906128,
+    "anticipation_lead": 5.626492942453854,
+    "event_coverage": 0.71953125
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 315,
+    "survival": 0.181640625,
+    "time_viable": 0.9612801671028137,
+    "action_rate": 0.2134835422039032,
+    "anticipation_lead": 5.672897196261682,
+    "event_coverage": 0.58515625
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 315,
+    "survival": 0.36328125,
+    "time_viable": 0.9749520421028137,
+    "action_rate": 0.2231794148683548,
+    "anticipation_lead": 5.617516629711751,
+    "event_coverage": 0.7046875
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 315,
+    "survival": 0.451171875,
+    "time_viable": 0.9812225699424744,
+    "action_rate": 0.2280622273683548,
+    "anticipation_lead": 5.572622779519331,
+    "event_coverage": 0.74765625
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 315,
+    "survival": 0.013671875,
+    "time_viable": 0.7783032059669495,
+    "action_rate": 0.4700404703617096,
+    "anticipation_lead": 4.165656565656565,
+    "event_coverage": 0.7734375
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 315,
+    "survival": 0.09765625,
+    "time_viable": 0.9177631735801697,
+    "action_rate": 0.2090890109539032,
+    "anticipation_lead": 5.943949044585987,
+    "event_coverage": 0.61328125
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 315,
+    "survival": -0.021484375
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 316,
+    "survival": 0.892578125,
+    "time_viable": 0.9979783296585083,
+    "action_rate": 0.2001604437828064,
+    "anticipation_lead": 2.8565488565488564,
+    "event_coverage": 0.7515625
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 316,
+    "survival": 0.98046875,
+    "time_viable": 0.9996230602264404,
+    "action_rate": 0.2413155734539032,
+    "anticipation_lead": 5.783870967741936,
+    "event_coverage": 0.7265625
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 316,
+    "survival": 0.216796875,
+    "time_viable": 0.9707373976707458,
+    "action_rate": 0.2489537000656128,
+    "anticipation_lead": 2.8314255983350676,
+    "event_coverage": 0.75078125
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 316,
+    "survival": 0.818359375,
+    "time_viable": 0.9962993264198303,
+    "action_rate": 0.2436872273683548,
+    "anticipation_lead": 5.6432692307692305,
+    "event_coverage": 0.8125
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 316,
+    "survival": 0.076171875,
+    "time_viable": 0.8999109268188477,
+    "action_rate": 0.3450404703617096,
+    "anticipation_lead": 3.565396498455201,
+    "event_coverage": 0.75859375
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 316,
+    "survival": 0.640625,
+    "time_viable": 0.9894462823867798,
+    "action_rate": 0.2444894015789032,
+    "anticipation_lead": 5.652723735408561,
+    "event_coverage": 0.803125
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 316,
+    "survival": 0.494140625,
+    "time_viable": 0.984649121761322,
+    "action_rate": 0.2397461086511612,
+    "anticipation_lead": 5.582346609257266,
+    "event_coverage": 0.72578125
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 316,
+    "survival": 0.64453125,
+    "time_viable": 0.9893434643745422,
+    "action_rate": 0.2427804172039032,
+    "anticipation_lead": 5.770833333333333,
+    "event_coverage": 0.825
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 316,
+    "survival": 0.5390625,
+    "time_viable": 0.9847862124443054,
+    "action_rate": 0.236711785197258,
+    "anticipation_lead": 5.652129817444219,
+    "event_coverage": 0.7703125
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 316,
+    "survival": 0.0234375,
+    "time_viable": 0.7824150323867798,
+    "action_rate": 0.4642508625984192,
+    "anticipation_lead": 4.201424211597152,
+    "event_coverage": 0.76796875
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 316,
+    "survival": 0.34765625,
+    "time_viable": 0.9598752856254578,
+    "action_rate": 0.2295619547367096,
+    "anticipation_lead": 5.962542565266743,
+    "event_coverage": 0.68828125
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 316,
+    "survival": 0.0671875
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 317,
+    "survival": 0.8984375,
+    "time_viable": 0.9979440569877625,
+    "action_rate": 0.2011021226644516,
+    "anticipation_lead": 2.8743509865005192,
+    "event_coverage": 0.75234375
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 317,
+    "survival": 0.96484375,
+    "time_viable": 0.9993147253990173,
+    "action_rate": 0.238420769572258,
+    "anticipation_lead": 5.529471544715447,
+    "event_coverage": 0.76875
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 317,
+    "survival": 0.220703125,
+    "time_viable": 0.970429003238678,
+    "action_rate": 0.250732421875,
+    "anticipation_lead": 2.892708333333333,
+    "event_coverage": 0.75
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 317,
+    "survival": 0.810546875,
+    "time_viable": 0.9961622953414917,
+    "action_rate": 0.242815300822258,
+    "anticipation_lead": 5.461982675649663,
+    "event_coverage": 0.81171875
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 317,
+    "survival": 0.078125,
+    "time_viable": 0.8940172791481018,
+    "action_rate": 0.3545968234539032,
+    "anticipation_lead": 3.672097759674134,
+    "event_coverage": 0.7671875
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 317,
+    "survival": 0.333984375,
+    "time_viable": 0.9706003069877625,
+    "action_rate": 0.219621941447258,
+    "anticipation_lead": 5.640311804008909,
+    "event_coverage": 0.7015625
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 317,
+    "survival": 0.21875,
+    "time_viable": 0.9618969559669495,
+    "action_rate": 0.2145996242761612,
+    "anticipation_lead": 5.653944020356234,
+    "event_coverage": 0.6140625
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 317,
+    "survival": 0.39453125,
+    "time_viable": 0.9759799838066101,
+    "action_rate": 0.223284050822258,
+    "anticipation_lead": 5.620726495726496,
+    "event_coverage": 0.73125
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 317,
+    "survival": 0.48828125,
+    "time_viable": 0.9802631735801697,
+    "action_rate": 0.2285156399011612,
+    "anticipation_lead": 5.78855975485189,
+    "event_coverage": 0.76484375
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 317,
+    "survival": 0.005859375,
+    "time_viable": 0.7744312286376953,
+    "action_rate": 0.4723423719406128,
+    "anticipation_lead": 4.274549098196393,
+    "event_coverage": 0.7796875
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 317,
+    "survival": 0.146484375,
+    "time_viable": 0.9220120906829834,
+    "action_rate": 0.2068568766117096,
+    "anticipation_lead": 6.132484076433121,
+    "event_coverage": 0.61328125
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 317,
+    "survival": -0.0111328125
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 318,
+    "survival": 0.88671875,
+    "time_viable": 0.9975671768188477,
+    "action_rate": 0.201799675822258,
+    "anticipation_lead": 2.8343881856540083,
+    "event_coverage": 0.740625
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 318,
+    "survival": 0.966796875,
+    "time_viable": 0.9993489384651184,
+    "action_rate": 0.2420131266117096,
+    "anticipation_lead": 5.781148429035753,
+    "event_coverage": 0.72109375
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 318,
+    "survival": 0.177734375,
+    "time_viable": 0.9683388471603394,
+    "action_rate": 0.2519182562828064,
+    "anticipation_lead": 2.837723919915701,
+    "event_coverage": 0.74140625
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 318,
+    "survival": 0.89453125,
+    "time_viable": 0.9970874786376953,
+    "action_rate": 0.2513253390789032,
+    "anticipation_lead": 5.736641221374046,
+    "event_coverage": 0.81875
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 318,
+    "survival": 0.06640625,
+    "time_viable": 0.9001850485801697,
+    "action_rate": 0.3458077609539032,
+    "anticipation_lead": 3.633160621761658,
+    "event_coverage": 0.75390625
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 318,
+    "survival": 0.74609375,
+    "time_viable": 0.9919476509094238,
+    "action_rate": 0.256103515625,
+    "anticipation_lead": 5.424157303370786,
+    "event_coverage": 0.834375
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 318,
+    "survival": 0.673828125,
+    "time_viable": 0.9903029203414917,
+    "action_rate": 0.2499302625656128,
+    "anticipation_lead": 5.339268051434224,
+    "event_coverage": 0.78984375
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 318,
+    "survival": 0.697265625,
+    "time_viable": 0.9907483458518982,
+    "action_rate": 0.251743882894516,
+    "anticipation_lead": 5.589453860640301,
+    "event_coverage": 0.8296875
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 318,
+    "survival": 0.693359375,
+    "time_viable": 0.9912623167037964,
+    "action_rate": 0.2520577609539032,
+    "anticipation_lead": 5.4953095684803,
+    "event_coverage": 0.8328125
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 318,
+    "survival": 0.009765625,
+    "time_viable": 0.7699766755104065,
+    "action_rate": 0.4715750813484192,
+    "anticipation_lead": 4.271894093686354,
+    "event_coverage": 0.7671875
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 318,
+    "survival": 0.609375,
+    "time_viable": 0.9834498167037964,
+    "action_rate": 0.2472795844078064,
+    "anticipation_lead": 5.662188099808062,
+    "event_coverage": 0.8140625
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 318,
+    "survival": 0.1521484375
+  },
+  {
+    "arm": "combo",
+    "delay": 0,
+    "seed": 319,
+    "survival": 0.91015625,
+    "time_viable": 0.9982182383537292,
+    "action_rate": 0.2003697007894516,
+    "anticipation_lead": 2.879492600422833,
+    "event_coverage": 0.7390625
+  },
+  {
+    "arm": "learned",
+    "delay": 0,
+    "seed": 319,
+    "survival": 0.98046875,
+    "time_viable": 0.9995203018188477,
+    "action_rate": 0.2446986734867096,
+    "anticipation_lead": 5.646700507614213,
+    "event_coverage": 0.76953125
+  },
+  {
+    "arm": "combo",
+    "delay": 1,
+    "seed": 319,
+    "survival": 0.201171875,
+    "time_viable": 0.9693667888641357,
+    "action_rate": 0.252964586019516,
+    "anticipation_lead": 2.8485169491525424,
+    "event_coverage": 0.7375
+  },
+  {
+    "arm": "learned",
+    "delay": 1,
+    "seed": 319,
+    "survival": 0.798828125,
+    "time_viable": 0.9959909319877625,
+    "action_rate": 0.2414899617433548,
+    "anticipation_lead": 5.5409504550050555,
+    "event_coverage": 0.77265625
+  },
+  {
+    "arm": "combo",
+    "delay": 2,
+    "seed": 319,
+    "survival": 0.087890625,
+    "time_viable": 0.8975808620452881,
+    "action_rate": 0.3496094048023224,
+    "anticipation_lead": 3.600418410041841,
+    "event_coverage": 0.746875
+  },
+  {
+    "arm": "learned",
+    "delay": 2,
+    "seed": 319,
+    "survival": 0.654296875,
+    "time_viable": 0.9896518588066101,
+    "action_rate": 0.244768425822258,
+    "anticipation_lead": 5.617786187322611,
+    "event_coverage": 0.82578125
+  },
+  {
+    "arm": "learned_cueblind",
+    "delay": 2,
+    "seed": 319,
+    "survival": 0.46875,
+    "time_viable": 0.9831756949424744,
+    "action_rate": 0.2386300265789032,
+    "anticipation_lead": 5.385371179039302,
+    "event_coverage": 0.715625
+  },
+  {
+    "arm": "hbp_wave",
+    "delay": 2,
+    "seed": 319,
+    "survival": 0.3515625,
+    "time_viable": 0.9749520421028137,
+    "action_rate": 0.2249232828617096,
+    "anticipation_lead": 5.743212669683258,
+    "event_coverage": 0.690625
+  },
+  {
+    "arm": "hbp_diff",
+    "delay": 2,
+    "seed": 319,
+    "survival": 0.54296875,
+    "time_viable": 0.9845805764198303,
+    "action_rate": 0.237444207072258,
+    "anticipation_lead": 5.700507614213198,
+    "event_coverage": 0.76953125
+  },
+  {
+    "arm": "combo",
+    "delay": 3,
+    "seed": 319,
+    "survival": 0.01171875,
+    "time_viable": 0.7668243050575256,
+    "action_rate": 0.4808872938156128,
+    "anticipation_lead": 4.096509240246407,
+    "event_coverage": 0.7609375
+  },
+  {
+    "arm": "learned",
+    "delay": 3,
+    "seed": 319,
+    "survival": 0.298828125,
+    "time_viable": 0.9536046981811523,
+    "action_rate": 0.2210519015789032,
+    "anticipation_lead": 5.82212086659065,
+    "event_coverage": 0.68515625
+  },
+  {
+    "arm": "_doseresp_slope",
+    "delay": -1,
+    "seed": 319,
+    "survival": 0.0619140625
+  }
+]

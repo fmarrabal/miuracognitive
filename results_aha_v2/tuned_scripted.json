@@ -1,0 +1,4374 @@
+{
+  "0": {
+    "threshold": {
+      "best": {
+        "params": {
+          "theta": 0.64
+        },
+        "survival": 0.9759114583333334
+      },
+      "grid": [
+        {
+          "params": {
+            "theta": 0.44
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.46
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.5
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.52
+          },
+          "survival": 0.014322916666666666
+        },
+        {
+          "params": {
+            "theta": 0.54
+          },
+          "survival": 0.09830729166666667
+        },
+        {
+          "params": {
+            "theta": 0.56
+          },
+          "survival": 0.416015625
+        },
+        {
+          "params": {
+            "theta": 0.58
+          },
+          "survival": 0.79296875
+        },
+        {
+          "params": {
+            "theta": 0.6
+          },
+          "survival": 0.9283854166666666
+        },
+        {
+          "params": {
+            "theta": 0.62
+          },
+          "survival": 0.9609375
+        },
+        {
+          "params": {
+            "theta": 0.64
+          },
+          "survival": 0.9759114583333334
+        }
+      ]
+    },
+    "cue_follower": {
+      "best": {
+        "params": {
+          "c_min": 0.05,
+          "tau": 4
+        },
+        "survival": 0.005208333333333333
+      },
+      "grid": [
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.004557291666666667
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.004557291666666667
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.004557291666666667
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 0
+          },
+          "survival": 0.004557291666666667
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 4
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 5
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 6
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 7
+          },
+          "survival": 0.0032552083333333335
+        }
+      ]
+    },
+    "combo": {
+      "best": {
+        "params": {
+          "theta": 0.6,
+          "c_min": 0.05,
+          "tau": 4
+        },
+        "survival": 0.8958333333333334
+      },
+      "grid": [
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.0390625
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.041666666666666664
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.042317708333333336
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.045572916666666664
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.047526041666666664
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.041015625
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.038411458333333336
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.021484375
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.0390625
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.041666666666666664
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.042317708333333336
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.045572916666666664
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.047526041666666664
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.041015625
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.038411458333333336
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.021484375
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.0390625
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.041666666666666664
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.042317708333333336
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.045572916666666664
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.047526041666666664
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.041015625
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.038411458333333336
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.021484375
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.1796875
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.19140625
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.19661458333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.21223958333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.21744791666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.21223958333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.19075520833333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.14518229166666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.1796875
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.19140625
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.19661458333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.21223958333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.21744791666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.21223958333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.19075520833333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.14518229166666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.1796875
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.19140625
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.19661458333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.21223958333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.21744791666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.21223958333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.19075520833333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.14518229166666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.5859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.5950520833333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.6184895833333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.623046875
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.630859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.6373697916666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.5872395833333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.5364583333333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.5859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.5950520833333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.6184895833333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.623046875
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.630859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.6373697916666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.5872395833333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.5364583333333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.5859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.5950520833333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.6184895833333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.623046875
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.630859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.6373697916666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.5872395833333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.5364583333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.8645833333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.859375
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.8723958333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.8880208333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.8958333333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.8951822916666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.8665364583333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.8541666666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.8645833333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.859375
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.8723958333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.8880208333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.8958333333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.8951822916666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.8665364583333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.8541666666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.8645833333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.859375
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.8723958333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.8880208333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.8958333333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.8951822916666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.8665364583333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.8541666666666666
+        }
+      ]
+    }
+  },
+  "1": {
+    "threshold": {
+      "best": {
+        "params": {
+          "theta": 0.64
+        },
+        "survival": 0.036458333333333336
+      },
+      "grid": [
+        {
+          "params": {
+            "theta": 0.44
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.46
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.5
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.52
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.54
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.56
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.58
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.62
+          },
+          "survival": 0.007161458333333333
+        },
+        {
+          "params": {
+            "theta": 0.64
+          },
+          "survival": 0.036458333333333336
+        }
+      ]
+    },
+    "cue_follower": {
+      "best": {
+        "params": {
+          "c_min": 0.05,
+          "tau": 3
+        },
+        "survival": 0.005208333333333333
+      },
+      "grid": [
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 0
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 3
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 4
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 5
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 6
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        }
+      ]
+    },
+    "combo": {
+      "best": {
+        "params": {
+          "theta": 0.6,
+          "c_min": 0.05,
+          "tau": 4
+        },
+        "survival": 0.19270833333333334
+      },
+      "grid": [
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.0078125
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.01171875
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.014973958333333334
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.014973958333333334
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.012369791666666666
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.01171875
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.009114583333333334
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.0078125
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.01171875
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.014973958333333334
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.014973958333333334
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.012369791666666666
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.01171875
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.009114583333333334
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.0078125
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.01171875
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.014973958333333334
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.014973958333333334
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.012369791666666666
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.01171875
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.009114583333333334
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.060546875
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.06640625
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.07421875
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.08203125
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.078125
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.07356770833333333
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.034505208333333336
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.016276041666666668
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.060546875
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.06640625
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.07421875
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.08203125
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.078125
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.07356770833333333
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.034505208333333336
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.016276041666666668
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.060546875
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.06640625
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.07421875
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.08203125
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.078125
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.07356770833333333
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.034505208333333336
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.016276041666666668
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.11979166666666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.12434895833333333
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.1328125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.13020833333333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.140625
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.11783854166666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.068359375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.035807291666666664
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.11979166666666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.12434895833333333
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.1328125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.13020833333333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.140625
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.11783854166666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.068359375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.035807291666666664
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.11979166666666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.12434895833333333
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.1328125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.13020833333333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.140625
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.11783854166666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.068359375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.035807291666666664
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.15494791666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.16731770833333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.17447916666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.185546875
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.19270833333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.1640625
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.09440104166666667
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.053385416666666664
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.15494791666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.16731770833333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.17447916666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.185546875
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.19270833333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.1640625
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.09440104166666667
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.053385416666666664
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.15494791666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.16731770833333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.17447916666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.185546875
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.19270833333333334
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.1640625
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.09440104166666667
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.053385416666666664
+        }
+      ]
+    }
+  },
+  "2": {
+    "threshold": {
+      "best": {
+        "params": {
+          "theta": 0.44
+        },
+        "survival": 0.0
+      },
+      "grid": [
+        {
+          "params": {
+            "theta": 0.44
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.46
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.5
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.52
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.54
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.56
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.58
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.6
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.62
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.64
+          },
+          "survival": 0.0
+        }
+      ]
+    },
+    "cue_follower": {
+      "best": {
+        "params": {
+          "c_min": 0.05,
+          "tau": 2
+        },
+        "survival": 0.005208333333333333
+      },
+      "grid": [
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 0
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 1
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 2
+          },
+          "survival": 0.005208333333333333
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 4
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 5
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 7
+          },
+          "survival": 0.0
+        }
+      ]
+    },
+    "combo": {
+      "best": {
+        "params": {
+          "theta": 0.6,
+          "c_min": 0.05,
+          "tau": 3
+        },
+        "survival": 0.078125
+      },
+      "grid": [
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.024739583333333332
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.024739583333333332
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.029947916666666668
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.0234375
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.021484375
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.014973958333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.006510416666666667
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.024739583333333332
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.024739583333333332
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.029947916666666668
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.0234375
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.021484375
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.014973958333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.006510416666666667
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.024739583333333332
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.024739583333333332
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.029947916666666668
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.0234375
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.021484375
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.014973958333333334
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.006510416666666667
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.054036458333333336
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.059895833333333336
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.06705729166666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.06640625
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.064453125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.041015625
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.01953125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.005859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.054036458333333336
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.059895833333333336
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.06705729166666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.06640625
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.064453125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.041015625
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.01953125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.005859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.054036458333333336
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.059895833333333336
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.06705729166666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.06640625
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.064453125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.041015625
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.01953125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.005859375
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.047526041666666664
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.054036458333333336
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.07096354166666667
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.078125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.072265625
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.041015625
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.024088541666666668
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.010416666666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.047526041666666664
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.054036458333333336
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.07096354166666667
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.078125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.072265625
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.041015625
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.024088541666666668
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.010416666666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.047526041666666664
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.054036458333333336
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.07096354166666667
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.078125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.072265625
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.041015625
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.024088541666666668
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.010416666666666666
+        }
+      ]
+    }
+  },
+  "3": {
+    "threshold": {
+      "best": {
+        "params": {
+          "theta": 0.44
+        },
+        "survival": 0.0
+      },
+      "grid": [
+        {
+          "params": {
+            "theta": 0.44
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.46
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.5
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.52
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.54
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.56
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.58
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.6
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.62
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.64
+          },
+          "survival": 0.0
+        }
+      ]
+    },
+    "cue_follower": {
+      "best": {
+        "params": {
+          "c_min": 0.05,
+          "tau": 1
+        },
+        "survival": 0.004557291666666667
+      },
+      "grid": [
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.004557291666666667
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.004557291666666667
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.004557291666666667
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 0
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 1
+          },
+          "survival": 0.004557291666666667
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 2
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 4
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 5
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 6
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "c_min": 0.2,
+            "tau": 7
+          },
+          "survival": 0.0
+        }
+      ]
+    },
+    "combo": {
+      "best": {
+        "params": {
+          "theta": 0.6,
+          "c_min": 0.05,
+          "tau": 2
+        },
+        "survival": 0.017578125
+      },
+      "grid": [
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.48,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.0013020833333333333
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.00390625
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.0032552083333333335
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.52,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.0
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.011067708333333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.012369791666666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.005859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.012369791666666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.0078125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.006510416666666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.011067708333333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.012369791666666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.005859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.012369791666666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.0078125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.006510416666666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.011067708333333334
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.012369791666666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.005859375
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.012369791666666666
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.0078125
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.006510416666666667
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.0026041666666666665
+        },
+        {
+          "params": {
+            "theta": 0.56,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 0
+          },
+          "survival": 0.005859375
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 1
+          },
+          "survival": 0.013671875
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 2
+          },
+          "survival": 0.017578125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 3
+          },
+          "survival": 0.017578125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 4
+          },
+          "survival": 0.008463541666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 5
+          },
+          "survival": 0.007161458333333333
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 6
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.05,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 0
+          },
+          "survival": 0.005859375
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 1
+          },
+          "survival": 0.013671875
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 2
+          },
+          "survival": 0.017578125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 3
+          },
+          "survival": 0.017578125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 4
+          },
+          "survival": 0.008463541666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 5
+          },
+          "survival": 0.007161458333333333
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 6
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.1,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 0
+          },
+          "survival": 0.005859375
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 1
+          },
+          "survival": 0.013671875
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 2
+          },
+          "survival": 0.017578125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 3
+          },
+          "survival": 0.017578125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 4
+          },
+          "survival": 0.008463541666666666
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 5
+          },
+          "survival": 0.007161458333333333
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 6
+          },
+          "survival": 0.001953125
+        },
+        {
+          "params": {
+            "theta": 0.6,
+            "c_min": 0.15,
+            "tau": 7
+          },
+          "survival": 0.0006510416666666666
+        }
+      ]
+    }
+  }
+}

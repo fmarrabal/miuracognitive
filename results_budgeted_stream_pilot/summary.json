@@ -1,0 +1,51 @@
+{
+  "design": {
+    "variants": [
+      "gating_wm",
+      "hbp_full"
+    ],
+    "seeds": [
+      0
+    ],
+    "steps": 1000,
+    "max_steps": 9,
+    "mean_budget": 5.0,
+    "primary_contrast": "learned_vs_uniform"
+  },
+  "summary": {
+    "gating_wm": {
+      "n_seeds": 1,
+      "seeds": [
+        0
+      ],
+      "mean_learned_accuracy": 0.18888888888888888,
+      "mean_uniform_accuracy": 0.19444444444444445,
+      "mean_delta_accuracy": -0.005555555555555564,
+      "sd_delta_accuracy": 0.0,
+      "mean_corr_K_quota": 0.32979774475097656,
+      "per_seed_delta": [
+        -0.005555555555555564
+      ],
+      "per_seed_corr_K_quota": [
+        0.32979774475097656
+      ]
+    },
+    "hbp_full": {
+      "n_seeds": 1,
+      "seeds": [
+        0
+      ],
+      "mean_learned_accuracy": 0.18611111111111112,
+      "mean_uniform_accuracy": 0.19722222222222222,
+      "mean_delta_accuracy": -0.0111111111111111,
+      "sd_delta_accuracy": 0.0,
+      "mean_corr_K_quota": -0.05861276015639305,
+      "per_seed_delta": [
+        -0.0111111111111111
+      ],
+      "per_seed_corr_K_quota": [
+        -0.05861276015639305
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "design": {
+    "variants": [
+      "gating_wm"
+    ],
+    "seeds": [
+      0
+    ],
+    "steps": 500,
+    "pretrain_steps": 1500,
+    "max_steps": 9,
+    "mean_budget": 5.0,
+    "primary_contrast": "learned_vs_uniform"
+  },
+  "summary": {
+    "gating_wm": {
+      "n_seeds": 1,
+      "seeds": [
+        0
+      ],
+      "mean_learned_accuracy": 0.5444444444444444,
+      "mean_uniform_accuracy": 0.625,
+      "mean_delta_accuracy": -0.0805555555555556,
+      "sd_delta_accuracy": 0.0,
+      "mean_corr_K_quota": 0.4023599624633789,
+      "per_seed_delta": [
+        -0.0805555555555556
+      ],
+      "per_seed_corr_K_quota": [
+        0.4023599624633789
+      ]
+    }
+  }
+}

@@ -1,0 +1,845 @@
+{
+  "status": "pass",
+  "criterion": "goal success >= 0.70 in every seed at decoder sigma scales 0.85, 1.00 and 1.15, without retraining",
+  "post_confirmatory": true,
+  "n_seeds": 20,
+  "aggregate": {
+    "sigma_scale_0.85": {
+      "mean_goal_success_rate": 0.846171875,
+      "min_seed_goal_success_rate": 0.7765625,
+      "mean_target_response": 0.9464255356788636
+    },
+    "sigma_scale_1.00": {
+      "mean_goal_success_rate": 1.0,
+      "min_seed_goal_success_rate": 1.0,
+      "mean_target_response": 0.9833548736572265
+    },
+    "sigma_scale_1.15": {
+      "mean_goal_success_rate": 0.941015625,
+      "min_seed_goal_success_rate": 0.871875,
+      "mean_target_response": 0.9588751125335694
+    }
+  },
+  "records": [
+    {
+      "seed": 200,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.8796875,
+          "mean_target_center_distance": 0.17171430587768555,
+          "mean_target_response": 0.953571081161499,
+          "dominant_restored_rate": 0.9703125,
+          "mean_homeostatic_improvement": 0.07827820926904679,
+          "mean_final_absolute_error": 0.12246049791574479,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34823309183120726,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11339568346738815,
+          "mean_target_response": 0.9833328485488891,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08640482723712921,
+          "mean_final_absolute_error": 0.11433387845754624,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34823309183120726,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.878125,
+          "mean_target_center_distance": 0.1793163001537323,
+          "mean_target_response": 0.9519206523895264,
+          "dominant_restored_rate": 0.9828125,
+          "mean_homeostatic_improvement": 0.09696548283100129,
+          "mean_final_absolute_error": 0.10377321988344193,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9765625,
+          "mean_normalized_probe_distance": 0.34823309183120726,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 201,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.8265625,
+          "mean_target_center_distance": 0.18782759308815003,
+          "mean_target_response": 0.9461380004882812,
+          "dominant_restored_rate": 0.971875,
+          "mean_homeostatic_improvement": 0.07728926092386246,
+          "mean_final_absolute_error": 0.12313305288553238,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.33864391446113584,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11417419463396072,
+          "mean_target_response": 0.9831027269363404,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08576859533786774,
+          "mean_final_absolute_error": 0.11465370953083039,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.33864391446113584,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.928125,
+          "mean_target_center_distance": 0.16999152898788453,
+          "mean_target_response": 0.9567836880683899,
+          "dominant_restored_rate": 0.984375,
+          "mean_homeostatic_improvement": 0.09613293260335923,
+          "mean_final_absolute_error": 0.10428937673568725,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9890625,
+          "mean_normalized_probe_distance": 0.33864391446113584,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.89375,
+          "mean_target_center_distance": 0.17343083620071412,
+          "mean_target_response": 0.9536860227584839,
+          "dominant_restored_rate": 0.978125,
+          "mean_homeostatic_improvement": 0.07699793130159378,
+          "mean_final_absolute_error": 0.12454831600189209,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34365577101707456,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11345166563987732,
+          "mean_target_response": 0.9833163022994995,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.0837506964802742,
+          "mean_final_absolute_error": 0.11779555529356003,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34365577101707456,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.91875,
+          "mean_target_center_distance": 0.17707100212574006,
+          "mean_target_response": 0.9532553791999817,
+          "dominant_restored_rate": 0.990625,
+          "mean_homeostatic_improvement": 0.09389482885599136,
+          "mean_final_absolute_error": 0.10765141546726227,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.990625,
+          "mean_normalized_probe_distance": 0.34365577101707456,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 203,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.803125,
+          "mean_target_center_distance": 0.20357396602630615,
+          "mean_target_response": 0.9393001317977905,
+          "dominant_restored_rate": 0.959375,
+          "mean_homeostatic_improvement": 0.07699695080518723,
+          "mean_final_absolute_error": 0.12285878509283066,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3434921622276306,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11375160217285156,
+          "mean_target_response": 0.9832351207733154,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08431420922279358,
+          "mean_final_absolute_error": 0.11554152816534043,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3434921622276306,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.975,
+          "mean_target_center_distance": 0.15630291700363158,
+          "mean_target_response": 0.9632652521133422,
+          "dominant_restored_rate": 0.9984375,
+          "mean_homeostatic_improvement": 0.09474572539329529,
+          "mean_final_absolute_error": 0.10511000901460647,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.990625,
+          "mean_normalized_probe_distance": 0.3434921622276306,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 204,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.821875,
+          "mean_target_center_distance": 0.1964210957288742,
+          "mean_target_response": 0.9420491218566894,
+          "dominant_restored_rate": 0.9625,
+          "mean_homeostatic_improvement": 0.07719448506832123,
+          "mean_final_absolute_error": 0.12293354272842408,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.33751470446586607,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11299481838941575,
+          "mean_target_response": 0.9834508180618287,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08443163931369782,
+          "mean_final_absolute_error": 0.115696382522583,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.33751470446586607,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.9890625,
+          "mean_target_center_distance": 0.15529004633426666,
+          "mean_target_response": 0.9643214225769043,
+          "dominant_restored_rate": 0.99375,
+          "mean_homeostatic_improvement": 0.09419312626123429,
+          "mean_final_absolute_error": 0.10593489706516265,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9921875,
+          "mean_normalized_probe_distance": 0.33751470446586607,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 205,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.95625,
+          "mean_target_center_distance": 0.16244986951351165,
+          "mean_target_response": 0.9598139643669128,
+          "dominant_restored_rate": 0.990625,
+          "mean_homeostatic_improvement": 0.07499841749668121,
+          "mean_final_absolute_error": 0.12571667432785033,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34930083751678465,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.1131089061498642,
+          "mean_target_response": 0.9834185123443604,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08287527859210968,
+          "mean_final_absolute_error": 0.11783981621265412,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34930083751678465,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.878125,
+          "mean_target_center_distance": 0.18924654126167298,
+          "mean_target_response": 0.9471377015113831,
+          "dominant_restored_rate": 0.978125,
+          "mean_homeostatic_improvement": 0.09336284846067429,
+          "mean_final_absolute_error": 0.10735224336385726,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9796875,
+          "mean_normalized_probe_distance": 0.34930083751678465,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 206,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.9546875,
+          "mean_target_center_distance": 0.16088107824325562,
+          "mean_target_response": 0.9608330726623535,
+          "dominant_restored_rate": 0.99375,
+          "mean_homeostatic_improvement": 0.07591541707515717,
+          "mean_final_absolute_error": 0.12418713122606277,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3478264153003693,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11317766308784485,
+          "mean_target_response": 0.983388340473175,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08469013273715972,
+          "mean_final_absolute_error": 0.11541241407394409,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3478264153003693,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.871875,
+          "mean_target_center_distance": 0.18898639976978301,
+          "mean_target_response": 0.9475426793098449,
+          "dominant_restored_rate": 0.9828125,
+          "mean_homeostatic_improvement": 0.0955088421702385,
+          "mean_final_absolute_error": 0.10459371358156204,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.984375,
+          "mean_normalized_probe_distance": 0.3478264153003693,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 207,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.8703125,
+          "mean_target_center_distance": 0.17565421462059022,
+          "mean_target_response": 0.9522172927856445,
+          "dominant_restored_rate": 0.9828125,
+          "mean_homeostatic_improvement": 0.075222647190094,
+          "mean_final_absolute_error": 0.12387892752885818,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.33613977432250974,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11317872405052185,
+          "mean_target_response": 0.9833863735198974,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08309134095907211,
+          "mean_final_absolute_error": 0.11601023823022842,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.33613977432250974,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.915625,
+          "mean_target_center_distance": 0.1748543620109558,
+          "mean_target_response": 0.9541987180709839,
+          "dominant_restored_rate": 0.9859375,
+          "mean_homeostatic_improvement": 0.09282614588737488,
+          "mean_final_absolute_error": 0.10627543926239014,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9875,
+          "mean_normalized_probe_distance": 0.33613977432250974,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 208,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.853125,
+          "mean_target_center_distance": 0.18465024530887603,
+          "mean_target_response": 0.9476774573326111,
+          "dominant_restored_rate": 0.971875,
+          "mean_homeostatic_improvement": 0.07543479353189468,
+          "mean_final_absolute_error": 0.12489766329526901,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34141830205917356,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11343846470117569,
+          "mean_target_response": 0.9832862138748169,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08246921747922897,
+          "mean_final_absolute_error": 0.11786324679851531,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34141830205917356,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.9328125,
+          "mean_target_center_distance": 0.16389382183551787,
+          "mean_target_response": 0.9591270923614502,
+          "dominant_restored_rate": 0.9859375,
+          "mean_homeostatic_improvement": 0.091583850979805,
+          "mean_final_absolute_error": 0.10874861031770706,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.99375,
+          "mean_normalized_probe_distance": 0.34141830205917356,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 209,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.778125,
+          "mean_target_center_distance": 0.209230837225914,
+          "mean_target_response": 0.9356632590293884,
+          "dominant_restored_rate": 0.953125,
+          "mean_homeostatic_improvement": 0.07557945400476455,
+          "mean_final_absolute_error": 0.1245615616440773,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3382090747356415,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11328396052122117,
+          "mean_target_response": 0.9833602666854858,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08271960765123368,
+          "mean_final_absolute_error": 0.11742141991853713,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3382090747356415,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.984375,
+          "mean_target_center_distance": 0.14683749973773957,
+          "mean_target_response": 0.9679500579833984,
+          "dominant_restored_rate": 0.99375,
+          "mean_homeostatic_improvement": 0.09258392304182053,
+          "mean_final_absolute_error": 0.10755710154771805,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.975,
+          "mean_normalized_probe_distance": 0.3382090747356415,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 210,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.865625,
+          "mean_target_center_distance": 0.1854219526052475,
+          "mean_target_response": 0.9479321241378784,
+          "dominant_restored_rate": 0.9734375,
+          "mean_homeostatic_improvement": 0.07985088378190994,
+          "mean_final_absolute_error": 0.12143759876489639,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3336692154407501,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11356112658977509,
+          "mean_target_response": 0.9832751035690308,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08724940717220306,
+          "mean_final_absolute_error": 0.11403907537460327,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3336692154407501,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.91875,
+          "mean_target_center_distance": 0.16628244519233704,
+          "mean_target_response": 0.9579055428504943,
+          "dominant_restored_rate": 0.9859375,
+          "mean_homeostatic_improvement": 0.0959624245762825,
+          "mean_final_absolute_error": 0.10532606095075607,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9875,
+          "mean_normalized_probe_distance": 0.3336692154407501,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 211,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.8453125,
+          "mean_target_center_distance": 0.1847467303276062,
+          "mean_target_response": 0.947667372226715,
+          "dominant_restored_rate": 0.959375,
+          "mean_homeostatic_improvement": 0.07741720229387283,
+          "mean_final_absolute_error": 0.12323174178600312,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34344159364700316,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.1132739394903183,
+          "mean_target_response": 0.9833712816238404,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08568220883607865,
+          "mean_final_absolute_error": 0.11496673673391342,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34344159364700316,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.93125,
+          "mean_target_center_distance": 0.1688172161579132,
+          "mean_target_response": 0.9571094751358032,
+          "dominant_restored_rate": 0.9890625,
+          "mean_homeostatic_improvement": 0.09569893479347229,
+          "mean_final_absolute_error": 0.10495001375675202,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.98125,
+          "mean_normalized_probe_distance": 0.34344159364700316,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 212,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.7890625,
+          "mean_target_center_distance": 0.20487901866436004,
+          "mean_target_response": 0.9379191637039185,
+          "dominant_restored_rate": 0.9546875,
+          "mean_homeostatic_improvement": 0.07526534050703049,
+          "mean_final_absolute_error": 0.125866661965847,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.32451275587081907,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11273708790540696,
+          "mean_target_response": 0.9835226893424988,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08211559802293777,
+          "mean_final_absolute_error": 0.11901639997959138,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.32451275587081907,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.9890625,
+          "mean_target_center_distance": 0.15336782336235047,
+          "mean_target_response": 0.96538325548172,
+          "dominant_restored_rate": 0.996875,
+          "mean_homeostatic_improvement": 0.09289215058088303,
+          "mean_final_absolute_error": 0.10823984444141388,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9921875,
+          "mean_normalized_probe_distance": 0.32451275587081907,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 213,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.7765625,
+          "mean_target_center_distance": 0.206548810005188,
+          "mean_target_response": 0.9371516227722168,
+          "dominant_restored_rate": 0.9609375,
+          "mean_homeostatic_improvement": 0.07763496190309524,
+          "mean_final_absolute_error": 0.12270482033491134,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3286690413951874,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11350739002227783,
+          "mean_target_response": 0.9833047151565552,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08430854380130767,
+          "mean_final_absolute_error": 0.11603123992681504,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3286690413951874,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.984375,
+          "mean_target_center_distance": 0.15320492684841155,
+          "mean_target_response": 0.9650928378105164,
+          "dominant_restored_rate": 0.9984375,
+          "mean_homeostatic_improvement": 0.09455283731222153,
+          "mean_final_absolute_error": 0.10578694641590118,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.984375,
+          "mean_normalized_probe_distance": 0.3286690413951874,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 214,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.840625,
+          "mean_target_center_distance": 0.19578540623188018,
+          "mean_target_response": 0.9431218147277832,
+          "dominant_restored_rate": 0.959375,
+          "mean_homeostatic_improvement": 0.07856527119874954,
+          "mean_final_absolute_error": 0.12244631350040436,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34296769499778745,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11344165802001953,
+          "mean_target_response": 0.9833211421966552,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08533870428800583,
+          "mean_final_absolute_error": 0.11567288041114807,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.34296769499778745,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.98125,
+          "mean_target_center_distance": 0.1548138976097107,
+          "mean_target_response": 0.9644644975662231,
+          "dominant_restored_rate": 0.996875,
+          "mean_homeostatic_improvement": 0.09437614828348159,
+          "mean_final_absolute_error": 0.10663543492555619,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9875,
+          "mean_normalized_probe_distance": 0.34296769499778745,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 215,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.8609375,
+          "mean_target_center_distance": 0.18161791563034058,
+          "mean_target_response": 0.9495379686355591,
+          "dominant_restored_rate": 0.9671875,
+          "mean_homeostatic_improvement": 0.07739993184804916,
+          "mean_final_absolute_error": 0.1231077790260315,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3383936583995819,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11299828290939332,
+          "mean_target_response": 0.9834477186203003,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.0858323872089386,
+          "mean_final_absolute_error": 0.11467532813549042,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3383936583995819,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.9140625,
+          "mean_target_center_distance": 0.17441992163658143,
+          "mean_target_response": 0.9543808579444886,
+          "dominant_restored_rate": 0.9734375,
+          "mean_homeostatic_improvement": 0.09524387568235397,
+          "mean_final_absolute_error": 0.10526384115219116,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.996875,
+          "mean_normalized_probe_distance": 0.3383936583995819,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 216,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.80625,
+          "mean_target_center_distance": 0.2038027137517929,
+          "mean_target_response": 0.9392727971076965,
+          "dominant_restored_rate": 0.9640625,
+          "mean_homeostatic_improvement": 0.07549165934324265,
+          "mean_final_absolute_error": 0.1260519355535507,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3321382999420166,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11340677440166473,
+          "mean_target_response": 0.9833283066749573,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.0820528194308281,
+          "mean_final_absolute_error": 0.11949077397584915,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3321382999420166,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.990625,
+          "mean_target_center_distance": 0.14831067323684693,
+          "mean_target_response": 0.9672183156013489,
+          "dominant_restored_rate": 0.996875,
+          "mean_homeostatic_improvement": 0.09255622327327728,
+          "mean_final_absolute_error": 0.10898736715316773,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9984375,
+          "mean_normalized_probe_distance": 0.3321382999420166,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 217,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.85,
+          "mean_target_center_distance": 0.18062309622764589,
+          "mean_target_response": 0.9489623427391052,
+          "dominant_restored_rate": 0.9703125,
+          "mean_homeostatic_improvement": 0.07919225692749024,
+          "mean_final_absolute_error": 0.12183061838150025,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3292165994644165,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11297816187143325,
+          "mean_target_response": 0.9834557175636292,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08702121824026107,
+          "mean_final_absolute_error": 0.11400166302919387,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3292165994644165,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.9171875,
+          "mean_target_center_distance": 0.17314419746398926,
+          "mean_target_response": 0.9551700711250305,
+          "dominant_restored_rate": 0.9828125,
+          "mean_homeostatic_improvement": 0.09628467112779618,
+          "mean_final_absolute_error": 0.10473820567131042,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.990625,
+          "mean_normalized_probe_distance": 0.3292165994644165,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 218,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.85,
+          "mean_target_center_distance": 0.18436216711997985,
+          "mean_target_response": 0.9477233529090882,
+          "dominant_restored_rate": 0.9609375,
+          "mean_homeostatic_improvement": 0.07573043555021286,
+          "mean_final_absolute_error": 0.12479252815246582,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3399094045162201,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11331885308027267,
+          "mean_target_response": 0.9833623170852661,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.0828660249710083,
+          "mean_final_absolute_error": 0.11765693575143814,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.3399094045162201,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.928125,
+          "mean_target_center_distance": 0.16629121601581573,
+          "mean_target_response": 0.9579570174217225,
+          "dominant_restored_rate": 0.990625,
+          "mean_homeostatic_improvement": 0.09314617812633515,
+          "mean_final_absolute_error": 0.10737678557634353,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.9890625,
+          "mean_normalized_probe_distance": 0.3399094045162201,
+          "n_episodes": 640
+        }
+      }
+    },
+    {
+      "seed": 219,
+      "conditions": {
+        "sigma_scale_0.85": {
+          "goal_success_rate": 0.8015625,
+          "mean_target_center_distance": 0.20471954941749573,
+          "mean_target_response": 0.938272750377655,
+          "dominant_restored_rate": 0.9609375,
+          "mean_homeostatic_improvement": 0.07408514022827148,
+          "mean_final_absolute_error": 0.1263479396700859,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.33129618763923646,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.00": {
+          "goal_success_rate": 1.0,
+          "mean_target_center_distance": 0.11304965913295746,
+          "mean_target_response": 0.9834309577941894,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.08174334615468978,
+          "mean_final_absolute_error": 0.11868973970413207,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 1.0,
+          "mean_normalized_probe_distance": 0.33129618763923646,
+          "n_episodes": 640
+        },
+        "sigma_scale_1.15": {
+          "goal_success_rate": 0.99375,
+          "mean_target_center_distance": 0.1481160432100296,
+          "mean_target_response": 0.9673177361488342,
+          "dominant_restored_rate": 1.0,
+          "mean_homeostatic_improvement": 0.09099583923816681,
+          "mean_final_absolute_error": 0.10943723917007446,
+          "feasible_goal_rate": 1.0,
+          "continuous_unique_goal_fraction": 0.990625,
+          "mean_normalized_probe_distance": 0.33129618763923646,
+          "n_episodes": 640
+        }
+      }
+    }
+  ]
+}

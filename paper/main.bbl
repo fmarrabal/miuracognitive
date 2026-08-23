@@ -1,0 +1,296 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anderson et~al.(2004)Anderson, Bothell, Byrne, Douglass, Lebiere, and
+  Qin]{anderson2004integrated}
+John~R. Anderson, Daniel Bothell, Michael~D. Byrne, Scott Douglass, Christian
+  Lebiere, and Yulin Qin.
+\newblock An integrated theory of the mind.
+\newblock \emph{Psychological Review}, 111\penalty0 (4):\penalty0 1036--1060,
+  2004.
+
+\bibitem[Anil et~al.(2022)Anil, Wu, Andreassen, Lewkowycz, Misra, Ramasesh,
+  Slone, Gur-Ari, Dyer, and Neyshabur]{anil2022length}
+Cem Anil, Yuhuai Wu, Anders Andreassen, Aitor Lewkowycz, Vedant Misra, Vinay
+  Ramasesh, Ambrose Slone, Guy Gur-Ari, Ethan Dyer, and Behnam Neyshabur.
+\newblock Exploring length generalization in large language models.
+\newblock \emph{Advances in Neural Information Processing Systems (NeurIPS)},
+  2022.
+\newblock arXiv:2207.04901.
+
+\bibitem[Arrabal-Campos(2026)]{arrabal2026governor}
+Francisco~M. Arrabal-Campos.
+\newblock Can a dynamic internal field govern a transformer's cognition?
+  certifiability, not superiority, in homeostatic compute control.
+\newblock \emph{Companion paper, arXiv preprint}, 2026.
+
+\bibitem[Banino et~al.(2021)Banino, Balaguer, and
+  Blundell]{banino2021pondernet}
+Andrea Banino, Jan Balaguer, and Charles Blundell.
+\newblock {PonderNet}: Learning to ponder.
+\newblock In \emph{8th ICML Workshop on Automated Machine Learning (AutoML)},
+  2021.
+\newblock arXiv:2107.05407.
+
+\bibitem[Barrett(2017)]{barrett2017allostasis}
+Lisa~Feldman Barrett.
+\newblock The theory of constructed emotion: An active inference account of
+  interoception and categorization.
+\newblock \emph{Social Cognitive and Affective Neuroscience}, 12\penalty0
+  (1):\penalty0 1--23, 2017.
+
+\bibitem[Brown et~al.(2024)Brown, Juravsky, Ehrlich, Clark, Le, R{\'e}, and
+  Mirhoseini]{brown2024monkeys}
+Bradley Brown, Jordan Juravsky, Ryan Ehrlich, Ronald Clark, Quoc~V. Le,
+  Christopher R{\'e}, and Azalia Mirhoseini.
+\newblock Large language monkeys: Scaling inference compute with repeated
+  sampling.
+\newblock \emph{arXiv preprint arXiv:2407.21787}, 2024.
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian,
+  et~al.]{cobbe2021training}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, et~al.
+\newblock Training verifiers to solve math word problems.
+\newblock \emph{arXiv preprint arXiv:2110.14168}, 2021.
+
+\bibitem[Dehghani et~al.(2019)Dehghani, Gouws, Vinyals, Uszkoreit, and
+  Kaiser]{dehghani2019universal}
+Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, and {\L}ukasz
+  Kaiser.
+\newblock Universal transformers.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2019.
+\newblock arXiv:1807.03819.
+
+\bibitem[Elbayad et~al.(2020)Elbayad, Gu, Grave, and Auli]{elbayad2020depth}
+Maha Elbayad, Jiatao Gu, Edouard Grave, and Michael Auli.
+\newblock Depth-adaptive transformer.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2020.
+
+\bibitem[Elhage et~al.(2021)Elhage, Nanda, Olsson,
+  et~al.]{elhage2021mathematical}
+Nelson Elhage, Neel Nanda, Catherine Olsson, et~al.
+\newblock A mathematical framework for transformer circuits.
+\newblock \emph{Transformer Circuits Thread}, 2021.
+
+\bibitem[Gittins(1979)]{gittins1979bandit}
+John~C. Gittins.
+\newblock Bandit processes and dynamic allocation indices.
+\newblock \emph{Journal of the Royal Statistical Society, Series B},
+  41\penalty0 (2):\penalty0 148--177, 1979.
+
+\bibitem[Graves(2016)]{graves2016act}
+Alex Graves.
+\newblock Adaptive computation time for recurrent neural networks.
+\newblock \emph{arXiv preprint arXiv:1603.08983}, 2016.
+
+\bibitem[Hay et~al.(2012)Hay, Russell, Tolpin, and Shimony]{hay2012selecting}
+Nicholas Hay, Stuart Russell, David Tolpin, and Solomon~Eyal Shimony.
+\newblock Selecting computations: Theory and applications.
+\newblock In \emph{Uncertainty in Artificial Intelligence (UAI)}, 2012.
+
+\bibitem[Horvitz(1987)]{horvitz1987reasoning}
+Eric~J. Horvitz.
+\newblock Reasoning about beliefs and actions under computational resource
+  constraints.
+\newblock In \emph{Proceedings of the Third Workshop on Uncertainty in
+  Artificial Intelligence}, 1987.
+
+\bibitem[Ioannidis(2005)]{ioannidis2005why}
+John P.~A. Ioannidis.
+\newblock Why most published research findings are false.
+\newblock \emph{PLoS Medicine}, 2\penalty0 (8):\penalty0 e124, 2005.
+
+\bibitem[Kadavath et~al.(2022)Kadavath, Conerly, Askell,
+  et~al.]{kadavath2022know}
+Saurav Kadavath, Tom Conerly, Amanda Askell, et~al.
+\newblock Language models (mostly) know what they know.
+\newblock \emph{arXiv preprint arXiv:2207.05221}, 2022.
+
+\bibitem[Laird(2012)]{laird2012soar}
+John~E. Laird.
+\newblock \emph{The Soar Cognitive Architecture}.
+\newblock MIT Press, 2012.
+
+\bibitem[Lattimore \& Szepesv{\'a}ri(2020)Lattimore and
+  Szepesv{\'a}ri]{lattimore2020bandit}
+Tor Lattimore and Csaba Szepesv{\'a}ri.
+\newblock \emph{Bandit Algorithms}.
+\newblock Cambridge University Press, 2020.
+
+\bibitem[LeCun(2022)]{lecun2022path}
+Yann LeCun.
+\newblock A path towards autonomous machine intelligence.
+\newblock \emph{OpenReview preprint}, 2022.
+
+\bibitem[Lieder \& Griffiths(2020)Lieder and Griffiths]{lieder2020resource}
+Falk Lieder and Thomas~L. Griffiths.
+\newblock Resource-rational analysis: Understanding human cognition as the
+  optimal use of limited computational resources.
+\newblock \emph{Behavioral and Brain Sciences}, 43:\penalty0 e1, 2020.
+
+\bibitem[Lightman et~al.(2024)Lightman, Kosaraju, Burda,
+  et~al.]{lightman2024let}
+Hunter Lightman, Vineet Kosaraju, Yuri Burda, et~al.
+\newblock Let's verify step by step.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\bibitem[Lin et~al.(2022)Lin, Hilton, and Evans]{lin2022teaching}
+Stephanie Lin, Jacob Hilton, and Owain Evans.
+\newblock Teaching models to express their uncertainty in words.
+\newblock \emph{Transactions on Machine Learning Research}, 2022.
+
+\bibitem[Liu et~al.(2023)Liu, Ash, Goel, Krishnamurthy, and
+  Zhang]{liu2023shortcuts}
+Bingbin Liu, Jordan~T. Ash, Surbhi Goel, Akshay Krishnamurthy, and Cyril Zhang.
+\newblock Transformers learn shortcuts to automata.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023.
+\newblock arXiv:2210.10749.
+
+\bibitem[Madaan et~al.(2023)Madaan, Tandon, Gupta, et~al.]{madaan2023self}
+Aman Madaan, Niket Tandon, Prakhar Gupta, et~al.
+\newblock Self-refine: Iterative refinement with self-feedback.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2023.
+
+\bibitem[Man et~al.(2022)Man, Damasio, and Neven]{man2022homeostatic}
+Kingson Man, Antonio Damasio, and Hartmut Neven.
+\newblock Need is all you need: Homeostatic neural networks adapt to concept
+  shift.
+\newblock \emph{arXiv preprint arXiv:2205.08645}, 2022.
+
+\bibitem[Merrill \& Sabharwal(2023)Merrill and
+  Sabharwal]{merrill2023parallelism}
+William Merrill and Ashish Sabharwal.
+\newblock The parallelism tradeoff: Limitations of log-precision transformers.
+\newblock \emph{Transactions of the Association for Computational Linguistics
+  (TACL)}, 11:\penalty0 531--545, 2023.
+
+\bibitem[Nanda et~al.(2023)Nanda, Chan, Lieberum, Smith, and
+  Steinhardt]{nanda2023progress}
+Neel Nanda, Lawrence Chan, Tom Lieberum, Jess Smith, and Jacob Steinhardt.
+\newblock Progress measures for grokking via mechanistic interpretability.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023.
+
+\bibitem[Nosek et~al.(2018)Nosek, Ebersole, DeHaven, and
+  Mellor]{nosek2018prereg}
+Brian~A. Nosek, Charles~R. Ebersole, Alexander~C. DeHaven, and David~T. Mellor.
+\newblock The preregistration revolution.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 115\penalty0
+  (11):\penalty0 2600--2606, 2018.
+
+\bibitem[Olsson et~al.(2022)Olsson, Elhage, Nanda, Joseph,
+  et~al.]{olsson2022induction}
+Catherine Olsson, Nelson Elhage, Neel Nanda, Nicholas Joseph, et~al.
+\newblock In-context learning and induction heads.
+\newblock \emph{Transformer Circuits Thread}, 2022.
+
+\bibitem[Power et~al.(2022)Power, Burda, Edwards, Babuschkin, and
+  Misra]{power2022grokking}
+Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, and Vedant Misra.
+\newblock Grokking: Generalization beyond overfitting on small algorithmic
+  datasets.
+\newblock \emph{arXiv preprint arXiv:2201.02177}, 2022.
+
+\bibitem[{Qwen Team}(2024)]{yang2024qwen25}
+{Qwen Team}.
+\newblock Qwen2.5 technical report.
+\newblock \emph{arXiv preprint arXiv:2412.15115}, 2024.
+
+\bibitem[Raposo et~al.(2024)Raposo, Ritter, Richards, Lillicrap, Humphreys, and
+  Santoro]{raposo2024mixture}
+David Raposo, Sam Ritter, Blake Richards, Timothy Lillicrap, Peter~Conway
+  Humphreys, and Adam Santoro.
+\newblock Mixture-of-depths: Dynamically allocating compute in
+  transformer-based language models.
+\newblock \emph{arXiv preprint arXiv:2404.02258}, 2024.
+
+\bibitem[Russell \& Wefald(1991)Russell and Wefald]{russell1991metareasoning}
+Stuart Russell and Eric Wefald.
+\newblock Principles of metareasoning.
+\newblock \emph{Artificial Intelligence}, 49\penalty0 (1-3):\penalty0 361--395,
+  1991.
+
+\bibitem[Schaeffer et~al.(2023)Schaeffer, Miranda, and
+  Koyejo]{schaeffer2023mirage}
+Rylan Schaeffer, Brando Miranda, and Sanmi Koyejo.
+\newblock Are emergent abilities of large language models a mirage?
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2023.
+
+\bibitem[Schwartz et~al.(2020)Schwartz, Stanovsky, Swayamdipta, Dodge, and
+  Smith]{schwartz2020right}
+Roy Schwartz, Gabriel Stanovsky, Swabha Swayamdipta, Jesse Dodge, and Noah~A.
+  Smith.
+\newblock The right tool for the job: Matching model and instance complexities.
+\newblock In \emph{Association for Computational Linguistics (ACL)}, 2020.
+
+\bibitem[Simmons et~al.(2011)Simmons, Nelson, and Simonsohn]{simmons2011false}
+Joseph~P. Simmons, Leif~D. Nelson, and Uri Simonsohn.
+\newblock False-positive psychology: Undisclosed flexibility in data collection
+  and analysis allows presenting anything as significant.
+\newblock \emph{Psychological Science}, 22\penalty0 (11):\penalty0 1359--1366,
+  2011.
+
+\bibitem[Snell et~al.(2024)Snell, Lee, Xu, and Kumar]{snell2024scaling}
+Charlie Snell, Jaehoon Lee, Kelvin Xu, and Aviral Kumar.
+\newblock Scaling llm test-time compute optimally can be more effective than
+  scaling model parameters.
+\newblock \emph{arXiv preprint arXiv:2408.03314}, 2024.
+
+\bibitem[Vecoven et~al.(2020)Vecoven, Ernst, Wehenkel, and
+  Drion]{vecoven2020neuromodulation}
+Nicolas Vecoven, Damien Ernst, Antoine Wehenkel, and Guillaume Drion.
+\newblock Introducing neuromodulation in deep neural networks to learn adaptive
+  behaviours.
+\newblock \emph{PLOS ONE}, 15\penalty0 (1):\penalty0 e0227922, 2020.
+
+\bibitem[Wang et~al.(2023)Wang, Wei, Schuurmans, Le, Chi, Narang, Chowdhery,
+  and Zhou]{wang2023selfconsistency}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed~Chi, Sharan Narang,
+  Aakanksha Chowdhery, and Denny Zhou.
+\newblock Self-consistency improves chain of thought reasoning in language
+  models.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023.
+
+\bibitem[Wei et~al.(2022{\natexlab{a}})Wei, Tay, Bommasani,
+  et~al.]{wei2022emergent}
+Jason Wei, Yi~Tay, Rishi Bommasani, et~al.
+\newblock Emergent abilities of large language models.
+\newblock \emph{Transactions on Machine Learning Research}, 2022{\natexlab{a}}.
+
+\bibitem[Wei et~al.(2022{\natexlab{b}})Wei, Wang, Schuurmans, Bosma, Ichter,
+  Xia, Chi, Le, and Zhou]{wei2022chain}
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia,
+  Ed~Chi, Quoc Le, and Denny Zhou.
+\newblock Chain-of-thought prompting elicits reasoning in large language
+  models.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2022{\natexlab{b}}.
+
+\bibitem[Yao et~al.(2023)Yao, Yu, Zhao, Shafran, Griffiths, Cao, and
+  Narasimhan]{yao2023tree}
+Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas~L. Griffiths, Yuan
+  Cao, and Karthik Narasimhan.
+\newblock Tree of thoughts: Deliberate problem solving with large language
+  models.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2023.
+
+\bibitem[Zhou et~al.(2024)Zhou, Bradley, Littwin, et~al.]{zhou2024algorithms}
+Hattie Zhou, Arwen Bradley, Etai Littwin, et~al.
+\newblock What algorithms can transformers learn? a study in length
+  generalization.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\end{thebibliography}

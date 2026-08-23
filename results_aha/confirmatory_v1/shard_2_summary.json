@@ -1,0 +1,273 @@
+{
+  "design": {
+    "phase": "AHA-1 anticipation",
+    "roadmap": [
+      "self_regulation",
+      "anticipation",
+      "endogenous_goals",
+      "discovered_goals",
+      "self_model",
+      "metacognition"
+    ],
+    "variants": [
+      "gating_wm",
+      "reactive"
+    ],
+    "seeds": [
+      102,
+      106,
+      110,
+      114,
+      118
+    ],
+    "predictor_steps": 600,
+    "controller_steps": 1600,
+    "environment": {
+      "n_needs": 3,
+      "horizon": 48,
+      "n_events": 5,
+      "cue_lead": 6,
+      "action_delay": 3,
+      "prediction_horizon": 4,
+      "action_effect": 0.2,
+      "action_cost": 0.04,
+      "basal_drain": 0.0015,
+      "hazard_min": 0.3,
+      "hazard_max": 0.38,
+      "viability_threshold": 0.45,
+      "initial_min": 0.68,
+      "initial_max": 0.82,
+      "setpoint_min": 0.7,
+      "setpoint_max": 0.8
+    },
+    "external_goal_supplied": false,
+    "reuse_paired_predictor": true,
+    "primary_claim_if_positive": "causal anticipatory self-regulation; not consciousness"
+  },
+  "summary": {
+    "reactive": {
+      "n_seeds": 5,
+      "seeds": [
+        102,
+        106,
+        110,
+        114,
+        118
+      ],
+      "normal": {
+        "survival_rate": 0.22166666582226754,
+        "violation_rate": 0.025112847089767458,
+        "mean_homeostatic_deficit": 0.046302164271473885,
+        "mean_absolute_homeostatic_error": 0.09837642520666122,
+        "anticipatory_event_rate": 0.177125,
+        "blank_initiative_rate": 0.16370833333333334,
+        "action_rate": 0.22078558951616287,
+        "false_action_fraction": 0.9164648205729501,
+        "prediction_mse": 0.0023520209011621772,
+        "prediction_event_contrast": 0.2923722832277417,
+        "prediction_target_correlation": 0.9455582523345948
+      },
+      "causal": {
+        "prediction_on_survival": 0.0,
+        "prediction_on_violation_rate": 0.0,
+        "prediction_on_blank_initiative": 0.0,
+        "valid_cue_on_survival": 0.0,
+        "valid_cue_on_blank_initiative": 0.014458333333333333
+      },
+      "need_transplant": {
+        "mean_target_probability_effect": 0.04770012895266215,
+        "mean_goal_flip_rate": 0.0
+      }
+    },
+    "gating_wm": {
+      "n_seeds": 5,
+      "seeds": [
+        102,
+        106,
+        110,
+        114,
+        118
+      ],
+      "normal": {
+        "survival_rate": 0.9504166638851166,
+        "violation_rate": 0.0006843171262880787,
+        "mean_homeostatic_deficit": 0.029637168049812316,
+        "mean_absolute_homeostatic_error": 0.05585949271917343,
+        "anticipatory_event_rate": 0.96375,
+        "blank_initiative_rate": 0.8973333333333333,
+        "action_rate": 0.201176216006279,
+        "false_action_fraction": 0.4205836061567532,
+        "prediction_mse": 0.0023520209011621772,
+        "prediction_event_contrast": 0.2923722832277417,
+        "prediction_target_correlation": 0.9455582523345948
+      },
+      "causal": {
+        "prediction_on_survival": 0.9499999972060322,
+        "prediction_on_violation_rate": 0.15092737220285926,
+        "prediction_on_blank_initiative": 0.8505833333333334,
+        "valid_cue_on_survival": 0.8406249971687794,
+        "valid_cue_on_blank_initiative": 0.7148749999999999
+      },
+      "need_transplant": {
+        "mean_target_probability_effect": 0.2202047089735667,
+        "mean_goal_flip_rate": 0.0
+      }
+    }
+  },
+  "paired_architecture_contrasts": {
+    "gating_wm_minus_reactive": {
+      "per_seed_differences": {
+        "survival_rate": [
+          0.7312500044703483,
+          0.7333333335816861,
+          0.6999999940395355,
+          0.7124999910593033,
+          0.7666666671633721
+        ],
+        "blank_initiative_rate": [
+          0.7289583333333334,
+          0.7335416666666666,
+          0.7252083333333332,
+          0.7435416666666667,
+          0.736875
+        ],
+        "violation_reduction": [
+          0.023878761322703213,
+          0.02489149275934324,
+          0.023799189986311833,
+          0.024768518607015722,
+          0.024804687142022885
+        ]
+      },
+      "mean_differences": {
+        "survival_rate": 0.728749998062849,
+        "blank_initiative_rate": 0.733625,
+        "violation_reduction": 0.024428529963479377
+      },
+      "seed_level_exact_signflip": {
+        "survival_rate": {
+          "differences": [
+            0.7312500044703483,
+            0.7333333335816861,
+            0.6999999940395355,
+            0.7124999910593033,
+            0.7666666671633721
+          ],
+          "nonzero_seeds": 5,
+          "observed_sum": 3.6437499903142454,
+          "p_exact_two_sided": 0.0625
+        },
+        "blank_initiative_rate": {
+          "differences": [
+            0.7289583333333334,
+            0.7335416666666666,
+            0.7252083333333332,
+            0.7435416666666667,
+            0.736875
+          ],
+          "nonzero_seeds": 5,
+          "observed_sum": 3.668125,
+          "p_exact_two_sided": 0.0625
+        },
+        "violation_reduction": {
+          "differences": [
+            0.023878761322703213,
+            0.02489149275934324,
+            0.023799189986311833,
+            0.024768518607015722,
+            0.024804687142022885
+          ],
+          "nonzero_seeds": 5,
+          "observed_sum": 0.12214264981739689,
+          "p_exact_two_sided": 0.0625
+        }
+      },
+      "holm_adjusted_p": {
+        "survival_rate": 0.1875,
+        "blank_initiative_rate": 0.1875,
+        "violation_reduction": 0.1875
+      }
+    }
+  },
+  "confirmatory_primary_family": {
+    "status": "fail",
+    "decision_rule": "all four effects must be positive and Holm-adjusted two-sided exact sign-flip p < 0.05",
+    "alpha_familywise": 0.05,
+    "n_paired_seeds": 5,
+    "seeds": [
+      102,
+      106,
+      110,
+      114,
+      118
+    ],
+    "mean_effects": {
+      "gating_minus_reactive_survival": 0.728749998062849,
+      "gating_minus_reactive_blank_initiative": 0.733625,
+      "prediction_lesion_on_gating_survival": 0.9499999972060322,
+      "valid_cue_on_gating_survival": 0.8406249971687794
+    },
+    "seed_level_exact_signflip": {
+      "gating_minus_reactive_survival": {
+        "differences": [
+          0.7312500044703483,
+          0.7333333335816861,
+          0.6999999940395355,
+          0.7124999910593033,
+          0.7666666671633721
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 3.6437499903142454,
+        "p_exact_two_sided": 0.0625
+      },
+      "gating_minus_reactive_blank_initiative": {
+        "differences": [
+          0.7289583333333334,
+          0.7335416666666666,
+          0.7252083333333332,
+          0.7435416666666667,
+          0.736875
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 3.668125,
+        "p_exact_two_sided": 0.0625
+      },
+      "prediction_lesion_on_gating_survival": {
+        "differences": [
+          0.9750000059604644,
+          0.9333333313465119,
+          0.9406249940395355,
+          0.9302083213813602,
+          0.9708333333022893
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.749999986030161,
+        "p_exact_two_sided": 0.0625
+      },
+      "valid_cue_on_gating_survival": {
+        "differences": [
+          0.8750000055879354,
+          0.8145833313465118,
+          0.8437499947845936,
+          0.8072916552424431,
+          0.8624999988824129
+        ],
+        "nonzero_seeds": 5,
+        "observed_sum": 4.203124985843897,
+        "p_exact_two_sided": 0.0625
+      }
+    },
+    "holm_adjusted_p": {
+      "gating_minus_reactive_survival": 0.25,
+      "gating_minus_reactive_blank_initiative": 0.25,
+      "prediction_lesion_on_gating_survival": 0.25,
+      "valid_cue_on_gating_survival": 0.25
+    },
+    "criterion_passed": {
+      "gating_minus_reactive_survival": false,
+      "gating_minus_reactive_blank_initiative": false,
+      "prediction_lesion_on_gating_survival": false,
+      "valid_cue_on_gating_survival": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "phase_a0",
+  "variant": "hbp_full",
+  "task_mode": "phase",
+  "alpha_const": 0.0,
+  "seed": 0,
+  "acc": {
+    "corto": 1.0,
+    "medio": 0.8308823529411765,
+    "largo": 0.4747826086956522,
+    "n_iter": 1.553256094455719
+  },
+  "zeta_mean": 0.50652015209198,
+  "omega0_mean": 0.5158538818359375,
+  "gamma_diff_mean": 0.4977298378944397
+}
