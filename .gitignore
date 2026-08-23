@@ -51,3 +51,29 @@ paper/arxiv/*/
 # Documentacion de instalacion superada por la seccion Entorno del README
 PASOS.md
 SETUP.md
+
+# --- Eliminados en la limpieza de 2026-08-23 --------------------------------
+# Derivados que la cadena de construccion reconstruye, lineas experimentales
+# superadas y andamiaje de desarrollo. Todos siguen en disco; se listan aqui
+# para que `git add -A` no los vuelva a meter.
+paper/arxiv/*.tar.gz
+paper/tmlr/*.pdf
+paper/_check_paper.py
+paper/figures/fig_niter_bucket.png
+USAGE.md
+benchmark_table.tex
+_analyze_extrap.py
+_analyze_permB.py
+_check_permB.py
+_check_iterfunc.py
+_probe_learnable.py
+_curve_v2.py
+_interim_v2.py
+scale_study/_smoke.py
+scale_study/_probe_single.py
+scale_study/_finalize.py
+mhbp/examples/demo_impulse_response.png
+mhbp/configs/mhbp_four_fields.yaml
+mhbp/experiments/launch_phase2.ps1
+mhbp/experiments/_finalize_phase2.py
+mhbp/tasks/reasoner_g0/results/*_smoke.json
