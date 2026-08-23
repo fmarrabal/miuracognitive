@@ -7,15 +7,16 @@ __pycache__/
 # --- Resultados y artefactos pesados ---------------------------------------
 # Los directorios de resultados NO se trackean en bloque: son 221 MB de JSON
 # mas 1,8 GB de checkpoints. Lo que SI se publica es una seleccion curada de
-# 1.688 ficheros (31 MB), ya anadida al arbol con `git add -f`:
-#   - todos los JSON de resumen de 200 KB o menos,
-#   - los 6 registros pesados que los papers o los FINDINGS citan por nombre,
+# 1.489 ficheros (29 MB), ya anadida al arbol con `git add -f`:
+#   - los JSON de resumen de 200 KB o menos de las lineas que aparecen en
+#     algun manuscrito, FINDINGS o PREREG,
+#   - los registros pesados que los papers o los FINDINGS citan por nombre,
 #   - los 22 protocolos .md que viven dentro de esos directorios.
 # Esa seleccion cubre los 22 ficheros citados nominalmente, o sea todos los
-# punteros que los dos manuscritos difieren al repositorio. El resto (los 754
-# registros por instancia y los checkpoints) va al deposito Zenodo cuyo DOI
-# citan los papers. Los patrones de abajo solo evitan que entren ficheros
-# nuevos por descuido: no des-trackean lo ya anadido.
+# punteros que los dos manuscritos difieren al repositorio. El resto (953
+# registros por instancia, 190 MB, y los checkpoints) va al deposito Zenodo
+# cuyo DOI citan los papers. Los patrones de abajo solo evitan que entren
+# ficheros nuevos por descuido: no des-trackean lo ya anadido.
 **/results*/
 **/ckpts/
 **/oracle_cache/

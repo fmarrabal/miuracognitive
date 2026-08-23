@@ -23,14 +23,32 @@ function Construye($j, $anon, $dest, $plano) {
 
   Copy-Item "$P\$($j.tex).tex" $dest
   Copy-Item "$P\$($j.tex).bbl" $dest
-  Copy-Item "$P\tmlr.sty"      $dest
+  # En el paquete plano NO se copia tmlr.sty: se incrusta en el .tex (abajo).
+  if (-not $plano) { Copy-Item "$P\tmlr.sty" $dest }
   foreach ($f in $j.figs) {
     Copy-Item "$P\figures\$f" $(if ($plano) { $dest } else { "$dest\figures" })
   }
 
   $t = Get-Content "$dest\$($j.tex).tex" -Raw
   if ($anon)  { $t = $t.Replace("`n\anonfalse", "`n\anontrue") }
-  if ($plano) { $t = $t.Replace("{figures/", "{") }   # rutas sin subdirectorio
+  if ($plano) {
+    $t = $t.Replace("{figures/", "{")   # rutas sin subdirectorio
+
+    # tmlr.sty INCRUSTADO via filecontents. arXiv fallo dos veces con
+    # "File `tmlr.sty' not found" pese a ir el fichero en el tarball: su paso
+    # de revision de ficheros puede excluirlo, y su extractor no siempre
+    # reconstruye lo que uno espera. Con filecontents el propio LaTeX escribe
+    # el .sty en disco al empezar la compilacion, antes de que \usepackage lo
+    # pida, asi que no queda ningun fichero externo que pueda faltar. Se usa
+    # [overwrite] porque pdflatex se ejecuta varias veces y en la segunda el
+    # fichero ya existe. Va ANTES de \documentclass, que es donde filecontents
+    # tiene que ir para que el paquete exista cuando se cargue.
+    $sty = Get-Content "$P\tmlr.sty" -Raw
+    $inc = "\begin{filecontents*}[overwrite]{tmlr.sty}`n" + $sty.TrimEnd() + "`n\end{filecontents*}`n"
+    $i = $t.IndexOf("\documentclass")
+    if ($i -lt 0) { throw "no encuentro \documentclass en $($j.tex).tex" }
+    $t = $t.Substring(0, $i) + $inc + $t.Substring($i)
+  }
   Set-Content "$dest\$($j.tex).tex" $t -Encoding utf8 -NoNewline
 
   if ($anon) {
@@ -58,7 +76,12 @@ foreach ($j in $jobs) {
   $d = "$P\arxiv\$($j.n)"
   Construye $j $false $d $true
   Push-Location $d
-  Remove-Item -Force *.aux,*.log,*.out,*.pdf,*.blg -ErrorAction SilentlyContinue
+  # tmlr.sty se borra a proposito: lo escribio filecontents durante la
+  # compilacion de prueba, pero NO debe viajar en el paquete. Si viajara,
+  # arXiv volveria a listarlo en su tabla de revision de ficheros, que es
+  # justo el paso donde se perdio dos veces. Al no estar, no hay nada que
+  # pueda faltar: LaTeX se lo escribe solo al compilar.
+  Remove-Item -Force *.aux,*.log,*.out,*.pdf,*.blg,tmlr.sty -ErrorAction SilentlyContinue
   Pop-Location
   $tgz = "$P\arxiv\miuracognitive-$($j.n).tar.gz"
   if (Test-Path $tgz) { Remove-Item $tgz -Force }

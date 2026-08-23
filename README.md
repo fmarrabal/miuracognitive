@@ -171,10 +171,11 @@ Qwen2.5-14B-Instruct (Apache-2.0, ~28 GB) la primera vez.
 
 ## Reproducción
 
-Los JSON de resumen de todos los experimentos **están en el repositorio** (1 688
-ficheros, 31 MB), de modo que las tablas y figuras de los dos papers se
-regeneran sin re-entrenar nada. Los registros pesados por instancia (187 MB) y
-los checkpoints (1,8 GB) viven en el depósito Zenodo cuyo DOI citan los papers.
+Los JSON de resumen de todos los experimentos **están en el repositorio**
+(1 467 JSON más 22 protocolos, 29 MB), de modo que las tablas y figuras de los
+dos papers se regeneran sin re-entrenar nada. Los 953 registros pesados por
+instancia (190 MB) y los checkpoints (1,8 GB) viven en el depósito Zenodo cuyo
+DOI citan los papers.
 
 ```powershell
 python verify_setup.py        # entorno: GPU / BF16 / SDPA, con fallback CPU
