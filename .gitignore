@@ -150,3 +150,20 @@ paper/REVIEWS.md
 paper/demo.html
 paper/demo_data.json
 paper/figures/fig_niter_bucket.png
+
+# Probes de desarrollo y restos de lineas no reportadas
+_check_alpha_force.py
+_check_elliptic.py
+_check_fixes.py
+_check_kdv.py
+_check_mix.py
+_check_sensitivity.py
+_check_urgency_vec.py
+_diag_flowroute.py
+_dual_pilot.py
+_gen_demo_data.py
+_oracle_grid.py
+_probe_mix_train.py
+discovery_v2_benchmark.py
+exec_v2_benchmark.py
+goals_v2_benchmark.py

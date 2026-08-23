@@ -1,250 +1,240 @@
 # MiuraCognitive
 
-Programa de investigación sobre **dónde vive la cognición** en una arquitectura
-mínima pero completa: un reasoner recurrente con parada adaptativa, un campo de
-control homeostático y un módulo de valor. A cada parte le hicimos la misma
-pregunta: ¿esta función **emerge** del descenso de gradiente, o hay que
-**computarla** con maquinaria explícita?
+**English** · [Español](README.es.md)
 
-El objeto central es el **Homeostatic Background Processor (HBP)**: un campo de
-estado interno de baja dimensión definido sobre el grafo de módulos de un
-transformer, gobernado por una **familia** de ecuaciones en derivadas parciales
-sobre el laplaciano del grafo —onda amortiguada (Klein–Gordon forzada), su
-límite difusivo y una dinámica tipo KdV—. Evoluciona **un tick por iteración del
-reasoner** y modula su cómputo (umbral de halting, ganancia de bloque, gates de
-memoria).
+A research program on **where cognition lives** in a minimal but complete
+architecture: a recurrent reasoner with adaptive halting, a homeostatic control
+field, and a value module. We asked the same question of every part: does this
+function **emerge** from gradient descent, or must it be **computed** by
+explicit machinery?
+
+The central object is the **Homeostatic Background Processor (HBP)**: a
+low-dimensional internal-state field defined over the module graph of a
+transformer, governed by a **family** of partial differential equations on the
+graph Laplacian — damped wave (forced Klein–Gordon), its diffusive limit, and a
+KdV-type dynamics. It advances **one tick per reasoner iteration** and modulates
+the reasoner's computation (halting threshold, block gain, memory gates).
 
     ∂²h/∂t² + 2ζω₀ ∂h/∂t − c²∇²h + ω₀²(h − h*) = f_θ(h,s) + g_φ(h,x)
 
-## Los dos papers
+## The two papers
 
 | | |
 |---|---|
-| [`paper/main.tex`](paper/main.tex) | **Where Cognition Lives** — la jerarquía de información, qué emerge y qué hay que computar, y el artefacto de lectura |
-| [`paper/governor_en.tex`](paper/governor_en.tex) | **El campo como gobernador de cómputo** — la familia de PDE, los certificados de estabilidad y la campaña de des-confusión |
+| [`paper/main.tex`](paper/main.tex) | **Where Cognition Lives** — the information hierarchy, what emerges and what must be computed, and the readout artifact |
+| [`paper/governor_en.tex`](paper/governor_en.tex) | **The field as a compute governor** — the PDE family, the stability certificates, and the deconfounding campaign |
 
-Son *companion* mutuos. `paper/build_all.ps1` construye las cuatro salidas
-(versión con autores y versión doble ciego, para cada uno) desde el mismo
-fuente, mediante el interruptor `\anonfalse` / `\anontrue`.
+They are mutual companions. `paper/build_all.ps1` builds all four outputs
+(authored and double-blind, for each paper) from the same source via the
+`\anonfalse` / `\anontrue` switch.
 
-## Qué concluye el programa
+## What the program concludes
 
-Esta sección es el resumen honesto y **sustituye a versiones anteriores de este
-README** que anunciaban como confirmados resultados que el propio repositorio
-acabó refutando. Cada afirmación remite al documento de hallazgos que la
-sostiene.
+Every claim below points to the findings document that supports it.
 
-### La competencia emerge; la parada, no como parecía
+### Competence emerges; stopping, not as it appeared
 
-A cómputo medio equiparado, el rendimiento sube de `0.467` (asignación
-uniforme) a `0.546` (dificultad) y a `0.698` (valor ex-ante). El siguiente
-peldaño aparente —`0.921`, la auto-observación posterior— **no sobrevive a la
-auditoría**: el halting tipo PonderNet devuelve una **mezcla** de estados
-ocultos ponderada por la distribución de parada, mientras que todos los
-baselines de profundidad forzada devuelven un estado único, y la cabeza de
-lenguaje se entrena solo sobre la mezcla.
+At matched mean compute, payoff climbs from `0.467` (uniform allocation)
+through `0.546` (difficulty) to `0.698` (ex-ante value). The apparent next rung
+— `0.921`, posterior self-observation — **does not survive audit**: PonderNet-style
+halting returns a halting-weighted **mixture** of hidden states, while every
+forced-depth baseline returns a single state, and the language head is trained
+on the mixture alone.
 
-Igualando la lectura, la ventaja de la ejecución nativa **se anula por
-completo**: régimen residual `+0.000 [0.000, 0.000]`. Con la lectura fija y el
-presupuesto igualado, saber qué instancia necesita cuánto cómputo vale
-`+0.0011 [+0.0003, +0.0019]`. Añadir valor encima del posterior no compra nada
+Equalizing the readout **annihilates** the advantage of native execution:
+residual regime `+0.000 [0.000, 0.000]`. With the readout fixed and the budget
+matched, knowing which instance needs how much compute is worth
+`+0.0011 [+0.0003, +0.0019]`. Adding value on top of the posterior buys nothing
 (`+0.0002 ± 0.0004`).
 
 → [`FINDINGS_READOUT.md`](FINDINGS_READOUT.md)
 
-### El valor no emerge: hay que computarlo
+### Value does not emerge: it has to be computed
 
-Los acoplamientos entrenados capturan **cero** de un payoff disponible que un
-allocator explícito captura por completo (`+0.151`, correlación de enrutado
-`+0.79`). La anticipación, en cambio, no tiene payoff que capturar en estas
-familias (`≤+0.001` en 31 configuraciones). La salvedad importa: aquí el stake
-es ⊥ al contenido **por construcción**.
+Trained couplings capture **zero** of an available payoff that an explicit
+allocator captures completely (`+0.151`, routing correlation `+0.79`).
+Anticipation, by contrast, has no payoff to capture in these families
+(`≤+0.001` across 31 configurations). The caveat matters: here the stake is ⊥
+to content **by construction**.
 
-### Sobre un LLM congelado, los mismos instrumentos
+### On a frozen LLM, the same instruments
 
-El techo del voto por self-consistency es una cota **medida**:
-`+0.0236 [+0.0150, +0.0326]`. El acuerdo entre muestras es casi inútil como
-señal de parada —su masa se concentra en respuestas erróneas—.
+The self-consistency voting ceiling is a **measured** bound:
+`+0.0236 [+0.0150, +0.0326]`. Inter-sample agreement is nearly worthless as a
+stopping signal — its mass concentrates on wrong answers.
 
 → [`mhbp/tasks/llm_gov/FINDINGS_LLM.md`](mhbp/tasks/llm_gov/FINDINGS_LLM.md)
 
-### La predicción propia, ejecutada
+### Our own prediction, executed
 
-En una familia de coste tipo acantilado, el valor bajo compromiso paga
-`+0.1312 [+0.1124, +0.1502]`, unas **siete veces** la estimación puntual de la
-familia suave (`+0.019`). Pero **no** porque el acantilado desplace la
-información hacia lo ex-ante: porque multiplica el rango alcanzable por
-`5.1× [3.4, 8.2]`. Magnitud del problema y estructura de su información son
-ejes separados.
+In a cliff-cost family, value under commitment pays
+`+0.1312 [+0.1124, +0.1502]`, roughly **seven times** the point estimate in the
+smooth family (`+0.019`). But **not** because the cliff shifts information
+toward ex-ante decisions: because it multiplies the attainable range by
+`5.1× [3.4, 8.2]`. The magnitude of an allocation problem and the structure of
+its information are separate axes.
 
-### El campo: sustancia no, estructura solo en parte, certificabilidad sí
+### The field: substance no, structure only in part, certifiability yes
 
-- **Sustancia (no).** El *tipo* de física del campo es irrelevante para la
-  accuracy: onda, difusión, mezclas gateadas, acoplamiento no local tipo
-  Poisson e incluso un sustrato de flujo 2D con Navier–Stokes dan lo mismo.
-- **Estructura (solo en parte).** El segundo orden dota a la asignación de
-  cómputo OOD de una robustez que el halting aprendido end-to-end no tiene —
-  pero una campaña pre-registrada de des-confusión con 20 seeds frescas acota
-  el claim. Con topes equiparados, el efecto de orden es fuerte en una familia
-  de generadores (`+0.087 [+0.042, +0.132]`, t=4.0) y **no se detecta** en la
-  otra (`+0.014 [−0.013, +0.040]`, n.s.): parte del contraste original era
-  **capacidad, no orden**. Un GRU de interfaz equiparada es indistinguible en
-  la primera familia (`+0.006`, n.s.) y **gana nominalmente** en la segunda
+- **Substance (no).** The *type* of the field's physics is irrelevant for
+  accuracy: wave, diffusion, gated mixtures, non-local Poisson-type coupling,
+  and even a 2D Navier–Stokes flow substrate all give the same accuracy.
+- **Structure (only in part).** Second order endows out-of-distribution compute
+  allocation with a robustness that end-to-end learned halting lacks — but a
+  preregistered deconfounding campaign with 20 fresh seeds bounds the claim.
+  At equalized caps the order effect is strong in one generator family
+  (`+0.087 [+0.042, +0.132]`, t=4.0) and **not detected** in the other
+  (`+0.014 [−0.013, +0.040]`, n.s.): part of the original contrast was
+  **capacity, not order**. A matched-interface GRU is indistinguishable in the
+  first family (`+0.006`, n.s.) and **nominally wins** in the second
   (`−0.035 [−0.067, −0.002]`).
-- **Certificabilidad (sí).** Lo que distingue al campo no es la capacidad sino
-  que su estabilidad es **demostrable**, y sobre todo que el operador de un
-  paso admite una **comprobación exacta en runtime**.
+- **Certifiability (yes).** What distinguishes the field is not capability but
+  that its stability is **provable**, and above all that the one-step operator
+  admits an **exact runtime check**.
 
 → [`FINDINGS_V4.md`](FINDINGS_V4.md) · [`FINDINGS_TEORIA.md`](FINDINGS_TEORIA.md)
 
-### Qué está certificado, y qué no
+### What is certified, and what is not
 
-Existe **P común sobre la envolvente de los checkpoints entrenados**
-(ω₀∈[0.488,0.529], ζ∈[0.475,0.538], c≤0.371): la LMI cierra con `ρ=0.9517`,
-κ=2.51, y el peor radio espectral individual es `0.7322`. Es una cota en
-**norma**, no en radio espectral, así que cubre transitorios no normales y, por
-convexidad y submultiplicatividad, las mezclas y el caso gateado (LTV).
+A **common P exists over the envelope of the trained checkpoints**
+(ω₀∈[0.488,0.529], ζ∈[0.475,0.538], c≤0.371): the LMI closes with `ρ=0.9517`,
+κ=2.51, and the worst individual spectral radius is `0.7322`. It is a bound in
+**norm**, not in spectral radius, so it covers non-normal transients and, by
+convexity and submultiplicativity, mixtures and the gated (LTV) case.
 
-Lo que **no** cierra, dicho sin adornos:
+What it does **not** close, plainly:
 
-1. **La caja declarada en `HBPConfig` no es certificable, porque no es
-   estable**: de sus 64 vértices, **40 divergen** (peor `ρ=5.24`). Lo que
-   mantiene al modelo lejos de la divergencia es el entrenamiento, no los
-   topes del código.
-2. La mezcla con la rama difusiva sigue sin certificado (`max‖Φ‖_P = 1.57`).
-3. El small-gain no cierra, por un factor ~48.
+1. **The box declared in `HBPConfig` is not certifiable, because it is not
+   stable**: of its 64 vertices, **40 diverge** (worst `ρ=5.24`). What keeps the
+   model away from divergence is training, not the caps in the code.
+2. The mixture with the diffusive branch remains uncertified (`max‖Φ‖_P = 1.57`).
+3. Small-gain does not close, by a factor of ~48.
 
-Es un **certificado del integrador**, no de lazo cerrado, y los papers lo dicen
-explícitamente.
+It is an **integrator certificate**, not a closed-loop one, and the papers say
+so explicitly.
 
-→ [`FINDINGS_LMI.md`](FINDINGS_LMI.md) · `certify_lmi.py`, `certify_lmi_ckpt.py`,
-`certify_lmi_iss.py`, `verify_verlet_schurcohn.py`
+→ [`FINDINGS_LMI.md`](FINDINGS_LMI.md) · `experiments/certify_lmi*.py`,
+`experiments/verify_verlet_schurcohn.py`
 
-### El campo como acumulador de evidencia: nulo con control positivo
+### The field as evidence accumulator: null with a positive control
 
-Un kill-gate con sonda de control positivo no encuentra evidencia de la ruta
-restante sobre doce solvers congelados: `ΔAUC = +0.0007 [−0.0065, +0.0079]`
-frente a un umbral de paso de `0.03`. Lectura propuesta (no demostrada): el
-estado recurrente ya integra su propia historia.
+A kill-gate with a positively controlled probe finds no evidence for the
+remaining route across twelve frozen solvers: `ΔAUC = +0.0007 [−0.0065, +0.0079]`
+against a pass threshold of `0.03`. Proposed (not demonstrated) reading: the
+recurrent state already integrates its own history.
 
 → [`mhbp/tasks/reasoner_g0/FINDINGS_N4.md`](mhbp/tasks/reasoner_g0/FINDINGS_N4.md)
 
-## Entorno
+## Environment
 
 ```powershell
-$env:PYTHONPATH="."; $env:PYTHONIOENCODING="utf-8"   # utf-8 evita crashes cp1252 (ζ, Δ, ✓)
+$env:PYTHONPATH="."; $env:PYTHONIOENCODING="utf-8"
 ```
 
-Conda con PyTorch cu128 (RTX PRO 5000 Blackwell, sm_120). Dependencias en
-`requirements.txt` y `environment.yml`. El capítulo de LLM descarga
-Qwen2.5-14B-Instruct (Apache-2.0, ~28 GB) la primera vez.
+Conda with PyTorch cu128 (RTX PRO 5000 Blackwell, sm_120). Dependencies in
+`requirements.txt` and `environment.yml`. The LLM chapter downloads
+Qwen2.5-14B-Instruct (Apache-2.0, ~28 GB) on first run.
 
-## Reproducción
+## Reproduction
 
-Este repositorio contiene **solo lo que los dos manuscritos necesitan**: el
-código de la arquitectura, los scripts que ejecutan los experimentos que
-reportan, los 835 JSON de resumen de los que salen sus números, y los
-documentos de hallazgos y pre-registros que los sostienen. Con eso, las tablas
-y figuras se regeneran sin re-entrenar nada.
+This repository contains **only what the two manuscripts need**: the
+architecture code, the scripts that run the experiments they report, the
+summary results their numbers come from, and the findings documents and
+preregistrations that support them. With that, tables and figures regenerate
+without retraining anything.
 
-Lo que **no** está aquí, y dónde vive: los registros pesados por instancia y
-los checkpoints entrenados (1,8 GB) van al depósito Zenodo cuyo DOI citan los
-papers. Las líneas experimentales que no aparecen en ninguno de los dos
-manuscritos —la de agencia, el cuello de botella de cómputo, el estudio de
-escala— se han retirado del árbol público para que lo que queda sea
-inequívocamente el material de los papers.
+Not here, and where it lives: the per-instance records and the trained
+checkpoints (1.8 GB) are in the archived Zenodo deposit whose DOI the papers
+cite. Experimental lines that appear in neither manuscript have been withdrawn
+from the public tree, so that what remains is unambiguously the papers' material.
 
 ```powershell
-python verify_setup.py        # entorno: GPU / BF16 / SDPA, con fallback CPU
-python _audit_hbp.py          # regresión del HBP: grad(ζ,ω₀)≠0, modulación dep. del input
-python eval/diagnostics.py    # VEI vivo, FFT/oscilación, régimen de amortiguamiento
-python example_routine.py     # ejemplo: hbp_full resolviendo una composición de S₅
+python verify_setup.py                    # GPU / BF16 / SDPA, with CPU fallback
+python experiments/_audit_hbp.py          # HBP regression: grad(ζ,ω₀)≠0, input-dependent modulation
+python eval/diagnostics.py                # live VEI, FFT/oscillation, damping regime
+python experiments/example_routine.py     # example: hbp_full solving an S₅ composition
 ```
 
-### Mapa: resultado del paper → script → fichero de resultados
+### Map: paper result → script → results file
 
-| Resultado | Script | Resultados |
+| Result | Script | Results |
 |---|---|---|
-| Jerarquía de información | `mhbp/tasks/reasoner_g0/n3_*.py` | `mhbp/tasks/reasoner_g0/results/` |
-| **Artefacto de lectura** | `n3_readout.py`, `n3_readout_fair.py` | `n3_readout*.json` |
-| Allocator explícito vs acoplado | `n3_eval.py`, `n3_sonda.py` | `results/n3_eval.json`, `FINDINGS_N3.md` |
-| Acantilado (N1b) | `mhbp/tasks/llm_gov/llm_n1b*.py` | `results/llm_n1b_*.json` |
-| Techo de self-consistency | `mhbp/tasks/llm_gov/llm_gsm8k.py` | `results/llm_gsm8k.json` |
-| Des-confusión v4 | `benchmark_v4.py` | `results_benchmark_v4/` |
-| Certificados LMI | `certify_lmi*.py` | `FINDINGS_LMI.md` |
-| Criterio de Verlet | `verify_verlet_schurcohn.py` | `FINDINGS_TEORIA.md` |
-| Kill-gate del acumulador | `mhbp/tasks/reasoner_g0/n4_*.py` | `FINDINGS_N4.md` |
+| Information hierarchy | `mhbp/tasks/reasoner_g0/n3_*.py` | `mhbp/tasks/reasoner_g0/results/` |
+| **Readout artifact** | `n3_readout.py`, `n3_readout_fair.py` | `results/n3_readout*.json` |
+| Explicit vs coupled allocator | `n3_eval.py`, `n3_sonda.py` | `results/n3_eval.json`, `FINDINGS_N3.md` |
+| Cliff (N1b) | `mhbp/tasks/llm_gov/llm_n1b*.py` | `results/llm_n1b_*.json` |
+| Self-consistency ceiling | `mhbp/tasks/llm_gov/llm_gsm8k.py` | `results/llm_gsm8k.json` |
+| v4 deconfounding | `experiments/benchmark_v4.py` | `results_benchmark_v4/` |
+| LMI certificates | `experiments/certify_lmi*.py` | `FINDINGS_LMI.md` |
+| Verlet criterion | `experiments/verify_verlet_schurcohn.py` | `FINDINGS_TEORIA.md` |
+| Accumulator kill-gate | `mhbp/tasks/reasoner_g0/n4_*.py` | `FINDINGS_N4.md` |
 
-### Benchmark completo
+### Full benchmark
 
 ```powershell
-python benchmark_v3.py              # replicación con física aprendible
-python benchmark_v4.py              # des-confusión: topes equiparados + GRU
-python benchmark_report_v4.py       # tabla agregada
+python experiments/benchmark_v3.py         # replication with learnable physics
+python experiments/benchmark_v4.py         # deconfounding: equalized caps + GRU
+python experiments/benchmark_report_v4.py  # aggregate table
 ```
 
-### Variantes
+### Variants
 
-| Variante | HBP | Reasoner | WM | Qué aísla |
+| Variant | HBP | Reasoner | WM | What it isolates |
 |---|---|---|---|---|
-| `vanilla` | – | – | – | baseline transformer de profundidad fija |
-| `gating` | – | ✓ | – | recurrencia adaptativa sola |
-| `gating_wm` | – | ✓ | ✓ | **control**: recurrencia + working memory, sin HBP |
-| `hbp_first` | 1º | ✓ | ✓ | límite sobreamortiguado (relajación) |
-| `hbp_full` | 2º | ✓ | ✓ | Verlet completo (inercia/oscilación) |
-| `hbp_gru` | – | ✓ | ✓ | GRU de **interfaz equiparada** (el rival honesto del v4) |
+| `vanilla` | – | – | – | fixed-depth transformer baseline |
+| `gating` | – | ✓ | – | adaptive recurrence alone |
+| `gating_wm` | – | ✓ | ✓ | **control**: recurrence + working memory, no HBP |
+| `hbp_first` | 1st | ✓ | ✓ | overdamped limit (relaxation) |
+| `hbp_full` | 2nd | ✓ | ✓ | full Verlet (inertia/oscillation) |
+| `hbp_gru` | – | ✓ | ✓ | **matched-interface** GRU (the honest rival in v4) |
 
-### Tareas
+### Tasks
 
-- `permcomp` — composición de generadores de S₅ (NC¹-dura; la principal).
-  Generadores: `adjacent` o `cycle_transp`.
-- `runsum` — suma corriente mod n; se resuelve en una pasada, útil de contraste.
-- `recall` — recall con distractores (saturado; histórico).
+- `permcomp` — composition of S₅ generators (NC¹-hard; the main one).
+  Generators: `adjacent` or `cycle_transp`.
+- `runsum` — running sum mod n; solvable in one pass, useful as contrast.
+- `recall` — recall with distractors (saturated; historical).
 
-Extrapolación: `--train_max_writes 12 --max_writes 24` entrena en K≤12 y evalúa
-hasta K≤24.
+Extrapolation: `--train_max_writes 12 --max_writes 24` trains on K≤12 and
+evaluates up to K≤24.
 
-## Estructura
+## Structure
 
 ```
 model/        transformer.py · hbp.py ★ · adaptive_depth.py · working_memory.py · miura.py
 data/         synthetic_recall.py
 training/     config.py · trainer.py
 eval/         diagnostics.py · aggregate.py
-experiments/  run_ablations.py
 
-mhbp/                        el código de los DOS papers
-  tasks/reasoner_g0/         jerarquía de información, readout, allocator, kill-gate N4
-  tasks/llm_gov/             actuador LLM congelado: GSM8K, acantilado N1b, palancas
-  analysis/                  FINDINGS_PHASE2.md y siguientes
+mhbp/                        the code behind BOTH papers
+  tasks/reasoner_g0/         information hierarchy, readout, allocator, N4 kill-gate
+  tasks/llm_gov/             frozen LLM actuator: GSM8K, N1b cliff, levers
+  analysis/                  FINDINGS_PHASE2.md and successors
+
+experiments/  benchmark_v2/v3/v4 · certify_lmi*.py · verify_verlet_schurcohn.py
+              _audit_hbp.py · the mechanism-null studies
 
 paper/        main.tex · governor_en.tex · refs.bib · figures/ · build_all.ps1
-              check_anon.py (verifica el doble ciego) · pack_arxiv.py
-
-certify_lmi.py · certify_lmi_ckpt.py · certify_lmi_iss.py   certificados de estabilidad
-verify_verlet_schurcohn.py                                  criterio de Verlet/Schur–Cohn
-benchmark_v4.py                                             campaña de des-confusión
-_audit_hbp.py                                               test de regresión del HBP
+              check_anon.py (verifies double-blinding) · pack_arxiv.py
 ```
 
-## Notas de implementación
+## Implementation notes
 
-- El HBP se acopla al reasoner con **modulación suave** `gate = 1 + s·tanh(·)`
-  alrededor de la identidad. Un gate `sigmoid` (centrado en 0.5) decae la señal
-  y rompe la iteración.
-- El Verlet va en **FP32**: la cancelación de velocidad en BF16 corrompe el
-  amortiguamiento cerca del equilibrio.
-- **Bug de congelación en BF16 (crítico, retroactivo).** `raw_ζ`, `ω₀`, `c` y
-  `f_gain` quedaban congelados en su init en todos los runs GPU/BF16, porque el
-  paso de Adam caía por debajo de ULP/2. El fix `pin_fp32()` es obligatorio tras
-  `.to(bf16)`. Los resultados anteriores al fix tienen la física **fija, no
-  aprendida**.
-- Los topes de ω₀ de `hbp_first` eran un **artefacto del integrador explícito**:
-  el kernel implícito incondicionalmente contractivo los hace innecesarios, y
-  por eso el brazo justo del v4 es `hbp_first_eq` con topes equiparados.
+- The HBP couples to the reasoner via **soft modulation** `gate = 1 + s·tanh(·)`
+  around the identity. A `sigmoid` gate (centred at 0.5) decays the signal and
+  breaks the iteration.
+- Verlet runs in **FP32**: velocity cancellation in BF16 corrupts the damping
+  near equilibrium.
+- **BF16 freezing bug (critical, retroactive).** `raw_ζ`, `ω₀`, `c` and `f_gain`
+  stayed frozen at their init in every GPU/BF16 run, because the Adam step fell
+  below ULP/2. The `pin_fp32()` fix is mandatory after `.to(bf16)`. Results
+  predating the fix have the physics **fixed, not learned**.
+- The ω₀ caps of `hbp_first` were an **artifact of the explicit integrator**: the
+  unconditionally contractive implicit kernel makes them unnecessary, which is
+  why the fair v4 arm is `hbp_first_eq` at equalized caps.
 
-## Licencia
+## Licence
 
-Código, documentos y resultados propios bajo **MIT** (`LICENSE`). El material de
-terceros —el test de GSM8K, las generaciones del actuador y los ficheros de
-estilo de LaTeX— conserva su propia licencia y aviso: ver [`NOTICE`](NOTICE).
+Own code, documents and results under **MIT** (`LICENSE`). Third-party
+material — the GSM8K test set, the actuator's generations, and the LaTeX style
+files — keeps its own licence and notice: see [`NOTICE`](NOTICE).

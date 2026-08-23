@@ -596,7 +596,7 @@ cost of an implicit step.
 This is the one result in this paper for which we have not found a precedent;
 the placement dichotomy and the contraction bound are classical (App.~B). We
 prove it in App.~\ref{app:proofs} and check it in
-\texttt{verify\_verlet\_schurcohn.py}: the symbolic identity, $302\,400$ cells
+\texttt{experiments/verify\_verlet\_schurcohn.py}: the symbolic identity, $302\,400$ cells
 of a $(q,g,\tilde\mu)$ grid against exact roots with zero discrepancies, and
 $400$ draws of non-commuting $(\mathbf{K},\mathbf{C},\mathbf{G})$ ---none of
 the $400$ pairs commuted--- with a maximum latent-polynomial residual of
@@ -1120,18 +1120,18 @@ observing the data. The field's implementation and its certificates are in
 \texttt{stability\_penalty} and the exact spectral radius
 \texttt{certificate\_spectral\_radius}); the 2D flow substrate in
 \texttt{model/flow2d.py}. Reproducing the tables and figures: the pre-registered
-benchmark and its paired analysis (\texttt{benchmark\_v3.py},
-\texttt{benchmark\_report\_v2.py}), the v4 deconfounding campaign
-(\texttt{PREREG\_V4.md}, \texttt{benchmark\_v4.py},
+benchmark and its paired analysis (\texttt{experiments/benchmark\_v3.py},
+\texttt{experiments/benchmark\_report\_v2.py}), the v4 deconfounding campaign
+(\texttt{PREREG\_V4.md}, \texttt{experiments/benchmark\_v4.py},
 \texttt{results\_benchmark\_v4/report\_v4.json}), the accumulator kill-gate
-(\texttt{mhbp/tasks/reasoner\_g0/n4\_g1.py}), the KdV zoo (\texttt{benchmark\_zoo.py}), the
-non-locality A/B (\texttt{benchmark\_elliptic.py}), and the mechanism-null studies
-(\texttt{\_alpha\_scan.py}, \texttt{\_pde\_study.py}, \texttt{\_twin\_pilot.py},
-\texttt{\_gates\_flowroute.py}). A regression test verifies that the field is
+(\texttt{mhbp/tasks/reasoner\_g0/n4\_g1.py}), the KdV zoo (\texttt{experiments/benchmark\_zoo.py}), the
+non-locality A/B (\texttt{experiments/benchmark\_elliptic.py}), and the mechanism-null studies
+(\texttt{experiments/\_alpha\_scan.py}, \texttt{experiments/\_pde\_study.py}, \texttt{experiments/\_twin\_pilot.py},
+\texttt{experiments/\_gates\_flowroute.py}). A regression test verifies that the field is
 actually \emph{wired in} ---ablating it changes the forward pass and the
-compute policy, though not accuracy--- (\texttt{\_audit\_hbp.py}), a check of
+compute policy, though not accuracy--- (\texttt{experiments/\_audit\_hbp.py}), a check of
 plumbing rather than of the functional load this paper's null denies; and physical verifications of the
-2D solver in \texttt{\_check\_flow2d.py}. The physical parameters are anchored to
+2D solver in \texttt{experiments/\_check\_flow2d.py}. The physical parameters are anchored to
 FP32 (\texttt{pin\_fp32}); we document the BF16 precision bug and its A/B as part
 of the experimental record.
 
@@ -1511,8 +1511,8 @@ modulation that we do not have. We state the boundary rather than blur it:
 the certificate is an \emph{integrator} certificate, extended here from
 spectral radius to norm on the region actually used, and it stops at the
 mixture and at the closed loop. The scripts are
-\texttt{certify\_lmi.py}, \texttt{certify\_lmi\_ckpt.py} and
-\texttt{certify\_lmi\_iss.py}.
+\texttt{experiments/certify\_lmi.py}, \texttt{experiments/certify\_lmi\_ckpt.py} and
+\texttt{experiments/certify\_lmi\_iss.py}.
 
 \bibliographystyle{tmlr}
 \bibliography{refs}
